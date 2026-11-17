@@ -1,0 +1,644 @@
+{
+  "artifact_before_save": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "boundary": "Артефакт записан; save намеренно ещё не вызывался",
+    "load_after_failure": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "artifact-before-save",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:33.828670+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "f1f5268fc17359f14d9bab3740b6efdbb107b2a30bc9ff5d751adfefe271a5da",
+          "unresolved_questions": []
+        },
+        "warnings": []
+      }
+    },
+    "reconcile_before_retry": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [],
+      "warnings": [],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "after_reconciled_retry": {
+      "revision": 3,
+      "event_count": 1,
+      "separate_load": 0
+    },
+    "passed": true
+  },
+  "partial_history": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "load_after_failure": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "partial-history",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:34.109633+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "724633bae0cad059e291111be6ef91c8d25c3fc56d4d96b71b17b4ca0d6dc9d4",
+          "unresolved_questions": []
+        },
+        "warnings": [
+          "Незавершённые временные файлы: .leftover.tmp",
+          "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+        ]
+      }
+    },
+    "reconcile_before_retry": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [
+        {
+          "file": "r000003.json",
+          "status": "invalid_candidate_no_raw_data"
+        }
+      ],
+      "warnings": [
+        "Незавершённые временные файлы: .leftover.tmp",
+        "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+      ],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "after_reconciled_retry": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    },
+    "passed": true
+  },
+  "previous_replace": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "load_after_failure": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "previous-replace",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:34.389021+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "226ff14fe4062cd59cf38519c429d43de087ca4e57768f446b1a9e7444005a38",
+          "unresolved_questions": []
+        },
+        "warnings": [
+          "Незавершённые временные файлы: .current.d9b822edb24641299b3bb0af6dc83d01.tmp, .previous.17c3363b23344adebe4f812a7de9a5bb.tmp",
+          "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+        ]
+      }
+    },
+    "reconcile_before_retry": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [
+        {
+          "revision": 3,
+          "status": "validated_publication_unknown"
+        }
+      ],
+      "warnings": [
+        "Незавершённые временные файлы: .current.d9b822edb24641299b3bb0af6dc83d01.tmp, .previous.17c3363b23344adebe4f812a7de9a5bb.tmp",
+        "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+      ],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "after_reconciled_retry": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    },
+    "passed": true
+  },
+  "current_replace": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "load_after_failure": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "current-replace",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:34.794854+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "bf840c84391d300e5c48a46559bc09ebe5b4ff5fc8fc680f6f7bbf1288beb660",
+          "unresolved_questions": []
+        },
+        "warnings": [
+          "Незавершённые временные файлы: .current.a722474ceee546beb463ad2cc705c949.tmp",
+          "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+        ]
+      }
+    },
+    "reconcile_before_retry": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [
+        {
+          "revision": 3,
+          "status": "validated_publication_unknown"
+        }
+      ],
+      "warnings": [
+        "Незавершённые временные файлы: .current.a722474ceee546beb463ad2cc705c949.tmp",
+        "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+      ],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "after_reconciled_retry": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    },
+    "passed": true
+  },
+  "missing_evidence": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "load_after_failure": {
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "error": "Отсутствует файл: new-only.txt",
+        "next_step": "Проверить load --previous; восстановление только явным recover --previous"
+      }
+    },
+    "explicit_recovery": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "missing-evidence",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:35.183197+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "82a09c6ebd6ecb78fd1f268a7e825c1ecc251f0922651742525174590b39bd13",
+          "unresolved_questions": []
+        },
+        "warnings": [
+          "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+        ],
+        "recovered_from": "state/previous.json"
+      }
+    },
+    "reconcile_after_recovery": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [
+        {
+          "file": "r000003.json",
+          "status": "invalid_candidate_no_raw_data"
+        }
+      ],
+      "warnings": [
+        "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+      ],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "safe_diagnostics": [
+      "replaced-current-ef93d947b78b491bab1523233dd3bbb8.json"
+    ],
+    "passed": true
+  },
+  "corrupt_current": {
+    "injected": true,
+    "platform": "win32",
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "before_revision": 2,
+    "load_after_failure": {
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "error": "Повреждённый или неполный UTF-8 JSON: current.json",
+        "next_step": "Проверить load --previous; восстановление только явным recover --previous"
+      }
+    },
+    "explicit_recovery": {
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "loaded_from": "state/current.json",
+        "state": {
+          "artifacts": [
+            {
+              "id": "A",
+              "path": "source.txt",
+              "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+            },
+            {
+              "id": "I",
+              "path": "event.txt",
+              "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+            }
+          ],
+          "claims": [
+            {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "A",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Описание"
+            }
+          ],
+          "completed": [
+            "Исходный пакет проверен"
+          ],
+          "decision": {
+            "commitments": [],
+            "conditions": [],
+            "events": [],
+            "format_version": 2,
+            "history": [],
+            "metrics": [],
+            "owner": "unassigned",
+            "proposed_option": "Проверить",
+            "question": "Что проверить?",
+            "reviews": [],
+            "status": "awaiting_decision"
+          },
+          "decision_question": "Что проверить?",
+          "next_action": "Ждать фактическое решение",
+          "objective": "Проверка публикации",
+          "pending_actions": [],
+          "project_id": "corrupt-current",
+          "revision": 2,
+          "saved_at": "2026-11-16T12:09:35.644580+00:00",
+          "schema_version": 1,
+          "sources": [
+            {
+              "artifact_ids": [
+                "A"
+              ],
+              "id": "S",
+              "synthetic": true,
+              "version": 1
+            }
+          ],
+          "stage": "awaiting_decision",
+          "state_sha256": "78045176efe549af8dd3d36e3f55111e36b15d453fbf2326e850f1175425013b",
+          "unresolved_questions": []
+        },
+        "warnings": [
+          "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+        ],
+        "recovered_from": "state/previous.json"
+      }
+    },
+    "reconcile_after_recovery": {
+      "outcome": "absent_from_current",
+      "revision": 2,
+      "event_id": "W",
+      "candidates": [
+        {
+          "revision": 3,
+          "status": "validated_publication_unknown"
+        }
+      ],
+      "warnings": [
+        "Есть более новые записи истории (возможны неопубликованные кандидаты или публикации до восстановления): r000003.json"
+      ],
+      "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+    },
+    "safe_diagnostics": [
+      "replaced-current-61f5e6d326e74e6d817dd2d95da31b26.json"
+    ],
+    "passed": true
+  }
+}

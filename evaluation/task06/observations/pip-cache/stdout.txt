@@ -1,0 +1,7 @@
+Package index page cache location (pip v23.3+): c:\users\bastapc\appdata\local\pip\cache\http-v2
+Package index page cache location (older pips): c:\users\bastapc\appdata\local\pip\cache\http
+Package index page cache size: 4433.3 MB
+Number of HTTP files: 1540
+Locally built wheels location: c:\users\bastapc\appdata\local\pip\cache\wheels
+Locally built wheels size: 0 bytes
+Number of locally built wheels: 0

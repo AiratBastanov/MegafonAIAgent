@@ -1,0 +1,742 @@
+[
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000006.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000006.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000006.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000006.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000007.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000007.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000007.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000007.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000008.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000008.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000008.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000008.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000009.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000009.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000009.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000009.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000010.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000010.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000010.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000010.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000011.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000011.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000011.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/history/r000011.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task04/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000004.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000005.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/previous.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/previous.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/state/history/r000003.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/current.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/0/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  },
+  {
+    "file": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup/state/history/r000002.json",
+    "field": "/decision/events/0/commitments/1/due_at",
+    "value": "2026-11-17T12:00:00+03:00"
+  }
+]

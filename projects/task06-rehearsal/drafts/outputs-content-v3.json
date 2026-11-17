@@ -1,0 +1,18 @@
+{
+  "stage":"awaiting_decision",
+  "completed":["Источники проверены","Пауза до анализа сохранена отдельно","Расчёты проверены независимой арифметикой","Подготовлены пять документов v1 и самопроверка"],
+  "pending_actions":["Получить решение владельца о следующем исследовании, ответственном и бюджете"],
+  "next_action":"Показать владельцу четыре варианта и ограничения; не запускать пилот без реального решения",
+  "decision":{
+    "format_version":2,"status":"proposed","question":"Какой следующий шаг для самостоятельного RelayBox?",
+    "proposed_option":"Ограниченное обучение на исходящей задаче агентств после разрешения владельца",
+    "owner":"unassigned","history":[],"events":[],"commitments":[],"metrics":[],"reviews":[],
+    "conditions":[{"id":"COND_ECON","description":"Реальная полная экономика и приёмка нужны до инвестиций","claim_ids":["C005","C007"],"metric_ids":[],"output_ids":["OUT1_SITUATION","OUT1_OPTIONS","OUT1_PRODUCT","OUT1_COMM","OUT1_VALIDATION"],"next_action":"Пересчитать экономику при изменении затрат; согласовать допуск/бюджет"}],
+    "current_outputs":{"situation":"OUT1_SITUATION","options":"OUT1_OPTIONS","product-strategy":"OUT1_PRODUCT","communication-strategy":"OUT1_COMM","validation-plan":"OUT1_VALIDATION"}
+  },
+  "new_artifacts":{
+    "OUT1_SITUATION":"outputs/v1/situation.md","OUT1_OPTIONS":"outputs/v1/options.md",
+    "OUT1_PRODUCT":"outputs/v1/product-strategy.md","OUT1_COMM":"outputs/v1/communication-strategy.md",
+    "OUT1_VALIDATION":"outputs/v1/validation-plan.md","REVIEW1":"evidence/review-v1.md"
+  }
+}

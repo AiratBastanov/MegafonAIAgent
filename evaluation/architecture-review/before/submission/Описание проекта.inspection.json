@@ -1,0 +1,423 @@
+{
+  "observed_at": "2026-11-16T17:38:08.153206+00:00",
+  "source": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\submission\\PROJECT_DESCRIPTION.md",
+  "source_sha256": "8b436e9368de40d7c90cbff203c8e2f9b3693f43c29e9e2733a14a453f01d50a",
+  "output": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\submission\\Описание проекта.pdf",
+  "output_sha256": "ebea571da2265a4cd1a62484d3e7b0aedff6a8c59b3ad3c82c663270b1802da2",
+  "draft": false,
+  "pages": 5,
+  "page_limit": 5,
+  "page_limit_pass": true,
+  "body_font_pt": 11.25,
+  "sections": [
+    {
+      "section": 1,
+      "first_page": 1,
+      "page_count": 1
+    },
+    {
+      "section": 2,
+      "first_page": 2,
+      "page_count": 1
+    },
+    {
+      "section": 3,
+      "first_page": 3,
+      "page_count": 1
+    },
+    {
+      "section": 4,
+      "first_page": 4,
+      "page_count": 1
+    },
+    {
+      "section": 5,
+      "first_page": 5,
+      "page_count": 1
+    }
+  ],
+  "links": [
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "EXAMPLE.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../README.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../README.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../README.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "video/%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.mp4",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    }
+  ],
+  "broken_local_links": [],
+  "images": [
+    {
+      "page": 1,
+      "path": "evaluation\\task07\\editorial\\final-pages-v1\\page-01.png",
+      "sha256": "3c8978e9b465624e4bea595a48b4b1d5f86a7bcc59d868f74576c71b9627cf30"
+    },
+    {
+      "page": 2,
+      "path": "evaluation\\task07\\editorial\\final-pages-v1\\page-02.png",
+      "sha256": "e486ad72db27107a9928edbb7ab3ea97b8ff352632488dae7e94539a2c1327ba"
+    },
+    {
+      "page": 3,
+      "path": "evaluation\\task07\\editorial\\final-pages-v1\\page-03.png",
+      "sha256": "d1891bea6a4c06f547ed2953da362a0ca0f8b411c0e9e7037dd3a71f03d64708"
+    },
+    {
+      "page": 4,
+      "path": "evaluation\\task07\\editorial\\final-pages-v1\\page-04.png",
+      "sha256": "ee2022241254a462fed7480681d2d9180d2df923c890525b8f7e1063fbfdf15e"
+    },
+    {
+      "page": 5,
+      "path": "evaluation\\task07\\editorial\\final-pages-v1\\page-05.png",
+      "sha256": "eaa62029b7f9af5c857114c04f125603d64fa0c4af191e74c0b8f8683dd22d83"
+    }
+  ],
+  "versions": {
+    "Markdown": "3.9",
+    "PyMuPDF": "1.26.3"
+  }
+}

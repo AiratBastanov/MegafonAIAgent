@@ -1,0 +1,312 @@
+{
+  "at": "2026-11-17T10:03:39.487049+00:00",
+  "states": {
+    "projects/demo-001": {
+      "revision": 5,
+      "state_sha256": "0a71b32e72ad9c2db0967534b45d08445a0ad24518bae93aaf6d8706fb3b1ed6",
+      "history_valid": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "projects/demo-002": {
+      "revision": 5,
+      "state_sha256": "a00e36c041e5c909fb050daa486090a9dea644a5dc8f4fe433f9675675fc5a53",
+      "history_valid": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "projects/task06-rehearsal": {
+      "revision": 6,
+      "state_sha256": "ab2a105db33ee4d93516028728f9ff776c378d67ac93eeacfa0f5532e4339f81",
+      "history_valid": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "evaluation/task07/demo-workspace/projects/task06-rehearsal": {
+      "revision": 9,
+      "state_sha256": "db69c08f70fe2fa43e8ca2842cc26b0a0a9ac7d25e914b67ebb8a337f441f398",
+      "history_valid": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  "runtime_unchanged": true,
+  "manifest_files_verified": 4665,
+  "preserved_files_verified": 400,
+  "independent_continuation": {
+    "revision": 2,
+    "new_artifacts_verified": 9,
+    "runtime_matches": true,
+    "new_llm_run": false,
+    "scope": "one useful analytical step"
+  },
+  "uci": {
+    "revision": 1,
+    "state_sha256": "9fce254247fc9f7227979fd752787d1a63ac61cdbc95c8f77c4cea63f5054f7c",
+    "rows": 12330,
+    "revenue": {
+      "FALSE": 10422,
+      "TRUE": 1908
+    },
+    "groups_checked": 23
+  },
+  "reader_strategy_sources_unchanged": true,
+  "pdf": {
+    "sha256": "86ce8b27eecd3ce1191007b3f3c57d7f3de0301892782487cf6d729662d1bfb7",
+    "pages": 5,
+    "verified_local_links": 57,
+    "links": [
+      {
+        "page": 1,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 1,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 1,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 1,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 1,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 1,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 1,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 1,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 1,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 1,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 2,
+        "target": "EXAMPLE.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 3,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 4,
+        "target": "CONTINUATION.md"
+      },
+      {
+        "page": 4,
+        "target": "CONTINUATION.md"
+      },
+      {
+        "page": 4,
+        "target": "CONTINUATION.md"
+      },
+      {
+        "page": 4,
+        "target": "CONTINUATION.md"
+      },
+      {
+        "page": 4,
+        "target": "CONTINUATION.md"
+      },
+      {
+        "page": 4,
+        "target": "../AGENTS.md"
+      },
+      {
+        "page": 4,
+        "target": "../AGENTS.md"
+      },
+      {
+        "page": 4,
+        "target": "../AGENTS.md"
+      },
+      {
+        "page": 4,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 4,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 4,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 4,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 4,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "TECHNICAL_APPENDIX.md"
+      },
+      {
+        "page": 5,
+        "target": "INDEPENDENT_DATA.md"
+      },
+      {
+        "page": 5,
+        "target": "INDEPENDENT_DATA.md"
+      },
+      {
+        "page": 5,
+        "target": "INDEPENDENT_DATA.md"
+      },
+      {
+        "page": 5,
+        "target": "INDEPENDENT_DATA.md"
+      },
+      {
+        "page": 5,
+        "target": "INDEPENDENT_DATA.md"
+      },
+      {
+        "page": 5,
+        "target": "../README.md"
+      },
+      {
+        "page": 5,
+        "target": "video/Демонстрация.mp4"
+      },
+      {
+        "page": 5,
+        "target": "video/Демонстрация.mp4"
+      },
+      {
+        "page": 5,
+        "target": "video/Демонстрация.mp4"
+      }
+    ]
+  },
+  "video_unchanged": true,
+  "passed": true
+}

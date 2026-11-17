@@ -1,0 +1,28 @@
+{
+  "id": "S003",
+  "kind": "web-excerpt",
+  "origin": "https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV",
+  "input_sha256": "00d2b92e9a6fe0c79dde0abb41f27e19880362ff6d22b13e2d5b869399d36ccf",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T09:43:51+03:00",
+  "locator": "Introduction to recurring dates; paragraph before Add a recurring date; host lines 52-65",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T06:51:53+00:00",
+  "published_at": null,
+  "input_path": "inputs/public-page-v1.txt",
+  "tool_version": "1.0",
+  "original": {
+    "path": "evidence/sources/S003/v1/original.txt",
+    "sha256": "00d2b92e9a6fe0c79dde0abb41f27e19880362ff6d22b13e2d5b869399d36ccf"
+  },
+  "extract": {
+    "path": "evidence/sources/S003/v1/extract.json",
+    "sha256": "0b0b8224aae1e6fb039c14cd2629e5d003aa43cbf235e420aac7575e7ca45374"
+  }
+}

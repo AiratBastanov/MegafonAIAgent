@@ -1,0 +1,444 @@
+{
+  "recorded_at": "2026-11-16T15:44:02.582683+00:00",
+  "scope": "Captured subprocess intervals only; preparation, execution, evaluation and packaging overlap with reasoning/reviewer work. Do not add to end-to-end time.",
+  "first_clock": "2026-11-16T15:15:38+00:00",
+  "model_id": null,
+  "settings": null,
+  "tokens": null,
+  "charges": null,
+  "human_active_time": null,
+  "observations": [
+    {
+      "label": "apply-correction",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:32:13.263877+00:00",
+      "ended_at": "2026-11-16T15:32:13.651731+00:00",
+      "elapsed_seconds": 0.39099999999962165,
+      "returncode": 0
+    },
+    {
+      "label": "calculate-economics",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:26:23.086923+00:00",
+      "ended_at": "2026-11-16T15:26:23.180493+00:00",
+      "elapsed_seconds": 0.09399999999732245,
+      "returncode": 0
+    },
+    {
+      "label": "calculate-economics-raw",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:26:22.772828+00:00",
+      "ended_at": "2026-11-16T15:26:23.021930+00:00",
+      "elapsed_seconds": 0.25,
+      "returncode": 0
+    },
+    {
+      "label": "calculate-economics-raw-v2",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:44.954929+00:00",
+      "ended_at": "2026-11-16T15:30:45.207434+00:00",
+      "elapsed_seconds": 0.26600000000325963,
+      "returncode": 0
+    },
+    {
+      "label": "calculate-economics-v2",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:45.274785+00:00",
+      "ended_at": "2026-11-16T15:30:45.375589+00:00",
+      "elapsed_seconds": 0.0930000000007567,
+      "returncode": 0
+    },
+    {
+      "label": "calculate-funnel",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:26:22.449953+00:00",
+      "ended_at": "2026-11-16T15:26:22.700571+00:00",
+      "elapsed_seconds": 0.25,
+      "returncode": 0
+    },
+    {
+      "label": "capabilities",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:18:41.516219+00:00",
+      "ended_at": "2026-11-16T15:18:41.847965+00:00",
+      "elapsed_seconds": 0.3440000000009604,
+      "returncode": 1
+    },
+    {
+      "label": "capture-pause",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:26:21.312351+00:00",
+      "ended_at": "2026-11-16T15:26:21.569715+00:00",
+      "elapsed_seconds": 0.2649999999994179,
+      "returncode": 0
+    },
+    {
+      "label": "clean-prep1-create",
+      "category": "packaging",
+      "started_at": "2026-11-16T15:41:41.407415+00:00",
+      "ended_at": "2026-11-16T15:41:45.780780+00:00",
+      "elapsed_seconds": 4.375,
+      "returncode": 0
+    },
+    {
+      "label": "clean-prep1-install",
+      "category": "packaging",
+      "started_at": "2026-11-16T15:41:45.859685+00:00",
+      "ended_at": "2026-11-16T15:41:48.168939+00:00",
+      "elapsed_seconds": 2.311999999998079,
+      "returncode": 0
+    },
+    {
+      "label": "clean-prep1-load",
+      "category": "packaging",
+      "started_at": "2026-11-16T15:41:48.755149+00:00",
+      "ended_at": "2026-11-16T15:41:48.949443+00:00",
+      "elapsed_seconds": 0.1870000000053551,
+      "returncode": 0
+    },
+    {
+      "label": "clean-prep1-pip-check",
+      "category": "packaging",
+      "started_at": "2026-11-16T15:41:48.233202+00:00",
+      "ended_at": "2026-11-16T15:41:48.692867+00:00",
+      "elapsed_seconds": 0.4680000000007567,
+      "returncode": 0
+    },
+    {
+      "label": "collect-wheels",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:22:23.809641+00:00",
+      "ended_at": "2026-11-16T15:22:25.364781+00:00",
+      "elapsed_seconds": 1.5620000000017171,
+      "returncode": 0
+    },
+    {
+      "label": "correction-load",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:44.361927+00:00",
+      "ended_at": "2026-11-16T15:30:44.527182+00:00",
+      "elapsed_seconds": 0.17199999999866122,
+      "returncode": 0
+    },
+    {
+      "label": "create-runtime",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:20:47.146357+00:00",
+      "ended_at": "2026-11-16T15:20:51.364752+00:00",
+      "elapsed_seconds": 4.218000000000757,
+      "returncode": 0
+    },
+    {
+      "label": "final-demo-separate-load",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:34:52.377992+00:00",
+      "ended_at": "2026-11-16T15:34:52.555959+00:00",
+      "elapsed_seconds": 0.18800000000192085,
+      "returncode": 0
+    },
+    {
+      "label": "followup-actual",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:34:30.400516+00:00",
+      "ended_at": "2026-11-16T15:34:30.594458+00:00",
+      "elapsed_seconds": 0.18699999999807915,
+      "returncode": 2
+    },
+    {
+      "label": "followup-corrected-offset",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:34:52.125967+00:00",
+      "ended_at": "2026-11-16T15:34:52.307229+00:00",
+      "elapsed_seconds": 0.18800000000192085,
+      "returncode": 0
+    },
+    {
+      "label": "followup-final",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:35:50.536842+00:00",
+      "ended_at": "2026-11-16T15:35:50.714355+00:00",
+      "elapsed_seconds": 0.17199999999866122,
+      "returncode": 0
+    },
+    {
+      "label": "freeze-ordinary",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:37:33.699375+00:00",
+      "ended_at": "2026-11-16T15:37:34.156864+00:00",
+      "elapsed_seconds": 0.4539999999979045,
+      "returncode": 0
+    },
+    {
+      "label": "import-correction",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:44.609512+00:00",
+      "ended_at": "2026-11-16T15:30:44.890496+00:00",
+      "elapsed_seconds": 0.2809999999990396,
+      "returncode": 0
+    },
+    {
+      "label": "import-pdf",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:24:38.004423+00:00",
+      "ended_at": "2026-11-16T15:24:38.233224+00:00",
+      "elapsed_seconds": 0.21900000000096043,
+      "returncode": 0
+    },
+    {
+      "label": "import-web",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:24:38.650903+00:00",
+      "ended_at": "2026-11-16T15:24:38.743703+00:00",
+      "elapsed_seconds": 0.0930000000007567,
+      "returncode": 2
+    },
+    {
+      "label": "import-web-corrected-timestamp",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:25:32.864887+00:00",
+      "ended_at": "2026-11-16T15:25:32.962373+00:00",
+      "elapsed_seconds": 0.09400000000096043,
+      "returncode": 0
+    },
+    {
+      "label": "import-xlsx",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:24:38.303944+00:00",
+      "ended_at": "2026-11-16T15:24:38.585084+00:00",
+      "elapsed_seconds": 0.28100000000267755,
+      "returncode": 0
+    },
+    {
+      "label": "independent-arithmetic-v1",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:27:31.519382+00:00",
+      "ended_at": "2026-11-16T15:27:31.667425+00:00",
+      "elapsed_seconds": 0.15599999999903957,
+      "returncode": 0
+    },
+    {
+      "label": "independent-arithmetic-v2",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:45.441884+00:00",
+      "ended_at": "2026-11-16T15:30:45.541960+00:00",
+      "elapsed_seconds": 0.09400000000096043,
+      "returncode": 0
+    },
+    {
+      "label": "install-offline",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:22:49.593180+00:00",
+      "ended_at": "2026-11-16T15:22:52.153676+00:00",
+      "elapsed_seconds": 2.562999999998283,
+      "returncode": 0
+    },
+    {
+      "label": "install-runtime",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:20:51.434034+00:00",
+      "ended_at": "2026-11-16T15:21:00.596994+00:00",
+      "elapsed_seconds": 9.1720000000023,
+      "returncode": 1
+    },
+    {
+      "label": "pip-cache",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:21:43.888493+00:00",
+      "ended_at": "2026-11-16T15:21:46.524610+00:00",
+      "elapsed_seconds": 2.6409999999996217,
+      "returncode": 0
+    },
+    {
+      "label": "pip-check",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:22:52.222814+00:00",
+      "ended_at": "2026-11-16T15:22:52.683892+00:00",
+      "elapsed_seconds": 0.46899999999732245,
+      "returncode": 0
+    },
+    {
+      "label": "portable-links",
+      "category": "packaging",
+      "started_at": "2026-11-16T15:43:18.777177+00:00",
+      "ended_at": "2026-11-16T15:43:19.117346+00:00",
+      "elapsed_seconds": 0.3430000000007567,
+      "returncode": 0
+    },
+    {
+      "label": "prepare-demo",
+      "category": "preparation",
+      "started_at": "2026-11-16T15:23:45.600681+00:00",
+      "ended_at": "2026-11-16T15:23:45.681243+00:00",
+      "elapsed_seconds": 0.0779999999977008,
+      "returncode": 0
+    },
+    {
+      "label": "project-capture-surface",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:35:30.946298+00:00",
+      "ended_at": "2026-11-16T15:35:49.924640+00:00",
+      "elapsed_seconds": 18.985000000000582,
+      "returncode": 0
+    },
+    {
+      "label": "project-capture-surface-corrected",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:37:33.362933+00:00",
+      "ended_at": "2026-11-16T15:37:33.618631+00:00",
+      "elapsed_seconds": 0.2649999999994179,
+      "returncode": 1
+    },
+    {
+      "label": "render-followup",
+      "category": "export",
+      "started_at": "2026-11-16T15:39:11.374855+00:00",
+      "ended_at": "2026-11-16T15:39:11.643761+00:00",
+      "elapsed_seconds": 0.26599999999598367,
+      "returncode": 1
+    },
+    {
+      "label": "render-followup-fixed",
+      "category": "export",
+      "started_at": "2026-11-16T15:39:41.883412+00:00",
+      "ended_at": "2026-11-16T15:39:42.208791+00:00",
+      "elapsed_seconds": 0.3280000000013388,
+      "returncode": 0
+    },
+    {
+      "label": "render-result",
+      "category": "export",
+      "started_at": "2026-11-16T15:39:10.987829+00:00",
+      "ended_at": "2026-11-16T15:39:11.310967+00:00",
+      "elapsed_seconds": 0.3280000000013388,
+      "returncode": 1
+    },
+    {
+      "label": "render-result-fixed",
+      "category": "export",
+      "started_at": "2026-11-16T15:39:41.453372+00:00",
+      "ended_at": "2026-11-16T15:39:41.801016+00:00",
+      "elapsed_seconds": 0.3600000000005821,
+      "returncode": 0
+    },
+    {
+      "label": "render-source",
+      "category": "export",
+      "started_at": "2026-11-16T15:39:10.218634+00:00",
+      "ended_at": "2026-11-16T15:39:10.506126+00:00",
+      "elapsed_seconds": 0.2969999999986612,
+      "returncode": 0
+    },
+    {
+      "label": "resume-coordinator-load",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:26:21.646276+00:00",
+      "ended_at": "2026-11-16T15:26:21.774825+00:00",
+      "elapsed_seconds": 0.125,
+      "returncode": 0
+    },
+    {
+      "label": "save-analysis",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:27:34.508035+00:00",
+      "ended_at": "2026-11-16T15:27:34.729989+00:00",
+      "elapsed_seconds": 0.21900000000096043,
+      "returncode": 2
+    },
+    {
+      "label": "save-analysis-fixed",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:29:29.412416+00:00",
+      "ended_at": "2026-11-16T15:29:29.673455+00:00",
+      "elapsed_seconds": 0.25,
+      "returncode": 0
+    },
+    {
+      "label": "save-final-demo",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:34:29.825561+00:00",
+      "ended_at": "2026-11-16T15:34:30.266234+00:00",
+      "elapsed_seconds": 0.4379999999946449,
+      "returncode": 0
+    },
+    {
+      "label": "save-outputs-v1",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:23.404947+00:00",
+      "ended_at": "2026-11-16T15:30:23.751308+00:00",
+      "elapsed_seconds": 0.3430000000007567,
+      "returncode": 0
+    },
+    {
+      "label": "save-pause",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:25:35.895581+00:00",
+      "ended_at": "2026-11-16T15:25:36.110751+00:00",
+      "elapsed_seconds": 0.20300000000133878,
+      "returncode": 0
+    },
+    {
+      "label": "seal-analysis",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:27:34.233281+00:00",
+      "ended_at": "2026-11-16T15:27:34.404848+00:00",
+      "elapsed_seconds": 0.17199999999866122,
+      "returncode": 0
+    },
+    {
+      "label": "seal-analysis-fixed",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:29:29.213533+00:00",
+      "ended_at": "2026-11-16T15:29:29.345432+00:00",
+      "elapsed_seconds": 0.125,
+      "returncode": 0
+    },
+    {
+      "label": "seal-correction-input",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:32:12.934217+00:00",
+      "ended_at": "2026-11-16T15:32:13.109187+00:00",
+      "elapsed_seconds": 0.1720000000022992,
+      "returncode": 0
+    },
+    {
+      "label": "seal-final-demo",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:34:29.579742+00:00",
+      "ended_at": "2026-11-16T15:34:29.753681+00:00",
+      "elapsed_seconds": 0.1879999999946449,
+      "returncode": 0
+    },
+    {
+      "label": "seal-outputs-v1",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:23.176361+00:00",
+      "ended_at": "2026-11-16T15:30:23.330817+00:00",
+      "elapsed_seconds": 0.13999999999941792,
+      "returncode": 0
+    },
+    {
+      "label": "seal-pause",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:25:35.667056+00:00",
+      "ended_at": "2026-11-16T15:25:35.815938+00:00",
+      "elapsed_seconds": 0.15599999999903957,
+      "returncode": 0
+    },
+    {
+      "label": "source-fidelity-v1",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:27:31.770991+00:00",
+      "ended_at": "2026-11-16T15:27:31.893398+00:00",
+      "elapsed_seconds": 0.125,
+      "returncode": 0
+    },
+    {
+      "label": "source-fidelity-v2",
+      "category": "execution_or_check",
+      "started_at": "2026-11-16T15:30:45.605720+00:00",
+      "ended_at": "2026-11-16T15:30:45.705673+00:00",
+      "elapsed_seconds": 0.09299999999711872,
+      "returncode": 0
+    }
+  ]
+}

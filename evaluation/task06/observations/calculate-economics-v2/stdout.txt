@@ -1,0 +1,1 @@
+{"base": {"support_minutes": "90.00", "accounts": "20", "support_rub_per_account_month": "900.0000", "margin_rub_per_account_month": "1500.0000", "surplus_before_unknown_costs_rub_month": "0.0000", "min_accounts_nonnegative": 20, "min_accounts_positive": 21, "conditional_setup_payback_months": null}, "scenarios": 9}

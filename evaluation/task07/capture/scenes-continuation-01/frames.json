@@ -1,0 +1,245 @@
+{
+  "at": "2026-11-16T16:46:49.068398+00:00",
+  "argv": [
+    "ffmpeg",
+    "-hide_banner",
+    "-i",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\task07\\capture\\raw\\continuation-01.mp4",
+    "-vf",
+    "select='gt(scene,0.02)',showinfo,scale=720:-1",
+    "-fps_mode",
+    "vfr",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\task07\\capture\\scenes-continuation-01\\scene-%03d.png"
+  ],
+  "exit_code": 0,
+  "frames": [
+    {
+      "image": "scene-001.png",
+      "at_seconds": 8.7
+    },
+    {
+      "image": "scene-002.png",
+      "at_seconds": 27.7
+    },
+    {
+      "image": "scene-003.png",
+      "at_seconds": 27.9
+    },
+    {
+      "image": "scene-004.png",
+      "at_seconds": 41.9
+    },
+    {
+      "image": "scene-005.png",
+      "at_seconds": 50.0
+    },
+    {
+      "image": "scene-006.png",
+      "at_seconds": 57.4
+    },
+    {
+      "image": "scene-007.png",
+      "at_seconds": 57.6
+    },
+    {
+      "image": "scene-008.png",
+      "at_seconds": 57.9
+    },
+    {
+      "image": "scene-009.png",
+      "at_seconds": 64.0
+    },
+    {
+      "image": "scene-010.png",
+      "at_seconds": 64.2
+    },
+    {
+      "image": "scene-011.png",
+      "at_seconds": 64.5
+    },
+    {
+      "image": "scene-012.png",
+      "at_seconds": 64.6
+    },
+    {
+      "image": "scene-013.png",
+      "at_seconds": 77.8
+    },
+    {
+      "image": "scene-014.png",
+      "at_seconds": 81.4
+    },
+    {
+      "image": "scene-015.png",
+      "at_seconds": 94.3
+    },
+    {
+      "image": "scene-016.png",
+      "at_seconds": 94.5
+    },
+    {
+      "image": "scene-017.png",
+      "at_seconds": 94.7
+    },
+    {
+      "image": "scene-018.png",
+      "at_seconds": 106.7
+    },
+    {
+      "image": "scene-019.png",
+      "at_seconds": 106.9
+    },
+    {
+      "image": "scene-020.png",
+      "at_seconds": 107.2
+    },
+    {
+      "image": "scene-021.png",
+      "at_seconds": 133.0
+    },
+    {
+      "image": "scene-022.png",
+      "at_seconds": 133.1
+    },
+    {
+      "image": "scene-023.png",
+      "at_seconds": 139.2
+    },
+    {
+      "image": "scene-024.png",
+      "at_seconds": 146.1
+    },
+    {
+      "image": "scene-025.png",
+      "at_seconds": 146.6
+    },
+    {
+      "image": "scene-026.png",
+      "at_seconds": 147.0
+    },
+    {
+      "image": "scene-027.png",
+      "at_seconds": 147.5
+    },
+    {
+      "image": "scene-028.png",
+      "at_seconds": 176.9
+    },
+    {
+      "image": "scene-029.png",
+      "at_seconds": 272.2
+    },
+    {
+      "image": "scene-030.png",
+      "at_seconds": 280.2
+    },
+    {
+      "image": "scene-031.png",
+      "at_seconds": 280.5
+    },
+    {
+      "image": "scene-032.png",
+      "at_seconds": 300.2
+    },
+    {
+      "image": "scene-033.png",
+      "at_seconds": 306.6
+    },
+    {
+      "image": "scene-034.png",
+      "at_seconds": 307.2
+    },
+    {
+      "image": "scene-035.png",
+      "at_seconds": 307.5
+    },
+    {
+      "image": "scene-036.png",
+      "at_seconds": 418.8
+    },
+    {
+      "image": "scene-037.png",
+      "at_seconds": 446.1
+    },
+    {
+      "image": "scene-038.png",
+      "at_seconds": 534.2
+    },
+    {
+      "image": "scene-039.png",
+      "at_seconds": 558.8
+    },
+    {
+      "image": "scene-040.png",
+      "at_seconds": 559.0
+    },
+    {
+      "image": "scene-041.png",
+      "at_seconds": 559.3
+    },
+    {
+      "image": "scene-042.png",
+      "at_seconds": 568.8
+    },
+    {
+      "image": "scene-043.png",
+      "at_seconds": 603.4
+    },
+    {
+      "image": "scene-044.png",
+      "at_seconds": 604.2
+    },
+    {
+      "image": "scene-045.png",
+      "at_seconds": 616.8
+    },
+    {
+      "image": "scene-046.png",
+      "at_seconds": 617.3
+    },
+    {
+      "image": "scene-047.png",
+      "at_seconds": 617.8
+    },
+    {
+      "image": "scene-048.png",
+      "at_seconds": 618.1
+    },
+    {
+      "image": "scene-049.png",
+      "at_seconds": 639.0
+    },
+    {
+      "image": "scene-050.png",
+      "at_seconds": 639.2
+    },
+    {
+      "image": "scene-051.png",
+      "at_seconds": 639.8
+    },
+    {
+      "image": "scene-052.png",
+      "at_seconds": 640.0
+    },
+    {
+      "image": "scene-053.png",
+      "at_seconds": 658.1
+    },
+    {
+      "image": "scene-054.png",
+      "at_seconds": 658.3
+    },
+    {
+      "image": "scene-055.png",
+      "at_seconds": 788.4
+    },
+    {
+      "image": "scene-056.png",
+      "at_seconds": 788.5
+    },
+    {
+      "image": "scene-057.png",
+      "at_seconds": 807.4
+    }
+  ]
+}

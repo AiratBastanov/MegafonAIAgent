@@ -1,0 +1,17 @@
+{
+  "command": [
+    "codex",
+    "app-server",
+    "--help"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:28:48.386220+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:28:48.429644+00:00",
+  "elapsed_seconds": 0.04700000000593718,
+  "returncode": 0,
+  "stdout_sha256": "d2854a3ad9c9733f8be8034feb198ba017ddce07d539d8e777167fc96dffbd10",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

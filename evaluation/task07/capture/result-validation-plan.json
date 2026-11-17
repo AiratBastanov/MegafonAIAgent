@@ -1,0 +1,1 @@
+{"operation": "run", "id": "result-validation-plan", "title": "Как опровергнуть предложение", "caption": "Реальное чтение сохранённого документа; новый бизнес-результат не заявляется.", "argv": ["python", "-X", "utf8", "evaluation/task07/capture/show_result.py", "validation-plan"], "cwd": "."}

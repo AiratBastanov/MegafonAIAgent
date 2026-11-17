@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-16T16:28:48.159426+00:00",
+  "command": "python -X utf8 evaluation/task07/prepare.py",
+  "exception": "AssertionError: ['AGENTS.md']",
+  "classification": "overly strict validation, not runtime drift",
+  "observable_outcome": "46 checkpoint files extracted and preserved; current scripts/knowledge match; portable AGENTS has intentional RUNTIME.md isolation suffix",
+  "correction": "Validate exact suffix and all remaining runtime hashes; no checkpoint bytes modified; do not rerun destructive initialization."
+}

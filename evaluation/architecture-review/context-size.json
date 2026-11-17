@@ -1,0 +1,8 @@
+{
+  "project": "evaluation/task07/demo-workspace/projects/task06-rehearsal",
+  "state_sha256": "db69c08f70fe2fa43e8ca2842cc26b0a0a9ac7d25e914b67ebb8a337f441f398",
+  "full_output_utf8_bytes": 158636,
+  "summary_output_utf8_bytes": 6557,
+  "reduction_percent": 95.87,
+  "scope": "UTF-8 bytes of formatted CLI payload, not measured model tokens"
+}

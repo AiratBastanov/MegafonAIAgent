@@ -1,0 +1,23 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-17T07:56:33.297900+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-17T07:56:41.079202+00:00",
+  "elapsed_seconds": 7.780999999999949,
+  "returncode": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "b867ec26eb05af8ce58f825d7de596d8d9cc4ad10a85bc923d70ca8e794997a6"
+}

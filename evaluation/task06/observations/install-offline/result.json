@@ -1,0 +1,18 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--find-links",
+    "third_party/wheels",
+    "-r",
+    "requirements.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:22:49.593180+00:00",
+  "ended_at": "2026-11-16T15:22:52.153676+00:00",
+  "elapsed_seconds": 2.562999999998283,
+  "returncode": 0
+}

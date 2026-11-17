@@ -1,0 +1,1 @@
+{"operation":"run","id":"seal-strategies","title":"Проверка и сохранение стратегий","caption":"Координатор завершает подготовленный кандидат после лимита сервиса. Исходная независимая работа сохранена.","argv":["python","-X","utf8","evaluation/task07/demo_admin.py","seal"],"cwd":"."}

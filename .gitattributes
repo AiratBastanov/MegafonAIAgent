@@ -1,0 +1,2 @@
+# Preserve exact bytes of evidence and immutable source versions on every checkout.
+* -text

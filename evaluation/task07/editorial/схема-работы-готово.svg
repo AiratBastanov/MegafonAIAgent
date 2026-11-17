@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310" role="img" aria-labelledby="title desc">
+  <ns0:title id="title">Как агент исследует задачу и сохраняет память</ns0:title>
+  <ns0:desc id="desc">Запрос руководителя проходит через Codex, инструменты и проверенные основания к стратегии и решению человека. Память хранит версии и следующий шаг, новые сведения вызывают пересмотр.</ns0:desc>
+  <ns0:defs><ns0:marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><ns0:path d="M0,0 L7,3.5 L0,7 Z" fill="#47717c" /></ns0:marker></ns0:defs>
+  <ns0:rect width="1100" height="310" fill="white" />
+  <ns0:g fill="#edf5f5" stroke="#93b4b9" stroke-width="1.5">
+    <ns0:rect x="8" y="24" width="168" height="92" rx="12" />
+    <ns0:rect x="206" y="24" width="194" height="92" rx="12" />
+    <ns0:rect x="430" y="24" width="206" height="92" rx="12" />
+    <ns0:rect x="666" y="24" width="192" height="92" rx="12" />
+    <ns0:rect x="888" y="24" width="204" height="92" rx="12" />
+    <ns0:rect x="206" y="175" width="652" height="86" rx="12" fill="#f6f2e9" stroke="#c7b68e" />
+  </ns0:g>
+  <ns0:g font-family="DejaVu Sans, Arial, sans-serif" fill="#173e48" text-anchor="middle">
+    <ns0:g font-size="19" font-weight="bold">
+      <ns0:text x="92" y="58" text-anchor="middle" font-family="Arial">Запрос</ns0:text><ns0:text x="92" y="83" text-anchor="middle" font-family="Arial">руководителя</ns0:text>
+      <ns0:text x="303" y="58" text-anchor="middle" font-family="Arial">Codex</ns0:text>
+      <ns0:text x="533" y="58" text-anchor="middle" font-family="Arial">Инструменты</ns0:text>
+      <ns0:text x="762" y="58" text-anchor="middle" font-family="Arial">Проверенные</ns0:text><ns0:text x="762" y="83" text-anchor="middle" font-family="Arial">основания</ns0:text>
+      <ns0:text x="990" y="58" text-anchor="middle" font-family="Arial">Стратегии</ns0:text><ns0:text x="990" y="83" text-anchor="middle" font-family="Arial">и план проверки</ns0:text>
+      <ns0:text x="532" y="207" text-anchor="middle" font-family="Arial">Память проекта</ns0:text>
+    </ns0:g>
+    <ns0:g font-size="16">
+      <ns0:text x="303" y="84" text-anchor="middle" font-family="Arial">выбор следующего шага</ns0:text>
+      <ns0:text x="533" y="83" text-anchor="middle" font-family="Arial">файлы · Python · сайты</ns0:text>
+      <ns0:text x="532" y="236" text-anchor="middle" font-family="Arial">версии источников · расчёты · решения · следующий шаг</ns0:text>
+      <ns0:text x="990" y="162" font-weight="bold" text-anchor="middle" font-family="Arial">Решение человека</ns0:text>
+      <ns0:text x="92" y="212" text-anchor="middle" font-family="Arial">Новые сведения</ns0:text><ns0:text x="92" y="236" text-anchor="middle" font-family="Arial">или перерыв</ns0:text>
+      <ns0:text x="532" y="295" font-size="15" fill="#526d73" text-anchor="middle" font-family="Arial">Проверка файлов перед сохранением. Предыдущие версии остаются доступны.</ns0:text>
+    </ns0:g>
+  </ns0:g>
+  <ns0:g fill="none" stroke="#47717c" stroke-width="2" marker-end="url(#arrow)">
+    <ns0:path d="M176 70 H199" /><ns0:path d="M400 70 H423" /><ns0:path d="M636 70 H659" /><ns0:path d="M858 70 H881" />
+    <ns0:path d="M990 116 V139" />
+    <ns0:path d="M990 174 V218 H865" />
+    <ns0:path d="M762 116 V168" />
+    <ns0:path d="M303 175 V123" />
+    <ns0:path d="M176 219 H199" />
+  </ns0:g>
+  <ns0:g fill="#47717c">
+    <ns0:polygon points="199,70 190,65 190,75" />
+    <ns0:polygon points="423,70 414,65 414,75" />
+    <ns0:polygon points="659,70 650,65 650,75" />
+    <ns0:polygon points="881,70 872,65 872,75" />
+    <ns0:polygon points="990,139 985,130 995,130" />
+    <ns0:polygon points="865,218 874,213 874,223" />
+    <ns0:polygon points="762,168 757,159 767,159" />
+    <ns0:polygon points="303,123 298,132 308,132" />
+    <ns0:polygon points="199,219 190,214 190,224" />
+  </ns0:g>
+</ns0:svg>

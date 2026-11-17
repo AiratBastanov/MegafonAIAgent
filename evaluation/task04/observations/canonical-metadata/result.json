@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/fix_canonical_metadata.py"
+  ],
+  "started_at": "2026-11-16T12:09:26.565141+00:00",
+  "ended_at": "2026-11-16T12:09:27.243729+00:00",
+  "elapsed_seconds": 0.6870000000017171,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

@@ -1,0 +1,231 @@
+{
+  "record_type": "synthesis_verification",
+  "checked_at": "2026-11-16T17:07:08.225709+00:00",
+  "checks": {
+    "status": "passed",
+    "baseline_revision": 2,
+    "loaded_revision_before_final_save": 5,
+    "existing_calculations_recomputed": false,
+    "old_sources_reimported": false,
+    "documents_checked": 5,
+    "official_snapshots_checked": 3,
+    "literal_tariff_guards_passed": 11,
+    "semantic_review": "evidence/strategy-review-v1.md; same coordinator, not independent agent"
+  },
+  "reused_arithmetic": [
+    {
+      "id": "S001v1_meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+    },
+    {
+      "id": "S001v1_original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1_extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1_meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "9aa677834113aae266d89607d87ea93d34bad78cd56877274256333f6e27e9eb"
+    },
+    {
+      "id": "S002v1_original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1_extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "id": "DICTIONARY",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "FUNNEL_SPEC",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "ECON_SPEC",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SCENARIOS",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "PDF_MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "FUNNEL_CALC",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "85c1e02fddedfcb9702094a4cad7c242b0e90b06d7bff8b5b42adcda15f60768"
+    },
+    {
+      "id": "ECON_BASE_CALC",
+      "path": "evidence/calculations/economics-base-v1.json",
+      "sha256": "9ae45027f4a08de51c5c728e07c19246e7fe6902ccaf9569f0b62b8932f65420"
+    },
+    {
+      "id": "ANALYSIS_SPEC",
+      "path": "inputs/analysis-calculation-spec-v2.json",
+      "sha256": "d7ef6d8e2a0ea2f92d807afc02ac2be6ddc8f076b9d3777c8b1f414c76d662c8"
+    },
+    {
+      "id": "ANALYSIS_CHECKER",
+      "path": "evidence/reproduce-analysis-v2.py",
+      "sha256": "5ae5c90adef12a6786f2a49184091403596ff9bea33c61b000e541b673eb389b"
+    },
+    {
+      "id": "ANALYSIS_CALC",
+      "path": "evidence/calculations/analysis-derived-v1.json",
+      "sha256": "aefa62fdfe867b888f8dddbed1963e7bbea31a4c41b9504d8056c75b52c78e61"
+    }
+  ],
+  "official_sources": [
+    {
+      "id": "S004",
+      "version": 1,
+      "manifest_hash_matches": true,
+      "retrieval_status": "supplied_snapshot"
+    },
+    {
+      "id": "S005",
+      "version": 1,
+      "manifest_hash_matches": true,
+      "retrieval_status": "supplied_snapshot"
+    },
+    {
+      "id": "S006",
+      "version": 1,
+      "manifest_hash_matches": true,
+      "retrieval_status": "supplied_snapshot"
+    }
+  ],
+  "documents": [
+    {
+      "path": "outputs/v2/situation.md",
+      "sha256": "893e8a5936bf0d75f3cf23afc350372b3be808600bee0613cec0a9570bc1fe93",
+      "footnotes": 7,
+      "local_links_exist": true,
+      "no_internal_ids_in_main_text": true,
+      "utf8_readable": true
+    },
+    {
+      "path": "outputs/v2/options.md",
+      "sha256": "1fcfc1cee8e87c4ec643a5b14830d527c72e5886612fa7b21f774556931efe89",
+      "footnotes": 2,
+      "local_links_exist": true,
+      "no_internal_ids_in_main_text": true,
+      "utf8_readable": true
+    },
+    {
+      "path": "outputs/v2/product-strategy.md",
+      "sha256": "261c6d0ac5bfad7bd4965d1dbbddf481905bfc484af75dad78b99bdfe22a6f2e",
+      "footnotes": 5,
+      "local_links_exist": true,
+      "no_internal_ids_in_main_text": true,
+      "utf8_readable": true
+    },
+    {
+      "path": "outputs/v2/communication-strategy.md",
+      "sha256": "96480ed1e8cf5e0a3e0cfe719abe95b8db386e7b936ba50e5b61409988302fde",
+      "footnotes": 5,
+      "local_links_exist": true,
+      "no_internal_ids_in_main_text": true,
+      "utf8_readable": true
+    },
+    {
+      "path": "outputs/v2/validation-plan.md",
+      "sha256": "695f91ba1539ffa9862b92792fa538fcf10c10d7ee1042f032545ed990e3de3a",
+      "footnotes": 5,
+      "local_links_exist": true,
+      "no_internal_ids_in_main_text": true,
+      "utf8_readable": true
+    }
+  ],
+  "register": {
+    "path": "evidence/strategy-evidence-register-v2.md",
+    "sha256": "73b4573a283774c7adb9c1708a611ba54addd37d666cbeb5fdd3c1e3f7c6be6c"
+  },
+  "definition_consistency": {
+    "client_and_provider_time_separate": true,
+    "frequency_window_includes_nonpayers": true,
+    "all_first_payers_renewal_windows_required": true,
+    "missing_not_zero": true,
+    "learning_and_scaling_separate": true,
+    "actual_start": null,
+    "human_decision": null
+  },
+  "design_arithmetic": {
+    "synthetic": true,
+    "kind": "design_parameters_not_customer_results",
+    "assigned_tasks": 48,
+    "tasks_per_method": 24,
+    "value_buffer_rub": "6000",
+    "renewal_gate_examples": [
+      {
+        "first_payers": 4,
+        "minimum_renewers_for_joint_gate": 3
+      },
+      {
+        "first_payers": 5,
+        "minimum_renewers_for_joint_gate": 3
+      },
+      {
+        "first_payers": 6,
+        "minimum_renewers_for_joint_gate": 4
+      },
+      {
+        "first_payers": 7,
+        "minimum_renewers_for_joint_gate": 5
+      },
+      {
+        "first_payers": 8,
+        "minimum_renewers_for_joint_gate": 5
+      },
+      {
+        "first_payers": 9,
+        "minimum_renewers_for_joint_gate": 6
+      },
+      {
+        "first_payers": 10,
+        "minimum_renewers_for_joint_gate": 6
+      },
+      {
+        "first_payers": 11,
+        "minimum_renewers_for_joint_gate": 7
+      },
+      {
+        "first_payers": 12,
+        "minimum_renewers_for_joint_gate": 8
+      }
+    ],
+    "spec": {
+      "id": "VALIDATION_SPEC",
+      "path": "inputs/validation-spec-v1.json",
+      "sha256": "32cf2c238f1354438dbfc4497965017405d2bd1e6cc5a47812bf0f1e886cb604"
+    }
+  },
+  "limitations": [
+    "Literal guards and file hashes do not establish business truth or statistical power.",
+    "No pilot, product acceptance test, payments, current website read or external messages occurred."
+  ]
+}

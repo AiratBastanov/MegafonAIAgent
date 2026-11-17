@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "id": "S004",
+      "version": 1,
+      "reused": false,
+      "retrieval_status": "supplied_snapshot",
+      "manifest_hash_matches": true,
+      "bytes": 2090,
+      "source_metadata": {
+        "path": "evidence/sources/S004/v1/source.json",
+        "sha256": "6f68c74cb79d4a9281915e375dacf063d6e9694b068e4041439fa0e0ce095533"
+      }
+    },
+    {
+      "id": "S005",
+      "version": 1,
+      "reused": false,
+      "retrieval_status": "supplied_snapshot",
+      "manifest_hash_matches": true,
+      "bytes": 2335,
+      "source_metadata": {
+        "path": "evidence/sources/S005/v1/source.json",
+        "sha256": "44b5dd1a0959ed9292d5cdbcfbb1ce7fe92f43602acb58a21238f45424dba2e7"
+      }
+    },
+    {
+      "id": "S006",
+      "version": 1,
+      "reused": false,
+      "retrieval_status": "supplied_snapshot",
+      "manifest_hash_matches": true,
+      "bytes": 2596,
+      "source_metadata": {
+        "path": "evidence/sources/S006/v1/source.json",
+        "sha256": "f7f9107417b35851c5a49ff7c2aa0d4e53f0efa4c6bbb0ef495e5720773a1c8a"
+      }
+    }
+  ],
+  "network_requests": 0,
+  "original_retrieval_time_known": false
+}

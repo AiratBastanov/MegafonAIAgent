@@ -1,0 +1,203 @@
+{
+  "record_kind": "diagnostic_impact_report",
+  "event_id": "Q2-FAMILIAR-WITHDRAWAL",
+  "original_file": "notes/q2/raw-impact-v1.json",
+  "original_file_sha256": "fcfc263bc521875da3efd05cccaafbf7442845487215d6029ab815ff97be8d8a",
+  "report": {
+    "event_id": "Q2-FAMILIAR-WITHDRAWAL",
+    "change_type": "withdrawn_support",
+    "source": {
+      "id": "S001",
+      "version": 1
+    },
+    "locators": [
+      "physical-page:1/block:5"
+    ],
+    "old_ground": "S001@1, physical-page:1/block:5, сообщал: recipient needs no account. Производственной приёмки не было.",
+    "new_ground": "Текущая поддержка этой фразы отозвана. Не установлено, требуется ли получателю аккаунт. Историческое содержание PDF сохраняется.",
+    "affected": [
+      {
+        "node": "claim:C001",
+        "path": [
+          "source:S001@1",
+          "claim:C001"
+        ],
+        "reason": "evidence physical-page:1/block:4-8",
+        "recomputation": false
+      },
+      {
+        "node": "claim:C010",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C010"
+        ],
+        "reason": "derived_from",
+        "recomputation": false
+      },
+      {
+        "node": "claim:C011",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C011"
+        ],
+        "reason": "derived_from",
+        "recomputation": false
+      },
+      {
+        "node": "claim:C012",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C010",
+          "claim:C012"
+        ],
+        "reason": "derived_from",
+        "recomputation": false
+      },
+      {
+        "node": "commitment:K-BUDGET",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C011",
+          "condition:G-ECONOMICS",
+          "commitment:K-BUDGET"
+        ],
+        "reason": "Обязательство проверяет это условие",
+        "recomputation": false
+      },
+      {
+        "node": "commitment:K-CAPABILITY",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "commitment:K-CAPABILITY"
+        ],
+        "reason": "Обязательство проверяет это условие",
+        "recomputation": false
+      },
+      {
+        "node": "commitment:K-PROTOCOL",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C010",
+          "condition:G-VALUE",
+          "commitment:K-PROTOCOL"
+        ],
+        "reason": "Обязательство проверяет это условие",
+        "recomputation": false
+      },
+      {
+        "node": "commitment:K-VALUE",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C010",
+          "condition:G-VALUE",
+          "commitment:K-VALUE"
+        ],
+        "reason": "Обязательство проверяет это условие",
+        "recomputation": false
+      },
+      {
+        "node": "condition:G-CAPABILITY",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY"
+        ],
+        "reason": "Условие пересмотра решения",
+        "recomputation": false
+      },
+      {
+        "node": "condition:G-ECONOMICS",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C011",
+          "condition:G-ECONOMICS"
+        ],
+        "reason": "Условие пересмотра решения",
+        "recomputation": false
+      },
+      {
+        "node": "condition:G-VALUE",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "claim:C010",
+          "condition:G-VALUE"
+        ],
+        "reason": "Условие пересмотра решения",
+        "recomputation": false
+      },
+      {
+        "node": "output:OUTPUT-v2-communication-strategy",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "output:OUTPUT-v2-communication-strategy"
+        ],
+        "reason": "Текст использует условие решения",
+        "recomputation": false
+      },
+      {
+        "node": "output:OUTPUT-v2-options",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "output:OUTPUT-v2-options"
+        ],
+        "reason": "Текст использует условие решения",
+        "recomputation": false
+      },
+      {
+        "node": "output:OUTPUT-v2-product-strategy",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "output:OUTPUT-v2-product-strategy"
+        ],
+        "reason": "Текст использует условие решения",
+        "recomputation": false
+      },
+      {
+        "node": "output:OUTPUT-v2-situation",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "output:OUTPUT-v2-situation"
+        ],
+        "reason": "Текст использует условие решения",
+        "recomputation": false
+      },
+      {
+        "node": "output:OUTPUT-v2-validation-plan",
+        "path": [
+          "source:S001@1",
+          "claim:C001",
+          "condition:G-CAPABILITY",
+          "output:OUTPUT-v2-validation-plan"
+        ],
+        "reason": "Текст использует условие решения",
+        "recomputation": false
+      }
+    ],
+    "reusable": [],
+    "precision": "declared_links",
+    "uncertain_locators": [],
+    "comparison": null,
+    "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности."
+  },
+  "utility_limitation": "artifact_json/impact treats any top-level source match as a calculation. A raw impact report is not a calculation or independent source. The report is nested here to preserve its exact content without a top-level source key.",
+  "preparation_error": "q2-prepare assertion failed before any output/state write because registering raw impact added artifact:Q2-RAW-IMPACT as a new root.",
+  "recovery": "Current revision 3 verified; absent_from_current and no output/final draft. Original report and draft retained. Only the new uncommitted diagnostic reference is replaced by this new artifact ID."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Q3-REPEAT",
+  "kind": "text",
+  "origin": "inbox/q3/repeated-correction-v2.txt; supplied synthetic note",
+  "input_sha256": "d5d8ab009370879e098e0c5d5e89ae21d229a1d14fedc46896a7e3e06079424b",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": "line:1-2",
+  "retrieval_status": "local_import",
+  "extraction_method": "utf8-lines-v1",
+  "limitations": [
+    "Повтор уже учтённой S005@1; не новая версия XLSX и не новое решение.",
+    "Регистрация получения не создаёт независимого подтверждения продукта, результата или полномочий."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T14:09:55+00:00",
+  "published_at": null,
+  "input_path": "inputs/q3/repeated-correction-v2.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/Q3-REPEAT/v1/original.txt",
+    "sha256": "d5d8ab009370879e098e0c5d5e89ae21d229a1d14fedc46896a7e3e06079424b"
+  },
+  "extract": {
+    "path": "evidence/sources/Q3-REPEAT/v1/extract.json",
+    "sha256": "2dddd8b27e855df2187507a2332fd387ed6ca7c205d7bfe05946459143e5adda"
+  }
+}

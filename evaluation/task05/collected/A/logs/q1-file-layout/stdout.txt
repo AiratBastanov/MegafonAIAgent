@@ -1,0 +1,12 @@
+branches
+inbox
+knowledge
+logs
+scripts
+AGENTS.md
+capture.py
+context.md
+request-q1.txt
+RUNTIME.md
+branches/familiar\projects\task04-followup\project.md
+branches/variant\projects\task04-followup\project.md

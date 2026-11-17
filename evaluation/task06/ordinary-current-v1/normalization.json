@@ -1,0 +1,14 @@
+{
+  "excluded_artifact_ids": [
+    "ACTIONS-v1",
+    "ORIGIN-STATE",
+    "REVIEW-v1",
+    "REVIEW-v2",
+    "RUN-OBSERVATION-v2"
+  ],
+  "reason": "исключение evaluator notes и технических журналов из обоих participant packages до измерения",
+  "native_revision": 2,
+  "history_choice": "OWNER-01, прежние option/reason/grounds и 4 commitments; новый технический basis",
+  "prior_v1": "NOT_RUN; сохранён",
+  "same_business_facts": true
+}

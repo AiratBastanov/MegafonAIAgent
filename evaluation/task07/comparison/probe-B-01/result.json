@@ -1,0 +1,10 @@
+{
+  "status": "instruction-sources-observed",
+  "started_at": "2026-11-16T16:37:31.281Z",
+  "ended_at": "2026-11-16T16:37:31.676Z",
+  "elapsed_seconds": 0.3623536,
+  "successful_instruction_observation": true,
+  "llm_turn_started": false,
+  "child_exit_observed": null,
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Test-Path -LiteralPath notes/familiar/q1-protocol.md; Test-Path -LiteralPath notes/variant/q1-protocol.md; Test-Path -LiteralPath tools/q1_audit.py; Test-Path -LiteralPath responses/q1.md"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:45:01.686929+00:00",
+  "ended_at": "2026-11-16T13:45:01.906719+00:00",
+  "elapsed_seconds": 0.21900000000096043,
+  "returncode": 0
+}

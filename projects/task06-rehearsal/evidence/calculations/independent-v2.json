@@ -1,0 +1,134 @@
+{
+  "checked_at": "2026-11-16T15:30:45.534051+00:00",
+  "method": "zipfile+ElementTree raw numeric OOXML; fractions.Fraction, independent formulas",
+  "synthetic": true,
+  "funnel_source_version": 1,
+  "economics_source_version": 2,
+  "funnel_sha256": "c4922c8e3fcd4bee4377a43d9741b26355aa5f7d0522b91ef9da8365bdd91af4",
+  "economics_sha256": "5845e2a502b91305819b8c2e4d174c10fadd9da4f3309beaca722294afecffaf",
+  "checks": [
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!F3/D3",
+      "metric": "paid_per_trial_pct",
+      "exact": "25",
+      "pass": true
+    },
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!E3/D3",
+      "metric": "interest_per_trial_pct",
+      "exact": "125/2",
+      "pass": true
+    },
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!F3/C3",
+      "metric": "paid_per_contact_pct",
+      "exact": "10",
+      "pass": true
+    },
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!F4/D4",
+      "metric": "paid_per_trial_pct",
+      "exact": "10",
+      "pass": true
+    },
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!E4/D4",
+      "metric": "interest_per_trial_pct",
+      "exact": "80",
+      "pass": true
+    },
+    {
+      "kind": "funnel",
+      "locator": "'Воронка'!F4/C4",
+      "metric": "paid_per_contact_pct",
+      "exact": "5",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "90",
+      "accounts": "20",
+      "margin": "1500",
+      "surplus": "0",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "30",
+      "accounts": "10",
+      "margin": "2100",
+      "surplus": "-9000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "30",
+      "accounts": "20",
+      "margin": "2100",
+      "surplus": "12000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "30",
+      "accounts": "30",
+      "margin": "2100",
+      "surplus": "33000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "90",
+      "accounts": "10",
+      "margin": "1500",
+      "surplus": "-15000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "90",
+      "accounts": "20",
+      "margin": "1500",
+      "surplus": "0",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "90",
+      "accounts": "30",
+      "margin": "1500",
+      "surplus": "15000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "180",
+      "accounts": "10",
+      "margin": "600",
+      "surplus": "-24000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "180",
+      "accounts": "20",
+      "margin": "600",
+      "surplus": "-18000",
+      "pass": true
+    },
+    {
+      "kind": "scenario",
+      "minutes": "180",
+      "accounts": "30",
+      "margin": "600",
+      "surplus": "-12000",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,4 @@
+# Optional document export only; not installed in the agent runtime.
+# TASK06 used these already installed versions through the system Python.
+Markdown==3.9
+PyMuPDF==1.26.3

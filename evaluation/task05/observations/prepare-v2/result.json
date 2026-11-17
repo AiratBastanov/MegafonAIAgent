@@ -1,0 +1,13 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "evaluation/task05/prepare_v2.py"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T13:37:18.101403+00:00",
+  "ended_at": "2026-11-16T13:37:20.727421+00:00",
+  "elapsed_seconds": 2.625,
+  "returncode": 0
+}

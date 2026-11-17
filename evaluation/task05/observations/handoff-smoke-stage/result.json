@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "evaluation/task05/handoff.py",
+    "stage",
+    "--condition",
+    "B",
+    "--phase",
+    "q2",
+    "--workspace",
+    "C:/Users/BastaPC/AppData/Local/Temp/task05-handoff-smoke-20261116-B"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T13:59:12.613970+00:00",
+  "ended_at": "2026-11-16T13:59:12.690910+00:00",
+  "elapsed_seconds": 0.0779999999977008,
+  "returncode": 0
+}

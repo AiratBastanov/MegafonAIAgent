@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\BastaPC\AppData\Local\Temp\megafon-task05-clean-20zjuuxd\A\q2-prepare.py", line 74, in <module>
+    assert df.impact(root, data, event) == report
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

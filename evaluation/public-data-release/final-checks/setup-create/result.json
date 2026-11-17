@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "-m",
+    "venv",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\venv"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\candidate",
+  "started_at": "2026-11-17T10:03:03.927498+00:00",
+  "network": "not needed",
+  "returncode": 0,
+  "elapsed_seconds": 4.561999999999898,
+  "ended_at": "2026-11-17T10:03:08.495316+00:00",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

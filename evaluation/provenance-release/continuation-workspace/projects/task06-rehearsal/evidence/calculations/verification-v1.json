@@ -1,0 +1,330 @@
+{
+  "record_type": "analytical_verification",
+  "synthetic": true,
+  "checked_at": "2026-11-17T08:52:55.194799+00:00",
+  "result": "passed",
+  "checks": [
+    {
+      "id": "hash-S001-original",
+      "status": "passed",
+      "detail": "evidence/sources/S001/v1/original.pdf"
+    },
+    {
+      "id": "hash-S001-extract",
+      "status": "passed",
+      "detail": "evidence/sources/S001/v1/extract.json"
+    },
+    {
+      "id": "hash-S002-original",
+      "status": "passed",
+      "detail": "evidence/sources/S002/v1/original.xlsx"
+    },
+    {
+      "id": "hash-S002-extract",
+      "status": "passed",
+      "detail": "evidence/sources/S002/v1/extract.json"
+    },
+    {
+      "id": "pdf-page-count",
+      "status": "passed",
+      "detail": "Число физических страниц оригинала, manifest и extract совпадает"
+    },
+    {
+      "id": "pdf-page-1",
+      "status": "passed",
+      "detail": "physical_page=1: полный текстовый слой совпал; визуальная вёрстка не проверялась"
+    },
+    {
+      "id": "pdf-page-2",
+      "status": "passed",
+      "detail": "physical_page=2: полный текстовый слой совпал; визуальная вёрстка не проверялась"
+    },
+    {
+      "id": "layout-Воронка",
+      "status": "passed",
+      "detail": "Состояние листа и объединённые диапазоны совпали с сохранённым извлечением"
+    },
+    {
+      "id": "layout-Экономика",
+      "status": "passed",
+      "detail": "Состояние листа и объединённые диапазоны совпали с сохранённым извлечением"
+    },
+    {
+      "id": "xlsx-literals",
+      "status": "passed",
+      "detail": "53 ячейки строк заголовков и данных двух рабочих листов сверены с original.xlsx"
+    },
+    {
+      "id": "cache-Воронка-K3",
+      "status": "passed",
+      "detail": "Кэш формулы отсутствует; формула не выполнялась и не использовалась как число"
+    },
+    {
+      "id": "cache-Воронка-K4",
+      "status": "passed",
+      "detail": "Кэш формулы отсутствует; формула не выполнялась и не использовалась как число"
+    },
+    {
+      "id": "cache-Экономика-J3",
+      "status": "passed",
+      "detail": "Кэш формулы отсутствует; формула не выполнялась и не использовалась как число"
+    },
+    {
+      "id": "hidden-column",
+      "status": "passed",
+      "detail": "K скрыта; расчёт использует явные числовые ячейки"
+    },
+    {
+      "id": "calc-origin-funnel",
+      "status": "passed",
+      "detail": "Расчёт закреплён к S002/v1 и исходному spec"
+    },
+    {
+      "id": "calc-origin-economics",
+      "status": "passed",
+      "detail": "Расчёт закреплён к S002/v1 и исходному spec"
+    },
+    {
+      "id": "funnel-3-paid_per_trial_pct",
+      "status": "passed",
+      "detail": "F3/D3*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-3-interest_per_trial_pct",
+      "status": "passed",
+      "detail": "E3/D3*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-3-paid_per_contact_pct",
+      "status": "passed",
+      "detail": "F3/C3*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-3-revenue30",
+      "status": "passed",
+      "detail": "Сумма совпала с original.xlsx"
+    },
+    {
+      "id": "funnel-3-variable30",
+      "status": "passed",
+      "detail": "Сумма совпала с original.xlsx"
+    },
+    {
+      "id": "acquisition-3",
+      "status": "passed",
+      "detail": "Отсутствующие расходы не приняты за ноль"
+    },
+    {
+      "id": "contribution-3",
+      "status": "passed",
+      "detail": "Повторная разность по оригиналу"
+    },
+    {
+      "id": "funnel-4-paid_per_trial_pct",
+      "status": "passed",
+      "detail": "F4/D4*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-4-interest_per_trial_pct",
+      "status": "passed",
+      "detail": "E4/D4*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-4-paid_per_contact_pct",
+      "status": "passed",
+      "detail": "F4/C4*100; Fraction по оригиналу совпадает с analyze_table"
+    },
+    {
+      "id": "funnel-4-revenue30",
+      "status": "passed",
+      "detail": "Сумма совпала с original.xlsx"
+    },
+    {
+      "id": "funnel-4-variable30",
+      "status": "passed",
+      "detail": "Сумма совпала с original.xlsx"
+    },
+    {
+      "id": "acquisition-4",
+      "status": "passed",
+      "detail": "Отсутствующие расходы не приняты за ноль"
+    },
+    {
+      "id": "contribution-4",
+      "status": "passed",
+      "detail": "Повторная разность по оригиналу"
+    },
+    {
+      "id": "parameter-price",
+      "status": "passed",
+      "detail": "'Экономика'!C3"
+    },
+    {
+      "id": "parameter-infra",
+      "status": "passed",
+      "detail": "'Экономика'!D3"
+    },
+    {
+      "id": "parameter-support_minutes",
+      "status": "passed",
+      "detail": "'Экономика'!E3"
+    },
+    {
+      "id": "parameter-hourly_cost",
+      "status": "passed",
+      "detail": "'Экономика'!F3"
+    },
+    {
+      "id": "parameter-fixed",
+      "status": "passed",
+      "detail": "'Экономика'!G3"
+    },
+    {
+      "id": "parameter-setup",
+      "status": "passed",
+      "detail": "'Экономика'!H3"
+    },
+    {
+      "id": "parameter-accounts",
+      "status": "passed",
+      "detail": "'Экономика'!I3"
+    },
+    {
+      "id": "margin-30",
+      "status": "passed",
+      "detail": "Decimal и Fraction дают одинаковый вклад"
+    },
+    {
+      "id": "threshold-30",
+      "status": "passed",
+      "detail": "Проверена минимальность целого порога покрытия заданных fixed"
+    },
+    {
+      "id": "surplus-30-10",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-30-20",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-30-30",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "margin-90",
+      "status": "passed",
+      "detail": "Decimal и Fraction дают одинаковый вклад"
+    },
+    {
+      "id": "threshold-90",
+      "status": "passed",
+      "detail": "Проверена минимальность целого порога покрытия заданных fixed"
+    },
+    {
+      "id": "surplus-90-10",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-90-20",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-90-30",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "margin-180",
+      "status": "passed",
+      "detail": "Decimal и Fraction дают одинаковый вклад"
+    },
+    {
+      "id": "threshold-180",
+      "status": "passed",
+      "detail": "Проверена минимальность целого порога покрытия заданных fixed"
+    },
+    {
+      "id": "surplus-180-10",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-180-20",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    },
+    {
+      "id": "surplus-180-30",
+      "status": "passed",
+      "detail": "N*(price-infra-support)-fixed сверено с N*price-(N*infra+N*support+fixed)"
+    }
+  ],
+  "check_count": 52,
+  "method": "Оригинальные XLSX literals + Fraction; второй вид выражения; PyMuPDF original text layer + saved manifest + pypdf extract",
+  "limits": [
+    "Та же модель-координатор; независимый агент и человек не участвовали",
+    "PDF сверялся другим движком PyMuPDF; manifest и extract имеют то же происхождение и не являются независимыми источниками",
+    "Визуальная вёрстка, реальные платежи, производственный продукт и рынок не проверялись"
+  ],
+  "libraries": {
+    "openpyxl": "3.1.5",
+    "PyMuPDF": "1.26.3"
+  },
+  "inputs": [
+    {
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "009ece49d36c1e34b32de94ab08d8738cb8fbd5ea5d8aa2d56ea9dd7ab6b786e"
+    },
+    {
+      "path": "evidence/calculations/economics-inputs-v1.json",
+      "sha256": "eae13af6dd3412004c4a68a55ef7f3e1919ba9bad64a44b376f99c99172ed19c"
+    }
+  ],
+  "script": {
+    "path": "evidence/calculations/check-analysis-v1.py",
+    "sha256": "d3aae0629ad6fb361ab675cd9e9a2d5c824d1a674724479bdaf7826dc9ff6b37"
+  },
+  "measured_script_seconds": "0.042013"
+}

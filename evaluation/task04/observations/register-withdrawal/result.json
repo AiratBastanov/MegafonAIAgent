@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/register_withdrawal.py"
+  ],
+  "started_at": "2026-11-16T11:56:56.340508+00:00",
+  "ended_at": "2026-11-16T11:56:57.087748+00:00",
+  "elapsed_seconds": 0.75,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

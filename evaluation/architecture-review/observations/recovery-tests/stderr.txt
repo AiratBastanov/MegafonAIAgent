@@ -1,0 +1,6 @@
+test_focused_windows_publication_boundaries (test_followup_recovery.RecoveryTests.test_focused_windows_publication_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 2.403s
+
+OK

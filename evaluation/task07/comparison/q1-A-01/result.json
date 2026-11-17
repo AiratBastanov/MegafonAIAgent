@@ -1,0 +1,40 @@
+{
+  "outcome": "completed",
+  "condition": "A",
+  "phase": "q1",
+  "thread_id": "01a1e53d-d1f7-7152-a244-2f3c30f24c66",
+  "turn_id": "01a1e53d-d226-7282-a0a4-801c69cb551d",
+  "started_at": "2026-11-16T16:43:16.083Z",
+  "turn_started_at": "2026-11-16T16:43:16.388Z",
+  "ended_at": "2026-11-16T16:56:21.634Z",
+  "elapsed_seconds": 785.5494029,
+  "child_exit_observed": null,
+  "agent_message_count": 8,
+  "final_answer_count": 1,
+  "completed_items": 70,
+  "token_usage": {
+    "threadId": "01a1e53d-d1f7-7152-a244-2f3c30f24c66",
+    "turnId": "01a1e53d-d226-7282-a0a4-801c69cb551d",
+    "tokenUsage": {
+      "total": {
+        "totalTokens": 1445086,
+        "inputTokens": 1418225,
+        "cachedInputTokens": 1355648,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 26861,
+        "reasoningOutputTokens": 9379
+      },
+      "last": {
+        "totalTokens": 98147,
+        "inputTokens": 96897,
+        "cachedInputTokens": 96512,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 1250,
+        "reasoningOutputTokens": 97
+      },
+      "modelContextWindow": 258400
+    }
+  },
+  "pending_client_requests": 0,
+  "error": null
+}

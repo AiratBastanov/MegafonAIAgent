@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\venv\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--no-cache-dir",
+    "--find-links",
+    "third_party/wheels",
+    "-r",
+    "requirements.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\candidate",
+  "started_at": "2026-11-17T10:03:08.497431+00:00",
+  "network": "not needed"
+}

@@ -1,0 +1,7 @@
+
+task started_utc          ended_utc            project_rules_present
+---- -----------          ---------            ---------------------
+q1   2026-11-16T13:38:42Z 2026-11-16T13:48:42Z                  True
+                                                                    
+
+

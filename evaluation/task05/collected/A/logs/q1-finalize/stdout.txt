@@ -1,0 +1,61 @@
+{
+  "saved_answer": "responses/q1.md",
+  "answer_sha256": "1c304850525bd58afce0b09a5026321cb2ba6bf3a6b435f4621f86d802000fe0",
+  "meta": "responses/q1-meta.json",
+  "verification": {
+    "familiar": {
+      "revision": 3,
+      "state_sha256": "909af54ac625ebbc539d2a263f8416175d7eea2a97b5395fe9090ce37e78f8ce",
+      "previous_revision": 2,
+      "previous_state_sha256": "2b07edb14107f9e4ae682934d6e8cc01c746739d40407e2994656d557470d46f",
+      "reconcile": {
+        "outcome": "published",
+        "revision": 3,
+        "event_id": "Q1-K-PROTOCOL-COMPLETE",
+        "warnings": []
+      },
+      "old_artifacts_preserved": true,
+      "history_unchanged": true,
+      "claims_and_metrics_unchanged": true,
+      "reviews": []
+    },
+    "variant": {
+      "revision": 3,
+      "state_sha256": "636aa22ee1eac993d835160d565273758d77e4e090a2537972d8184ce2e5da36",
+      "previous_revision": 2,
+      "previous_state_sha256": "5ba5bc8c93be7c9afe08b5d6697fb29f0a792622e5599d61ec6c25edc7a93e11",
+      "reconcile": {
+        "outcome": "published",
+        "revision": 3,
+        "event_id": "Q1-K-PROTOCOL-COMPLETE",
+        "warnings": []
+      },
+      "old_artifacts_preserved": true,
+      "history_unchanged": true,
+      "claims_and_metrics_unchanged": true,
+      "reviews": []
+    }
+  },
+  "ended_at_utc": "2026-11-16T13:49:39.988299+00:00"
+}
+Проектные правила Megafon присутствуют. На **19.12.2026, 12:00 (+03:00), по симулированным часам**, вывод для `familiar` и `variant` одинаков: приоритет — приёмка возможностей и решение о дальнейшей подготовке. Фактических результатов эксперимента нет.
+
+| Обязательство | Состояние |
+|---|---|
+| `K-CAPABILITY` | Протокол приёмки не получен. Срок 17.11.2026, 12:00 пропущен на **32 суток**. Блокирует бюджет и внешние обещания. |
+| `K-BUDGET` | Заблокировано приёмкой; ответственный и дата неизвестны. Просрочку установить нельзя. |
+| `K-VALUE` | Заблокировано бюджетом; ответственный и дата неизвестны. Наблюдения ценности, частоты, продлений и расходов не получены. |
+| `K-PROTOCOL` | На входе тоже было просрочено. В этом вызове локальный протокол подготовлен, проверен и завершение опубликовано. Это завершение документа, а не приёмки или пилота. |
+
+Основания: `decision.commitments` в сохранённых revision 3 — [familiar](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/state/history/r000003.json), [variant](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/variant/projects/task04-followup/state/history/r000003.json); [расчёт сроков](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/notes/q1/chronology-v1.json), `deadline_elapsed_days`; [протокол](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/notes/q1/local-protocol-v1.md), пункты 1–5.
+
+**Плановое окно `M-TIME` закончилось 18 декабря, сутки назад.** Старт и включение организаций не сообщались: завершённого эксперимента, успеха или провала из этого не следует. У `M-FIRST-PAY` и метрик масштабирования фактические окна и результаты неизвестны. Также наступила дата `G-FRESHNESS` — 1 декабря: перед следующим сравнением нужно проверить актуальность снимков S003/S004; сама дата их не опровергает. Локаторы: `decision.metrics[M-TIME].window`, остальные `metrics[].window`, `decision.conditions[G-FRESHNESS]` в указанных revision 3.
+
+**Повтор коррекции не требует пересчёта или нового выбора.** Входящее сообщение прямо повторяет S005@1 без новой XLSX и измерений; 90 минут уже записаны в S002@2, `'Экономика'!E3`, и учтены в C014/C013 и ECON-v2. Прежние расчёты и outputs/v2 сохранены. Основания: [сообщение v1](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/inbox/q1/repeated-correction-v1.txt), строки 1–3; [S005@1](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/evidence/sources/S005/v1/original.txt), строки 1–5; [S002@2](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/evidence/sources/S002/v2/extract.json), указанная ячейка.
+
+**Вернуться к владельцу нужно из-за отсутствия необходимых наблюдений и невыполненных предпосылок.** Следующий практический шаг — получить от технической роли протокол конкретной версии: доступ, скачивание, истечение и отзыв на разрешённом файле. Затем назначить ответственного за бюджет и отдельно решить, продолжать ли подготовку, с какими пределами затрат и новым календарём. Это рекомендация; новых дат и решений я не утверждал. Основание: [OWNER-INSTRUCTION v1](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/inputs/owner-instruction-v1.md), абзацы об обязательствах и возврате к решению. Исторический выбор остаётся `simulated_accepted` только для подготовки; реального разрешения запуска нет.
+
+Ограничение утилиты: `impact` даже для `nonmaterial` повторно обходит совпадающие ссылки. Этот диагностический сигнал сохранён, но повтор не применён как новое изменение оснований; новых review не создано. [Разбор](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/notes/q1/review-and-reuse-v1.md), `Q1-TOOL`. Код утилит не менялся.
+
+Передача контекста сохранена для [familiar](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/familiar/projects/task04-followup/notes/q1/handoff-v1.md) и [variant](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/branches/variant/projects/task04-followup/notes/q1/handoff-v1.md). Обе revision 3 повторно загружены и проверены; предыдущие версии сохранены. Полный первый ответ — [q1.md](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/responses/q1.md), метаданные запуска — [q1-meta.json](C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A/responses/q1-meta.json).
+

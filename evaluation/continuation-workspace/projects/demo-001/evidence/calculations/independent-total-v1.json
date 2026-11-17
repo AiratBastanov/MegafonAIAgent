@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-11-16T06:53:10.237670+00:00",
+  "method": "csv.DictReader + fractions.Fraction; no analyze_table import",
+  "input_sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c",
+  "result_sha256": "78d89998a191d96269f176933df1bf0c5607fe7dded4ae07aed7f31b0b6cb935",
+  "checks": [
+    {
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "74",
+      "observed": "74.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "52",
+      "observed": "52.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "17",
+      "observed": "17.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "25500",
+      "observed": "25500.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "56",
+      "observed": "56.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "28",
+      "observed": "28.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "8",
+      "observed": "8.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "12000",
+      "observed": "12000.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    }
+  ]
+}

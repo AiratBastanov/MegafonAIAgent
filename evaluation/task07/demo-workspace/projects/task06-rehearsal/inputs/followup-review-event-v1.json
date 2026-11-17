@@ -1,0 +1,41 @@
+{
+  "id": "resolve-support-assumption-90-v1",
+  "kind": "review",
+  "review_id": "review-support-assumption-90-v1",
+  "provenance": {
+    "kind": "agent_review",
+    "artifact_id": "FOLLOWUP_REVIEW",
+    "locator": "вся содержательная проверка текущим координатором"
+  },
+  "resolution": {
+    "status": "revised",
+    "reason": "Новая текущая поддержка90 обнулила частичный остаток при20. Пять документов согласованы с паузой допуска; воронка, официальные факты и проверяемые пороги сохранены. История выбора неизменна, обязательства не завершены.",
+    "next_action": "Пересмотреть полную смету к20ноября и получить отдельное решение руководителя; допуск к сравнению заблокирован.",
+    "owner_review_required": true,
+    "proposed_option": "Приостановить допуск к проверке. Поддержка90 минут обнулила учебный остаток при20 организациях; сначала полная смета и новое решение.",
+    "resolution_evidence": [
+      {
+        "artifact_id": "FOLLOWUP_REVIEW",
+        "locator": "Существенное изменение; Повторное использование; Согласованность"
+      },
+      {
+        "artifact_id": "SUPPORT_CHANGE_CHECK",
+        "locator": "changed_cells; independent_fraction_checks"
+      },
+      {
+        "artifact_id": "SUPPORT90_CALC",
+        "locator": "base"
+      },
+      {
+        "artifact_id": "OPTIONS_V4",
+        "locator": "условия нового выбора"
+      },
+      {
+        "artifact_id": "VALIDATION_V4",
+        "locator": "допуск после пересмотра и неизменённые совместные пороги"
+      }
+    ]
+  },
+  "at": "2026-11-16T17:28:43.236468+00:00",
+  "project_id": "task06-rehearsal"
+}

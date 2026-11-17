@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\BastaPC\Desktop\MegafonAIAgent\submission\export\render.py", line 63, in <module>
+    count=pdf(a.source,a.output,a.title);document=fitz.open(a.output)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BastaPC\Desktop\MegafonAIAgent\submission\export\render.py", line 50, in pdf
+    output.unlink();updated.rename(output)
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\BastaPC\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'submission\\screenshots\\followup-r6.pdf'

@@ -1,0 +1,349 @@
+def validate_extensions(data, read_artifact, read_basis):
+    """Вызывается state validator после проверки файлов, evidence и derived_from."""
+    artifacts = {a['id']: a for a in data['artifacts']}
+    claims = {c['id']: c for c in data['claims']}
+    sources = {(s['id'], s['version']): s for s in data['sources']}
+    for claim in claims.values():
+        for field in ('review_dependencies', 'context_from'):
+            refs = claim.get(field, [])
+            require(isinstance(refs, list) and all(isinstance(x, str) and x in claims for x in refs),
+                    f'{field}: неизвестный claim')
+        require(not (set(claim.get('context_from', [])) & set(claim['derived_from'])),
+                'Одна связь не может быть одновременно контекстной и доказательной')
+    deps = data.get('artifact_dependencies', [])
+    require(isinstance(deps, list), 'artifact_dependencies: нужен список')
+    edges = {}
+    for dep in deps:
+        require(isinstance(dep, dict) and dep.get('from') in artifacts and dep.get('to') in artifacts,
+                'Неизвестный artifact dependency')
+        text_value(dep.get('reason'), 'dependency.reason')
+        edges.setdefault(dep['from'], []).append(dep['to'])
+    acyclic(edges, 'вычислительных артефактов')
+    decision = data['decision']
+    if 'format_version' not in decision:
+        return  # Старые schema1 ревизии доступны без миграции.
+    require(decision['format_version'] == 2, 'Неизвестный decision.format_version')
+    for field in ('question', 'proposed_option', 'owner'):
+        text_value(decision.get(field), f'decision.{field}')
+    events = unique(decision.get('events'), 'events')
+    history = unique(decision.get('history'), 'history')
+    commitments = unique(decision.get('commitments'), 'commitments')
+    metrics = unique(decision.get('metrics'), 'metrics')
+    conditions = unique(decision.get('conditions'), 'conditions')
+    reviews = unique(decision.get('reviews'), 'reviews')
+    for aid in decision.get('current_outputs', {}).values():
+        require(aid in artifacts, 'Неизвестный текущий output')
+    for event in events.values():
+        require(event.get('project_id') == data['project_id'], 'Событие относится к другому проекту')
+        moment(event.get('at'))
+        require(event.get('kind') in {'choice', 'evidence_change', 'completion', 'review'}, 'Неизвестный вид события')
+        provenance = event.get('provenance', {})
+        require(provenance.get('kind') in {'user_instruction', 'synthetic_instruction', 'source_material', 'agent_review'},
+                'Неизвестное происхождение события')
+        check_ref(provenance, artifacts)
+        require(event.get('fingerprint') == digest({k: v for k, v in event.items() if k != 'fingerprint'}),
+                'Fingerprint события не совпадает')
+        if event['kind'] == 'evidence_change':
+            validate_change(data, event['change'])
+    used_instruction_events = set()
+    for record in history.values():
+        for field in ('question', 'option', 'reason', 'owner'):
+            text_value(record.get(field), f'history.{field}')
+        require(record.get('status') in {'accepted', 'rejected', 'simulated_accepted'}, 'Неверный статус выбора')
+        event = events.get(record.get('instruction_event'))
+        require(event is not None and event['kind'] == 'choice', 'Выбор требует отдельное событие инструкции')
+        require(record['instruction_event'] not in used_instruction_events, 'Одно событие не создаёт два решения')
+        used_instruction_events.add(record['instruction_event'])
+        choice = event.get('choice', {})
+        require(all(record.get(k) == choice.get(k) for k in ('question', 'option', 'reason', 'owner', 'rejected_alternatives')),
+                'История выбора должна соответствовать инструкции')
+        channel = event['provenance']['kind']
+        if record['status'] == 'simulated_accepted':
+            require(data.get('evaluation', {}).get('synthetic') is True and channel == 'synthetic_instruction',
+                    'Симуляция разрешена только явно синтетическому evaluation-проекту')
+            require(choice.get('status', 'accepted') == 'accepted', 'Симуляция принятия не может подменять отказ')
+        else:
+            require(channel == 'user_instruction' and event.get('authorized') is True,
+                    'Документ/ответ tool/рекомендация не являются подтверждением пользователя')
+            text_value(event.get('actor'), 'actor')
+            require(record['status'] == choice.get('status', 'accepted'), 'Статус истории не соответствует выбору пользователя')
+        alternatives = record.get('rejected_alternatives')
+        require(isinstance(alternatives, list) and len(alternatives) >= 1, 'Нужны осмысленные отвергнутые альтернативы')
+        for alt in alternatives:
+            text_value(alt.get('option'), 'alternative.option')
+            text_value(alt.get('reason'), 'alternative.reason')
+        basis = record.get('basis', {})
+        require(type(basis.get('revision')) is int and basis['revision'] > 0
+                and isinstance(basis.get('state_sha256'), str)
+                and re.fullmatch('[a-f0-9]{64}', basis['state_sha256']), 'Нужна закреплённая исходная revision')
+        require(isinstance(record.get('grounds'), list) and record['grounds'], 'Выбор требует основания')
+        original = read_basis(basis['revision'])
+        require(original['state_sha256'] == basis['state_sha256'], 'Не совпадает исходная revision решения')
+        original_claims = {c['id']: c for c in original['claims']}
+        original_artifacts = {a['id']: a for a in original['artifacts']}
+        original_sources = {(s['id'], s['version']): s for s in original['sources']}
+        require([g['claim_id'] for g in record['grounds']] == choice.get('ground_ids'), 'Основания не соответствуют инструкции')
+        for ground in record['grounds']:
+            require(ground.get('claim_id') in claims, 'Неизвестное основание решения')
+            # Полный снимок текста/evidence/версий не меняется при коррекции текущих claims.
+            snapshot = ground.get('snapshot')
+            require(isinstance(snapshot, dict) and snapshot.get('id') == ground['claim_id'], 'Нужен снимок основания')
+            require(original_claims.get(ground['claim_id']) == snapshot, 'Снимок основания не совпадает с исходной revision')
+            for ref in snapshot.get('evidence', []):
+                check_ref(ref, artifacts)
+                require(artifacts[ref['artifact_id']] == original_artifacts.get(ref['artifact_id']),
+                        'Нельзя переназначить artifact исторического основания')
+                if 'source_id' in ref:
+                    key = (ref['source_id'], ref.get('source_version'))
+                    require(key in sources and sources[key] == original_sources.get(key), 'Неверная версия исторического основания')
+            text_value(snapshot.get('text'), 'snapshot.text')
+    if history:
+        latest = list(history.values())[-1]
+        require(decision['status'] == latest['status'], 'Текущий статус должен следовать последнему выбору, не review')
+        if latest['status'] in {'accepted', 'rejected'}:
+            instruction = events[latest['instruction_event']]
+            confirmation = decision.get('human_confirmation', {})
+            require(confirmation.get('actor') == instruction['actor'] and confirmation.get('at') == instruction['at']
+                    and confirmation.get('evidence_artifact_id') == instruction['provenance']['artifact_id'],
+                    'Подтверждение должно относиться к последней инструкции выбора')
+    else:
+        require(decision['status'] in {'proposed', 'awaiting_decision'}, 'Принятый выбор требует историю')
+    block_edges = {}
+    for item in commitments.values():
+        require(item.get('decision_id') in history, 'Обязательство требует решение из истории')
+        for field in ('description', 'owner', 'due_condition', 'required_evidence'):
+            text_value(item.get(field), f'commitment.{field}')
+        require(item.get('status') in {'pending', 'blocked', 'completed', 'cancelled'}, 'Неверный статус обязательства')
+        require('due_at' in item, 'Неизвестный срок задаётся due_at=null')
+        if item.get('due_at') is not None:
+            moment(item['due_at'])
+        refs = item.get('blocked_by', [])
+        require(isinstance(refs, list) and all(x in commitments for x in refs), 'Неизвестная блокирующая зависимость')
+        block_edges[item['id']] = refs
+        require(all(x in conditions for x in item.get('condition_ids', [])), 'Неизвестное условие обязательства')
+        for ref in item.get('completion_evidence', []):
+            check_ref(ref, artifacts)
+        if item['status'] == 'completed':
+            require(bool(item.get('completion_evidence')), 'Завершение требует доказательство')
+            event = events.get(item.get('completion_event'))
+            require(event is not None and event['kind'] == 'completion', 'Нужно событие проверки завершения')
+            text_value(item.get('completion_check'), 'Почему evidence удовлетворяет определению завершения')
+            require(event['provenance']['kind'] in {'agent_review', 'user_instruction', 'synthetic_instruction'},
+                    'Источник не может сам объявить обязательство выполненным')
+            require(event.get('commitment_id') == item['id'] and event.get('completion_evidence') == item['completion_evidence']
+                    and event.get('completion_check') == item['completion_check'], 'Завершение не соответствует событию проверки')
+            require(all(commitments[x]['status'] == 'completed' for x in refs), 'Завершение заблокировано зависимостью')
+    acyclic(block_edges, 'блокирующих обязательств')
+    for metric in metrics.values():
+        for field in ('definition', 'unit', 'denominator', 'observation_period', 'needed_evidence'):
+            text_value(metric.get(field), f'metric.{field}')
+        require(metric.get('gate') in {'learning', 'scaling'}, 'Разделите learning/scaling gates')
+        for field in ('comparator', 'threshold'):
+            require(field in metric, f'Нужно явное {field}, допустимо null')
+        window = metric.get('window')
+        if window is not None:
+            require(moment(window['end']) > moment(window['start']), 'Неверное окно наблюдения')
+            require(window.get('clock') in {'actual', 'simulated'}, 'Нужен clock наблюдения')
+    for condition in conditions.values():
+        for field in ('description', 'next_action'):
+            text_value(condition.get(field), f'condition.{field}')
+        for field, registry in [('claim_ids', claims), ('metric_ids', metrics), ('output_ids', artifacts)]:
+            require(isinstance(condition.get(field), list) and all(x in registry for x in condition[field]),
+                    f'condition.{field}: неизвестная ссылка')
+        if condition.get('review_after') is not None:
+            moment(condition['review_after'])
+    for review in reviews.values():
+        require(review.get('event_id') in events, 'Пересмотр требует событие')
+        require(review.get('status') in {'needs_review', 'revised', 'reviewed_unchanged'}, 'Неверный результат review')
+        for field in ('reason', 'next_action'):
+            text_value(review.get(field), f'review.{field}')
+        require(type(review.get('owner_review_required')) is bool, 'Нужно отделить review агента от решения владельца')
+        for ref in review.get('resolution_evidence', []):
+            check_ref(ref, artifacts)
+        if review['status'] != 'needs_review':
+            require(bool(review.get('resolution_evidence')), 'Закрытие review требует доказательства проверки')
+            resolution = events.get(review.get('resolution_event'))
+            require(resolution is not None and resolution['kind'] == 'review' and resolution.get('review_id') == review['id'],
+                    'Закрытие review требует отдельное событие проверки')
+            require(all(review.get(k) == resolution['resolution'].get(k) for k in ('status', 'reason', 'next_action', 'resolution_evidence')),
+                    'Результат review не соответствует событию')
+        require(review.get('impact', {}).get('event_id') == review['event_id'], 'Нужна цепочка impact соответствующего события')
+        valid_nodes = ({'claim:' + x for x in claims} | {'artifact:' + x for x in artifacts}
+                       | {'output:' + x for x in artifacts} | {'condition:' + x for x in conditions}
+                       | {'commitment:' + x for x in commitments}
+                       | {f'source:{sid}@{version}' for sid, version in sources})
+        for item in review['impact'].get('affected', []):
+            require(item.get('node') in valid_nodes and all(n in valid_nodes for n in item.get('path', [])),
+                    'Неизвестный узел пути impact')
+    for event in events.values():
+        if event['kind'] == 'choice':
+            require(event['id'] in used_instruction_events, 'Неполное событие choice: нет результата выбора')
+        elif event['kind'] == 'evidence_change':
+            require(sum(r['event_id'] == event['id'] for r in reviews.values()) == 1,
+                    'Неполное событие evidence_change: нужен один результат impact/review')
+        elif event['kind'] == 'completion':
+            require(sum(c.get('completion_event') == event['id'] for c in commitments.values()) == 1,
+                    'Неполное событие completion: нет подтверждённого обязательства')
+        else:
+            require(event.get('review_id') in reviews, 'Неполное событие review: неизвестный результат')
+            require(event['provenance']['kind'] == 'agent_review', 'Документ не является аналитическим review агента')
+            resolution = event.get('resolution')
+            require(isinstance(resolution, dict) and resolution.get('status') in {'needs_review', 'revised', 'reviewed_unchanged'},
+                    'Неполное событие review: нет результата проверки')
+            for field in ('reason', 'next_action'):
+                text_value(resolution.get(field), 'resolution.' + field)
+            require(type(resolution.get('owner_review_required')) is bool, 'Нужен owner_review_required в событии review')
+            require(isinstance(resolution.get('resolution_evidence'), list), 'Нужен список resolution_evidence')
+            if resolution['status'] != 'needs_review':
+                require(bool(resolution['resolution_evidence']), 'Закрытие review требует доказательство в событии')
+            for ref in resolution['resolution_evidence']:
+                check_ref(ref, artifacts)
+            later = [e for e in list(events.values())[list(events).index(event['id']) + 1:]
+                     if e['kind'] == 'review' and e.get('review_id') == event['review_id']]
+            if not later:
+                current_review = reviews[event['review_id']]
+                require(current_review.get('resolution_event') == event['id']
+                        and all(current_review.get(k) == resolution[k] for k in ('status', 'reason', 'next_action', 'resolution_evidence')),
+                        'Последний review event не применён к результату')
+
+
+def validate_transition(previous, candidate):
+    """Опубликованные события/выборы append-only; review не переписывает человека."""
+    old, new = previous['decision'], candidate['decision']
+    if new.get('status') in {'accepted', 'rejected'} and new != old:
+        require(new.get('format_version') == 2, 'Новое бизнес-решение требует format_version=2 и provenance инструкции')
+    if old.get('format_version') != 2:
+        return
+    require(new.get('format_version') == 2, 'Нельзя удалить сопровождение из новой revision')
+    for field in ('history', 'events'):
+        require(new[field][:len(old[field])] == old[field], f'История {field} неизменяема; добавьте новое событие')
+    for record in new['history'][len(old['history']):]:
+        require(record['basis'] == {'revision': previous['revision'], 'state_sha256': previous['state_sha256']},
+                'Новый выбор закрепляется к загруженной опубликованной revision, не orphan history')
+    new_artifacts = {a['id']: a for a in candidate['artifacts']}
+    require(all(new_artifacts.get(a['id']) == a for a in previous['artifacts']),
+            'Сохраните прежние artifact ID/path/hash; новые байты получают новый ID')
+    new_events = new['events'][len(old['events']):]
+    for review in old['reviews']:
+        matching = next((x for x in new['reviews'] if x['id'] == review['id']), None)
+        require(matching is not None, 'Нельзя удалить требование пересмотра')
+        require(matching['impact'] == review['impact'] and matching['event_id'] == review['event_id'],
+                'Историческая цепочка impact неизменяема')
+        if review['owner_review_required'] and not matching['owner_review_required']:
+            require(any(e['kind'] == 'choice' and review['id'] in e.get('resolves_reviews', []) for e in new_events),
+                    'Требование решения владельца снимается только новой инструкцией выбора')
+    for item in old['commitments']:
+        matching = next((x for x in new['commitments'] if x['id'] == item['id']), None)
+        require(matching is not None, 'Обязательство нельзя удалить; явно отмените с причиной')
+        if item['status'] == 'completed':
+            require(matching == item, 'Завершённое обязательство сохраняется; коррекция отдельной записью')
+
+
+CHANGE_TYPES = {'corrected_value', 'superseding_version', 'withdrawn_support', 'new_contradiction',
+                'changed_assumption', 'freshness_review', 'nonmaterial'}
+
+
+def validate_change(data, change):
+    require(isinstance(change, dict) and change.get('type') in CHANGE_TYPES, 'Неизвестный вид изменения')
+    sources = {(s['id'], s['version']) for s in data['sources']}
+    for field in ('source', 'replacement'):
+        source = change.get(field)
+        if field == 'source' or source is not None:
+            require(isinstance(source, dict) and type(source.get('version')) is int
+                    and (source.get('id'), source['version']) in sources, 'Изменение требует существующую source/version')
+    for field in ('reason', 'old_ground', 'new_ground', 'applicability'):
+        text_value(change.get(field), f'change.{field}')
+    require(isinstance(change.get('locators'), list) and change['locators']
+            and all(isinstance(x, str) and x for x in change['locators']), 'Нужны изменённые координаты либо *')
+
+
+def artifact_json(project, data, aid):
+    # Вызывается только после validate_state: пути и хеши уже проверены.
+    item = next(a for a in data['artifacts'] if a['id'] == aid)
+    if Path(item['path']).suffix.lower() != '.json':
+        return None
+    try:
+        value = json.loads((Path(project) / item['path']).read_text(encoding='utf-8-sig'))
+        return value if isinstance(value, dict) else None
+    except (UnicodeError, json.JSONDecodeError):
+        return None
+
+
+def xlsx_extract(project, data, source):
+    entry = next(s for s in data['sources'] if s['id'] == source['id'] and s['version'] == source['version'])
+    for aid in entry['artifact_ids']:
+        extracted = artifact_json(project, data, aid)
+        if extracted and extracted.get('format') == 'xlsx':
+            return extracted
+    return None
+
+
+def compare_selection(project, data, old, new):
+    old_extract, new_extract = xlsx_extract(project, data, old), xlsx_extract(project, data, new)
+    if old_extract is None or new_extract is None:
+        return None
+    def cells(extracted):
+        return {cell['locator']: cell for sheet in extracted['sheets'] for cell in sheet['cells']}
+    def scope(extracted):
+        return {'selection': extracted.get('selection'),
+                'sheets': [{k: v for k, v in sheet.items() if k != 'cells'} for sheet in extracted['sheets']]}
+    a, b = cells(old_extract), cells(new_extract)
+    changes = [{'locator': loc, 'old': a.get(loc), 'new': b.get(loc)}
+               for loc in sorted(a.keys() | b.keys()) if a.get(loc) != b.get(loc)]
+    return {'method': 'compare_all_extracted_cell_records', 'changes': changes,
+            'scope_changed': scope(old_extract) != scope(new_extract),
+            'unchanged_cells': sorted(loc for loc in a.keys() & b.keys() if a[loc] == b[loc]),
+            'limit': 'Только зарегистрированные selections; остальные области не проверены'}
+
+
+def locator_overlap(a, b):
+    """True/False для известных координат, None при недостаточной точности."""
+    import project_state as ps
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('command', choices=['view', 'impact', 'reconcile', 'apply'])
+    parser.add_argument('--project', required=True)
+    parser.add_argument('--as-of')
+    parser.add_argument('--timezone')
+    parser.add_argument('--clock', choices=['actual', 'simulated'])
+    parser.add_argument('--event', help='Событие JSON внутри проекта')
+    parser.add_argument('--event-id')
+    parser.add_argument('--draft', help='Новый путь кандидата внутри проекта, без перезаписи')
+    parser.add_argument('--markdown', action='store_true')
+    args = parser.parse_args(argv)
+    try:
+        data = ps.load_state(args.project)
+        if args.command == 'reconcile':
+            text_value(args.event_id, 'event-id')
+            result = reconcile(args.project, args.event_id)
+        elif args.command in {'impact', 'apply'}:
+            event = ps._read_json(ps.scoped_path(args.project, args.event), ps.DEFAULT_MAX_BYTES)
+            if args.command == 'impact':
+                result = impact(args.project, data, event)
+            else:
+                candidate, changed = apply_event(args.project, data, event)
+                if changed:
+                    text_value(args.draft, 'draft')
+                    ps.validate_state(args.project, candidate)
+                    ps._write_new(ps.scoped_path(args.project, args.draft), ps._json_bytes(candidate, pretty=True))
+                result = {'changed': changed, 'published': False, 'draft': args.draft if changed else None,
+                          'next_action': 'Проверить кандидат и выполнить project_state save' if changed else 'Событие уже в опубликованном состоянии; повтор не нужен'}
+        else:
+            result = followup_view(data, args.as_of, args.timezone, args.clock)
+        print(render_view(result) if args.markdown and args.command == 'view' else json.dumps(result, ensure_ascii=False, indent=2))
+        return 0
+    except (ps.StateError, FollowupError, OSError) as exc:
+        print(json.dumps({'ok': False, 'error': str(exc)}, ensure_ascii=False), file=sys.stderr)
+        return 2
+
+
+if __name__ == '__main__':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+    raise SystemExit(main())
+
+- **Event:** id, project_id, kind (`choice/evidence_change/completion/review`), at с offset, provenance `{kind,artifact_id,locator}` и payload. Происхождение: user_instruction / synthetic_instruction / source_material / agent_review. `fingerprint` вычисляет register_event. Повтор идентичного ID не создаёт нового результата; другой payload запрещён. Каждому choice/evidence_change/completion соответствует ровно один результат. Неполное событие не публикуется. Это идемпотентность локальной записи при одном писателе, не exactly-once внешнего действия.
+- **Choice payload:** question, option, reason, owner, rejected_alternatives `[{option,reason}]`, ground_ids. Реальный выбор требует authorized=true и actor. History хранит неизменяемые поля выбора, instruction_event, basis `{revision,state_sha256}`, grounds `[{claim_id,snapshot}]`. Snapshot — полный claim на момент выбора с прежними evidence и версиями. Новый выбор закрепляется к непосредственно предыдущему опубликованному current. Artifact ID/path/hash нельзя переназначить. История/events append-only. Изменение поддержки не меняет принятое option.
+- **Симуляция:** только проект с `evaluation.synthetic=true`, явным origin и изолированной папкой; synthetic_instruction создаёт status `simulated_accepted`, никогда accepted. Канонические synthetic data сами по себе не являются evaluation-разрешением выбора. Тестовый human_confirmation по-прежнему запрещён.
+- **Commitment:** id, decision_id, description, owner (либо unassigned), due_at (ISO с offset либо null), due_condition, status pending/blocked/completed/cancelled, required_evidence, completion_evidence `[{artifact_id,locator}]`, blocked_by (commitment IDs), condition_ids. Завершение дополнительно требует completion_event и completion_check; зависимости должны быть завершены. Отмена сохраняет запись с явной причиной. Завершённые записи неизменяемы; коррекция отдельным событием/обязательством.
+- **Metric:** id, definition, unit, denominator, observation_period, comparator/threshold (явный null допустим), needed_evidence, gate learning/scaling; window=null либо `{start,end,clock:actual|simulated}`. Прошедшее окно без evidence не даёт результата. Даты view — обязательный as-of и timezone offset ±HH:MM; тестовые часы подписываются simulated. Europe/Moscow в данном прогоне +03:00. Библиотека tzdata не требуется; исторические/будущие смены часового пояса определяет координатор явно.
+- **Condition:** id, description, claim_ids, metric_ids, output_ids, next_action; unresolved_reason и review_after при наличии. Commitment связывается с ним через condition_ids; обратные review-ссылки не являются циклом доказательного вывода.

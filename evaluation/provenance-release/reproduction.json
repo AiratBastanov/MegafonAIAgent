@@ -1,0 +1,52 @@
+{
+  "runtime_sha256": "c5b408842a7641937c258d4af54fb73bf5ab23c639743733ac063f407efb46be",
+  "accepted_all_three": true,
+  "decision_format_version": 2,
+  "evaluation_present": false,
+  "base_full_load": true,
+  "all_origins_retained": true,
+  "states": [
+    {
+      "revision": 1,
+      "sources": [
+        {
+          "artifact_ids": [
+            "A1"
+          ],
+          "id": "S",
+          "synthetic": true,
+          "version": 1
+        }
+      ],
+      "state_sha256": "55daa3c07c4faf96f8c6cd26f582ef174d0e6fe39a1163e3d0261a6822e3ae74"
+    },
+    {
+      "revision": 2,
+      "sources": [
+        {
+          "artifact_ids": [
+            "A2"
+          ],
+          "id": "S",
+          "synthetic": true,
+          "version": 2
+        }
+      ],
+      "state_sha256": "0100c25623088ce449721f637dda9b8f1913b1466e38094f3b368335f3a18082"
+    },
+    {
+      "revision": 3,
+      "sources": [
+        {
+          "artifact_ids": [
+            "A3"
+          ],
+          "id": "S",
+          "synthetic": false,
+          "version": 1
+        }
+      ],
+      "state_sha256": "349f51670bddea1ba256eada672b205fd4bbf7c5c205737fe5e2e8307f51dbf3"
+    }
+  ]
+}

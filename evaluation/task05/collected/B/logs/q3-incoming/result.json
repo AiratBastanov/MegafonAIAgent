@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 inbox/q3/repeated-correction-v2.txt; Get-Content -Encoding UTF8 inbox/q3/irrelevant-note-v1.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T14:07:32.436539+00:00",
+  "ended_at": "2026-11-16T14:07:32.639702+00:00",
+  "elapsed_seconds": 0.20300000000133878,
+  "returncode": 0
+}

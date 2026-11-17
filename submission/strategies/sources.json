@@ -1,0 +1,47 @@
+{
+  "canonical_sources": [
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v4/product-strategy.md",
+      "sha256": "9023b8ae8716c73605b18396d95bec205cc8d0598d545fbc199865c9e6541a32"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v4/communication-strategy.md",
+      "sha256": "68e25990f5af4b769b62212e668b1a3ad49a613a985a16d4102144ff47f3b10f"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v4/options.md",
+      "sha256": "c5d93af3972a8554b0df4ab4d70abfa4f07d780ee4440bf62bb39c835eabefdf"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v4/situation.md",
+      "sha256": "8cb57b420f3ccae7606d46624b7ac44542c7630ce9c38325dc50efd5a7e2ba84"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v4/validation-plan.md",
+      "sha256": "4acb51a33fd3f98252a1f97222b22316fae6f0f41cf345ffa166e4995da55ce2"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/outputs/v2/communication-strategy.md",
+      "sha256": "96480ed1e8cf5e0a3e0cfe719abe95b8db386e7b936ba50e5b61409988302fde"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/strategy-evidence-register-v2.md",
+      "sha256": "73b4573a283774c7adb9c1708a611ba54addd37d666cbeb5fdd3c1e3f7c6be6c"
+    },
+    {
+      "path": "evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/calculations/support90-v1.json",
+      "sha256": "253ed9a000f49c1dfaa79ed0f4f431404f044322833ed8310f320feace9a6241"
+    }
+  ],
+  "reader_documents": [
+    {
+      "path": "submission/strategies/PRODUCT.md",
+      "sha256": "7b3c8d4ef7c9cdc75bb80a622bc559fc2956523ceea6a8102a29761108b3d20b"
+    },
+    {
+      "path": "submission/strategies/COMMUNICATION.md",
+      "sha256": "fabbc8b22ac449c75d7fd1da748ca834a8fc33a6963ef2836eb8a401e457e0b1"
+    }
+  ],
+  "scope": "Reader consolidation only; no canonical state or output mutation"
+}

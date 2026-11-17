@@ -1,0 +1,1 @@
+{"workspaces": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-y7givp8b", "frozen_files": 227, "source_revision": 3}

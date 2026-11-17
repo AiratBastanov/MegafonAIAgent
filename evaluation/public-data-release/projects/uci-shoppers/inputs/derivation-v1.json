@@ -1,0 +1,17 @@
+{
+  "input_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "output_sha256": "c885fcbb6654cfac2b8bb9818f682d3d27eb3059d157c7306b4effdafdccc757",
+  "rows_in": 12330,
+  "rows_out": 12330,
+  "all_original_cells_equal": true,
+  "order_preserved": true,
+  "deduplication": false,
+  "imputation": false,
+  "locator_mapping": "Derived CSV physical row n equals original physical row n; data rows 2..12331.",
+  "definitions": {
+    "SessionCount": "1 per source row",
+    "PurchaseCount": "TRUE -> 1; FALSE -> 0; other values rejected",
+    "ObservationPeriod": "entire historical sample; actual year unknown; Month retained"
+  },
+  "purpose": "Importer already accepts the original. Additive lossless derivation supplies numeric indicators for the existing sum/ratio calculator."
+}

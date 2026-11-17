@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/project_state.py",
+    "load",
+    "--project",
+    "branches/variant/projects/task04-followup"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "started_at": "2026-11-16T14:03:16.926449+00:00",
+  "ended_at": "2026-11-16T14:03:17.175176+00:00",
+  "elapsed_seconds": 0.25,
+  "returncode": 0
+}

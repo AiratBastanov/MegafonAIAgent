@@ -1,0 +1,319 @@
+# Влияние коррекции S005@1 / S002@2
+
+Коррекция учебная, не сообщение настоящего клиента и не новое измерение. Источник S005@1 сообщает: в исходном сценарном допущении поддержки не учли 60 минут повторных обращений; `'Экономика'!E3` меняется 30→90 минут на платящую организацию в месяц. Изначальные workbook/source/results v1 и state revision 2 сохранены.
+
+Сверка выбранных ячеек (`correction-check-v2.json`) подтверждает единственное изменение E3. Воронка, цена, инфраструктура, стоимость часа, fixed, setup и условное N неизменны. Другие ZIP-байты новой книги могут отличаться из-за времени создания; идентичность содержательных ячеек проверена отдельно от SHA-256 файла.
+
+| Последствие | Исходное допущение S002@1 | Новое допущение S002@2 |
+|---|---:|---:|
+| Поддержка на платящую организацию/месяц | 30 мин × 600/60 = 300 RUB | 90 мин × 600/60 = 900 RUB |
+| Вклад при цене 3000 и infra 600 | 2100 RUB/месяц | 1500 RUB/месяц |
+| Покрытие fixed 30000 | С 15 организаций | С 20 организаций, ровно ноль при 20 |
+| Строго положительный остаток до неизвестных расходов | С 15 организаций | С 21 организации |
+| Остаток при условных 20 платящих | +12000 RUB/месяц | 0 RUB/месяц |
+| Условный возврат setup 60000 при N=20 | 5 одинаковых месяцев | Конечного срока нет при нулевом остатке |
+
+Новый расчёт — `calculations/economics-raw-v2.json` и `economics-v2.json`, независимая сверка — `independent-v2.json`. Пересчитаны только затронутые сценарные значения; базовое C009 отозвано как актуальное и заменено C013. Сетка чувствительности сохранена: 30/90/180 минут — альтернативные допущения; исходные 30 больше не базовый случай.
+
+Не пересчитывался `funnel-v1.json`: он по-прежнему относится к S002@1 и его неизменившейся Воронке; версия не переименована в v2. C006/C007, возможности C001 и публичные альтернативы C004/C005 не изменились. C008 сохраняет смысл неизвестности реальных расходов. Рекомендация C011 ограничить работу проверкой исходящего предложения остаётся: её основания — соответствие задачи и проверяемость, а не обещанный запас прибыли. При этом вариант масштабирования при N=20 теперь явно не проходит даже упрощённый положительный остаток; неизвестные CAC/налоги/затраты бесплатных проб могут ухудшить его дополнительно.
+
+В outputs/v2 изменяются ситуация, экономика продукта и условия экономической проверки. Варианты и коммуникация сохраняют аудиторию/предложение; отдельные уточнения по независимому ревью отражены в журнале исправлений. Никаких новых возможностей, бизнес-одобрений или реальных контактов коррекция не создаёт.
+
+Граница изоляции: `demo001-baseline-manifest.json` содержит все 64 файла demo-001 до TASK03; контроль подтвердил их неизменность и прежнюю revision 5. Его источники не использовались для выводов demo-002.
+{
+  "calculated_at": "2026-11-16T10:05:17.708007+00:00",
+  "tool": "calc_offer_scenarios",
+  "tool_version": "1",
+  "synthetic": true,
+  "source": {
+    "id": "S002",
+    "version": 2
+  },
+  "input": {
+    "path": "inputs/offer-v2.xlsx",
+    "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+  },
+  "raw_metrics": {
+    "path": "evidence/calculations/economics-raw-v2.json",
+    "sha256": "25a05f105338a3febe8e26179bc06c67161f584efe65a83804c67acbc3e52d63"
+  },
+  "assumptions": {
+    "path": "inputs/economics-sensitivity-v1.json",
+    "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+  },
+  "tool_sha256": "b698be2b6da3dc3607314c2474073e39676c31ea6e82d60a950aebfec1848bdb",
+  "provenance": {
+    "source_type": "xlsx",
+    "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+    "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+    "limitations": [
+      "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+      "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+      "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+      "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+      "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+    ],
+    "extract": {
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    }
+  },
+  "formulas": {
+    "support": "minutes * RUB_per_hour / 60",
+    "margin": "price - infra - support",
+    "surplus": "paying_accounts * margin - avoidable_fixed",
+    "nonnegative": "ceil(fixed/margin) if margin>0",
+    "positive": "floor(fixed/margin)+1 if margin>0",
+    "payback": "setup/surplus if surplus>0"
+  },
+  "base": {
+    "support_minutes": "90.00",
+    "accounts": "20",
+    "support_rub_per_account_month": "900.0000",
+    "margin_rub_per_account_month": "1500.0000",
+    "surplus_before_unknown_costs_rub_month": "0.0000",
+    "min_accounts_nonnegative": 20,
+    "min_accounts_positive": 21,
+    "conditional_setup_payback_months": null
+  },
+  "scenarios": [
+    {
+      "support_minutes": "30",
+      "accounts": "10",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "-9000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "20",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "12000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "5"
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "30",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "33000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "1.818181818181818181818181818"
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "10",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "-15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "20",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "0.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "30",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": "4"
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "10",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-24000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "20",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-18000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "30",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-12000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    }
+  ],
+  "limitations": [
+    "Числа — условная чувствительность, не прогноз продаж или измеренная стоимость",
+    "Неизвестные CAC, налоги, продления и выход не принимаются за ноль",
+    "Покрытие fixed и окупаемость setup условны при сохранении указанных доходов/затрат каждый месяц"
+  ],
+  "reproduce": {
+    "raw_metrics": "evidence/calculations/economics-raw-v2.json",
+    "assumptions": "inputs/economics-sensitivity-v1.json"
+  }
+}
+{
+  "checked_at": "2026-11-16T10:06:32.162162+00:00",
+  "changes": [
+    {
+      "sheet": "Экономика",
+      "address": "E3",
+      "before": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 30,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      },
+      "after": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 90,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      }
+    }
+  ],
+  "changed_selected_cells": 1,
+  "funnel_reused_from_source_version": 1,
+  "funnel_reuse_reason": "Воронка не изменилась; изменено только сценарное E3 другого листа",
+  "historical_demo002_revisions_validated": [
+    1,
+    2
+  ],
+  "demo001_revision": 5,
+  "demo001_files_unchanged": 64,
+  "demo001_manifest_match": true,
+  "passed": true
+}
+{
+  "id": "S002",
+  "kind": "xlsx",
+  "origin": "inputs/offer-v2.xlsx",
+  "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+  "limitations": [
+    "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+    "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+    "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+    "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+    "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+  ],
+  "delimiter": null,
+  "selection": {
+    "ranges": [
+      {
+        "sheet": "Воронка",
+        "range": "A1:K4",
+        "period": "2026-09",
+        "units": {
+          "A": "month",
+          "B": "category",
+          "C": "organisations",
+          "D": "organisations",
+          "E": "organisations",
+          "F": "organisations",
+          "G": "RUB",
+          "H": "RUB",
+          "I": "RUB",
+          "J": "date",
+          "K": "ratio"
+        }
+      },
+      {
+        "sheet": "Экономика",
+        "range": "A1:J3",
+        "period": "2026-11-scenario",
+        "units": {
+          "A": "scenario_month",
+          "B": "category",
+          "C": "RUB/account/month",
+          "D": "RUB/account/month",
+          "E": "minutes/account/month",
+          "F": "RUB/hour",
+          "G": "RUB/month",
+          "H": "RUB",
+          "I": "accounts",
+          "J": "RUB/account/month"
+        }
+      },
+      {
+        "sheet": "Примечания",
+        "range": "A1:A3",
+        "period": "not_applicable",
+        "units": {
+          "A": "text"
+        }
+      }
+    ]
+  },
+  "selection_input": {
+    "path": "inputs/selection-v1.json",
+    "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+  },
+  "version": 2,
+  "imported_at": "2026-11-16T10:05:17+00:00",
+  "published_at": null,
+  "input_path": "inputs/offer-v2.xlsx",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S002/v2/original.xlsx",
+    "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+  },
+  "extract": {
+    "path": "evidence/sources/S002/v2/extract.json",
+    "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+  }
+}

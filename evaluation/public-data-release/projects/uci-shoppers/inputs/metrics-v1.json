@@ -1,0 +1,140 @@
+{
+  "columns": {
+    "Administrative": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Administrative_Duration": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Informational": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Informational_Duration": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "ProductRelated": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "ProductRelated_Duration": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "BounceRates": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "ExitRates": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "PageValues": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "SpecialDay": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Month": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "OperatingSystems": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Browser": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Region": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "TrafficType": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "VisitorType": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Weekend": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "Revenue": {
+      "type": "text",
+      "unit": "source literal"
+    },
+    "SessionCount": {
+      "type": "integer",
+      "unit": "session",
+      "min": 0
+    },
+    "PurchaseCount": {
+      "type": "integer",
+      "unit": "session",
+      "min": 0
+    },
+    "ObservationPeriod": {
+      "type": "text",
+      "unit": "observation window"
+    }
+  },
+  "group_by": [
+    "ObservationPeriod",
+    "Month",
+    "VisitorType"
+  ],
+  "period_column": "ObservationPeriod",
+  "missing_values": [
+    ""
+  ],
+  "synthetic": false,
+  "metrics": [
+    {
+      "id": "sessions",
+      "operation": "sum",
+      "numerator": [
+        "SessionCount"
+      ],
+      "unit": "session",
+      "rounding": 0
+    },
+    {
+      "id": "purchases",
+      "operation": "sum",
+      "numerator": [
+        "PurchaseCount"
+      ],
+      "unit": "session",
+      "rounding": 0
+    },
+    {
+      "id": "purchase_rate",
+      "operation": "ratio",
+      "numerator": [
+        "PurchaseCount"
+      ],
+      "denominator": [
+        "SessionCount"
+      ],
+      "multiplier": 100,
+      "unit": "%",
+      "rounding": 4
+    }
+  ],
+  "constraints": [
+    {
+      "operation": "lte",
+      "left": "PurchaseCount",
+      "right": "SessionCount"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "A": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-y7givp8b\\A",
+  "B_ablation": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-y7givp8b\\B",
+  "ordinary_B": "NOT_RUN: нужен новый независимый чат без Megafon AGENTS",
+  "ancestry": [
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-y7givp8b\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\AGENTS.md",
+      "exists": false
+    }
+  ],
+  "isolation": "procedural; общий sandbox, без отдельного ACL"
+}

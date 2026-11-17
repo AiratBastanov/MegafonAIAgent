@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\venv\\Scripts\\python.exe",
+    "evaluation/public-data-release/verify_release.py",
+    "--output",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\checks\\release.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\candidate",
+  "started_at": "2026-11-17T10:03:39.299455+00:00",
+  "network": "not needed",
+  "returncode": 0,
+  "elapsed_seconds": 10.46900000000096,
+  "ended_at": "2026-11-17T10:03:49.768890+00:00",
+  "stdout_sha256": "442ed1760217addd0e6a2ee9c86955091e60eec0e2187720b98fc3aaf498c6af",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

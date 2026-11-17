@@ -1,0 +1,26 @@
+[
+  {
+    "requested_url": "https://challenge.mgimo.ai/cabinet/nominations/ai-project",
+    "at": "2026-11-17T08:47:58.503711+00:00",
+    "method": "anonymous HTTPS GET",
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "requested_url": "https://challenge.mgimo.ai/rules",
+    "at": "2026-11-17T08:48:04.752441+00:00",
+    "method": "anonymous HTTPS GET",
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "requested_url": "https://github.com/AiratBastanov/MegafonAIAgent",
+    "at": "2026-11-17T08:48:10.993780+00:00",
+    "method": "anonymous HTTPS GET",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "requested_url": "https://api.github.com/repos/AiratBastanov/MegafonAIAgent",
+    "at": "2026-11-17T08:48:11.593522+00:00",
+    "method": "anonymous HTTPS GET",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+]

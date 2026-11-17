@@ -1,0 +1,543 @@
+{
+  "publication_status": "candidate_only; based_on_revision_2",
+  "view": {
+    "project_id": "task04-followup",
+    "revision": 2,
+    "synthetic_evaluation": true,
+    "as_of": "2026-12-19T12:00:00+03:00",
+    "timezone": "+03:00",
+    "clock": "simulated",
+    "monitoring": "Проверка только при вызове; фонового мониторинга и отправленных напоминаний нет",
+    "decision_status": "simulated_accepted",
+    "proposed_option": "Ограниченная проверка исходящего предложения агентствам при согласованном бюджете; до решения сохраняется внутренний прототип",
+    "history": [
+      {
+        "basis": {
+          "revision": 1,
+          "state_sha256": "fec70b0943044d30839cfd29c102b0c8ce712318e5b70e27fd4593498e0684cf"
+        },
+        "grounds": [
+          {
+            "claim_id": "C001",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:1/block:4-8",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C001",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась"
+            }
+          },
+          {
+            "claim_id": "C004",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S003v1-extract",
+                  "locator": "line:6-10; host sections What is Dropbox Transfer / size limits / expiry",
+                  "source_id": "S003",
+                  "source_version": 1
+                }
+              ],
+              "id": "C004",
+              "kind": "source_fact",
+              "synthetic": false,
+              "text": "Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture"
+            }
+          },
+          {
+            "claim_id": "C005",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S004v1-extract",
+                  "locator": "line:6-10; host introduction55-63 and82",
+                  "source_id": "S004",
+                  "source_version": 1
+                }
+              ],
+              "id": "C005",
+              "kind": "source_fact",
+              "synthetic": false,
+              "text": "Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию"
+            }
+          },
+          {
+            "claim_id": "C007",
+            "snapshot": {
+              "context_from": [
+                "C003"
+              ],
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "CALC-FUNNEL-v1",
+                  "locator": "groups[0,1].metrics.paid_per_trial_pct,interest_per_trial_pct,paid_per_contact_pct; normalization.rows cells C:F",
+                  "source_id": "S002",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "ECON-CHECK-v1",
+                  "locator": "checks kind=funnel"
+                }
+              ],
+              "id": "C007",
+              "kind": "computed",
+              "synthetic": true,
+              "text": "Оплата/проба: агентства 2/8=25%, бухбюро1/10=10%; интерес/проба5/8=62,5% и8/10=80%; оплата/обращение2/20=10% и1/20=5%. Малый синтетический неслучайный набор не доказывает превосходство сегмента"
+            }
+          },
+          {
+            "claim_id": "C008",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S002v1-extract",
+                  "locator": "'Экономика'!A1:J3; 'Воронка'!I3:I4",
+                  "source_id": "S002",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:2/block:10",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C008",
+              "kind": "assumption",
+              "synthetic": true,
+              "text": "Цена/инфраструктура/поддержка/fixed/setup/N на листе Экономика — сценарные допущения; реальный CAC, продления и стоимость выхода неизвестны, пропуски не равны нулю"
+            }
+          },
+          {
+            "claim_id": "C010",
+            "snapshot": {
+              "derived_from": [
+                "C001",
+                "C004",
+                "C005",
+                "C006",
+                "C007"
+              ],
+              "evidence": [
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:2/block:5-6",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C010",
+              "kind": "hypothesis",
+              "synthetic": true,
+              "text": "Ручная помощь в исходящей передаче может уменьшить координацию агентств сверх привычного инструмента; меньший разрыв текущих функций обосновывает возможность первой проверки, но дополнительная ценность и готовность платить неизвестны"
+            }
+          },
+          {
+            "claim_id": "C011",
+            "snapshot": {
+              "derived_from": [
+                "C001",
+                "C004",
+                "C005",
+                "C006",
+                "C008",
+                "C010"
+              ],
+              "evidence": [],
+              "id": "C011",
+              "kind": "recommendation",
+              "review_dependencies": [
+                "C013",
+                "C014"
+              ],
+              "synthetic": true,
+              "text": "До решения сохранить внутренний прототип; после согласования цены информации предложить ограниченную проверку исходящей передачи с ручной помощью агентствам. Не строить входящий сбор и не масштабировать без доказанной дополнительной ценности и фактической экономики; keep/close остаются альтернативами"
+            }
+          },
+          {
+            "claim_id": "C012",
+            "snapshot": {
+              "derived_from": [
+                "C010",
+                "C011"
+              ],
+              "evidence": [],
+              "id": "C012",
+              "kind": "assumption",
+              "synthetic": true,
+              "text": "Размер и пороги предлагаемого пилота, критерии включения и остановки — правила обучения для согласования, не измеренный эффект, мощность, гарантия безопасности или бизнес-одобрение"
+            }
+          },
+          {
+            "claim_id": "C013",
+            "snapshot": {
+              "derived_from": [
+                "C008",
+                "C014"
+              ],
+              "evidence": [
+                {
+                  "artifact_id": "ECON-v2",
+                  "locator": "base; scenarios"
+                },
+                {
+                  "artifact_id": "ECON-RAW-v2",
+                  "locator": "groups[0].metrics; normalization.rows[0].cells C:I",
+                  "source_id": "S002",
+                  "source_version": 2
+                },
+                {
+                  "artifact_id": "ECON-CHECK-v2",
+                  "locator": "checks kind=scenario"
+                }
+              ],
+              "id": "C013",
+              "kind": "computed",
+              "synthetic": true,
+              "text": "После коррекции поддержки90мин вклад1500 RUB/платящую организацию/месяц; fixed30000 покрываются с20, строго положительный остаток с21. При N20 остаток0 и нет конечного возврата setup60000. До неизвестных CAC/налогов/затрат неоплативших проб; не прогноз и не прибыль"
+            }
+          },
+          {
+            "claim_id": "C014",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S005v1-extract",
+                  "locator": "line:1-5",
+                  "source_id": "S005",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "S002v2-extract",
+                  "locator": "'Экономика'!E3",
+                  "source_id": "S002",
+                  "source_version": 2
+                },
+                {
+                  "artifact_id": "CORRECTION-CHECK-v2",
+                  "locator": "changes[0]; changed_selected_cells=1"
+                }
+              ],
+              "id": "C014",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Маркированная синтетическая коррекция заменяет сценарное допущение поддержки Экономика!E3 с30 на90 минут/платящую организацию/месяц; это не реальное измерение, остальные выбранные ячейки не изменены"
+            }
+          }
+        ],
+        "id": "OWNER-01-decision",
+        "instruction_event": "OWNER-01",
+        "option": "Подготовить ограниченную проверку исходящего предложения; до приёмки/бюджета сохранять внутренний режим",
+        "owner": "учебная роль владельца направления",
+        "question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+        "reason": "Синтетический владелец выбрал подготовку знания при меньшем разрыве функций; ценность и полная экономика остаются неизвестными",
+        "rejected_alternatives": [
+          {
+            "option": "Разработка входящего сбора",
+            "reason": "Нет функции и подтверждённой дополнительной ценности"
+          },
+          {
+            "option": "Немедленное закрытие",
+            "reason": "Неизвестны внутренняя польза, обязательства и цена выхода"
+          },
+          {
+            "option": "Неопределённое ожидание без проверки",
+            "reason": "Нужны явные основания возврата к выбору; внутренний режим сохраняется временно"
+          }
+        ],
+        "status": "simulated_accepted"
+      }
+    ],
+    "commitments": [
+      {
+        "blocked_by": [],
+        "completion_evidence": [
+          {
+            "artifact_id": "Q1-PROTOCOL",
+            "locator": "пункты 1–5 и проверка координатора"
+          }
+        ],
+        "condition_ids": [
+          "G-VALUE",
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Зафиксировать локальный протокол gates и границ симуляции",
+        "due_at": "2026-11-17T12:00:00+03:00",
+        "due_condition": "До обсуждения любого внешнего исследования",
+        "id": "K-PROTOCOL",
+        "owner": "координатор симуляции",
+        "required_evidence": "Сохранённый протокол с learning/scaling, неизвестными и запретом реального запуска",
+        "status": "completed",
+        "completion_event": "Q1-K-PROTOCOL-COMPLETE",
+        "completion_check": "Сохранён и прочитан локальный протокол: learning/scaling, неизвестные, запрет реального запуска. Завершена только подготовка документа; нет подтверждения приёмки, бюджета, старта или результатов.",
+        "attention": []
+      },
+      {
+        "blocked_by": [],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-CAPABILITY"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Предоставить протокол приёмки возможностей",
+        "due_at": "2026-11-17T12:00:00+03:00",
+        "due_condition": "До любого внешнего обещания",
+        "id": "K-CAPABILITY",
+        "owner": "техническая роль, синтетическая",
+        "required_evidence": "Проверка конкретной версии на разрешённом файле с результатом доступа/скачивания/истечения/отзыва",
+        "status": "pending",
+        "attention": [
+          "overdue"
+        ]
+      },
+      {
+        "blocked_by": [
+          "K-CAPABILITY"
+        ],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Назначить владельца и согласовать цену информации",
+        "due_at": null,
+        "due_condition": "После определения проверяемого пакета, до внешних действий",
+        "id": "K-BUDGET",
+        "owner": "unassigned",
+        "required_evidence": "Явное решение владельца о пределах затрат; сейчас сумма неизвестна",
+        "status": "blocked",
+        "attention": [
+          "unassigned",
+          "blocked"
+        ]
+      },
+      {
+        "blocked_by": [
+          "K-BUDGET"
+        ],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-VALUE",
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Собрать частоту, ценность, повторную оплату и полные затраты",
+        "due_at": null,
+        "due_condition": "Только после отдельного реального разрешения и полного периода наблюдения",
+        "id": "K-VALUE",
+        "owner": "unassigned",
+        "required_evidence": "Наблюдения по M-FREQUENCY/M-VALUE/M-RENEWAL/M-COST, не синтетические конверсии",
+        "status": "blocked",
+        "attention": [
+          "unassigned",
+          "blocked"
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "comparator": "обычный способ той же организации",
+        "definition": "Разность медиан активного времени обычных и тестовых передач внутри организации",
+        "denominator": "все 10 включённых организаций; по две сопоставимые передачи каждым способом",
+        "gate": "learning",
+        "id": "M-TIME",
+        "needed_evidence": "Протоколы всех назначенных передач, порядок способов, пропуски и время команды отдельно",
+        "observation_period": "30 суток с включения, сценарный план",
+        "threshold": "≥5 минут у ≥7/10, разведочное правило",
+        "unit": "минуты/передачу",
+        "window": {
+          "clock": "simulated",
+          "end": "2026-12-18T12:00:00+03:00",
+          "start": "2026-11-18T12:00:00+03:00"
+        },
+        "window_state": "ended_evidence_required"
+      },
+      {
+        "comparator": "предложенный gate обучения",
+        "definition": "Первое поступление 3000 RUB за организацию за 30 суток",
+        "denominator": "все 10 включённых с полным окном, а не только заинтересованные",
+        "gate": "learning",
+        "id": "M-FIRST-PAY",
+        "needed_evidence": "Подтверждённые поступления и даты, а не интерес/выставленный счёт",
+        "observation_period": "30 суток с одинакового предложения дня 0",
+        "threshold": "≥3/10; не разрешение масштабирования",
+        "unit": "% организаций",
+        "window": null,
+        "window_state": "not_started_or_unknown"
+      },
+      {
+        "comparator": "частота обычного процесса; ≥4 для включения — только предложенное ограничение",
+        "definition": "Фактическое число сопоставимых исходящих передач",
+        "denominator": "все наблюдаемые организации, не только оплатившие",
+        "gate": "scaling",
+        "id": "M-FREQUENCY",
+        "needed_evidence": "Журнал реально возникающих передач и сезонность; частота ещё неизвестна",
+        "observation_period": "полный календарный месяц с датами, пока не начат",
+        "threshold": null,
+        "unit": "передачи/организацию/месяц",
+        "window": null,
+        "window_state": "not_started_or_unknown"
+      },
+      {
+        "comparator": "обычный процесс и доступные альтернативы",
+        "definition": "Польза координации для клиента и готовность обменять её на цену",
+        "denominator": "все организации с полной парой процессов, отказы включены",
+        "gate": "scaling",
+        "id": "M-VALUE",
+        "needed_evidence": "Обоснование клиента, последствия сбоев, платежное подтверждение; ставку часа и денежную ценность пяти минут не выдумывать",
+        "observation_period": "полный цикл задачи и отдельное решение об оплате",
+        "threshold": null,
+        "unit": "описанная польза и RUB/организацию/месяц при подтверждённой оценке",
+        "window": null,
+        "window_state": "not_started_or_unknown"
+      },
+      {
+        "comparator": "первый платёж не считается продлением",
+        "definition": "Реально полученные повторные платежи",
+        "denominator": "все организации с наступившей следующей оплатой и полным сроком ожидания",
+        "gate": "scaling",
+        "id": "M-RENEWAL",
+        "needed_evidence": "Реестр сроков/поступлений/отказов и полный знаменатель",
+        "observation_period": "после полного оплаченного месяца и согласованного срока ожидания; даты пока неизвестны",
+        "threshold": null,
+        "unit": "% организаций",
+        "window": null,
+        "window_state": "not_started_or_unknown"
+      },
+      {
+        "comparator": "ECON-v2: при 90 мин и N20 остаток 0 до неизвестных затрат",
+        "definition": "Полная экономика услуги и привлечения без двойного учёта",
+        "denominator": "полные оплаченные месяцы; при нуле оплат величина на плательщика неопределённа",
+        "gate": "scaling",
+        "id": "M-COST",
+        "needed_evidence": "Все минуты всем пробам, инфраструктура, CAC/onboarding, налоги, fixed, setup и обязательства; неизвестное не ноль",
+        "observation_period": "30 суток оплаченного обслуживания плюс отдельный период всех проб/привлечения",
+        "threshold": "Масштабирование только после фактической устойчивой положительной экономики и решения владельца",
+        "unit": "RUB/оплаченный организацией месяц; сальдо всех проб отдельно",
+        "window": null,
+        "window_state": "not_started_or_unknown"
+      }
+    ],
+    "conditions": [
+      {
+        "claim_ids": [
+          "C001",
+          "C010",
+          "C011"
+        ],
+        "description": "Допустимость обещаний исходящей передачи по фактически принятой версии прототипа",
+        "id": "G-CAPABILITY",
+        "metric_ids": [],
+        "next_action": "Получить проверяемый протокол возможности; до него не использовать внешнее обещание",
+        "output_ids": [
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-options",
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-situation",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Есть описание fixture, но нет протокола приёмки настоящей возможности",
+        "review_reasons": [
+          "Есть описание fixture, но нет протокола приёмки настоящей возможности"
+        ]
+      },
+      {
+        "claim_ids": [
+          "C008",
+          "C013",
+          "C014",
+          "C011"
+        ],
+        "description": "Согласовать цену информации и проверить экономическое основание решения C011",
+        "id": "G-ECONOMICS",
+        "metric_ids": [
+          "M-COST",
+          "M-RENEWAL"
+        ],
+        "next_action": "Назначить владельца расчёта полной экономики и принять отдельное решение о бюджете",
+        "output_ids": [
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-options",
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-situation",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Реальные расходы и продления неизвестны; при N20 уже нулевой сценарный остаток",
+        "review_reasons": [
+          "Реальные расходы и продления неизвестны; при N20 уже нулевой сценарный остаток"
+        ]
+      },
+      {
+        "claim_ids": [
+          "C010",
+          "C012"
+        ],
+        "description": "Обучение не равно доказательству цены или условию масштабирования",
+        "id": "G-VALUE",
+        "metric_ids": [
+          "M-TIME",
+          "M-FIRST-PAY",
+          "M-FREQUENCY",
+          "M-VALUE",
+          "M-RENEWAL"
+        ],
+        "next_action": "Определить необходимые наблюдения перед следующим решением; не выводить 3000 RUB из пяти минут",
+        "output_ids": [
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Частота, ценность и повторная оплата не наблюдались",
+        "review_reasons": [
+          "Частота, ценность и повторная оплата не наблюдались"
+        ]
+      },
+      {
+        "claim_ids": [
+          "C004",
+          "C005"
+        ],
+        "description": "При следующем использовании проверить актуальность публичной альтернативы",
+        "id": "G-FRESHNESS",
+        "metric_ids": [],
+        "next_action": "Перед будущим сравнением проверить официальный источник; дата сама по себе не опровергает снимок",
+        "output_ids": [
+          "OUTPUT-v2-options"
+        ],
+        "review_after": "2026-12-01T12:00:00+03:00",
+        "review_reasons": [
+          "Наступило время проверки свежести; это не опровержение"
+        ]
+      }
+    ],
+    "reviews": [],
+    "grounds_needing_attention": [
+      {
+        "claim_id": "C002",
+        "status": "superseded",
+        "reason": "Определения разрешены в C006, исходный заголовок сохранён"
+      },
+      {
+        "claim_id": "C009",
+        "status": "superseded",
+        "reason": "Базовое допущение изменено S005@1; текущий расчёт C013, исходный сценарий сохранён"
+      }
+    ],
+    "priority_reason": "Сначала условие решения: Есть описание fixture, но нет протокола приёмки настоящей возможности",
+    "next_action": "Получить проверяемый протокол возможности; до него не использовать внешнее обещание"
+  }
+}

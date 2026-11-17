@@ -1,0 +1,79 @@
+{
+  "record_kind": "receipt_and_applicability_assessment",
+  "branch": "variant",
+  "as_of": "2026-12-19T14:00:00+03:00",
+  "clock": "simulated",
+  "basis_revision": 4,
+  "basis_state_sha256": "19eeb299e95925565ebbb8c1d9bb1a102f1bfd629c31e9856c45332cc18e2ae4",
+  "inputs": [
+    {
+      "source_id": "Q3-REPEAT",
+      "source_version": 1,
+      "locator": "line:1-2",
+      "classification": "duplicate_no_material_change",
+      "reason": "Сообщены те же 90 вместо 30 минут, без новых значений, XLSX, измерений или выбора. Проверена S002@2, Экономика!E3=90; C013/C014 и ECON-v2 уже учитывают S005@1."
+    },
+    {
+      "source_id": "Q3-ADMIN",
+      "source_version": 1,
+      "locator": "line:1-3",
+      "classification": "irrelevant_to_decision",
+      "reason": "Папка обложечных иллюстраций не является источником или обязательством продукта. В текущем реестре artifact paths нет slides-art; заметка прямо сохраняет функции, затраты, обязательства, сроки и решения. Переименовывать локальные файлы по ней не требуется."
+    }
+  ],
+  "decision_effect": "none",
+  "new_commitments": [],
+  "new_reviews": [],
+  "new_owner_request": false,
+  "review_kept_open": {
+    "id": "review-Q2-VARIANT-WITHDRAWAL",
+    "status": "revised",
+    "owner_review_required": true
+  },
+  "new_evidence_change_event": null,
+  "event_reason": "Нет изменения основания. Не создаём ложное evidence_change через широкое прохождение nonmaterial; существующий Q2 review не закрываем и не дублируем.",
+  "reuse": {
+    "claims": "unchanged",
+    "calculations": "unchanged",
+    "current_outputs": {
+      "communication-strategy": "OUTPUT-Q2-communication-strategy",
+      "options": "OUTPUT-v2-options",
+      "product-strategy": "OUTPUT-Q2-product-strategy",
+      "situation": "OUTPUT-Q2-situation",
+      "validation-plan": "OUTPUT-Q2-validation-plan"
+    },
+    "history": "unchanged",
+    "commitments": "unchanged",
+    "metrics": "unchanged"
+  },
+  "attention_at_call": {
+    "K-PROTOCOL": [],
+    "K-CAPABILITY": [
+      "overdue"
+    ],
+    "K-BUDGET": [
+      "unassigned",
+      "blocked"
+    ],
+    "K-VALUE": [
+      "unassigned",
+      "blocked"
+    ]
+  },
+  "metric_windows_at_call": {
+    "M-TIME": "ended_evidence_required",
+    "M-FIRST-PAY": "not_started_or_unknown",
+    "M-FREQUENCY": "not_started_or_unknown",
+    "M-VALUE": "not_started_or_unknown",
+    "M-RENEWAL": "not_started_or_unknown",
+    "M-COST": "not_started_or_unknown"
+  },
+  "remaining_next_step": "Получить протокол фактического срока/автоматического истечения отдельно от ручного отзыва, затем решение владельца по предложению и календарю.",
+  "previous_response_hashes": {
+    "responses/q1.md": "1c304850525bd58afce0b09a5026321cb2ba6bf3a6b435f4621f86d802000fe0",
+    "responses/q1-meta.json": "46e272bac5cb87879ed9b35012596da238a857626d41df128322dd24cb5c21d6",
+    "responses/q2.md": "fd0aec4b1b1c3979be813734c264f4a7d3e084fdb6947005ebca077c611ae81e",
+    "responses/q2-meta.json": "6b52b5c512f4a810b74c77b0dd94b61797c18eb83f143b4959a17a309569b56c"
+  },
+  "limitations": "Это классификация координатора по прочитанным материалам и проверенному state. Реального испытания, нового выбора или независимого ревью нет. Даты simulated; проверки только при вызове."
+}

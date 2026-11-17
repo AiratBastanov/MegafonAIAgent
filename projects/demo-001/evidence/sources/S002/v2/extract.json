@@ -1,0 +1,84 @@
+{
+  "columns": [
+    "period",
+    "segment",
+    "eligible",
+    "activated",
+    "retained_d28",
+    "paid",
+    "revenue_rub",
+    "variable_cost_rub"
+  ],
+  "rows": [
+    {
+      "locator": "rows:2-2",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2,
+      "values": {
+        "period": "2026-08",
+        "segment": "recurring",
+        "eligible": "400",
+        "activated": "320",
+        "retained_d28": "240",
+        "paid": "80",
+        "revenue_rub": "24000",
+        "variable_cost_rub": ""
+      }
+    },
+    {
+      "locator": "rows:3-3",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3,
+      "values": {
+        "period": "2026-08",
+        "segment": "occasional",
+        "eligible": "100",
+        "activated": "50",
+        "retained_d28": "20",
+        "paid": "5",
+        "revenue_rub": "1500",
+        "variable_cost_rub": ""
+      }
+    },
+    {
+      "locator": "rows:4-4",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4,
+      "values": {
+        "period": "2026-09",
+        "segment": "recurring",
+        "eligible": "100",
+        "activated": "80",
+        "retained_d28": "40",
+        "paid": "20",
+        "revenue_rub": "6000",
+        "variable_cost_rub": ""
+      }
+    },
+    {
+      "locator": "rows:5-5",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5,
+      "values": {
+        "period": "2026-09",
+        "segment": "occasional",
+        "eligible": "400",
+        "activated": "200",
+        "retained_d28": "80",
+        "paid": "20",
+        "revenue_rub": "6000",
+        "variable_cost_rub": ""
+      }
+    }
+  ],
+  "delimiter": ",",
+  "encoding": "utf-8-sig",
+  "row_locator": "physical lines, inclusive",
+  "source_id": "S002",
+  "source_version": 2,
+  "synthetic": true
+}

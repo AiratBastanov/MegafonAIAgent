@@ -1,0 +1,35 @@
+{
+  "pages": 5,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pdf_sha256": "86ce8b27eecd3ce1191007b3f3c57d7f3de0301892782487cf6d729662d1bfb7",
+  "review": "Every rendered page visually inspected by coordinator. Cyrillic, tables, screenshots, complete rows, page breaks and footers readable; no clipping or blank spillover. First six-page attempt preserved; prose shortened without reducing font.",
+  "images": [
+    {
+      "path": "evaluation/public-data-release/pdf-review/page-01.png",
+      "sha256": "3c8978e9b465624e4bea595a48b4b1d5f86a7bcc59d868f74576c71b9627cf30"
+    },
+    {
+      "path": "evaluation/public-data-release/pdf-review/page-02.png",
+      "sha256": "8dcaecd1c3f0bb33088ac9ec3dd3f1218f92c32f9d7da578a050e1f37f6e5856"
+    },
+    {
+      "path": "evaluation/public-data-release/pdf-review/page-03.png",
+      "sha256": "d1891bea6a4c06f547ed2953da362a0ca0f8b411c0e9e7037dd3a71f03d64708"
+    },
+    {
+      "path": "evaluation/public-data-release/pdf-review/page-04.png",
+      "sha256": "15cb2300c050d9a6fab499847f597fc11a92fd098dc315d993a8a4b70bb2f5a9"
+    },
+    {
+      "path": "evaluation/public-data-release/pdf-review/page-05.png",
+      "sha256": "a7e16cc8f2e5229d284521e693b0d5b6032b2b23606ffcda490e12d8769d448f"
+    }
+  ],
+  "passed": true
+}

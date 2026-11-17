@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "kind": "derived_arithmetic_spec",
+  "source": {
+    "id": "S002",
+    "version": 1
+  },
+  "inputs": {
+    "funnel": "evidence/calculations/funnel-v1.json",
+    "economics": "evidence/calculations/economics-base-v1.json",
+    "sensitivity": "inputs/economics-sensitivity-v1.json"
+  },
+  "definitions": {
+    "historical_contribution": {
+      "formula": "revenue30 - variable30",
+      "unit": "RUB per segment over first 30 days of each trial"
+    },
+    "pooled_paid_per_trial": {
+      "formula": "100 * sum(paid30) / sum(trials)",
+      "unit": "%"
+    },
+    "support_cost": {
+      "formula": "support_minutes * hourly_cost / 60",
+      "unit": "RUB/account/month"
+    },
+    "unit_contribution": {
+      "formula": "price - infra - support_cost",
+      "unit": "RUB/account/month"
+    },
+    "fixed_coverage_accounts": {
+      "formula": "ceil(fixed / unit_contribution) if unit_contribution > 0 else null",
+      "unit": "paying accounts"
+    },
+    "monthly_balance": {
+      "formula": "accounts * unit_contribution - fixed",
+      "unit": "RUB/month"
+    },
+    "conditional_setup_payback": {
+      "formula": "setup / monthly_balance if monthly_balance > 0 else null",
+      "unit": "months"
+    }
+  },
+  "rounding": "Decimal ROUND_HALF_UP to 2 places; coverage rounds upward to whole accounts; independent checks use Fraction and original XLSX XML",
+  "missing_policy": "Unknown acquisition, taxes, renewals and exit costs stay unknown. Partial balances are not total profit.",
+  "scenario_policy": "Monthly values are agency assumptions, not forecasts; repeat payments and stable costs are conditional. Do not extrapolate to accounting offices.",
+  "implementation": "evidence/reproduce-analysis-v2.py; fixed arithmetic only, no eval or execution of source text",
+  "revision_reason": "Checker accepts both absent XML <v> and empty <v/> as missing formula cache; formulas remain excluded. Version 1 preserved after failed verification; no derived result was written."
+}

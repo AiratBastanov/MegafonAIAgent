@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "venv",
+    "_task06/runtime"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:20:47.146357+00:00",
+  "ended_at": "2026-11-16T15:20:51.364752+00:00",
+  "elapsed_seconds": 4.218000000000757,
+  "returncode": 0
+}

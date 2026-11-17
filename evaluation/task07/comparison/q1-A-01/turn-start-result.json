@@ -1,0 +1,13 @@
+{
+  "turn": {
+    "id": "01a1e53d-d226-7282-a0a4-801c69cb551d",
+    "rootTurnId": "01a1e53d-d226-7282-a0a4-801c69cb551d",
+    "items": [],
+    "itemsView": "notLoaded",
+    "status": "inProgress",
+    "error": null,
+    "startedAt": null,
+    "completedAt": null,
+    "durationMs": null
+  }
+}

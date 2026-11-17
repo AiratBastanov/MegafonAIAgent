@@ -1,0 +1,32 @@
+test_business_approval_cannot_be_invented_by_test_fixture (test_state.StateTests.test_business_approval_cannot_be_invented_by_test_fixture) ... ok
+test_calculation_can_reference_its_versioned_original_but_not_other_bytes (test_state.StateTests.test_calculation_can_reference_its_versioned_original_but_not_other_bytes) ... ok
+test_changed_artifact_invalidates_current_but_not_prior_version (test_state.StateTests.test_changed_artifact_invalidates_current_but_not_prior_version) ... ok
+test_cli_corruption_reports_error_instead_of_silent_fallback (test_state.StateTests.test_cli_corruption_reports_error_instead_of_silent_fallback) ... ok
+test_cli_stale_draft_suggests_reload_without_rollback (test_state.StateTests.test_cli_stale_draft_suggests_reload_without_rollback) ... ok
+test_cli_uses_utf8_even_with_windows_legacy_io_encoding (test_state.StateTests.test_cli_uses_utf8_even_with_windows_legacy_io_encoding) ... ok
+test_explicit_source_cannot_claim_an_unrelated_artifact (test_state.StateTests.test_explicit_source_cannot_claim_an_unrelated_artifact) ... ok
+test_failed_publication_keeps_current_and_previous_valid (test_state.StateTests.test_failed_publication_keeps_current_and_previous_valid) ... ok
+test_invalid_candidate_does_not_touch_current_or_previous (test_state.StateTests.test_invalid_candidate_does_not_touch_current_or_previous) ... ok
+test_invalid_evidence_and_circular_claims_rejected (test_state.StateTests.test_invalid_evidence_and_circular_claims_rejected) ... ok
+test_invalid_types_are_validation_errors (test_state.StateTests.test_invalid_types_are_validation_errors) ... ok
+test_new_approval_cannot_bypass_provenance_using_legacy_format (test_state.StateTests.test_new_approval_cannot_bypass_provenance_using_legacy_format) ... ok
+test_paths_reject_escape_absolute_and_service_state (test_state.StateTests.test_paths_reject_escape_absolute_and_service_state) ... ok
+test_recovery_diagnostic_does_not_copy_corrupt_secret_bytes (test_state.StateTests.test_recovery_diagnostic_does_not_copy_corrupt_secret_bytes) ... ok
+test_registered_synthetic_material_cannot_be_declared_real (test_state.StateTests.test_registered_synthetic_material_cannot_be_declared_real) ... ok
+test_same_source_version_cannot_change_origin (test_state.StateTests.test_same_source_version_cannot_change_origin) ... ok
+test_save_load_and_previous_keep_artifact_versions (test_state.StateTests.test_save_load_and_previous_keep_artifact_versions) ... ok
+test_size_guard_and_nonfinite_values (test_state.StateTests.test_size_guard_and_nonfinite_values) ... ok
+test_stale_draft_cannot_erase_committed_work_or_create_history (test_state.StateTests.test_stale_draft_cannot_erase_committed_work_or_create_history) ... ok
+test_summary_is_navigation_and_still_validates_all_artifacts (test_state.StateTests.test_summary_is_navigation_and_still_validates_all_artifacts) ... ok
+test_symlink_escape_is_rejected_when_host_permits_test_link (test_state.StateTests.test_symlink_escape_is_rejected_when_host_permits_test_link) ... ok
+test_synthetic_calculation_without_explicit_source_is_still_synthetic (test_state.StateTests.test_synthetic_calculation_without_explicit_source_is_still_synthetic) ... ok
+test_synthetic_marker_rejected_without_echoing_value (test_state.StateTests.test_synthetic_marker_rejected_without_echoing_value) ... ok
+test_synthetic_propagation_reaches_recommendation (test_state.StateTests.test_synthetic_propagation_reaches_recommendation) ... ok
+test_synthetic_source_inferred_from_artifact_without_explicit_source (test_state.StateTests.test_synthetic_source_inferred_from_artifact_without_explicit_source) ... ok
+test_truncated_current_is_visible_and_explicit_recovery_works (test_state.StateTests.test_truncated_current_is_visible_and_explicit_recovery_works) ... ok
+test_valid_json_field_corruption_is_detected_by_state_checksum (test_state.StateTests.test_valid_json_field_corruption_is_detected_by_state_checksum) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.250s
+
+OK

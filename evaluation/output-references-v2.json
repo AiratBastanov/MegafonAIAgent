@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-11-16T07:33:36.130821+00:00",
+  "revision": 4,
+  "checks": [
+    {
+      "path": "outputs/v2/situation.md",
+      "claim_ids": [
+        "C001",
+        "C004",
+        "C005",
+        "C007",
+        "C009",
+        "C010",
+        "C011",
+        "C013"
+      ],
+      "pinned": true
+    },
+    {
+      "path": "outputs/v2/options.md",
+      "claim_ids": [
+        "C001",
+        "C004",
+        "C005",
+        "C007",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013"
+      ],
+      "pinned": true
+    },
+    {
+      "path": "outputs/v2/product-strategy.md",
+      "claim_ids": [
+        "C001",
+        "C004",
+        "C005",
+        "C007",
+        "C010",
+        "C011",
+        "C012",
+        "C013"
+      ],
+      "pinned": true
+    },
+    {
+      "path": "outputs/v2/communication-strategy.md",
+      "claim_ids": [
+        "C001",
+        "C004",
+        "C010",
+        "C011",
+        "C012"
+      ],
+      "pinned": true
+    },
+    {
+      "path": "outputs/v2/validation-plan.md",
+      "claim_ids": [
+        "C001",
+        "C007",
+        "C009",
+        "C010",
+        "C011",
+        "C012"
+      ],
+      "pinned": true
+    }
+  ],
+  "semantic_truth_checked": false
+}

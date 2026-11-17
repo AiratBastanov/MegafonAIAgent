@@ -1,0 +1,1 @@
+{"operation":"run","id":"economics-readonly","title":"Проверенная чувствительность экономики","caption":"Читаем уже сохранённые расчёты. Это учебные допущения, не продажи и не прибыль.","argv":["python","-X","utf8","evaluation/task07/capture/show_economics.py"],"cwd":"."}

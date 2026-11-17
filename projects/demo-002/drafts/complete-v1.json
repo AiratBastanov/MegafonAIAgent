@@ -1,0 +1,490 @@
+{
+  "artifacts": [
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "7b434dc1af7ab422e9a6e0e55ac1d5ee02bad49f900d6d2b8b4e738df707fe46"
+    },
+    {
+      "id": "DEFINITIONS",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION-v1",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "PDF-MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "FIDELITY-v1",
+      "path": "evidence/fidelity-v1.json",
+      "sha256": "aaa6bf51ec98915388ce7f92f7c2115617244433bb19082cfbb25076250cb63b"
+    },
+    {
+      "id": "QUESTIONS-v1",
+      "path": "evidence/research-questions-v1.md",
+      "sha256": "866b23a93fe50e57647b2f7869a364640f552dd71392362f5eb407f5e2b5c09b"
+    },
+    {
+      "id": "IMPORT-v1",
+      "path": "evidence/import-observation-v1.json",
+      "sha256": "382bcd51c231778fa66b39e65ea25f5fe26fab21191288ffa8a99cf9d8208f5a"
+    },
+    {
+      "id": "S001v1-meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "3c2493e7b8f3c56a3f4f8d9fe2a75522869b969d6a526e0616b7b61733820ef2"
+    },
+    {
+      "id": "S001v1-original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1-extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1-meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "1e111f5037984afeeb34735fac51b1f43672f1f69622335ef0d6a94c63b66d52"
+    },
+    {
+      "id": "S002v1-original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1-extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "8f936010faaa9e158e597505ace65de3bb3754b5bcbfa201af006964e5666862"
+    },
+    {
+      "id": "S003v1-meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "1d428c505005ab6c4b13a2051c62b1e1125d8595fd5d505490ee01f1d153045b"
+    },
+    {
+      "id": "S003v1-original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd"
+    },
+    {
+      "id": "S003v1-extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "94c6cf80d1135ff701d5c3416fedea68288e7715509a4efe359739e166f4a461"
+    },
+    {
+      "id": "S004v1-meta",
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "78d0957c6f7f47ce3b1d57d4c7c047cad39403dda80df3633e50a4218a1f686f"
+    },
+    {
+      "id": "S004v1-original",
+      "path": "evidence/sources/S004/v1/original.txt",
+      "sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f"
+    },
+    {
+      "id": "S004v1-extract",
+      "path": "evidence/sources/S004/v1/extract.json",
+      "sha256": "e40f1800fb1496146954225e03f2b9a2ad6cd19a71f16fbc4e107fe889aa2818"
+    },
+    {
+      "id": "SPEC-FUNNEL-v1",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "SPEC-ECON-v1",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SENSITIVITY-v1",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "CALC-FUNNEL-v1",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "9091b55537c789878454be91a5f404fc52bc64560f932e68fc76603424627a1a"
+    },
+    {
+      "id": "ECON-RAW-v1",
+      "path": "evidence/calculations/economics-raw-v1.json",
+      "sha256": "e6bcd59eb3523e3591ec025f2a5f4c495326a29979bc56d7540ddc1dabe73218"
+    },
+    {
+      "id": "ECON-v1",
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "b17b739784bb24459926df06c8bb141966294bad2107a6b3f9651ee5bbcc6c3e"
+    },
+    {
+      "id": "ECON-CHECK-v1",
+      "path": "evidence/calculations/independent-v1.json",
+      "sha256": "e6059f6b15e415a260c43aa0e4c06fc2afd84b68a1076801e14c2dfe7cc017b7"
+    },
+    {
+      "id": "ECON-TOOL-v1",
+      "path": "evidence/calculations/calc-offer-tool-v1.py",
+      "sha256": "b698be2b6da3dc3607314c2474073e39676c31ea6e82d60a950aebfec1848bdb"
+    },
+    {
+      "id": "CHECK-TOOL-v1",
+      "path": "evidence/calculations/check-offer-tool-v1.py",
+      "sha256": "09a236b7a9f6088c2e3ee29603b79affb579f4553958d2f05e4185a2eeb6f8ec"
+    },
+    {
+      "id": "CONFLICT-v1",
+      "path": "evidence/conflict-resolution-v1.md",
+      "sha256": "1791d04af05578f7eeba7a44df3a21bbf1ab83173ccab92a14c772b7dab61986"
+    },
+    {
+      "id": "OUTPUT-v1-situation",
+      "path": "outputs/v1/situation.md",
+      "sha256": "77254394b1d1d947cf37c3bbbd75c7135ec4408373d69cee5527c8fba6e7270c"
+    },
+    {
+      "id": "OUTPUT-v1-options",
+      "path": "outputs/v1/options.md",
+      "sha256": "1aa979aee11522c0c218e1094f7c9471c9764bcbc4b048e8d9360c79c31fc71c"
+    },
+    {
+      "id": "OUTPUT-v1-product-strategy",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "ab1cf19c0bbed7905988ac604febf59e3b9fd5dac31914e0e90f882125650eb3"
+    },
+    {
+      "id": "OUTPUT-v1-communication-strategy",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "aefc9a083f8b55a578837ca943905046ea90191a3cc7c869b659927d61ee8b20"
+    },
+    {
+      "id": "OUTPUT-v1-validation-plan",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "40d69a22fd9d23d11b887dce946b40c975dd2482babe8e679c39c5e373936e7d"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:1/block:4-8",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:2/block:2-4",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "status": "superseded",
+      "synthetic": true,
+      "text": "Коммерческий заголовок учебного PDF называет восемь платных пилотов бухбюро; смысл и согласованность с таблицей требуют проверки",
+      "superseded_reason": "Определения разрешены в C006, исходный заголовок сохранён"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S002v1-extract",
+          "locator": "'Воронка'!A2:K4; 'Экономика'!A2:J3",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "DEFINITIONS",
+          "locator": "Воронка и Экономика"
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "В учебной книге раздельно заданы contacted, trials, interest и paid30, имеются неизвестные расходы и формулы без проверенного кэша; агрегаты ещё не рассчитаны"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003v1-extract",
+          "locator": "line:6-10; host sections What is Dropbox Transfer / size limits / expiry",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S004v1-extract",
+          "locator": "line:6-10; host introduction55-63 and82",
+          "source_id": "S004",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию"
+    },
+    {
+      "id": "C006",
+      "kind": "source_fact",
+      "text": "Восемь платных пилотов PDF означают восемь выражений интереса; XLSX сообщает одну полученную оплату бухбюро. Разные определения не дают восемь платящих",
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "source_id": "S001",
+          "source_version": 1,
+          "locator": "physical-page:2/block:2-4"
+        },
+        {
+          "artifact_id": "S002v1-extract",
+          "source_id": "S002",
+          "source_version": 1,
+          "locator": "'Воронка'!E4:F4"
+        },
+        {
+          "artifact_id": "CONFLICT-v1",
+          "locator": "Различие определений"
+        }
+      ],
+      "derived_from": [
+        "C003"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C007",
+      "kind": "computed",
+      "text": "Оплата/проба: агентства 2/8=25%, бухбюро1/10=10%; интерес/проба5/8=62,5% и8/10=80%; оплата/обращение2/20=10% и1/20=5%. Малый синтетический неслучайный набор не доказывает превосходство сегмента",
+      "evidence": [
+        {
+          "artifact_id": "CALC-FUNNEL-v1",
+          "source_id": "S002",
+          "source_version": 1,
+          "locator": "groups[0,1].metrics.paid_per_trial_pct,interest_per_trial_pct,paid_per_contact_pct; normalization.rows cells C:F"
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "checks kind=funnel"
+        }
+      ],
+      "derived_from": [
+        "C003"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C008",
+      "kind": "assumption",
+      "text": "Цена/инфраструктура/поддержка/fixed/setup/N на листе Экономика — сценарные допущения; реальный CAC, продления и стоимость выхода неизвестны, пропуски не равны нулю",
+      "evidence": [
+        {
+          "artifact_id": "S002v1-extract",
+          "source_id": "S002",
+          "source_version": 1,
+          "locator": "'Экономика'!A1:J3; 'Воронка'!I3:I4"
+        },
+        {
+          "artifact_id": "S001v1-extract",
+          "source_id": "S001",
+          "source_version": 1,
+          "locator": "physical-page:2/block:10"
+        }
+      ],
+      "derived_from": [],
+      "synthetic": true
+    },
+    {
+      "id": "C009",
+      "kind": "computed",
+      "text": "При исходном допущении30мин поддержки вклад2100 RUB/организацию/месяц; покрытие fixed30000 с15 платящих. N20 даёт12000 до неизвестных расходов и условные5мес возврата setup60000. При90мин остаток0, при180мин -18000. Это сценарии, не прибыль/прогноз",
+      "evidence": [
+        {
+          "artifact_id": "ECON-v1",
+          "locator": "base; scenarios support_minutes=30,90,180 and accounts=20"
+        },
+        {
+          "artifact_id": "ECON-RAW-v1",
+          "source_id": "S002",
+          "source_version": 1,
+          "locator": "groups[0].metrics; normalization.rows[0].cells C:I"
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "checks kind=scenario"
+        }
+      ],
+      "derived_from": [
+        "C008"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C010",
+      "kind": "hypothesis",
+      "text": "Ручная помощь в исходящей передаче может уменьшить координацию агентств сверх привычного инструмента; меньший разрыв текущих функций обосновывает возможность первой проверки, но дополнительная ценность и готовность платить неизвестны",
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "source_id": "S001",
+          "source_version": 1,
+          "locator": "physical-page:2/block:5-6"
+        }
+      ],
+      "derived_from": [
+        "C001",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C011",
+      "kind": "recommendation",
+      "text": "До решения сохранить внутренний прототип; после согласования цены информации предложить ограниченную проверку исходящей передачи с ручной помощью агентствам. Не строить входящий сбор и не масштабировать без доказанной дополнительной ценности и фактической экономики; keep/close остаются альтернативами",
+      "evidence": [],
+      "derived_from": [
+        "C001",
+        "C004",
+        "C005",
+        "C006",
+        "C008",
+        "C010"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C012",
+      "kind": "assumption",
+      "text": "Размер и пороги предлагаемого пилота, критерии включения и остановки — правила обучения для согласования, не измеренный эффект, мощность, гарантия безопасности или бизнес-одобрение",
+      "evidence": [],
+      "derived_from": [
+        "C010",
+        "C011"
+      ],
+      "synthetic": true
+    }
+  ],
+  "completed": [
+    "Прочитаны постановка и определения учебных материалов",
+    "Импортированы PDF/XLSX и две реально прочитанные публичные страницы",
+    "Полнота текста собственного PDF и решающие исходные XLSX значения проверены; кэши формул не использованы",
+    "Разрешён конфликт paid pilots/interest по определениям",
+    "Рассчитаны конверсии из literal cells с двумя явными знаменателями",
+    "Построена и независимо проверена сценарная экономика",
+    "Координатор написал пять outputs/v1; отдельный fresh process их не создавал"
+  ],
+  "continuation_phase": {
+    "bounded": false,
+    "next_phase": "Сценарная экономика, полный синтез пяти документов и ревью",
+    "stop_after": "Содержательный разбор конфликта с расчётом и последствиями, новая state revision и успешный load",
+    "completed_by": "root coordinator; fresh CLI verification NOT_VERIFIED"
+  },
+  "decision": {
+    "status": "awaiting_decision",
+    "owner": "unassigned",
+    "proposed_option": "Ограниченная проверка исходящего предложения агентствам при согласованном бюджете; до решения сохраняется внутренний прототип"
+  },
+  "decision_question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+  "limitations": [
+    "Входы PDF/XLSX синтетические, рыночный спрос не проверен",
+    "Официальный дополнительный бриф недоступен через текущий маршрут",
+    "Нет человеческого бизнес-одобрения"
+  ],
+  "next_action": "В рамках разработки TASK03 проверить пакет независимым ревью и внести маркированную новую версию сценарного входа; для бизнеса остаются человеческий просмотр и реальные исходные данные до одобрения пилота.",
+  "objective": "Выбрать аудиторию и предложение B2B-передачи файлов с проверяемыми основаниями",
+  "pending_actions": [
+    "Независимое содержательное ревью и существенная тестовая коррекция входа TASK03",
+    "Человеческий просмотр, реальная приёмка прототипа/экономики и решение о проверке"
+  ],
+  "project_id": "demo-002",
+  "resources": {
+    "charges": null,
+    "demonstration_started_at": "2026-11-16T09:30:57+00:00",
+    "exact_model_id": null,
+    "human_minutes": null,
+    "tokens": null
+  },
+  "revision": 1,
+  "saved_at": "2026-11-16T09:37:07.569335+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001v1-meta",
+        "S001v1-original",
+        "S001v1-extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v1-meta",
+        "S002v1-original",
+        "S002v1-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003v1-meta",
+        "S003v1-original",
+        "S003v1-extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S004v1-meta",
+        "S004v1-original",
+        "S004v1-extract"
+      ],
+      "id": "S004",
+      "synthetic": false,
+      "version": 1
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "6468929900847380dad0bf988c041951c5d9ae6a3ede589da755038a645992cd",
+  "unresolved_questions": [
+    "Реальный спрос и дополнительная ценность относительно существующих инструментов не измерены",
+    "CAC, продления, реальная нагрузка поддержки, стоимость выхода и бюджет проверки неизвестны",
+    "Официальный дополнительный бриф недоступен текущему web route"
+  ]
+}

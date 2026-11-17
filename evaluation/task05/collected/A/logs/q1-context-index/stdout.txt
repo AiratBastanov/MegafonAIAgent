@@ -1,0 +1,40 @@
+9:## objective
+12:## decision_question
+15:## stage
+18:## completed
+35:## unresolved_questions
+42:## pending_actions
+49:## next_action
+52:## Версии источников
+116:## Реестр локаторов и файлов (пути относительно materials)
+174:## Сохранённые утверждения: тип, статус, источник
+176:### C001 · source_fact · synthetic=True
+190:### C002 · source_fact · synthetic=True
+206:### C003 · source_fact · synthetic=True
+224:### C004 · source_fact · synthetic=False
+238:### C005 · source_fact · synthetic=False
+252:### C006 · source_fact · synthetic=True
+279:### C007 · computed · synthetic=True
+300:### C008 · assumption · synthetic=True
+320:### C009 · computed · synthetic=True
+346:### C010 · hypothesis · synthetic=True
+366:### C011 · recommendation · synthetic=True
+384:### C012 · assumption · synthetic=True
+394:### C014 · source_fact · synthetic=True
+418:### C013 · computed · synthetic=True
+443:## Предыдущая запись: commitments
+513:## Предыдущая запись: conditions
+595:## Предыдущая запись: current_outputs
+604:## Предыдущая запись: events
+640:    "commitments": [
+716:## Предыдущая запись: history
+969:## Предыдущая запись: metrics
+1049:## Предыдущая запись: owner
+1052:## Предыдущая запись: proposed_option
+1055:## Предыдущая запись: question
+1058:## Предыдущая запись: reviews
+1061:## Предыдущая запись: status
+1064:## Объявленные зависимости артефактов
+Синтетическое входящее сообщение 2026-12-19T12:00:00+03:00.
+Повторяю исправление S005@1: на Экономика!E3 использовать 90 минут, а не 30.
+Это та же коррекция; новой версии XLSX, новых величин или измерений нет.

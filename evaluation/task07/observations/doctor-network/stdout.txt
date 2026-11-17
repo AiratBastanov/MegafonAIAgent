@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "1794846424s since unix epoch",
+  "overallStatus": "fail",
+  "codexVersion": "0.169.0-alpha.11.1",
+  "checks": {
+    "config.load": {
+      "id": "config.load",
+      "category": "config",
+      "status": "ok",
+      "summary": "config loaded",
+      "details": {
+        "CODEX_HOME": "C:\\Users\\CodexSandboxOffline\\.codex",
+        "active thread overrides": "not inspected",
+        "config.toml": [
+          "C:\\Users\\CodexSandboxOffline\\.codex\\config.toml",
+          "missing"
+        ],
+        "configuration load ms": "6",
+        "configuration scope": "invocation config, including cloud-managed policy",
+        "configured TUI mode": "fullscreen",
+        "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+        "enabled feature flags": "<redacted>",
+        "feature flag overrides": "none",
+        "feature flags enabled": "73",
+        "log dir": "C:\\Users\\CodexSandboxOffline\\.codex\\log",
+        "mcp servers": "0",
+        "model": "<default>",
+        "model provider": "openai",
+        "sqlite home": "C:\\Users\\CodexSandboxOffline\\.codex"
+      },
+      "remediation": null,
+      "durationMs": 6
+    },
+    "network.env": {
+      "id": "network.env",
+      "category": "network",
+      "status": "ok",
+      "summary": "network-related environment looks readable",
+      "details": {
+        "managed proxy": "not configured",
+        "proxy env vars": "none",
+        "respect system proxy": "disabled"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "network.provider_reachability": {
+      "id": "network.provider_reachability",
+      "category": "reachability",
+      "status": "fail",
+      "summary": "one or more required provider endpoints are unreachable over HTTP",
+      "details": {
+        "ChatGPT inference URL": "https://chatgpt.com/backend-api/<redacted> connect failed (required)",
+        "reachability mode": "ChatGPT auth"
+      },
+      "remediation": "Check proxy, VPN, firewall, DNS, and custom CA configuration.",
+      "durationMs": 5
+    },
+    "network.websocket_reachability": {
+      "id": "network.websocket_reachability",
+      "category": "websocket",
+      "status": "warning",
+      "summary": "Responses WebSocket failed; HTTPS fallback may still work",
+      "details": {
+        "DNS": "2 IPv4, 0 IPv6, first IPv4",
+        "auth mode": "none",
+        "connect timeout": "15000 ms",
+        "endpoint": "wss://api.openai.com/v1/<redacted>",
+        "handshake transport error": "network error: [redacted]",
+        "model provider": "openai",
+        "provider name": "OpenAI",
+        "proxy env vars": "none",
+        "supports websockets": "true",
+        "wire API": "responses"
+      },
+      "remediation": "Check proxy, VPN, firewall, DNS, custom CA, and WebSocket policy support.",
+      "durationMs": 21
+    }
+  }
+}

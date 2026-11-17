@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "evaluation/task06/portable_evidence.py"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:43:18.777177+00:00",
+  "ended_at": "2026-11-16T15:43:19.117346+00:00",
+  "elapsed_seconds": 0.3430000000007567,
+  "returncode": 0
+}

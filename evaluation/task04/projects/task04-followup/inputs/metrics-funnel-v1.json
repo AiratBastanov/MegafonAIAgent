@@ -1,0 +1,24 @@
+{
+  "columns": {
+    "period":{"type":"text","unit":"month"},
+    "segment":{"type":"text","unit":"category"},
+    "contacted":{"type":"integer","unit":"organisations","min":"0"},
+    "trials":{"type":"integer","unit":"organisations","min":"0"},
+    "interest":{"type":"integer","unit":"organisations","min":"0"},
+    "paid30":{"type":"integer","unit":"organisations","min":"0"},
+    "revenue30":{"type":"decimal","unit":"RUB","min":"0"},
+    "variable30":{"type":"decimal","unit":"RUB","min":"0"},
+    "acquisition":{"type":"decimal","unit":"RUB","min":"0"}
+  },
+  "group_by":["period","segment"], "period_column":"period", "missing_values":[""], "synthetic":true,
+  "xlsx":{"sheet":"Воронка","rows":[3,4],"columns":{"period":"A","segment":"B","contacted":"C","trials":"D","interest":"E","paid30":"F","revenue30":"G","variable30":"H","acquisition":"I"},"include_hidden":false},
+  "constraints":[{"operation":"lte","left":"trials","right":"contacted"},{"operation":"lte","left":"interest","right":"trials"},{"operation":"lte","left":"paid30","right":"trials"}],
+  "metrics":[
+    {"id":"paid_per_trial_pct","operation":"ratio","numerator":["paid30"],"denominator":["trials"],"unit":"%","multiplier":"100","rounding":2},
+    {"id":"interest_per_trial_pct","operation":"ratio","numerator":["interest"],"denominator":["trials"],"unit":"%","multiplier":"100","rounding":2},
+    {"id":"paid_per_contact_pct","operation":"ratio","numerator":["paid30"],"denominator":["contacted"],"unit":"%","multiplier":"100","rounding":2},
+    {"id":"revenue30","operation":"sum","numerator":["revenue30"],"unit":"RUB","rounding":2},
+    {"id":"variable30","operation":"sum","numerator":["variable30"],"unit":"RUB","rounding":2},
+    {"id":"acquisition","operation":"sum","numerator":["acquisition"],"unit":"RUB","rounding":2}
+  ]
+}

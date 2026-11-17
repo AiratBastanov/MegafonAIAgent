@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-11-16T16:38:47Z",
+  "status": "INSTRUCTION_PROVENANCE_OBSERVED_MEASURED_RUN_NOT_STARTED",
+  "cli_version": "0.169.0-alpha.11.1",
+  "protocol_field_supported_by_installed_stable_schema": true,
+  "actual_probe_results": {
+    "A": {
+      "thread_id": "01a1e538-e55d-7ce2-8338-1e010ee5e667",
+      "session_id": "01a1e538-e55d-7ce2-8338-1e010ee5e667",
+      "instruction_sources": ["C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-A-20261116-01\\AGENTS.md"],
+      "directory": "probe-A-01",
+      "process_exit": 0
+    },
+    "B": {
+      "thread_id": "01a1e538-8f25-7983-b48c-9f101f02ebce",
+      "session_id": "01a1e538-8f25-7983-b48c-9f101f02ebce",
+      "instruction_sources": [],
+      "directory": "probe-B-01",
+      "process_exit": 0
+    }
+  },
+  "shared_observed_settings": {
+    "model": "gpt-6-astra",
+    "model_provider": "openai",
+    "reasoning_effort": "max",
+    "sandbox": "readOnly",
+    "network_access": false,
+    "approval_policy": "on-request",
+    "ephemeral": true
+  },
+  "freeze": {
+    "path": "evaluation/task06/ordinary-current-v1",
+    "expected_files": 217,
+    "verified_files": 217,
+    "sha_mismatches": [],
+    "current_runtime_instructions_files_checked": 13,
+    "current_runtime_instructions_differences": [],
+    "new_freeze_needed": false
+  },
+  "prepared_workspaces": {
+    "A": {"name": "%TEMP%/megafon-comparison-A-20261116-01", "snapshot": "prepared-A/manifest.json", "file_count": 141},
+    "B": {"name": "%TEMP%/megafon-comparison-B-20261116-01", "snapshot": "prepared-B/manifest.json", "file_count": 65}
+  },
+  "measured_answers_started": false,
+  "turn_start_sent": false,
+  "future_events_staged": false,
+  "requested_model_turns": 0,
+  "next": "Await coordinator instruction. Actual measured fresh threads must repeat source/settings observation with equal authorized workspace-write, then follow current handoff sequential event staging.",
+  "limitations": [
+    "instructionSources covers loaded instruction files, not all hidden system instructions",
+    "successful thread creation is not successful LLM execution or saved analysis",
+    "diagnostic readOnly policy cannot validate writing",
+    "PowerShell shell snapshot not supported warning present in both process logs"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "visibility": "только evaluator, не participant input",
+  "q1": {
+    "as_of": "2026-12-19T12:00:00+03:00",
+    "clock": "simulated",
+    "overdue": ["K-PROTOCOL", "K-CAPABILITY"],
+    "blocked_unknown_date": ["K-BUDGET", "K-VALUE"],
+    "planned_window_end": "2026-12-18T12:00:00+03:00",
+    "experiment_authorized_or_started": false,
+    "observed_results": null,
+    "new_owner_review_due_only_to_repeat": false,
+    "economics": {"price": 3000, "infrastructure": 600, "support_minutes": 90, "hourly_rate": 600, "fixed": 30000, "setup": 60000, "N": 20, "contribution": 1500, "remainder": 0, "positive_from_N": 21},
+    "funnel": {"agency_paid_trial_pct": 25, "bureau_paid_trial_pct": 10},
+    "locators": ["S002@2 'Экономика'!C3:I3", "S005@1 line:1-5", "CALC-FUNNEL-v1", "OWNER-01 / commitments", "M-TIME.window"]
+  },
+  "q2": {
+    "familiar": {"withdrawn": "без аккаунта получателя", "old_locator": "S001@1 physical-page:1/block:5", "not_proven": "аккаунт обязателен"},
+    "variant": {"withdrawn": "срок действия ссылки 7 суток", "old_locator": "S001@1 physical-page:1/block:5", "not_proven": "ссылка бессрочная, истекает раньше или позже"},
+    "required": ["отдельное предложенное изменение", "приёмка конкретной возможности/версии", "согласованные короткие продукт/сообщение/проверка", "история OWNER-01 неизменна", "экономика и воронка не пересчитываются без изменения входов"],
+    "owner_review_open": true
+  },
+  "q3": {
+    "new_owner_decision_due_to_repeat_or_note": false,
+    "q2_legitimate_reviews_retained": true,
+    "duplicate_commitments": false,
+    "rewrite_valid_outputs": false,
+    "history_choices_per_branch": 1,
+    "commitments_per_branch": 4
+  }
+}

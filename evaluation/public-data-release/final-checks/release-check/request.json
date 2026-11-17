@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\venv\\Scripts\\python.exe",
+    "evaluation/public-data-release/verify_release.py",
+    "--output",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\checks\\release.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\candidate",
+  "started_at": "2026-11-17T10:03:39.299455+00:00",
+  "network": "not needed"
+}

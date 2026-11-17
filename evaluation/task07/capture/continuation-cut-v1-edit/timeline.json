@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-11-16T16:48:52.620834+00:00",
+  "note": "Cuts from actual local capture; edited duration is not runtime; no generated transcript or document render substituted.",
+  "planned_duration_seconds": 151.8636363636364,
+  "segments": [
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 0,
+      "end": 8.6,
+      "speed": 0.4,
+      "label": "Просмотр исходного учебного запроса руководителя",
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 0,
+      "output_end": 21.499999999999996
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 27.7,
+      "end": 41.7,
+      "label": "Ранее сохранённая пауза: расчётов и стратегий ещё нет",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 21.499999999999996,
+      "output_end": 35.5
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 41.9,
+      "end": 49.7,
+      "label": "Новый контекст получает только сохранённую задачу",
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 35.5,
+      "output_end": 43.300000000000004
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 77.8,
+      "end": 81.3,
+      "speed": 0.35,
+      "label": "Агент восстановил работу без повторного импорта",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 43.300000000000004,
+      "output_end": 53.300000000000004
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 139.2,
+      "end": 146,
+      "speed": 0.55,
+      "label": "Интерес к предложению не равен фактической оплате",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 53.300000000000004,
+      "output_end": 65.66363636363639
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 280.5,
+      "end": 307.5,
+      "speed": 3,
+      "label": "Исправлена проверка пустого значения в XML",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 65.66363636363639,
+      "output_end": 74.66363636363639
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 446.1,
+      "end": 459,
+      "label": "Арифметика проверена; агент создал свою заметку",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 74.66363636363639,
+      "output_end": 87.56363636363636
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 603.4,
+      "end": 640.2,
+      "speed": 4,
+      "label": "Проверка, сохранение новой версии и загрузка истории",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 87.56363636363636,
+      "output_end": 96.76363636363638
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 658.3,
+      "end": 672,
+      "label": "Итог независимого продолжения",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 96.76363636363638,
+      "output_end": 110.46363636363643
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 788.4,
+      "end": 807.3,
+      "label": "Отдельный процесс подтвердил новый результат",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 110.46363636363643,
+      "output_end": 129.3636363636364
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 807.4,
+      "end": 829.9,
+      "label": "Просмотр новой заметки: экономика остаётся условной",
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "output_start": 129.3636363636364,
+      "output_end": 151.8636363636364
+    }
+  ],
+  "output_sha256": "d94987dfe0f4d9d41fcceeea021f60347004de462fce3501e6c6a5baa6553af6"
+}

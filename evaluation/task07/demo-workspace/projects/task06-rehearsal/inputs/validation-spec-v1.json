@@ -1,0 +1,23 @@
+{
+  "kind": "proposed_validation_design",
+  "synthetic": true,
+  "status": "proposed_not_started",
+  "business_authorization": false,
+  "currency": "RUB",
+  "price_per_organisation_calendar_month": "3000",
+  "cohort": {"organisations": 12, "tasks_per_organisation": 4, "relay_tasks_per_organisation": 2, "control_tasks_per_organisation": 2, "independent_unit": "organisation", "assignment": "random order within organisation, matched tasks, comparator and actual plan fixed before assignment", "sampling": "diagnostic convenience cohort, not representative; no power claim"},
+  "windows": {"recruitment_max_days_after_separate_approval": 14, "task_comparison_days": 28, "first_payment_window_days_after_offer": 7, "renewal_due": "one calendar month after each actual first payment", "renewal_payment_window_days": 7, "end_rule": "all first-payment windows and all first-payer renewal windows complete; value observation complete", "value_frequency_period": "one calendar month from the common payment-offer date for all enrolled organisations, including non-payers; payer frequency additionally checked in their first paid month", "actual_start": null, "calendar_dates": null},
+  "definitions": {
+    "time_saving": "per organisation: median client active person-minutes of control tasks minus median client active person-minutes of RelayBox tasks; sender and recipient counted once each, including their own error-recovery and assistance participation; provider support time separately recorded and costed",
+    "value_before_relay_price": "observed suitable tasks in value_frequency_period * client minutes saved per task * participant-agreed client hourly value / 60 + evidenced avoidable alternative expenditure - additional client implementation labour and additional expenditure excluding RelayBox subscription",
+    "first_payment": "received and not refunded full 3000 RUB for first calendar-month service period; invoice, interest and promise do not count",
+    "renewal": "received and not refunded full second monthly payment from a first payer after that payer's complete renewal window",
+    "completion": "recipient successfully obtained the agreed files in the assigned task; failures and refusals stay in denominator",
+    "missing": "unknown remains unknown; report known/expected, no zero imputation or silent removal; no pass with material missing outcomes"
+  },
+  "thresholds": {"client_minutes_saved_per_task": "5", "organisations_meeting_time_threshold": 9, "monthly_value_before_price": "6000", "organisations_meeting_value_threshold": 6, "minimum_renewers_must_meet_value": 3, "first_payers_min": 4, "renewers_min": 3, "renewers_per_first_payers_min_pct": "60", "completion_rate": "RelayBox no lower than control with all 24 assignments per method accounted for", "material_safety_incidents": 0},
+  "interpretation": "All learning gates jointly required. Thresholds are coordinator assumptions, not observations, statistical significance or market estimates. Missing, immature or invalid comparisons are inconclusive. Valid material failure changes recommendation toward closing this standalone paid offer. Passing only enables another human decision, not scaling.",
+  "scaling": {"requires_new_owner_decision": true, "suggested_minimum_paid_monthly_periods_in_expanded_cohort": 3, "sample_size": null, "sample_size_reason": "choose from observed flow and required precision later", "full_costs_required": ["infrastructure", "support including non-payers", "acquisition including refusals", "implementation", "taxes", "fixed commitments", "setup"], "maximum_acceptable_payback": null, "owner_to_define_risk_and_budget": true},
+  "pause": {"suggested_review_days_after_owner_decision": 30, "automatic_extension": false},
+  "origins": {"price": "synthetic S002/v1 economics scenario", "other_design_numbers": "explicit coordinator assumptions; arithmetic checks only", "actual_results": "none"}
+}

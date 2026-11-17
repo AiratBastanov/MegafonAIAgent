@@ -1,0 +1,1 @@
+{"window": "ended_evidence_required", "repeat_owner_review": true, "with_legitimate_review": [{"id": "review-CONTROL-WITHDRAW", "owner_review_required": true, "status": "needs_review"}, {"id": "review-CONTROL-REPEAT", "owner_review_required": true, "status": "needs_review"}], "invariants": {"history_unchanged": true, "commitments_unchanged": true}}

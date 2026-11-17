@@ -1,0 +1,532 @@
+{
+  "groups": [
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "агентства"
+      },
+      "locators": [
+        "'Воронка'!A3; 'Воронка'!B3; 'Воронка'!C3; 'Воронка'!D3; 'Воронка'!E3; 'Воронка'!F3; 'Воронка'!G3; 'Воронка'!H3; 'Воронка'!I3"
+      ],
+      "metrics": {
+        "paid_per_trial_pct": {
+          "value": "25.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "2",
+          "denominator": "8",
+          "missing": [],
+          "definition": {
+            "id": "paid_per_trial_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid30"
+            ],
+            "denominator": [
+              "trials"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "interest_per_trial_pct": {
+          "value": "62.50",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "5",
+          "denominator": "8",
+          "missing": [],
+          "definition": {
+            "id": "interest_per_trial_pct",
+            "operation": "ratio",
+            "numerator": [
+              "interest"
+            ],
+            "denominator": [
+              "trials"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "paid_per_contact_pct": {
+          "value": "10.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "2",
+          "denominator": "20",
+          "missing": [],
+          "definition": {
+            "id": "paid_per_contact_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid30"
+            ],
+            "denominator": [
+              "contacted"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "revenue30": {
+          "value": "6000.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "6000",
+          "missing": [],
+          "definition": {
+            "id": "revenue30",
+            "operation": "sum",
+            "numerator": [
+              "revenue30"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable30": {
+          "value": "1800.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "1800",
+          "missing": [],
+          "definition": {
+            "id": "variable30",
+            "operation": "sum",
+            "numerator": [
+              "variable30"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "acquisition": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "'Воронка'!I3",
+              "column": "acquisition"
+            }
+          ],
+          "definition": {
+            "id": "acquisition",
+            "operation": "sum",
+            "numerator": [
+              "acquisition"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "бухбюро"
+      },
+      "locators": [
+        "'Воронка'!A4; 'Воронка'!B4; 'Воронка'!C4; 'Воронка'!D4; 'Воронка'!E4; 'Воронка'!F4; 'Воронка'!G4; 'Воронка'!H4; 'Воронка'!I4"
+      ],
+      "metrics": {
+        "paid_per_trial_pct": {
+          "value": "10.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "1",
+          "denominator": "10",
+          "missing": [],
+          "definition": {
+            "id": "paid_per_trial_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid30"
+            ],
+            "denominator": [
+              "trials"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "interest_per_trial_pct": {
+          "value": "80.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "8",
+          "denominator": "10",
+          "missing": [],
+          "definition": {
+            "id": "interest_per_trial_pct",
+            "operation": "ratio",
+            "numerator": [
+              "interest"
+            ],
+            "denominator": [
+              "trials"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "paid_per_contact_pct": {
+          "value": "5.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "1",
+          "denominator": "20",
+          "missing": [],
+          "definition": {
+            "id": "paid_per_contact_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid30"
+            ],
+            "denominator": [
+              "contacted"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        },
+        "revenue30": {
+          "value": "3000.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "3000",
+          "missing": [],
+          "definition": {
+            "id": "revenue30",
+            "operation": "sum",
+            "numerator": [
+              "revenue30"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable30": {
+          "value": "3600.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "3600",
+          "missing": [],
+          "definition": {
+            "id": "variable30",
+            "operation": "sum",
+            "numerator": [
+              "variable30"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "acquisition": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "'Воронка'!I4",
+              "column": "acquisition"
+            }
+          ],
+          "definition": {
+            "id": "acquisition",
+            "operation": "sum",
+            "numerator": [
+              "acquisition"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    }
+  ],
+  "synthetic": true,
+  "period_column": "period",
+  "columns": {
+    "period": {
+      "type": "text",
+      "unit": "month"
+    },
+    "segment": {
+      "type": "text",
+      "unit": "category"
+    },
+    "contacted": {
+      "type": "integer",
+      "unit": "organisations",
+      "min": "0"
+    },
+    "trials": {
+      "type": "integer",
+      "unit": "organisations",
+      "min": "0"
+    },
+    "interest": {
+      "type": "integer",
+      "unit": "organisations",
+      "min": "0"
+    },
+    "paid30": {
+      "type": "integer",
+      "unit": "organisations",
+      "min": "0"
+    },
+    "revenue30": {
+      "type": "decimal",
+      "unit": "RUB",
+      "min": "0"
+    },
+    "variable30": {
+      "type": "decimal",
+      "unit": "RUB",
+      "min": "0"
+    },
+    "acquisition": {
+      "type": "decimal",
+      "unit": "RUB",
+      "min": "0"
+    }
+  },
+  "missing_policy": "Любой пропуск компонента делает соответствующий агрегат null; строки не отбрасываются",
+  "zero_denominator_policy": "null, status=zero_denominator",
+  "rounding_method": "Точные десятичные суммы и рациональное ROUND_HALF_UP; округление только результата",
+  "numeric_guard": {
+    "max_coefficient_digits": 18,
+    "max_abs_exponent": 12
+  },
+  "normalization": {
+    "method": "literal-xlsx-cells-to-in-memory-csv-v1",
+    "formula_policy": "reject_even_with_cache",
+    "include_hidden": false,
+    "rows": [
+      {
+        "sheet": "Воронка",
+        "row": 3,
+        "cells": {
+          "period": {
+            "locator": "'Воронка'!A3",
+            "address": "A3",
+            "value": "2026-09",
+            "type": "s",
+            "unit": "month",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "segment": {
+            "locator": "'Воронка'!B3",
+            "address": "B3",
+            "value": "агентства",
+            "type": "s",
+            "unit": "category",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "contacted": {
+            "locator": "'Воронка'!C3",
+            "address": "C3",
+            "value": 20,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "trials": {
+            "locator": "'Воронка'!D3",
+            "address": "D3",
+            "value": 8,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "interest": {
+            "locator": "'Воронка'!E3",
+            "address": "E3",
+            "value": 5,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "paid30": {
+            "locator": "'Воронка'!F3",
+            "address": "F3",
+            "value": 2,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "revenue30": {
+            "locator": "'Воронка'!G3",
+            "address": "G3",
+            "value": 6000,
+            "type": "n",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          },
+          "variable30": {
+            "locator": "'Воронка'!H3",
+            "address": "H3",
+            "value": 1800,
+            "type": "n",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          },
+          "acquisition": {
+            "locator": "'Воронка'!I3",
+            "address": "I3",
+            "value": null,
+            "type": "blank",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          }
+        },
+        "normalized_locator": "rows:2-2",
+        "locator": "'Воронка'!A3; 'Воронка'!B3; 'Воронка'!C3; 'Воронка'!D3; 'Воронка'!E3; 'Воронка'!F3; 'Воронка'!G3; 'Воронка'!H3; 'Воронка'!I3"
+      },
+      {
+        "sheet": "Воронка",
+        "row": 4,
+        "cells": {
+          "period": {
+            "locator": "'Воронка'!A4",
+            "address": "A4",
+            "value": "2026-09",
+            "type": "s",
+            "unit": "month",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "segment": {
+            "locator": "'Воронка'!B4",
+            "address": "B4",
+            "value": "бухбюро",
+            "type": "s",
+            "unit": "category",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "contacted": {
+            "locator": "'Воронка'!C4",
+            "address": "C4",
+            "value": 20,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "trials": {
+            "locator": "'Воронка'!D4",
+            "address": "D4",
+            "value": 10,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "interest": {
+            "locator": "'Воронка'!E4",
+            "address": "E4",
+            "value": 8,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "paid30": {
+            "locator": "'Воронка'!F4",
+            "address": "F4",
+            "value": 1,
+            "type": "n",
+            "unit": "organisations",
+            "period": "2026-09",
+            "number_format": "General"
+          },
+          "revenue30": {
+            "locator": "'Воронка'!G4",
+            "address": "G4",
+            "value": 3000,
+            "type": "n",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          },
+          "variable30": {
+            "locator": "'Воронка'!H4",
+            "address": "H4",
+            "value": 3600,
+            "type": "n",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          },
+          "acquisition": {
+            "locator": "'Воронка'!I4",
+            "address": "I4",
+            "value": null,
+            "type": "blank",
+            "unit": "RUB",
+            "period": "2026-09",
+            "number_format": "#,##0.00 \"RUB\""
+          }
+        },
+        "normalized_locator": "rows:3-3",
+        "locator": "'Воронка'!A4; 'Воронка'!B4; 'Воронка'!C4; 'Воронка'!D4; 'Воронка'!E4; 'Воронка'!F4; 'Воронка'!G4; 'Воронка'!H4; 'Воронка'!I4"
+      }
+    ]
+  },
+  "provenance": {
+    "source_type": "xlsx",
+    "input_sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668",
+    "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+    "limitations": [
+      "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+      "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+      "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+      "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+      "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+    ],
+    "extract": {
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    }
+  },
+  "calculated_at": "2026-11-17T08:49:39+00:00",
+  "tool": "analyze_table",
+  "tool_version": "1.2",
+  "input": {
+    "path": "evidence/sources/S002/v1/original.xlsx",
+    "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+  },
+  "spec": {
+    "path": "inputs/metrics-funnel-v1.json",
+    "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+  },
+  "source": {
+    "id": "S002",
+    "version": 1
+  },
+  "reproduce": {
+    "input": "evidence/sources/S002/v1/original.xlsx",
+    "spec": "inputs/metrics-funnel-v1.json"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "at": "2026-11-17T09:41:17.776084+00:00",
+  "input_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "rows": 12330,
+  "revenue": {
+    "FALSE": 10422,
+    "TRUE": 1908
+  },
+  "overall": {
+    "sessions": 12330,
+    "purchases": 1908,
+    "non_purchases": 10422,
+    "fraction": "106/685",
+    "percent": 15.4745
+  },
+  "by_visitor": {
+    "New_Visitor": {
+      "sessions": 1694,
+      "purchases": 422,
+      "non_purchases": 1272,
+      "fraction": "211/847",
+      "percent": 24.9115
+    },
+    "Other": {
+      "sessions": 85,
+      "purchases": 16,
+      "non_purchases": 69,
+      "fraction": "16/85",
+      "percent": 18.8235
+    },
+    "Returning_Visitor": {
+      "sessions": 10551,
+      "purchases": 1470,
+      "non_purchases": 9081,
+      "fraction": "490/3517",
+      "percent": 13.9323
+    }
+  },
+  "by_month_visitor": {
+    "Aug|New_Visitor": {
+      "sessions": 72,
+      "purchases": 21,
+      "non_purchases": 51,
+      "fraction": "7/24",
+      "percent": 29.1667
+    },
+    "Aug|Returning_Visitor": {
+      "sessions": 361,
+      "purchases": 55,
+      "non_purchases": 306,
+      "fraction": "55/361",
+      "percent": 15.2355
+    },
+    "Dec|New_Visitor": {
+      "sessions": 335,
+      "purchases": 75,
+      "non_purchases": 260,
+      "fraction": "15/67",
+      "percent": 22.3881
+    },
+    "Dec|Other": {
+      "sessions": 62,
+      "purchases": 13,
+      "non_purchases": 49,
+      "fraction": "13/62",
+      "percent": 20.9677
+    },
+    "Dec|Returning_Visitor": {
+      "sessions": 1330,
+      "purchases": 128,
+      "non_purchases": 1202,
+      "fraction": "64/665",
+      "percent": 9.6241
+    },
+    "Feb|New_Visitor": {
+      "sessions": 1,
+      "purchases": 0,
+      "non_purchases": 1,
+      "fraction": "0",
+      "percent": 0.0
+    },
+    "Feb|Returning_Visitor": {
+      "sessions": 183,
+      "purchases": 3,
+      "non_purchases": 180,
+      "fraction": "1/61",
+      "percent": 1.6393
+    },
+    "Jul|New_Visitor": {
+      "sessions": 54,
+      "purchases": 11,
+      "non_purchases": 43,
+      "fraction": "11/54",
+      "percent": 20.3704
+    },
+    "Jul|Returning_Visitor": {
+      "sessions": 378,
+      "purchases": 55,
+      "non_purchases": 323,
+      "fraction": "55/378",
+      "percent": 14.5503
+    },
+    "June|New_Visitor": {
+      "sessions": 30,
+      "purchases": 7,
+      "non_purchases": 23,
+      "fraction": "7/30",
+      "percent": 23.3333
+    },
+    "June|Other": {
+      "sessions": 1,
+      "purchases": 0,
+      "non_purchases": 1,
+      "fraction": "0",
+      "percent": 0.0
+    },
+    "June|Returning_Visitor": {
+      "sessions": 257,
+      "purchases": 22,
+      "non_purchases": 235,
+      "fraction": "22/257",
+      "percent": 8.5603
+    },
+    "Mar|New_Visitor": {
+      "sessions": 232,
+      "purchases": 36,
+      "non_purchases": 196,
+      "fraction": "9/58",
+      "percent": 15.5172
+    },
+    "Mar|Returning_Visitor": {
+      "sessions": 1675,
+      "purchases": 156,
+      "non_purchases": 1519,
+      "fraction": "156/1675",
+      "percent": 9.3134
+    },
+    "May|New_Visitor": {
+      "sessions": 319,
+      "purchases": 88,
+      "non_purchases": 231,
+      "fraction": "8/29",
+      "percent": 27.5862
+    },
+    "May|Returning_Visitor": {
+      "sessions": 3045,
+      "purchases": 277,
+      "non_purchases": 2768,
+      "fraction": "277/3045",
+      "percent": 9.0969
+    },
+    "Nov|New_Visitor": {
+      "sessions": 419,
+      "purchases": 128,
+      "non_purchases": 291,
+      "fraction": "128/419",
+      "percent": 30.5489
+    },
+    "Nov|Other": {
+      "sessions": 22,
+      "purchases": 3,
+      "non_purchases": 19,
+      "fraction": "3/22",
+      "percent": 13.6364
+    },
+    "Nov|Returning_Visitor": {
+      "sessions": 2557,
+      "purchases": 629,
+      "non_purchases": 1928,
+      "fraction": "629/2557",
+      "percent": 24.5991
+    },
+    "Oct|New_Visitor": {
+      "sessions": 124,
+      "purchases": 28,
+      "non_purchases": 96,
+      "fraction": "7/31",
+      "percent": 22.5806
+    },
+    "Oct|Returning_Visitor": {
+      "sessions": 425,
+      "purchases": 87,
+      "non_purchases": 338,
+      "fraction": "87/425",
+      "percent": 20.4706
+    },
+    "Sep|New_Visitor": {
+      "sessions": 108,
+      "purchases": 28,
+      "non_purchases": 80,
+      "fraction": "7/27",
+      "percent": 25.9259
+    },
+    "Sep|Returning_Visitor": {
+      "sessions": 340,
+      "purchases": 58,
+      "non_purchases": 282,
+      "fraction": "29/170",
+      "percent": 17.0588
+    }
+  },
+  "groups_checked": 23,
+  "all_calculator_groups_match": true,
+  "identical_feature_rows_retained": 125,
+  "original_import_rows": 12330,
+  "lossless_derived_rows": 12330,
+  "synthetic": false,
+  "elapsed_seconds": 1.100481
+}

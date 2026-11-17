@@ -1,0 +1,51 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "URL запрошенный: https://www.todoist.com/help/articles/introduction-to-recurring-dates-YUYVJJAV"
+    },
+    {
+      "locator": "line:2",
+      "text": "URL после перенаправления: https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV"
+    },
+    {
+      "locator": "line:3",
+      "text": "Источник: Todoist Help, Introduction to recurring dates."
+    },
+    {
+      "locator": "line:4",
+      "text": "Доступ: 2026-11-16T09:43:51+03:00 (время зафиксировано непосредственно после чтения)."
+    },
+    {
+      "locator": "line:5",
+      "text": "Маршрут: web.run open, реальное чтение страницы в текущем host; ответ обозначен инструментом rewritten summary, crawled today."
+    },
+    {
+      "locator": "line:6",
+      "text": "Представление: выдержка из отрендеренного/переработанного представления host, не исходный HTML. Свежесть origin server независимо не проверена."
+    },
+    {
+      "locator": "line:7",
+      "text": "Координата: Introduction to recurring dates, абзац перед Add a recurring date in the task name; строки 52–65 представления host."
+    },
+    {
+      "locator": "line:8",
+      "text": "Видимая дата обновления: November 11, 2026."
+    },
+    {
+      "locator": "line:9",
+      "text": "Короткая выдержка из представления: “When you complete a task with a recurring date, it automatically shifts to the next date”."
+    },
+    {
+      "locator": "line:10",
+      "text": "Применимость: справка описывает автоматический перенос повторяющейся задачи после завершения. Это существующая публично описанная альтернатива ручному копированию в учебном продукте."
+    },
+    {
+      "locator": "line:11",
+      "text": "Ограничения: страница не доказывает спрос, использование, рост удержания, качество русской локализации или экономику нашего продукта. Цены и весь функционал не исследовались."
+    }
+  ],
+  "source_id": "S003",
+  "source_version": 1,
+  "synthetic": false
+}

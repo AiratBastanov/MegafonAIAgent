@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-11-16T07:56:29.291551+00:00",
+  "development": {
+    "started_at": "2026-11-16T06:32:05+00:00",
+    "ended_at": "2026-11-16T07:56:29.291551+00:00",
+    "elapsed_through_record_seconds": 4032.168,
+    "exact_model_id": null,
+    "model_identity_available": "Codex, GPT-6 family per host role; exact model/version not exposed",
+    "elapsed_seconds": 5064.292
+  },
+  "demonstration": {
+    "started_at": "2026-11-16T06:43:51+00:00",
+    "ended_at": "2026-11-16T07:34:59.567855+00:00",
+    "elapsed_seconds": 3068.568,
+    "boundary": "From actual public-page read recorded immediately after read to canonical reviewed state revision5; interleaved with development; includes corrections and verification waits",
+    "canonical_state_revision": 5,
+    "recorded_project_actions": 22
+  },
+  "fresh_process_runs": [
+    {
+      "id": "fresh-session-attempt",
+      "started_at": "2026-11-16T06:54:44.389259+00:00",
+      "ended_at": "2026-11-16T06:59:44.427408+00:00",
+      "elapsed_seconds": 300.047,
+      "exit_code": 1,
+      "event_counts": {
+        "thread.started": 1,
+        "turn.started": 1,
+        "error": 12,
+        "item.completed": 1
+      },
+      "completed_commands": 0,
+      "failed_commands": 0,
+      "sampling_retry_messages": 5,
+      "http_wait_retry_messages": 8,
+      "usage_events": [],
+      "model_id": null,
+      "money": null
+    },
+    {
+      "id": "fresh-session-authorized-route",
+      "started_at": "2026-11-16T07:05:02.895284+00:00",
+      "ended_at": "2026-11-16T07:10:02.919326+00:00",
+      "elapsed_seconds": 300.015,
+      "exit_code": 1,
+      "event_counts": {
+        "thread.started": 1,
+        "turn.started": 1,
+        "item.completed": 4,
+        "item.started": 3
+      },
+      "completed_commands": 3,
+      "failed_commands": 1,
+      "sampling_retry_messages": 0,
+      "http_wait_retry_messages": 0,
+      "usage_events": [],
+      "model_id": null,
+      "money": null
+    },
+    {
+      "id": "fresh-session-fixed",
+      "started_at": "2026-11-16T07:12:36.419682+00:00",
+      "ended_at": "2026-11-16T07:32:32.240830+00:00",
+      "elapsed_seconds": 1195.828,
+      "exit_code": 4294967295,
+      "event_counts": {
+        "thread.started": 1,
+        "turn.started": 1,
+        "item.completed": 27,
+        "error": 3,
+        "item.started": 24
+      },
+      "completed_commands": 23,
+      "failed_commands": 1,
+      "sampling_retry_messages": 5,
+      "http_wait_retry_messages": 0,
+      "usage_events": [],
+      "model_id": null,
+      "money": null
+    }
+  ],
+  "overlap": "Development and demonstration intervals overlap; do not add these wall-clock totals. Child process totals are a subset of overall elapsed, not extra elapsed.",
+  "root_total_tool_calls": null,
+  "root_tool_observation": "Significant tool activity in project journal/report; no complete machine-exported root transcript; hidden calls unknown. Child JSONL counters exact within emitted events.",
+  "human": {
+    "initial_authorization": "TASK02 user message",
+    "new_user_messages_during_work_observed": 0,
+    "simulated_correction": "evaluation/correction-request.txt; not human intervention",
+    "approval_route": "host automatic review for existing Codex connectivity and stopping own process; no auto-review rejection observed",
+    "unobserved_human_minutes": null,
+    "substantive_human_review": "pending",
+    "business_approval": "pending"
+  },
+  "tokens_total": null,
+  "money_total": null,
+  "new_paid_providers": 0,
+  "new_purchases": 0,
+  "unknown_cost_not_zero": true,
+  "structural_tests": {
+    "passed": 41,
+    "test_log": "evaluation/structural-tests.txt"
+  }
+}

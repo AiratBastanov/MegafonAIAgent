@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-11-16T16:47:46.213157+00:00",
+  "source": "verified-continuation-screen.png",
+  "source_sha256": "9d08026ad62b70d34dacbc301b1673f9c2f31ff55bc04117671cd947b5007a81",
+  "output": "verified-continuation-crop.png",
+  "output_sha256": "0f44311dd6ff9628f7bd115f5053f765dab6c99c11176bae457bfe1a37c09ba9",
+  "crop": {
+    "x": 28,
+    "y": 238,
+    "width": 1384,
+    "height": 330
+  },
+  "operation": "ffmpeg -i verified-continuation-screen.png -vf crop=1384:330:28:238 -frames:v 1 verified-continuation-crop.png",
+  "note": "Pixel crop only. No text or content changes. For PDF, not a replacement for recorded execution."
+}

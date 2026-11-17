@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-11-16T14:42:21.095013+00:00",
+  "ok": true,
+  "local_links_checked": 161,
+  "missing_links": [],
+  "implementation_files": 19,
+  "implementation_mismatches": [],
+  "complete_response_occurrences": {
+    "A/q1": 1,
+    "A/q2": 1,
+    "A/q3": 1,
+    "B/q1": 1,
+    "B/q2": 1,
+    "B/q3": 1
+  },
+  "frozen_files_unchanged": true,
+  "protected_history_unchanged": true,
+  "historical_reports_unchanged": true,
+  "review_scores": {
+    "R17": {
+      "q1": 10,
+      "q2": 10,
+      "q3": 8,
+      "total": 28,
+      "max": 28
+    },
+    "R42": {
+      "q1": 10,
+      "q2": 10,
+      "q3": 8,
+      "total": 28,
+      "max": 28
+    }
+  },
+  "document_hashes": {
+    "docs/TASK05_REPORT.md": "65594964bb4e43155f3e63f79ef66ebb9d813666e6713d3d46c5011466f7561c",
+    "docs/TASK05_REVIEW_PACKET.md": "fec6f641ce378d7f68b5a5f5bac251165f83b8bfd5d7c1467e473596930a3674",
+    "docs/SUBMISSION_READINESS.md": "4d76da9636d03dfb1c4d58350362ef8a964d610661a1d3f8a49e3ac020e66080",
+    "docs/DEVELOPMENT_STATE.md": "6de02fe3b0d135badd2dcd345463a240ef7a8f85293bda715d6057fc8257e9e5",
+    "evaluation/task05/README.md": "5b65d96fd8d9534290825cb92fb89675f00afe9718af21a5b87fd8ae7c193475"
+  },
+  "acceptance": "acceptance-final.json",
+  "completion": "completion-observation.json",
+  "limits": "Local delivery integrity only; no fresh-host or ordinary-baseline execution implied."
+}

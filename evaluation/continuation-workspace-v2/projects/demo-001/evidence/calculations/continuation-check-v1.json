@@ -1,0 +1,441 @@
+{
+  "checked_at": "2026-11-16T07:16:50.660387+00:00",
+  "synthetic": true,
+  "tool": "project-local-check-continuation-v1",
+  "method": "Fraction independent of analyze_table; explicit design assumptions; normal approximation",
+  "inputs": [
+    {
+      "path": "evidence/calculations/continuation-spec-v1.json",
+      "sha256": "8cec43260742e7bab8f0985fc8d138b53d7a3ceca8427a87a2f8073f25ce263c"
+    },
+    {
+      "path": "evidence/sources/S002/v1/original.csv",
+      "sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c"
+    },
+    {
+      "path": "evidence/calculations/total-v1.json",
+      "sha256": "78d89998a191d96269f176933df1bf0c5607fe7dded4ae07aed7f31b0b6cb935"
+    },
+    {
+      "path": "evidence/calculations/segments-v1.json",
+      "sha256": "bdfc9b42ca5287d62fe515b0148a7dca3d7f12a77c01bdfa964ba47e0300fc05"
+    },
+    {
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "4b634b74b93d1767366019340c2fa70c032c16e848a2cbfc9e77a77b18c73464"
+    },
+    {
+      "path": "evidence/calculations/economics-input-v1.json",
+      "sha256": "fae250cfa4d864e39d20a9fb97475981b6b4218c088b498da3eba4fda2a7cd0b"
+    }
+  ],
+  "script": {
+    "path": "evidence/calculations/check-continuation-v1.py",
+    "sha256": "72a33dc39c209d334ec158e4f60379e689b926ac2f0b5355c349a7bca1915e87"
+  },
+  "metric_checks": [
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "activation_pct",
+      "exact": "74",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "retention_pct",
+      "exact": "52",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "paid_pct",
+      "exact": "17",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "revenue_rub",
+      "exact": "25500",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-08"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "activation_pct",
+      "exact": "56",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "retention_pct",
+      "exact": "28",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "paid_pct",
+      "exact": "8",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "revenue_rub",
+      "exact": "12000",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/total-v1.json",
+      "group": {
+        "period": "2026-09"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "activation_pct",
+      "exact": "80",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "retention_pct",
+      "exact": "60",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "paid_pct",
+      "exact": "20",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "revenue_rub",
+      "exact": "24000",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "activation_pct",
+      "exact": "50",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "retention_pct",
+      "exact": "20",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "paid_pct",
+      "exact": "5",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "revenue_rub",
+      "exact": "1500",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "activation_pct",
+      "exact": "80",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "retention_pct",
+      "exact": "60",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "paid_pct",
+      "exact": "20",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "revenue_rub",
+      "exact": "6000",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "activation_pct",
+      "exact": "50",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "retention_pct",
+      "exact": "20",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "paid_pct",
+      "exact": "5",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "revenue_rub",
+      "exact": "6000",
+      "pass": true
+    },
+    {
+      "result": "evidence/calculations/segments-v1.json",
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "variable_cost_rub",
+      "exact": null,
+      "pass": true
+    }
+  ],
+  "decomposition": [
+    {
+      "metric": "retained_d28",
+      "august_pct": "52.000000",
+      "september_pct": "28.000000",
+      "standardized_august_rates_september_mix_pct": "28.000000",
+      "mix_change_pp": "-24.000000",
+      "pass": true
+    },
+    {
+      "metric": "activated",
+      "august_pct": "74.000000",
+      "september_pct": "56.000000",
+      "standardized_august_rates_september_mix_pct": "56.000000",
+      "mix_change_pp": "-18.000000",
+      "pass": true
+    },
+    {
+      "metric": "paid",
+      "august_pct": "17.000000",
+      "september_pct": "8.000000",
+      "standardized_august_rates_september_mix_pct": "8.000000",
+      "mix_change_pp": "-9.000000",
+      "pass": true
+    }
+  ],
+  "saved_economics_checks": [
+    {
+      "kind": "cohort",
+      "value_rub": "3600",
+      "pass": true
+    },
+    {
+      "kind": "cohort",
+      "value_rub": "-5400",
+      "pass": true
+    },
+    {
+      "kind": "cohort",
+      "value_rub": "-1200",
+      "pass": true
+    },
+    {
+      "kind": "cohort",
+      "value_rub": "-10200",
+      "pass": true
+    },
+    {
+      "kind": "pilot",
+      "value_rub": "-1520",
+      "pass": true
+    },
+    {
+      "kind": "pilot",
+      "value_rub": "-800",
+      "pass": true
+    },
+    {
+      "kind": "pilot",
+      "value_rub": "400",
+      "pass": true
+    }
+  ],
+  "sampling": {
+    "method": "normal approximation; two-sided alpha; equal independent arms; no attrition",
+    "formula_n_per_arm": "ceil((z_alpha*sqrt(2*pbar*(1-pbar))+z_power*sqrt(p0*(1-p0)+p1*(1-p1)))^2/(p1-p0)^2)",
+    "z_alpha": "1.959963985",
+    "z_power": "0.841621234",
+    "required_per_arm": "356",
+    "required_total": "712",
+    "pilot_per_arm": "50",
+    "pilot_null_95pct_half_width_pp": "19.203647",
+    "full_recruitment_months": "7.120000",
+    "full_d28_total_days": "241.600000",
+    "full_payment_total_days": "243.600000",
+    "pilot_d28_total_days": "58.000000",
+    "pilot_payment_total_days": "60.000000",
+    "sample_size_inequality_crosscheck": true,
+    "limitation": "Power is for superiority over zero at a true 10pp effect, not proof of an effect at least 10pp or adequate power for payments."
+  },
+  "experiment_economics": [
+    {
+      "treated_users": "100",
+      "cost_rub": "2000",
+      "margin_rub_per_additional_payer": "240",
+      "break_even_paid_lift_exact": "1/12",
+      "break_even_paid_lift_pp": "8.333333",
+      "minimum_integer_additional_payers": "9",
+      "integer_paid_lift_pp": "9.000000",
+      "contribution_at_10pp_lift_rub": "400.00"
+    },
+    {
+      "treated_users": "50",
+      "cost_rub": "2000",
+      "margin_rub_per_additional_payer": "240",
+      "break_even_paid_lift_exact": "1/6",
+      "break_even_paid_lift_pp": "16.666667",
+      "minimum_integer_additional_payers": "9",
+      "integer_paid_lift_pp": "18.000000",
+      "contribution_at_10pp_lift_rub": "-800.00"
+    },
+    {
+      "treated_users": "356",
+      "cost_rub": "2000",
+      "margin_rub_per_additional_payer": "240",
+      "break_even_paid_lift_exact": "25/1068",
+      "break_even_paid_lift_pp": "2.340824",
+      "minimum_integer_additional_payers": "9",
+      "integer_paid_lift_pp": "2.528090",
+      "contribution_at_10pp_lift_rub": "6544.00"
+    }
+  ],
+  "all_checks_passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/check_acceptance.py"
+  ],
+  "started_at": "2026-11-16T12:16:13.237778+00:00",
+  "ended_at": "2026-11-16T12:16:16.295336+00:00",
+  "elapsed_seconds": 3.061999999998079,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

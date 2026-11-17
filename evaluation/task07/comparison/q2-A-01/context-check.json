@@ -1,0 +1,13 @@
+{
+  "sourceMatch": true,
+  "settingsMatch": false,
+  "freshMatch": true,
+  "expectedSources": [
+    "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-A-20261116-01\\AGENTS.md"
+  ],
+  "actualSources": [
+    "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-A-20261116-01\\AGENTS.md"
+  ],
+  "model": "gpt-6-astra",
+  "reasoningEffort": "max"
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "evaluation/check_m2_fidelity.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--version",
+    "2",
+    "--output",
+    "evidence/fidelity-v2.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:30:45.605720+00:00",
+  "ended_at": "2026-11-16T15:30:45.705673+00:00",
+  "elapsed_seconds": 0.09299999999711872,
+  "returncode": 0
+}

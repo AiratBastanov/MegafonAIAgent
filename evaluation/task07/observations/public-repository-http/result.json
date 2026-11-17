@@ -1,0 +1,25 @@
+{
+  "command": [
+    "curl.exe",
+    "--silent",
+    "--show-error",
+    "--location",
+    "--output",
+    "NUL",
+    "--write-out",
+    "http_status=%{http_code} effective_url=%{url_effective}",
+    "--max-time",
+    "20",
+    "https://github.com/AiratBastanov/MegafonAIAgent"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:52:12.147084+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:52:13.056696+00:00",
+  "elapsed_seconds": 0.9060000000026776,
+  "returncode": 0,
+  "stdout_sha256": "e1f51f6214e431c03e8064ba4b10130e4896f218c2da08ff6f4a3fb3a177adf3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,34 @@
+{
+  "reused": false,
+  "source": {
+    "id": "S006",
+    "kind": "text",
+    "origin": "inputs/mock-capability-withdrawal-v1.txt",
+    "input_sha256": "60865010fb83d42a8bed278eed1e0bd1a17d92ce8b374012f069d97555f3522e",
+    "synthetic": true,
+    "accessed_at": null,
+    "locator": null,
+    "retrieval_status": "local_import",
+    "extraction_method": "utf8-lines-v1",
+    "limitations": [],
+    "delimiter": null,
+    "version": 1,
+    "imported_at": "2026-11-16T11:56:54+00:00",
+    "published_at": null,
+    "input_path": "inputs/mock-capability-withdrawal-v1.txt",
+    "tool_version": "2.0",
+    "original": {
+      "path": "evidence/sources/S006/v1/original.txt",
+      "sha256": "60865010fb83d42a8bed278eed1e0bd1a17d92ce8b374012f069d97555f3522e"
+    },
+    "extract": {
+      "path": "evidence/sources/S006/v1/extract.json",
+      "sha256": "ef157d95b76b6309f9aecfaf68bf72270b9cb233980659338644b86e56acbeb7"
+    }
+  },
+  "incomplete_versions": [],
+  "record": {
+    "path": "evidence/sources/S006/v1/source.json",
+    "sha256": "9f958c018243297fad575bbaa7d9137f082f7343384b82698f57869a04128917"
+  }
+}

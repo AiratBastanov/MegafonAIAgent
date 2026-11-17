@@ -1,0 +1,1 @@
+{"workspaces": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd", "frozen_files": 210, "native_revision": 2}

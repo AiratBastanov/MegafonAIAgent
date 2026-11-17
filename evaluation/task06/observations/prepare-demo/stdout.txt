@@ -1,0 +1,1 @@
+{"initial_files": 8, "project": "projects/task06-rehearsal"}

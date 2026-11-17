@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/publish_withdrawal_review.py"
+  ],
+  "started_at": "2026-11-16T12:01:16.665984+00:00",
+  "ended_at": "2026-11-16T12:01:17.437163+00:00",
+  "elapsed_seconds": 0.7659999999996217,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

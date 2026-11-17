@@ -1,0 +1,14 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-c",
+    "import sys,platform,importlib.metadata as m,json; print(json.dumps({'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'packages':{n:m.version(n) for n in ['openpyxl','pypdf','et-xmlfile']}},indent=2))"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T13:59:12.224650+00:00",
+  "ended_at": "2026-11-16T13:59:12.543796+00:00",
+  "elapsed_seconds": 0.31199999999807915,
+  "returncode": 0
+}

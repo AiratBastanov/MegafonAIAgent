@@ -1,0 +1,29 @@
+{
+  "id": "S003",
+  "kind": "web-excerpt",
+  "origin": "https://help.dropbox.com/share/create-file-request",
+  "input_sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T15:25:32.7971965Z",
+  "locator": "T1-T2",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "accessed_at is excerpt-registration time after the current-host reading on 2026-11-16; exact origin fetch time is unknown.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T15:25:32+00:00",
+  "published_at": null,
+  "input_path": "inputs/web-alternatives-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S003/v1/original.txt",
+    "sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f"
+  },
+  "extract": {
+    "path": "evidence/sources/S003/v1/extract.json",
+    "sha256": "d75e27653d0e43d80a87229dc91a21dc321062886c56672888a32b9db91d7e6e"
+  }
+}

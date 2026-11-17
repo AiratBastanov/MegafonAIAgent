@@ -1,0 +1,25 @@
+{
+  "id": "Q1-REPEAT-IMPACT-ONLY",
+  "project_id": "task04-followup",
+  "kind": "evidence_change",
+  "at": "2026-12-19T12:00:00+03:00",
+  "provenance": {
+    "kind": "source_material",
+    "artifact_id": "Q1-REPEAT-v1-extract",
+    "locator": "line:1-3"
+  },
+  "change": {
+    "type": "nonmaterial",
+    "source": {
+      "id": "S005",
+      "version": 1
+    },
+    "locators": [
+      "line:1-5"
+    ],
+    "reason": "Повторно прислана уже учтённая коррекция; новых значений, файла XLSX или измерений нет.",
+    "old_ground": "S005@1 уже учтён в S002@2: Экономика!E3 = 90 минут.",
+    "new_ground": "То же основание: Экономика!E3 = 90 минут.",
+    "applicability": "Применим как повтор сообщения; не меняет C014/C013/C011, расчёты или выбор OWNER-01."
+  }
+}

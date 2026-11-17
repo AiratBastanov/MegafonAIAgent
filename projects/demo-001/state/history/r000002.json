@@ -1,0 +1,303 @@
+{
+  "artifacts": [
+    {
+      "id": "S001-meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "4b9e28481faf3835b44458d537f698a1aee6da4847f247a635eb4e110602ed42"
+    },
+    {
+      "id": "S001-original",
+      "path": "evidence/sources/S001/v1/original.docx",
+      "sha256": "f87f3def3de8f79abd67c1ee8244771e01bbf640e53ff3068b0682ae09e8ae8d"
+    },
+    {
+      "id": "S001-extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "928979d2a93ef85f93b22e52504a1e9e61dc4fb3cfaf5ec7dfab4963291bd8b5"
+    },
+    {
+      "id": "S002-meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "6e95b504538378db3fe84ea1f4f35ea8528414d7af35289c4305b11a252c6196"
+    },
+    {
+      "id": "S002-original",
+      "path": "evidence/sources/S002/v1/original.csv",
+      "sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c"
+    },
+    {
+      "id": "S002-extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "f55a06447d6084aab00520a25377e9faff6d00f7d52ed2c11c4b8bb7d191a3cb"
+    },
+    {
+      "id": "S003-meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "b134bc65c9d3b6da82ba998152fb62f6c454e20fcd21551e2d68b74189fef384"
+    },
+    {
+      "id": "S003-original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "00d2b92e9a6fe0c79dde0abb41f27e19880362ff6d22b13e2d5b869399d36ccf"
+    },
+    {
+      "id": "S003-extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "0b0b8224aae1e6fb039c14cd2629e5d003aa43cbf235e420aac7575e7ca45374"
+    },
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "edeb325521bf370d9426d72d41255937852c14041d8b5ec8fc3bc9be7219b944"
+    },
+    {
+      "id": "DEFINITIONS",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "e097828b7c3a56776f85ffe1a7a2b648dd5d9fbc0b8cd9e88c5a28b3b3a1482a"
+    },
+    {
+      "id": "SPEC-total",
+      "path": "inputs/metrics-total.json",
+      "sha256": "639c9fed6d2781ba19d7973f3b2ef88379c24514161fbad0de0ef63645d06e74"
+    },
+    {
+      "id": "SPEC-segments",
+      "path": "inputs/metrics-segments.json",
+      "sha256": "e69472987bb3b4431925afeb3d0f5415889795d8e765d6535e51f403c4dadf98"
+    },
+    {
+      "id": "CALC-total-v1",
+      "path": "evidence/calculations/total-v1.json",
+      "sha256": "78d89998a191d96269f176933df1bf0c5607fe7dded4ae07aed7f31b0b6cb935"
+    },
+    {
+      "id": "CALC-segments-v1",
+      "path": "evidence/calculations/segments-v1.json",
+      "sha256": "bdfc9b42ca5287d62fe515b0148a7dca3d7f12a77c01bdfa964ba47e0300fc05"
+    },
+    {
+      "id": "CHECK-total-v1",
+      "path": "evidence/calculations/independent-total-v1.json",
+      "sha256": "7bec780e46501c06d36c674f64c6291210454f5eb0859c8dea7429be5f771416"
+    },
+    {
+      "id": "CHECK-segments-v1",
+      "path": "evidence/calculations/independent-segments-v1.json",
+      "sha256": "6a84869d3ac74eab4ea1595b4aded8d1e17fc35273a6d0a5e3b7df72197c4a95"
+    },
+    {
+      "id": "RESEARCH-v1",
+      "path": "evidence/research-v1.md",
+      "sha256": "9467dc3b77de7869383eab8000abbe5b8aae89a854459408b414e73b68b13135"
+    },
+    {
+      "id": "ECON-input-v1",
+      "path": "evidence/calculations/economics-input-v1.json",
+      "sha256": "fae250cfa4d864e39d20a9fb97475981b6b4218c088b498da3eba4fda2a7cd0b"
+    },
+    {
+      "id": "ECON-v1",
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "4b634b74b93d1767366019340c2fa70c032c16e848a2cbfc9e77a77b18c73464"
+    },
+    {
+      "id": "ECON-CHECK-v1",
+      "path": "evidence/independent-economics-v1.md",
+      "sha256": "9b9b3c665dce1b71db2ba726a07bebe91fb98ecc5e1a603bca4339da4a3136c3"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b3/t1/r2/c2/p1; body/b3/t1/r3/c2/p1",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Текущие функции — ручное создание/дата/список/отметка/копирование; onboarding и автоповтор только предлагаются"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CALC-total-v1",
+          "locator": "groups period=2026-08,2026-09 metrics.retention_pct",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "В синтетических когортах общее удержание D28 52%→28%; 260/500 и 140/500"
+    },
+    {
+      "derived_from": [
+        "C002"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "CALC-segments-v1",
+          "locator": "groups[].retention_pct; denominator",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "RESEARCH-v1",
+          "locator": "Q1"
+        }
+      ],
+      "id": "C003",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Сегментное удержание 60%/20% неизменно; доля recurring 80%→20% воспроизводит агрегат28% без изменения ставок"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003-extract",
+          "locator": "lines 7-10; Introduction to recurring dates, host lines52-65",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Todoist описывает автоматический перенос повторяющейся задачи на следующую дату после завершения"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b7/p6",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "CALC-total-v1",
+          "locator": "groups[].metrics.variable_cost_rub=null",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Переменные и избегаемые фиксированные расходы и стоимость новых функций неизвестны"
+    },
+    {
+      "derived_from": [
+        "C003"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b4/p3; body/b6/p5",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C006",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Изменение состава привлечения может объяснять агрегатный спад; плохой первый экран остаётся конкурирующей непроверенной гипотезой"
+    },
+    {
+      "derived_from": [
+        "C005"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ECON-v1",
+          "locator": "cohort_scenarios; pilot_scenarios; assumptions"
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "арифметика и ограничения"
+        }
+      ],
+      "id": "C007",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Сценарный вклад первого месяца сентябрьской когорты меняется от +3600 до −10200 RUB; при иллюстративном пилоте100 человек/K2000/v60 минимально9 добавочных плательщиков. Это не прибыль направления и не прогноз спроса"
+    }
+  ],
+  "completed": [
+    "DOCX S001@1 прочитан с координатами",
+    "CSV S002@1 зарегистрирован и рассчитан по двум спецификациям",
+    "Официальная страница Todoist реально прочитана, S003@1",
+    "30 значений независимо проверены Fraction",
+    "Описательное объяснение сменой состава сохранено; причинность не установлена",
+    "Рассчитаны и отдельно проверены условные затраты когорты и дополнительная экономика пилота; решения ещё нет"
+  ],
+  "decision": {
+    "human_approval": false,
+    "owner": "unassigned",
+    "status": "proposed"
+  },
+  "decision_question": "Оставить продукт, исправить активацию, развить регулярные задачи или закрыть направление?",
+  "next_action": "Сравнить keep, исправление активации, фокус на регулярных задачах и close на имеющихся доказательствах и сценариях; затем написать стратегии и план проверки",
+  "objective": "Предложить руководителю обоснованный следующий обратимый шаг для учебного планировщика с падением повторного использования",
+  "pending_actions": [
+    "Содержательно сравнить четыре альтернативы",
+    "Написать пять результатов",
+    "Провести evidence-review и сохранить новое состояние"
+  ],
+  "project_id": "demo-001",
+  "revision": 2,
+  "saved_at": "2026-11-16T07:12:32.232299+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001-meta",
+        "S001-original",
+        "S001-extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002-meta",
+        "S002-original",
+        "S002-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003-meta",
+        "S003-original",
+        "S003-extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    }
+  ],
+  "stage": "research_complete",
+  "state_sha256": "c00188eb3ad4e7b9aa609a9d77ccd140b0c21a4be393687205e54af0a3a68824",
+  "stop": {
+    "emergency_ui_cancel_tested": false,
+    "kind": "cooperative_checkpoint",
+    "reason": "Запланированная проверка продолжения TASK02 до синтеза"
+  },
+  "unresolved_questions": [
+    "Избегаемые расходы, переменная себестоимость и стоимость разработки неизвестны",
+    "Неизвестны канал привлечения, причинный эффект onboarding и спрос на автоповтор",
+    "Официальный дополнительный бриф недоступен текущему web route"
+  ]
+}

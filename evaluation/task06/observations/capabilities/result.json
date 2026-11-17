@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; python --version; codex --version; ffmpeg -version; git status --short; git remote -v"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:18:41.516219+00:00",
+  "ended_at": "2026-11-16T15:18:41.847965+00:00",
+  "elapsed_seconds": 0.3440000000009604,
+  "returncode": 1
+}

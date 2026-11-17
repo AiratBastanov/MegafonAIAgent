@@ -1,0 +1,19 @@
+{
+  "stale_update": {
+    "published_revision": 3,
+    "lost_committed_action": true,
+    "current_next_action": "Проверить"
+  },
+  "synthetic_downgrade": {
+    "accepted": true,
+    "metadata_synthetic": true,
+    "declared_source_synthetic": false,
+    "declared_claim_synthetic": false
+  },
+  "synthetic_completion_outside_evaluation": {
+    "accepted": true,
+    "evaluation": null,
+    "choice_status": "accepted",
+    "commitment_status": "completed"
+  }
+}

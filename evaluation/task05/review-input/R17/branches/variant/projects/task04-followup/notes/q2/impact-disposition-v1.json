@@ -1,0 +1,137 @@
+{
+  "branch": "variant",
+  "as_of": "2026-12-19T13:00:00+03:00",
+  "clock": "simulated",
+  "basis_revision": 3,
+  "basis_state_sha256": "636aa22ee1eac993d835160d565273758d77e4e090a2537972d8184ce2e5da36",
+  "source_id_version": "S001@1",
+  "locator": "physical-page:1/block:5",
+  "changed_clause": "links expire after 7 days",
+  "preserved_clause_note": "Фраза recipient needs no account и предел 2 GB на файл этим сообщением явно не изменены; это прежние утверждения описания, требующие приёмки.",
+  "dispositions": [
+    {
+      "node": "claim:C001",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "claim:C010",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "claim:C011",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "claim:C012",
+      "outcome": "reviewed_unchanged",
+      "reason": "Правила обучения остаются допущениями; изменение конкретной проверки отражено в новом плане, пороги и размер не переопределяются."
+    },
+    {
+      "node": "commitment:K-BUDGET",
+      "outcome": "reviewed_unchanged",
+      "reason": "Остаётся blocked/unassigned с due_at=null; отзыв не согласовывает бюджет и не устраняет зависимость."
+    },
+    {
+      "node": "commitment:K-CAPABILITY",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "commitment:K-PROTOCOL",
+      "outcome": "reviewed_unchanged",
+      "reason": "Завершение локального документа Q1 остаётся историческим фактом; оно никогда не подтверждало возможности продукта."
+    },
+    {
+      "node": "commitment:K-VALUE",
+      "outcome": "reviewed_unchanged",
+      "reason": "Остаётся blocked/unassigned с due_at=null; реальных наблюдений и разрешения нет."
+    },
+    {
+      "node": "condition:G-CAPABILITY",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "condition:G-ECONOMICS",
+      "outcome": "reviewed_unchanged",
+      "reason": "Основания сценарной экономики и потребность в бюджете не менялись; ссылки на обновлённые документы актуализированы."
+    },
+    {
+      "node": "condition:G-VALUE",
+      "outcome": "revised",
+      "reason": "Уточнены отозванная часть, неизвестность и соответствующее условие приёмки/проверки; нет вывода о противоположном поведении."
+    },
+    {
+      "node": "output:OUTPUT-v2-communication-strategy",
+      "outcome": "revised",
+      "reason": "Новая узкая поправка OUTPUT-Q2-communication-strategy; старый файл и hash сохранены."
+    },
+    {
+      "node": "output:OUTPUT-v2-options",
+      "outcome": "reviewed_unchanged",
+      "reason": "Альтернативы из v2 условны на приёмку, бюджет, ценность и экономику; отозванная фраза не является их фактом выбора. Нет основания автоматически сменить сегмент или закрыть направление."
+    },
+    {
+      "node": "output:OUTPUT-v2-product-strategy",
+      "outcome": "revised",
+      "reason": "Новая узкая поправка OUTPUT-Q2-product-strategy; старый файл и hash сохранены."
+    },
+    {
+      "node": "output:OUTPUT-v2-situation",
+      "outcome": "revised",
+      "reason": "Новая узкая поправка OUTPUT-Q2-situation; старый файл и hash сохранены."
+    },
+    {
+      "node": "output:OUTPUT-v2-validation-plan",
+      "outcome": "revised",
+      "reason": "Новая узкая поправка OUTPUT-Q2-validation-plan; старый файл и hash сохранены."
+    }
+  ],
+  "reused_artifacts": [
+    {
+      "id": "CALC-FUNNEL-v1",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "9091b55537c789878454be91a5f404fc52bc64560f932e68fc76603424627a1a"
+    },
+    {
+      "id": "ECON-RAW-v2",
+      "path": "evidence/calculations/economics-raw-v2.json",
+      "sha256": "25a05f105338a3febe8e26179bc06c67161f584efe65a83804c67acbc3e52d63"
+    },
+    {
+      "id": "ECON-v2",
+      "path": "evidence/calculations/economics-v2.json",
+      "sha256": "33c08c353973ed5393d9ac6d9b9c0d90ba7ec19cc78eaff23bd310c71c2dc0a3"
+    },
+    {
+      "id": "ECON-CHECK-v2",
+      "path": "evidence/calculations/independent-v2.json",
+      "sha256": "330e00153d485966c122cba0c15118c69965741be96453fcde7f3b19a5cb89ff"
+    },
+    {
+      "id": "OUTPUT-v2-options",
+      "path": "outputs/v2/options.md",
+      "sha256": "0e514d4cb99b61c77a8e6ba13d0b824756d9f887fabfeb854a64ab419483effe"
+    },
+    {
+      "id": "S002v2-extract",
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    },
+    {
+      "id": "S005v1-extract",
+      "path": "evidence/sources/S005/v1/extract.json",
+      "sha256": "411e6428ee6bd6ae0f95b57ab781c6f1958eb08b7a3e23191869184277d853ca"
+    },
+    {
+      "id": "Q1-PROTOCOL",
+      "path": "notes/q1/local-protocol-v1.md",
+      "sha256": "caa59bc2b3ebf40314c39d427f092680106945d876d98038d077bcb91cc69eee"
+    }
+  ],
+  "reuse_reason": "XLSX и сценарные значения не изменены, нет новых измерений. Пересчёт не закрывает пробел возможностей. Переиспользование проверено по прежним hash штатным loader.",
+  "limitations": "PDF overlap работает на уровне блоков; различие фраз и скрытая календарная связь установлены координатором. Graph не доказывает фактическое поведение."
+}

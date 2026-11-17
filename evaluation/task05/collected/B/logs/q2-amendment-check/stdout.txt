@@ -1,0 +1,110 @@
+{
+  "checked_at_utc": "2026-11-16T13:55:24.803970+00:00",
+  "simulated_as_of": "2026-12-19T13:00:00+03:00",
+  "prior_artifacts": [
+    {
+      "path": "responses/q1.md",
+      "sha256": "d0c13cd22bb4c465ffde1d592a56299339073b3e5aec35558a3b60a7ddad582a",
+      "unchanged": true
+    },
+    {
+      "path": "notes/familiar/q1-handoff.md",
+      "sha256": "b2c7da5b3047762e16c0c3e3c43e933bc94d7946d92641d3106f204589149a30",
+      "unchanged": true
+    },
+    {
+      "path": "notes/variant/q1-handoff.md",
+      "sha256": "3a8b0a22851ccd841e1d8953da58a6c80a38cad747f0662963465f11dc48a89c",
+      "unchanged": true
+    },
+    {
+      "path": "notes/familiar/q1-protocol.md",
+      "sha256": "e895d52ac3b5b59fae8eaf9c2297d6a90f66fef0b0edeccf2aaa540a8079afa5",
+      "unchanged": true
+    },
+    {
+      "path": "notes/variant/q1-protocol.md",
+      "sha256": "43791f79cdb0d678c18eb89098087ac677b9c3c22431eb4cea11f859342e31d0",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/q1-verification.json",
+      "sha256": "b05ecbe9c31e0b25863762181acd22be8dc7545b6e816cbc13a0ef857106a0b4",
+      "unchanged": true
+    },
+    {
+      "path": "tools/q1_audit.py",
+      "sha256": "254ba099077f5cf27d3fea362d5ff020fa2266fdf0927531c19ee0feb76118e7",
+      "unchanged": true
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "S001v1-original",
+      "path": "materials/evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d",
+      "matches_registry": true
+    },
+    {
+      "id": "S001v1-extract",
+      "path": "materials/evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3",
+      "matches_registry": true
+    },
+    {
+      "id": "OWNER-INSTRUCTION",
+      "path": "materials/inputs/owner-instruction-v1.md",
+      "sha256": "3b419510f375b0b14065a583196a50663ec7b4c4cd34145f6d3c9089f42c6a9d",
+      "matches_registry": true
+    },
+    {
+      "id": "OUTPUT-v2-product-strategy",
+      "path": "materials/outputs/v2/product-strategy.md",
+      "sha256": "ee835050a62a01dae8ce04f9364374c57f21f7f6be3bc13194122bd99dac1338",
+      "matches_registry": true
+    },
+    {
+      "id": "OUTPUT-v2-communication-strategy",
+      "path": "materials/outputs/v2/communication-strategy.md",
+      "sha256": "8acd9dcd704645c6ea574626f64e00777b39b9dd8def1ee4dafe26b72194386f",
+      "matches_registry": true
+    },
+    {
+      "id": "OUTPUT-v2-validation-plan",
+      "path": "materials/outputs/v2/validation-plan.md",
+      "sha256": "eb156b87667f8292f4c0d27cf69bd9b2a7408e89a512899cd968be6ed24956f4",
+      "matches_registry": true
+    },
+    {
+      "id": "OUTPUT-v2-situation",
+      "path": "materials/outputs/v2/situation.md",
+      "sha256": "f9453f7b95148e51dd0448fadb5307f7a7cab860f188e7eb94b81a4ebcf4e797",
+      "matches_registry": true
+    },
+    {
+      "id": "OUTPUT-v2-options",
+      "path": "materials/outputs/v2/options.md",
+      "sha256": "0e514d4cb99b61c77a8e6ba13d0b824756d9f887fabfeb854a64ab419483effe",
+      "matches_registry": true
+    }
+  ],
+  "branch_artifacts": [
+    {
+      "branch": "familiar",
+      "source": "inbox/q2/familiar-withdrawal-v1.txt",
+      "source_sha256": "a329b857648cd3310ddb1e7ded9f3134707cc37122c186125f1c7afbab472168",
+      "source_locator": "lines 1-4; target S001@1 physical-page:1/block:5",
+      "amendment": "outputs/familiar/q2-amendment-v1.md",
+      "amendment_sha256": "d700a4e797d1b2ca61749f110d3353dffb0dbf73c7cc03ca05471d92273d53d9"
+    },
+    {
+      "branch": "variant",
+      "source": "inbox/q2/variant-withdrawal-v1.txt",
+      "source_sha256": "71284b4e378307a7414ea918b4eb7dd7dadc18b0b5f0c4fed50f971d8e6ccd43",
+      "source_locator": "lines 1-4; target S001@1 physical-page:1/block:5",
+      "amendment": "outputs/variant/q2-amendment-v1.md",
+      "amendment_sha256": "c205813bb8891d5c2bf149b1b0a1a8713c5428432fade9b622eef32ff41e429a"
+    }
+  ],
+  "passed": true
+}

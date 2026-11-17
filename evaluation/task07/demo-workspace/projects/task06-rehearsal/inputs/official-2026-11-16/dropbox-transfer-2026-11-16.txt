@@ -1,0 +1,11 @@
+Официальный источник: Dropbox Help, What is Dropbox Transfer?
+URL: https://help.dropbox.com/share/dropbox-transfer
+Прочитано: 2026-11-16, через web/open. Дата обновления страницы: 2026-09-24.
+Версия локальной записи: 1. Это датированный пересказ и короткая цитата, не полный HTML и не испытание сервиса.
+
+Раздел What is Dropbox Transfer?, строки 55–58 прочитанного представления: сервис предназначен для передачи готовых файлов; получателю не нужен аккаунт Dropbox для доступа и скачивания.
+Раздел What are the size limits?, строки 70–79: лимит всей передачи Basic — 2 GB; Family/Plus — 50 GB; Transfer/Standard/Professional/Education/Essentials/Advanced/Business — 100 GB; Business Plus/Enterprise — 250 GB. Replay Add-On позволяет 250 GB. Это не лимит одного файла вымышленного RelayBox.
+Раздел Can I customize my transfers?, строки 67–69: пароль, собственный срок, логотип и фон описаны для Standard/Professional/Education/Essentials/Business/Business Plus/Advanced/Enterprise. Basic, Family и Plus в этом перечне отсутствуют. Права отдельного плана Transfer на пароль из этой строки не установлены.
+Раздел When does a transfer expire?, строки 80–85: Basic/Family/Plus — 7 дней; перечисленные расширенные планы и Transfer позволяют свой срок, по умолчанию 30 дней.
+Короткая цитата, строка 73: “Dropbox Basic: 2 GB”.
+Ограничение: источник описывает возможности конкурента, но не спрос, продажи, цены или расходы RelayBox.

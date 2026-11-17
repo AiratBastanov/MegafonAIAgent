@@ -1,0 +1,16 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/project_state.py",
+    "load",
+    "--project",
+    "projects/task06-rehearsal"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:34:52.377992+00:00",
+  "ended_at": "2026-11-16T15:34:52.555959+00:00",
+  "elapsed_seconds": 0.18800000000192085,
+  "returncode": 0
+}

@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-11-17T08:04:53.940637+00:00",
+  "baseline_archive_sha256": "ec83b1b852ad15ff8947572760ff00d25940403703cad6d093ab281e09121c31",
+  "changed_preexisting_files": [
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "2e8fc90bf19e62dd38ad98862233d68c9bc51c656966d711d0d6f1a255f205da",
+      "after_sha256": "94a31474a30e458c817b3ab7cc10acf0cdf0c07d7c923571c4eea6691612b110"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "before_sha256": "e645d1d14cc42e7ded27c248b55d2ed5c2faa28b03c9cb0c2e39ec2c558d67ee",
+      "after_sha256": "181cbc426cb92c023cabf5784ca052dbedaa5430f54367b48461a475b6917418"
+    },
+    {
+      "path": "docs/DEVELOPMENT_STATE.md",
+      "before_sha256": "2fc0231efc8b96769cf03fe2293f8b5f4b45cefabe4a5961d3a62a0cd492c597",
+      "after_sha256": "febbccdecd5fbef26bfd4275bb32d51a637ed2ce197a1f0217d3485233732a82"
+    },
+    {
+      "path": "docs/SUBMISSION_READINESS.md",
+      "before_sha256": "f24368e99a7b37d1c592c7658617d71c0aa251a80c082d50962662039f9b3f47",
+      "after_sha256": "e658b31a4cd1f3abf176da0ecbbac9f28c7ae58248ea39740d0d8e3a2cf96617"
+    },
+    {
+      "path": "evaluation/task04/check_recovery.py",
+      "before_sha256": "bd58f035fd691176dd60b923818c39c0bddeef7f8de165de6039b771f07ed6c8",
+      "after_sha256": "efc0598eebb33d420e9abf8c89c672406e5371a929c9ef70f476f13ff01aa347"
+    },
+    {
+      "path": "evaluation/task07/editorial/export_pdf.py",
+      "before_sha256": "bd9042a68316545c9c97a596377fac21cd5a5741247c73ae5afa25d49b088556",
+      "after_sha256": "619b71e00b443f6ee15381ba5b8d75cb53f8824c8785cc4a1b53812c76586bc0"
+    },
+    {
+      "path": "knowledge/procedures/decision-followup.md",
+      "before_sha256": "cb20b290c93f71919f8c50e4b8fc9ea6972097e73cab1c116683228bc8ce2208",
+      "after_sha256": "1606fe750ef6c834fb48d0756ba9beed65df1fbb27497249005512e37a5a903d"
+    },
+    {
+      "path": "knowledge/procedures/strategy-cycle.md",
+      "before_sha256": "625e6beb9448eb797c320e63d93186a765e3e51e9ce0a56e4a8c8d0611c038cb",
+      "after_sha256": "b11805030a8b51dbe2802910a89eb820b9203e797845a9f86d1642bafe14e978"
+    },
+    {
+      "path": "knowledge/record-contracts.md",
+      "before_sha256": "0dfb290e5cf0d4154672702ca45c3d8a34dfab30c2d74d42c8a5b68df39f618e",
+      "after_sha256": "31b90e68c7afe73d378f9b942aa67694249e9973d9043b5f25fccfd8f0ff8b56"
+    },
+    {
+      "path": "knowledge/tool-contracts.md",
+      "before_sha256": "25ab466865d9109293e3ad7878368aee0bb6713feff61e852e4d36e0b620d52e",
+      "after_sha256": "0d8272e1266b682b7ba3114a9c4491be2b016b1f7cb3a7c1a715fdd38d9c2567"
+    },
+    {
+      "path": "projects/INDEX.md",
+      "before_sha256": "fc4898abb614fc010f9c15b27b9b93da007a377fcad1b5aaa331a2d6a0a03b5b",
+      "after_sha256": "af01413742ca20dde16d3e09c00e5733400fae310766ab3dde1ff98b7e034377"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "4172ecddc72fdecdde23fb2272097023113b390825d28348e64507daad64b5eb",
+      "after_sha256": "8a0c74600734f603e1a2520768d1a0391ea2256589c2fbfe9e55fd808b1e972d"
+    },
+    {
+      "path": "scripts/decision_followup.py",
+      "before_sha256": "735f1731742220c27acf2d788c04a197e618d551afdf571590ed9573e6ee7415",
+      "after_sha256": "24e432ab2ea0fb360f7ada5d8ff864c2873233b75e49911fecdc2f21b2530725"
+    },
+    {
+      "path": "scripts/project_state.py",
+      "before_sha256": "29755e1ccea17312996424f7e00a2e9e281d9d55586464d32cd71843fbd064bc",
+      "after_sha256": "c5b408842a7641937c258d4af54fb73bf5ab23c639743733ac063f407efb46be"
+    },
+    {
+      "path": "submission/PROJECT_DESCRIPTION.pdf",
+      "before_sha256": "7faf5b4da1fbea29c9045580abc29849260baee633ced5978fb93c4eefd4b193",
+      "after_sha256": "d8736e57ee619361c16433afb94a40ad683525c4adda4ba122bc2c59cfeec24c"
+    },
+    {
+      "path": "submission/README.md",
+      "before_sha256": "dd7bb43a2a05372eff47c30cf130eefa7f6765991fdb271fca0ce970757f151f",
+      "after_sha256": "cd4ef1cfd3e4e3ad884cbbbcdd060d8531794f86e92aca451228b6266b966ca6"
+    },
+    {
+      "path": "submission/TECHNICAL_APPENDIX.md",
+      "before_sha256": "c64a22bea181dfc0325ac2ba465b32f87d7b46d9a9cc6f3e81319f7e74b48131",
+      "after_sha256": "4bcf1a6a6747a4fc1a96b8732a87a4189ed057d85902e295df07a8e21929a260"
+    },
+    {
+      "path": "submission/Описание проекта.inspection.json",
+      "before_sha256": "bbea21f68fde3c851fcd9c132ba5530f543e772f152254cb838f3fe26a9ffba1",
+      "after_sha256": "14d4fb3e61be71594956784023f758540f3407b0926de845d37933662a61db8e"
+    },
+    {
+      "path": "submission/Описание проекта.pdf",
+      "before_sha256": "7faf5b4da1fbea29c9045580abc29849260baee633ced5978fb93c4eefd4b193",
+      "after_sha256": "d8736e57ee619361c16433afb94a40ad683525c4adda4ba122bc2c59cfeec24c"
+    },
+    {
+      "path": "tests/test_followup.py",
+      "before_sha256": "73a037c38fa564f13fb47f5992cbd669f2be567a9137ea583421498f37f6c142",
+      "after_sha256": "2b416531bb74b45fa3e8920d2678c622bc5cd9084816067130f693e4f527b5ef"
+    },
+    {
+      "path": "tests/test_state.py",
+      "before_sha256": "f37752c4008c50a1132c3f5dd1d8cd9547028a74223efb37fa70f2beb7b68410",
+      "after_sha256": "ec356aaa8f0748497acecd4652b5824478c8e7635fdeb4e874d01473a2047551"
+    }
+  ],
+  "missing_preexisting_files": [],
+  "protected_product_and_observation_files_unchanged": 424,
+  "exclusion": "projects/INDEX.md is changed navigation, not product history"
+}

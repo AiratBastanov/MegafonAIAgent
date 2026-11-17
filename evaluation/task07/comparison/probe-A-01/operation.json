@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-16T16:37:53.389Z",
+  "executable": "c:\\Users\\BastaPC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64\\codex.exe",
+  "args": [
+    "app-server",
+    "--stdio"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-A-20261116-01",
+  "environment": {
+    "os": "win32",
+    "node": "v22.20.0",
+    "authentication": "normal existing host authentication; no credentials read or supplied",
+    "profile": "unchanged"
+  },
+  "request_scope": "initialize then fresh ephemeral thread/start; no LLM turn, no task input, no config/instruction overrides",
+  "ancestor_instruction_files": []
+}

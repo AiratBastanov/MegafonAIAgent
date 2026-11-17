@@ -1,0 +1,73 @@
+{
+  "thread_id": "01a1e533-4f9f-7b03-8e5b-1ba142270987",
+  "before_revision": 1,
+  "after_revision": 2,
+  "new_registered_artifacts": [
+    {
+      "id": "CONTINUE_REQUEST",
+      "path": "inputs/continue-request-v1.txt",
+      "sha256": "7067b05778dda59145213b189d7af98ed4955829a6f4824653372feb96cfb587"
+    },
+    {
+      "id": "FUNNEL_CALC",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "85c1e02fddedfcb9702094a4cad7c242b0e90b06d7bff8b5b42adcda15f60768"
+    },
+    {
+      "id": "ECON_BASE_CALC",
+      "path": "evidence/calculations/economics-base-v1.json",
+      "sha256": "9ae45027f4a08de51c5c728e07c19246e7fe6902ccaf9569f0b62b8932f65420"
+    },
+    {
+      "id": "ANALYSIS_SPEC_DRAFT",
+      "path": "inputs/analysis-calculation-spec-v1.json",
+      "sha256": "f416ad370fdf54378b3bd4f61547a39983333decbac116f71573a4095a6f0d02"
+    },
+    {
+      "id": "ANALYSIS_SPEC",
+      "path": "inputs/analysis-calculation-spec-v2.json",
+      "sha256": "d7ef6d8e2a0ea2f92d807afc02ac2be6ddc8f076b9d3777c8b1f414c76d662c8"
+    },
+    {
+      "id": "CHECKER_FAILED_V1",
+      "path": "evidence/reproduce-analysis-v1.py",
+      "sha256": "b188f0d3aaa17334faa57e45abb2191af6cc3e366c441339d9df33fc2b75dfae"
+    },
+    {
+      "id": "ANALYSIS_CHECKER",
+      "path": "evidence/reproduce-analysis-v2.py",
+      "sha256": "5ae5c90adef12a6786f2a49184091403596ff9bea33c61b000e541b673eb389b"
+    },
+    {
+      "id": "ANALYSIS_CALC",
+      "path": "evidence/calculations/analysis-derived-v1.json",
+      "sha256": "aefa62fdfe867b888f8dddbed1963e7bbea31a4c41b9504d8056c75b52c78e61"
+    },
+    {
+      "id": "ANALYSIS_NOTE",
+      "path": "evidence/analysis-v1.md",
+      "sha256": "8ca1c8bb9af42ef08d3f54862b6be7f1e5f8e470cc96b303f57bf74b1ba6b3e3"
+    },
+    {
+      "id": "ANALYSIS_REVIEW",
+      "path": "evidence/review-analysis-v1.md",
+      "sha256": "bb9771e4f795df710d30a5bc20386cd639c065c95309c7fc637a97e6e3f3f8c5"
+    },
+    {
+      "id": "RESUME_ACTIONS",
+      "path": "evidence/actions-resume-v1.jsonl",
+      "sha256": "54f25ba871123ce7190a018669cb8c3feb60236112d6051e66cf21140a42ffa3"
+    }
+  ],
+  "llm_usage": [
+    {
+      "input_tokens": 1292567,
+      "cached_input_tokens": 1229312,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 23281,
+      "reasoning_output_tokens": 4825
+    }
+  ],
+  "elapsed_seconds": 618.9530000000013,
+  "separate_loader_pass": true
+}

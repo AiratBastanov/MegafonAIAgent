@@ -1,0 +1,26 @@
+{
+  "id": "WITHDRAW-01",
+  "project_id": "task04-followup",
+  "kind": "evidence_change",
+  "at": "2026-11-18T13:00:00+03:00",
+  "clock": "simulated",
+  "provenance": {
+    "kind": "source_material",
+    "artifact_id": "S006v1-extract",
+    "locator": "line:2-3"
+  },
+  "change": {
+    "type": "withdrawn_support",
+    "source": {
+      "id": "S001",
+      "version": 1
+    },
+    "locators": [
+      "physical-page:1/block:5"
+    ],
+    "reason": "Отозвана поддержка существенного обещания отсутствия аккаунта получателя; нужен пересмотр предложения и сообщения",
+    "old_ground": "S001@1 block5 сообщал отсутствие необходимости аккаунта, без production приёмки",
+    "new_ground": "S006@1 отзывает поддержку этой фразы; нужен реальный протокол, противоположное утверждение не доказано",
+    "applicability": "Та же версия описанного прототипа, та же фраза; другие ограничения block5 этим событием не отзываются"
+  }
+}

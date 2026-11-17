@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-16T10:20:10.523751+00:00",
+  "changes": [
+    {
+      "sheet": "Экономика",
+      "address": "E3",
+      "before": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 30,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      },
+      "after": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 90,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      }
+    }
+  ],
+  "changed_selected_cells": 1,
+  "funnel_reused_from_source_version": 1,
+  "funnel_reuse_reason": "Воронка не изменилась; изменено только сценарное E3 другого листа",
+  "historical_demo002_revisions_validated": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "demo001_revision": 5,
+  "demo001_files_unchanged": 64,
+  "demo001_manifest_match": true,
+  "passed": true
+}

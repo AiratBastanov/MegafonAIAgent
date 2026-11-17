@@ -1,0 +1,26 @@
+{
+  "id": "S007",
+  "kind": "text",
+  "origin": "inputs/nonmaterial-note-v1.txt",
+  "input_sha256": "3beaac4ad12303a4f61d30f6a700ba727bbd6540c6a6c624806a2f2482e1f009",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "utf8-lines-v1",
+  "limitations": [],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T12:06:42+00:00",
+  "published_at": null,
+  "input_path": "inputs/nonmaterial-note-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S007/v1/original.txt",
+    "sha256": "3beaac4ad12303a4f61d30f6a700ba727bbd6540c6a6c624806a2f2482e1f009"
+  },
+  "extract": {
+    "path": "evidence/sources/S007/v1/extract.json",
+    "sha256": "e9fd828555375b8934fef86c396d3482d81f39025499c72164db928f489755dc"
+  }
+}

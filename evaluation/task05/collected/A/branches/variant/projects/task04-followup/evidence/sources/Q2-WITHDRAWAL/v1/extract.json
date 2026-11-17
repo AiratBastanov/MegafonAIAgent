@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Синтетическая заметка автора описания прототипа; 2026-12-19T13:00:00+03:00."
+    },
+    {
+      "locator": "line:2",
+      "text": "Отзываю поддержку фразы links expire after 7 days из S001@1, physical-page:1/block:5."
+    },
+    {
+      "locator": "line:3",
+      "text": "У автора нет протокола, позволяющего поддерживать этот срок. Новый фактический срок и результаты испытания не предоставлены."
+    },
+    {
+      "locator": "line:4",
+      "text": "Другие положения описания, включая recipient needs no account, и таблица не меняются этим сообщением."
+    }
+  ],
+  "source_id": "Q2-WITHDRAWAL",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "71284b4e378307a7414ea918b4eb7dd7dadc18b0b5f0c4fed50f971d8e6ccd43",
+  "extraction_method": "utf8-lines-v1"
+}

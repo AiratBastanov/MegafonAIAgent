@@ -1,0 +1,1 @@
+{"draft": "drafts/outputs-v3.json", "artifacts": 30, "claims": 7}

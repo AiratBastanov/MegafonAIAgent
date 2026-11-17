@@ -1,0 +1,28 @@
+{
+  "id": "S001",
+  "kind": "docx",
+  "origin": "inputs/brief-v1.docx",
+  "input_sha256": "f87f3def3de8f79abd67c1ee8244771e01bbf640e53ff3068b0682ae09e8ae8d",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "stdlib.zipfile+ElementTree/simple-docx-body-v1",
+  "limitations": [
+    "Только body и простые таблицы; номера страниц не определяются; вёрстка и оформление не анализируются."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T06:51:52+00:00",
+  "published_at": null,
+  "input_path": "inputs/brief-v1.docx",
+  "tool_version": "1.0",
+  "original": {
+    "path": "evidence/sources/S001/v1/original.docx",
+    "sha256": "f87f3def3de8f79abd67c1ee8244771e01bbf640e53ff3068b0682ae09e8ae8d"
+  },
+  "extract": {
+    "path": "evidence/sources/S001/v1/extract.json",
+    "sha256": "928979d2a93ef85f93b22e52504a1e9e61dc4fb3cfaf5ec7dfab4963291bd8b5"
+  }
+}

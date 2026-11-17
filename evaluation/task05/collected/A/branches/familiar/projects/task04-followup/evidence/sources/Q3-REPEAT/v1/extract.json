@@ -1,0 +1,18 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Синтетическое повторное сообщение 2026-12-19T14:00:00+03:00."
+    },
+    {
+      "locator": "line:2",
+      "text": "Повторяю те же 90 минут поддержки вместо 30. Новых величин, файлов XLSX, измерений или решений владельца нет."
+    }
+  ],
+  "source_id": "Q3-REPEAT",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "d5d8ab009370879e098e0c5d5e89ae21d229a1d14fedc46896a7e3e06079424b",
+  "extraction_method": "utf8-lines-v1"
+}

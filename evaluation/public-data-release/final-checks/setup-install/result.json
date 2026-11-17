@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\venv\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--no-cache-dir",
+    "--find-links",
+    "third_party/wheels",
+    "-r",
+    "requirements.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_public-data-release\\candidate",
+  "started_at": "2026-11-17T10:03:08.497431+00:00",
+  "network": "not needed",
+  "returncode": 0,
+  "elapsed_seconds": 2.359999999998763,
+  "ended_at": "2026-11-17T10:03:10.848632+00:00",
+  "stdout_sha256": "c35031f3595642f665bfa874288fd3d5083c5237ed23037c078fa571470af29d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

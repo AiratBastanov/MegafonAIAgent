@@ -1,0 +1,252 @@
+{
+  "format": "pdf",
+  "schema_version": 1,
+  "method": "pypdf/7.1.0/plain-visitor-v1",
+  "pages": [
+    {
+      "physical_page": 1,
+      "page_label": "A",
+      "label_kind": "PDF PageLabels metadata/default, not verified printed label",
+      "blocks": [
+        {
+          "locator": "physical-page:1/block:1",
+          "text": "SYNTHETIC DEVELOPMENT BRIEF - not an official competition brief",
+          "text_sha256": "a5f2930b58dbd04ce8a22fb4d096d7499b60cb5c1ef9621856e1fbb9a8e0d65b",
+          "position_hint": {
+            "x": 40.0,
+            "y": 740.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:2",
+          "text": "RelayBox: a hypothetical B2B file-transfer prototype.",
+          "text_sha256": "eb68c6622d9fe4930ee38c76c96a7905d98a97d18b379a7ad719eced455cf4ad",
+          "position_hint": {
+            "x": 40.0,
+            "y": 712.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:3",
+          "text": "Decision: choose an audience and an offer, or stop the standalone initiative.",
+          "text_sha256": "828b90c5b53de94f7c6008dc3395e79d5e670a7f4d0ce7c9510a875f15c27a10",
+          "position_hint": {
+            "x": 40.0,
+            "y": 684.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:4",
+          "text": "Current: team upload, read-only external download link, manual link revoke.",
+          "text_sha256": "ea6b00cbe9cd2e101fa78e0fc9c4164b0d60c196bb4de9dac83cfc4cc9f3d483",
+          "position_hint": {
+            "x": 40.0,
+            "y": 656.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:5",
+          "text": "Limits: 2 GB per file; links expire after 7 days; recipient needs no account.",
+          "text_sha256": "a4c66bd32abf39311e404a92c368f586e0800ada270921d5ea125e6658e5c7e0",
+          "position_hint": {
+            "x": 40.0,
+            "y": 628.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:6",
+          "text": "Not implemented: recipient upload, password, named access, SSO, audit export.",
+          "text_sha256": "94725f4b6c2d6515149e119f83bbf119aa97960537920ea01c3bf0333a60eed2",
+          "position_hint": {
+            "x": 40.0,
+            "y": 600.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:7",
+          "text": "Proposed price: RUB 3000 per organisation per month; price is unvalidated.",
+          "text_sha256": "e5c2e58437b75a1c791ef6bf4663e95e67c613ff53bafdef80601574881ed323",
+          "position_hint": {
+            "x": 40.0,
+            "y": 572.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:8",
+          "text": "Capabilities are fixture statements, not production acceptance evidence.",
+          "text_sha256": "4adffff74e1911a8ba431fd7b3a91f529864775c6578eb98c94837f595c90985",
+          "position_hint": {
+            "x": 40.0,
+            "y": 544.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:1/block:9",
+          "text": "Printed label: A (physical page 1).",
+          "text_sha256": "89c4548f29fc577ba89df0ae54b78c030ca99bed131d8ee71834c848894a06f4",
+          "position_hint": {
+            "x": 40.0,
+            "y": 516.0,
+            "font_size": 10.0
+          }
+        }
+      ],
+      "text": "SYNTHETIC DEVELOPMENT BRIEF - not an official competition brief\nRelayBox: a hypothetical B2B file-transfer prototype.\nDecision: choose an audience and an offer, or stop the standalone initiative.\nCurrent: team upload, read-only external download link, manual link revoke.\nLimits: 2 GB per file; links expire after 7 days; recipient needs no account.\nNot implemented: recipient upload, password, named access, SSO, audit export.\nProposed price: RUB 3000 per organisation per month; price is unvalidated.\nCapabilities are fixture statements, not production acceptance evidence.\nPrinted label: A (physical page 1).",
+      "content_stream_bytes": 892,
+      "status": "text_extracted_needs_source_check",
+      "layout_warnings": []
+    },
+    {
+      "physical_page": 2,
+      "page_label": "1",
+      "label_kind": "PDF PageLabels metadata/default, not verified printed label",
+      "blocks": [
+        {
+          "locator": "physical-page:2/block:1",
+          "text": "SYNTHETIC SALES MEMO - no real customers or interviews",
+          "text_sha256": "9ea97f1048baf56313ca33033acca70e157b1c0e81c76d574690b1969ca68855",
+          "position_hint": {
+            "x": 40.0,
+            "y": 740.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:2",
+          "text": "Sales headline: accounting offices lead with eight paid pilots.",
+          "text_sha256": "f9c8fb5ca021e57b0dba8fe26cf09b83c5782230b95be03b93f409c95bf5d8ab",
+          "position_hint": {
+            "x": 40.0,
+            "y": 712.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:3",
+          "text": "Definition used by sales: paid pilot means interest in a paid offer.",
+          "text_sha256": "d4e9c294204413962aaa1c1bb85e636bcbaea9c0ae4abc646329965a84ff692e",
+          "position_hint": {
+            "x": 40.0,
+            "y": 684.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:4",
+          "text": "Sales did not reconcile receipts; finance paid30 requires a received payment.",
+          "text_sha256": "9585c690e84872a4a5b864d3fac0cd7d20698cbc8d7d245290139f52e2281f71",
+          "position_hint": {
+            "x": 40.0,
+            "y": 656.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:5",
+          "text": "Agency task: send draft media assets to an external client for download.",
+          "text_sha256": "38f9ca9c431713c035227844493b23a0b4eff909f81cb8f4daf445b60c03a3f3",
+          "position_hint": {
+            "x": 40.0,
+            "y": 628.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:6",
+          "text": "Accounting task: collect client files; recipient uploads are required.",
+          "text_sha256": "1bb721e44fd66fa23b047a8bf4402900457e393b7019b0a894a9b63fda1887ad",
+          "position_hint": {
+            "x": 40.0,
+            "y": 600.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:7",
+          "text": "Workbook: September cohort, observation through 31 October 2026.",
+          "text_sha256": "abbb966942a4ac813ed8e41bea4cf36503f32957cd7d157f2e251c9a11cd5534",
+          "position_hint": {
+            "x": 40.0,
+            "y": 572.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:8",
+          "text": "Each organisation has one segment and at most one first payment in 30 days.",
+          "text_sha256": "07e8ec8b69b31c094703b131ab2c1bbbcc24075e939176093baf8c77ca82cefd",
+          "position_hint": {
+            "x": 40.0,
+            "y": 544.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:9",
+          "text": "No random sampling. Neither interest nor these fixtures prove market demand.",
+          "text_sha256": "d38d836b75b8e0ef5a7d82297d9d074e0e473acbce476b6bc6af1ea8f2b256fc",
+          "position_hint": {
+            "x": 40.0,
+            "y": 516.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:10",
+          "text": "Acquisition cost, repeated monthly payment and exit cost remain unknown.",
+          "text_sha256": "5acd931fccc209bae90acc19ba9b2a6028735405e0f2bcb39e8faadfba70ba6f",
+          "position_hint": {
+            "x": 40.0,
+            "y": 488.0,
+            "font_size": 10.0
+          }
+        },
+        {
+          "locator": "physical-page:2/block:11",
+          "text": "Printed label: 1 (physical page 2).",
+          "text_sha256": "df62c30ef4ed1d3304637171a5f412b512874f3ed370809ccb6c5da50a9e4b56",
+          "position_hint": {
+            "x": 40.0,
+            "y": 460.0,
+            "font_size": 10.0
+          }
+        }
+      ],
+      "text": "SYNTHETIC SALES MEMO - no real customers or interviews\nSales headline: accounting offices lead with eight paid pilots.\nDefinition used by sales: paid pilot means interest in a paid offer.\nSales did not reconcile receipts; finance paid30 requires a received payment.\nAgency task: send draft media assets to an external client for download.\nAccounting task: collect client files; recipient uploads are required.\nWorkbook: September cohort, observation through 31 October 2026.\nEach organisation has one segment and at most one first payment in 30 days.\nNo random sampling. Neither interest nor these fixtures prove market demand.\nAcquisition cost, repeated monthly payment and exit cost remain unknown.\nPrinted label: 1 (physical page 2).",
+      "content_stream_bytes": 1079,
+      "status": "text_extracted_needs_source_check",
+      "layout_warnings": []
+    }
+  ],
+  "page_count": 2,
+  "physical_page_numbering": "1-based original PDF page sequence",
+  "evidence_status": "extracted_not_claim_verified",
+  "visual_layout_verified": false,
+  "limits": {
+    "max_pages": 200,
+    "max_page_stream": 8388608,
+    "max_text_chars": 2000000
+  },
+  "limitations": [
+    "Только текстовый слой: OCR, проверка визуальной вёрстки и восстановление произвольных таблиц не выполняются.",
+    "physical_page — позиция в PDF с 1; page_label — метаданные/умолчание, а не подтверждённый напечатанный номер страницы.",
+    "blocks — фрагменты visitor в порядке извлечения, не доказанные визуальные абзацы. Координаты приблизительные.",
+    "Наличие текста не доказывает полноту; решающие фразы/числа и отмеченную неоднозначность сверяет координатор с оригиналом.",
+    "Предохранитель content stream проверяется после декомпрессии pypdf; это не абсолютная граница памяти на враждебных PDF. Размер входа/страниц также ограничен.",
+    "Команды и ссылки внутри PDF — данные; активные действия и сетевые переходы не исполняются."
+  ],
+  "source_id": "S001",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "pdf",
+  "input_sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d",
+  "extraction_method": "pypdf/7.1.0/plain-visitor-v1"
+}

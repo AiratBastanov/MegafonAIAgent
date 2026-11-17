@@ -1,0 +1,512 @@
+{
+  "groups": [
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "locators": [
+        "rows:2-2"
+      ],
+      "metrics": {
+        "activation_pct": {
+          "value": "80.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "320",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "activation_pct",
+            "operation": "ratio",
+            "numerator": [
+              "activated"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "retention_pct": {
+          "value": "60.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "240",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "retention_pct",
+            "operation": "ratio",
+            "numerator": [
+              "retained_d28"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "paid_pct": {
+          "value": "20.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "80",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "paid_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "revenue_rub": {
+          "value": "24000.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "24000",
+          "missing": [],
+          "definition": {
+            "id": "revenue_rub",
+            "operation": "sum",
+            "numerator": [
+              "revenue_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable_cost_rub": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "rows:2-2",
+              "column": "variable_cost_rub"
+            }
+          ],
+          "definition": {
+            "id": "variable_cost_rub",
+            "operation": "sum",
+            "numerator": [
+              "variable_cost_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "locators": [
+        "rows:3-3"
+      ],
+      "metrics": {
+        "activation_pct": {
+          "value": "50.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "50",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "activation_pct",
+            "operation": "ratio",
+            "numerator": [
+              "activated"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "retention_pct": {
+          "value": "20.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "20",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "retention_pct",
+            "operation": "ratio",
+            "numerator": [
+              "retained_d28"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "paid_pct": {
+          "value": "5.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "5",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "paid_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "revenue_rub": {
+          "value": "1500.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "1500",
+          "missing": [],
+          "definition": {
+            "id": "revenue_rub",
+            "operation": "sum",
+            "numerator": [
+              "revenue_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable_cost_rub": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "rows:3-3",
+              "column": "variable_cost_rub"
+            }
+          ],
+          "definition": {
+            "id": "variable_cost_rub",
+            "operation": "sum",
+            "numerator": [
+              "variable_cost_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "locators": [
+        "rows:4-4"
+      ],
+      "metrics": {
+        "activation_pct": {
+          "value": "80.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "80",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "activation_pct",
+            "operation": "ratio",
+            "numerator": [
+              "activated"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "retention_pct": {
+          "value": "60.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "60",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "retention_pct",
+            "operation": "ratio",
+            "numerator": [
+              "retained_d28"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "paid_pct": {
+          "value": "20.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "20",
+          "denominator": "100",
+          "missing": [],
+          "definition": {
+            "id": "paid_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "revenue_rub": {
+          "value": "6000.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "6000",
+          "missing": [],
+          "definition": {
+            "id": "revenue_rub",
+            "operation": "sum",
+            "numerator": [
+              "revenue_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable_cost_rub": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "rows:4-4",
+              "column": "variable_cost_rub"
+            }
+          ],
+          "definition": {
+            "id": "variable_cost_rub",
+            "operation": "sum",
+            "numerator": [
+              "variable_cost_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "locators": [
+        "rows:5-5"
+      ],
+      "metrics": {
+        "activation_pct": {
+          "value": "50.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "200",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "activation_pct",
+            "operation": "ratio",
+            "numerator": [
+              "activated"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "retention_pct": {
+          "value": "20.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "80",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "retention_pct",
+            "operation": "ratio",
+            "numerator": [
+              "retained_d28"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "paid_pct": {
+          "value": "5.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "20",
+          "denominator": "400",
+          "missing": [],
+          "definition": {
+            "id": "paid_pct",
+            "operation": "ratio",
+            "numerator": [
+              "paid"
+            ],
+            "denominator": [
+              "eligible"
+            ],
+            "multiplier": "100",
+            "unit": "%",
+            "rounding": 2
+          }
+        },
+        "revenue_rub": {
+          "value": "6000.00",
+          "unit": "RUB",
+          "status": "ok",
+          "numerator": "6000",
+          "missing": [],
+          "definition": {
+            "id": "revenue_rub",
+            "operation": "sum",
+            "numerator": [
+              "revenue_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        },
+        "variable_cost_rub": {
+          "value": null,
+          "unit": "RUB",
+          "status": "missing",
+          "numerator": null,
+          "missing": [
+            {
+              "locator": "rows:5-5",
+              "column": "variable_cost_rub"
+            }
+          ],
+          "definition": {
+            "id": "variable_cost_rub",
+            "operation": "sum",
+            "numerator": [
+              "variable_cost_rub"
+            ],
+            "unit": "RUB",
+            "rounding": 2
+          }
+        }
+      }
+    }
+  ],
+  "synthetic": true,
+  "period_column": "period",
+  "columns": {
+    "period": {
+      "type": "text",
+      "unit": "registration_month"
+    },
+    "segment": {
+      "type": "text",
+      "unit": "self_reported_category"
+    },
+    "eligible": {
+      "type": "integer",
+      "unit": "users",
+      "min": "0"
+    },
+    "activated": {
+      "type": "integer",
+      "unit": "users",
+      "min": "0"
+    },
+    "retained_d28": {
+      "type": "integer",
+      "unit": "users",
+      "min": "0"
+    },
+    "paid": {
+      "type": "integer",
+      "unit": "users",
+      "min": "0"
+    },
+    "revenue_rub": {
+      "type": "integer",
+      "unit": "RUB",
+      "min": "0"
+    },
+    "variable_cost_rub": {
+      "type": "integer",
+      "unit": "RUB",
+      "min": "0"
+    }
+  },
+  "missing_policy": "Любой пропуск компонента делает соответствующий агрегат null; строки не отбрасываются",
+  "zero_denominator_policy": "null, status=zero_denominator",
+  "rounding_method": "Decimal ROUND_HALF_UP; округление только результата",
+  "calculated_at": "2026-11-16T06:52:06+00:00",
+  "tool": "analyze_table",
+  "tool_version": "1.0",
+  "input": {
+    "path": "inputs/cohorts-v1.csv",
+    "sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c"
+  },
+  "spec": {
+    "path": "inputs/metrics-segments.json",
+    "sha256": "e69472987bb3b4431925afeb3d0f5415889795d8e765d6535e51f403c4dadf98"
+  },
+  "source": {
+    "id": "S002",
+    "version": 1
+  },
+  "reproduce": {
+    "input": "inputs/cohorts-v1.csv",
+    "spec": "inputs/metrics-segments.json"
+  }
+}

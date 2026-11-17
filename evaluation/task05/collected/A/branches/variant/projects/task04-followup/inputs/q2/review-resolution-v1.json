@@ -1,0 +1,46 @@
+{
+  "id": "Q2-VARIANT-REVIEW",
+  "project_id": "task04-followup",
+  "kind": "review",
+  "at": "2026-12-19T13:00:00+03:00",
+  "clock": "simulated",
+  "review_id": "review-Q2-VARIANT-WITHDRAWAL",
+  "provenance": {
+    "kind": "agent_review",
+    "artifact_id": "Q2-CONTENT-REVIEW",
+    "locator": "Q2-SCOPE — Q2-OBSERVATIONS"
+  },
+  "resolution": {
+    "status": "revised",
+    "owner_review_required": true,
+    "reason": "Частичный отзыв учтён в текущих claims и коротких поправках; остальные элементы явно reviewed_unchanged. Фактическая возможность неизвестна; исходное решение требует владельческого пересмотра.",
+    "next_action": "Получить протокол фактического срока и автоматического истечения отдельно от ручного отзыва; затем согласовать пригодность предложения и календаря с владельцем. До этого исключить обещание семи дней. Для закрытия owner review нужна отдельная инструкция выбора с resolves_reviews=[review-Q2-VARIANT-WITHDRAWAL].",
+    "resolution_evidence": [
+      {
+        "artifact_id": "Q2-CONTENT-REVIEW",
+        "locator": "Q2-SCOPE — Q2-OBSERVATIONS"
+      },
+      {
+        "artifact_id": "Q2-IMPACT-DISPOSITION",
+        "locator": "dispositions; reused_artifacts"
+      },
+      {
+        "artifact_id": "OUTPUT-Q2-product-strategy",
+        "locator": "основной текст поправки"
+      },
+      {
+        "artifact_id": "OUTPUT-Q2-communication-strategy",
+        "locator": "основной текст поправки"
+      },
+      {
+        "artifact_id": "OUTPUT-Q2-validation-plan",
+        "locator": "основной текст поправки"
+      },
+      {
+        "artifact_id": "OUTPUT-Q2-situation",
+        "locator": "основной текст поправки"
+      }
+    ],
+    "proposed_option": "Предлагается сохранить внутренний режим и сначала проверить фактический срок и жизненный цикл ссылки; ограниченную проверку исходящей передачи агентствам обсуждать после приёмки и нового решения владельца о пригодности, календаре и бюджете, без обещания семидневного срока."
+  }
+}

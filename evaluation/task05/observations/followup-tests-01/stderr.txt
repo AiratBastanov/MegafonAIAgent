@@ -1,0 +1,24 @@
+test_artifact_only_withdrawal_reaches_claim_condition_output (test_followup.FollowupTests.test_artifact_only_withdrawal_reaches_claim_condition_output) ... ok
+test_choice_replay_is_noop_and_project_scope_is_strict (test_followup.FollowupTests.test_choice_replay_is_noop_and_project_scope_is_strict) ... ok
+test_completion_requires_evidence_and_check_event (test_followup.FollowupTests.test_completion_requires_evidence_and_check_event) ... ok
+test_draft_cannot_forge_review_provenance_or_completion_binding (test_followup.FollowupTests.test_draft_cannot_forge_review_provenance_or_completion_binding) ... ok
+test_explicit_source_artifact_dependency_reaches_calculation (test_followup.FollowupTests.test_explicit_source_artifact_dependency_reaches_calculation) ... ok
+test_history_and_pinned_artifacts_cannot_be_rewritten (test_followup.FollowupTests.test_history_and_pinned_artifacts_cannot_be_rewritten) ... ok
+test_incomplete_review_or_choice_cannot_be_published (test_followup.FollowupTests.test_incomplete_review_or_choice_cannot_be_published) ... ok
+test_invalid_source_version_not_silently_applied (test_followup.FollowupTests.test_invalid_source_version_not_silently_applied) ... ok
+test_missing_owner_date_not_overdue_elapsed_window_not_completion (test_followup.FollowupTests.test_missing_owner_date_not_overdue_elapsed_window_not_completion) ... ok
+test_missing_refs_cycles_and_duplicate_decision_rejected (test_followup.FollowupTests.test_missing_refs_cycles_and_duplicate_decision_rejected) ... ok
+test_new_owner_choice_resolves_only_named_review (test_followup.FollowupTests.test_new_owner_choice_resolves_only_named_review) ... ok
+test_numeric_materiality_review_and_existing_owner_requirement (test_followup.FollowupTests.test_numeric_materiality_review_and_existing_owner_requirement) ... ok
+test_observation_requires_start_evidence_plan_dates_are_separate (test_followup.FollowupTests.test_observation_requires_start_evidence_plan_dates_are_separate) ... ok
+test_real_rejection_cannot_be_upgraded_to_acceptance (test_followup.FollowupTests.test_real_rejection_cannot_be_upgraded_to_acceptance) ... ok
+test_review_cannot_erase_human_requirement (test_followup.FollowupTests.test_review_cannot_erase_human_requirement) ... ok
+test_selection_reuses_funnel_but_reaches_economic_review_link (test_followup.FollowupTests.test_selection_reuses_funnel_but_reaches_economic_review_link) ... ok
+test_source_cannot_forge_acceptance_or_complete_commitment (test_followup.FollowupTests.test_source_cannot_forge_acceptance_or_complete_commitment) ... ok
+test_unchanged_values_do_not_cancel_withdrawal_or_contradiction (test_followup.FollowupTests.test_unchanged_values_do_not_cancel_withdrawal_or_contradiction) ... ok
+test_units_change_and_unknown_locators_require_conservative_review (test_followup.FollowupTests.test_units_change_and_unknown_locators_require_conservative_review) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 2.590s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "evaluation/task06/prepare_rehearsal.py"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:23:45.600681+00:00",
+  "ended_at": "2026-11-16T15:23:45.681243+00:00",
+  "elapsed_seconds": 0.0779999999977008,
+  "returncode": 0
+}

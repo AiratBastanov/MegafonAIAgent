@@ -1,0 +1,15 @@
+{
+  "operation": "run",
+  "id": "simulated-choice",
+  "title": "Учебный выбор руководителя",
+  "caption": "Это явно обозначенная симуляция. Сохраняются основания, ответственные, сроки и условия пересмотра.",
+  "argv": [
+    "python",
+    "-X",
+    "utf8",
+    "evaluation/task07/demo_admin.py",
+    "event",
+    "inputs/choice-content-v1.json"
+  ],
+  "cwd": "."
+}

@@ -1,0 +1,178 @@
+{
+  "artifacts": [
+    {
+      "id": "META",
+      "path": "evidence/sources/S/v1/source.json",
+      "sha256": "7917ada466c8757bab4c13a5fb7e39fcbfb1576eb4c85e8979a0e95a7cb288ba"
+    },
+    {
+      "id": "ORIGINAL",
+      "path": "evidence/sources/S/v1/original.txt",
+      "sha256": "4dd3cfc5e46ce98ef6dbbb722e0f7f319476bae38472ab9520e7802b40ae514e"
+    },
+    {
+      "id": "EXTRACT",
+      "path": "evidence/sources/S/v1/extract.json",
+      "sha256": "0b82355ec70a71fc08238defb5cc7f6dc6a8d72b0e65758370bd80c362de3ba6"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "EXTRACT",
+          "locator": "line:1",
+          "source_id": "S",
+          "source_version": 1
+        }
+      ],
+      "id": "C",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Источник сообщает 5 из 20"
+    }
+  ],
+  "completed": [],
+  "decision": {
+    "commitments": [
+      {
+        "blocked_by": [],
+        "completion_evidence": [],
+        "condition_ids": [],
+        "decision_id": "CHOICE-decision",
+        "description": "Выполнить проверку",
+        "due_at": null,
+        "due_condition": "До проверки",
+        "id": "K",
+        "owner": "Тестовая роль",
+        "required_evidence": "Результат фактической проверки",
+        "status": "pending"
+      }
+    ],
+    "conditions": [],
+    "events": [
+      {
+        "actor": "Искусственный участник теста",
+        "at": "2026-11-17T09:00:00+03:00",
+        "authorized": true,
+        "choice": {
+          "ground_ids": [
+            "C"
+          ],
+          "option": "Проверить",
+          "owner": "Тестовая роль",
+          "question": "Продолжать?",
+          "reason": "Тест",
+          "rejected_alternatives": [
+            {
+              "option": "Закрыть",
+              "reason": "Тест"
+            }
+          ]
+        },
+        "commitments": [
+          {
+            "blocked_by": [],
+            "completion_evidence": [],
+            "condition_ids": [],
+            "description": "Выполнить проверку",
+            "due_at": null,
+            "due_condition": "До проверки",
+            "id": "K",
+            "owner": "Тестовая роль",
+            "required_evidence": "Результат фактической проверки",
+            "status": "pending"
+          }
+        ],
+        "fingerprint": "e298490909e1bd5f7f05afbe6a3d13a2d1323c12dc2ba6152e3f9e89a71349e9",
+        "id": "CHOICE",
+        "kind": "choice",
+        "project_id": "completion-probe",
+        "provenance": {
+          "artifact_id": "ORIGINAL",
+          "kind": "user_instruction",
+          "locator": "line:1"
+        }
+      }
+    ],
+    "format_version": 2,
+    "history": [
+      {
+        "basis": {
+          "revision": 1,
+          "state_sha256": "1b6fc16551d7790f529a02b68bbfdfa4200ec6224ed0ca72ad6365f860ab1c55"
+        },
+        "grounds": [
+          {
+            "claim_id": "C",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "EXTRACT",
+                  "locator": "line:1",
+                  "source_id": "S",
+                  "source_version": 1
+                }
+              ],
+              "id": "C",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Источник сообщает 5 из 20"
+            }
+          }
+        ],
+        "id": "CHOICE-decision",
+        "instruction_event": "CHOICE",
+        "option": "Проверить",
+        "owner": "Тестовая роль",
+        "question": "Продолжать?",
+        "reason": "Тест",
+        "rejected_alternatives": [
+          {
+            "option": "Закрыть",
+            "reason": "Тест"
+          }
+        ],
+        "status": "accepted"
+      }
+    ],
+    "human_confirmation": {
+      "actor": "Искусственный участник теста",
+      "at": "2026-11-17T09:00:00+03:00",
+      "authorized": true,
+      "evidence_artifact_id": "ORIGINAL",
+      "test_fixture": false
+    },
+    "metrics": [],
+    "owner": "Тестовая роль",
+    "proposed_option": "Проверить",
+    "question": "Продолжать?",
+    "reviews": [],
+    "status": "accepted"
+  },
+  "decision_question": "Продолжать?",
+  "next_action": "Проверить",
+  "objective": "Изолированная проверка",
+  "pending_actions": [],
+  "project_id": "completion-probe",
+  "revision": 2,
+  "saved_at": "2026-11-17T07:43:03.511945+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "META",
+        "ORIGINAL",
+        "EXTRACT"
+      ],
+      "id": "S",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "research_complete",
+  "state_sha256": "d39a5539380042b7680c762ac0247fe21ef98e8d718c9a12c6e74d2d5445eb2d",
+  "unresolved_questions": []
+}

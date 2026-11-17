@@ -1,0 +1,9 @@
+{
+  "phase": "preparation; до freeze и измеряемых ответов",
+  "command": ".venv/Scripts/python.exe -X utf8 evaluation/task05/prepare.py",
+  "returncode": 1,
+  "error": "FileExistsError при exclusive write project.md: файл уже скопирован как закреплённый artifact",
+  "effect": "Исходники не изменены. Неполный output сохранён как preparation-failed-01",
+  "fix": "Сохранить project.md; отдельный task05-branch.md. При повторе ранее записанные manifests проверяются на равенство",
+  "measurement": "Не ошибка участника; elapsed команды из tool: 0.571679 s"
+}

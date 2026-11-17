@@ -1,0 +1,46 @@
+test_bad_numeric_and_domain_inputs_rejected (test_materials.CsvTests.test_bad_numeric_and_domain_inputs_rejected) ... ok
+test_duplicate_header_and_row_limit (test_materials.CsvTests.test_duplicate_header_and_row_limit) ... ok
+test_exact_rounding_near_half_boundary (test_materials.CsvTests.test_exact_rounding_near_half_boundary) ... ok
+test_large_precision_input_rejected_before_early_rounding (test_materials.CsvTests.test_large_precision_input_rejected_before_early_rounding) ... ok
+test_missing_not_zero_and_zero_denominator (test_materials.CsvTests.test_missing_not_zero_and_zero_denominator) ... ok
+test_period_and_unit_mismatch_rejected (test_materials.CsvTests.test_period_and_unit_mismatch_rejected) ... ok
+test_physical_csv_lines_include_multiline_cell (test_materials.CsvTests.test_physical_csv_lines_include_multiline_cell) ... ok
+test_weighted_ratio_not_mean_of_ratios (test_materials.CsvTests.test_weighted_ratio_not_mean_of_ratios) ... ok
+test_hyphen_elements_do_not_join_numeric_range (test_materials.DocxTests.test_hyphen_elements_do_not_join_numeric_range) ... ok
+test_order_and_cell_coordinates (test_materials.DocxTests.test_order_and_cell_coordinates) ... ok
+test_tracked_moves_rejected (test_materials.DocxTests.test_tracked_moves_rejected) ... ok
+test_unpack_guard (test_materials.DocxTests.test_unpack_guard) ... ok
+test_unsupported_changes_not_silently_omitted (test_materials.DocxTests.test_unsupported_changes_not_silently_omitted) ... ok
+test_xml_entities_refused (test_materials.DocxTests.test_xml_entities_refused) ... ok
+test_calculation_bound_to_version_and_synthetic_propagates (test_materials.RegistrationTests.test_calculation_bound_to_version_and_synthetic_propagates) ... ok
+test_corrupt_registered_extract_is_visible (test_materials.RegistrationTests.test_corrupt_registered_extract_is_visible) ... ok
+test_existing_version_symlink_cannot_read_outside_metadata (test_materials.RegistrationTests.test_existing_version_symlink_cannot_read_outside_metadata) ... ok
+test_incomplete_import_is_reported (test_materials.RegistrationTests.test_incomplete_import_is_reported) ... ok
+test_paths_and_ids_do_not_escape_project (test_materials.RegistrationTests.test_paths_and_ids_do_not_escape_project) ... ok
+test_reuse_revision_and_old_original_retained (test_materials.RegistrationTests.test_reuse_revision_and_old_original_retained) ... ok
+test_web_requires_actual_provenance_fields (test_materials.RegistrationTests.test_web_requires_actual_provenance_fields) ... ok
+test_business_approval_cannot_be_invented_by_test_fixture (test_state.StateTests.test_business_approval_cannot_be_invented_by_test_fixture) ... ok
+test_calculation_can_reference_its_versioned_original_but_not_other_bytes (test_state.StateTests.test_calculation_can_reference_its_versioned_original_but_not_other_bytes) ... ok
+test_changed_artifact_invalidates_current_but_not_prior_version (test_state.StateTests.test_changed_artifact_invalidates_current_but_not_prior_version) ... ok
+test_cli_corruption_reports_error_instead_of_silent_fallback (test_state.StateTests.test_cli_corruption_reports_error_instead_of_silent_fallback) ... ok
+test_cli_uses_utf8_even_with_windows_legacy_io_encoding (test_state.StateTests.test_cli_uses_utf8_even_with_windows_legacy_io_encoding) ... ok
+test_explicit_source_cannot_claim_an_unrelated_artifact (test_state.StateTests.test_explicit_source_cannot_claim_an_unrelated_artifact) ... ok
+test_failed_publication_keeps_current_and_previous_valid (test_state.StateTests.test_failed_publication_keeps_current_and_previous_valid) ... ok
+test_invalid_candidate_does_not_touch_current_or_previous (test_state.StateTests.test_invalid_candidate_does_not_touch_current_or_previous) ... ok
+test_invalid_evidence_and_circular_claims_rejected (test_state.StateTests.test_invalid_evidence_and_circular_claims_rejected) ... ok
+test_invalid_types_are_validation_errors (test_state.StateTests.test_invalid_types_are_validation_errors) ... ok
+test_paths_reject_escape_absolute_and_service_state (test_state.StateTests.test_paths_reject_escape_absolute_and_service_state) ... ok
+test_recovery_diagnostic_does_not_copy_corrupt_secret_bytes (test_state.StateTests.test_recovery_diagnostic_does_not_copy_corrupt_secret_bytes) ... ok
+test_save_load_and_previous_keep_artifact_versions (test_state.StateTests.test_save_load_and_previous_keep_artifact_versions) ... ok
+test_size_guard_and_nonfinite_values (test_state.StateTests.test_size_guard_and_nonfinite_values) ... ok
+test_symlink_escape_is_rejected_when_host_permits_test_link (test_state.StateTests.test_symlink_escape_is_rejected_when_host_permits_test_link) ... ok
+test_synthetic_marker_rejected_without_echoing_value (test_state.StateTests.test_synthetic_marker_rejected_without_echoing_value) ... ok
+test_synthetic_propagation_reaches_recommendation (test_state.StateTests.test_synthetic_propagation_reaches_recommendation) ... ok
+test_synthetic_source_inferred_from_artifact_without_explicit_source (test_state.StateTests.test_synthetic_source_inferred_from_artifact_without_explicit_source) ... ok
+test_truncated_current_is_visible_and_explicit_recovery_works (test_state.StateTests.test_truncated_current_is_visible_and_explicit_recovery_works) ... ok
+test_valid_json_field_corruption_is_detected_by_state_checksum (test_state.StateTests.test_valid_json_field_corruption_is_detected_by_state_checksum) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.884s
+
+OK

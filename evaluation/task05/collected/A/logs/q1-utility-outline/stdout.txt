@@ -1,0 +1,142 @@
+scripts/project_state.py:7:from __future__ import annotations
+scripts/project_state.py:9:import argparse
+scripts/project_state.py:10:import copy
+scripts/project_state.py:11:import hashlib
+scripts/project_state.py:12:import json
+scripts/project_state.py:13:import os
+scripts/project_state.py:14:from pathlib import Path, PureWindowsPath
+scripts/project_state.py:15:import re
+scripts/project_state.py:16:import sys
+scripts/project_state.py:17:from datetime import datetime, timezone
+scripts/project_state.py:18:from typing import Any
+scripts/project_state.py:19:import uuid
+scripts/project_state.py:24:from decision_followup import FollowupError, validate_extensions, validate_transition
+scripts/project_state.py:38:class StateError(ValueError):
+scripts/project_state.py:42:def _root(project: str | Path) -> Path:
+scripts/project_state.py:49:def scoped_path(project: str | Path, relative_path: str) -> Path:
+scripts/project_state.py:64:def _bytes(path: Path, max_bytes: int) -> bytes:
+scripts/project_state.py:77:def _check_marker(data: bytes) -> None:
+scripts/project_state.py:84:def reference(
+scripts/project_state.py:104:def _json_bytes(data: Any, *, pretty: bool = False) -> bytes:
+scripts/project_state.py:116:def _unique_pairs(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+scripts/project_state.py:125:def _invalid_constant(_value: str) -> None:
+scripts/project_state.py:129:def _read_json(path: Path, max_bytes: int) -> dict[str, Any]:
+scripts/project_state.py:142:def _text(value: Any, label: str) -> None:
+scripts/project_state.py:147:def _items(data: dict[str, Any], name: str) -> list[Any]:
+scripts/project_state.py:154:def _record_id(value: Any, label: str) -> None:
+scripts/project_state.py:159:def _aware_time(value: Any, label: str) -> None:
+scripts/project_state.py:169:def _checksum(data: dict[str, Any]) -> str:
+scripts/project_state.py:174:def validate_state(
+scripts/project_state.py:390:def load_state(
+scripts/project_state.py:399:def _warnings(root: Path, state: dict[str, Any]) -> list[str]:
+scripts/project_state.py:417:def inspect_state(
+scripts/project_state.py:428:def _write_new(path: Path, content: bytes) -> None:
+scripts/project_state.py:436:def _replace_bytes(root: Path, destination: str, content: bytes) -> None:
+scripts/project_state.py:443:def save_state(
+scripts/project_state.py:491:def recover_previous(
+scripts/project_state.py:512:def main(argv: list[str] | None = None) -> int:
+scripts/project_state.py:514:    parser.add_argument("command", choices=("save", "load", "validate", "recover"))
+scripts/project_state.py:515:    parser.add_argument("--project", required=True, help="Каталог выбранного проекта")
+scripts/project_state.py:516:    parser.add_argument("--draft", help="JSON-кандидат относительно каталога проекта")
+scripts/project_state.py:517:    parser.add_argument("--previous", action="store_true", help="Явно использовать previous")
+scripts/project_state.py:518:    parser.add_argument("--max-bytes", type=int, default=DEFAULT_MAX_BYTES, help="Технический предел одного файла в байтах")
+scripts/import_materials.py:6:from __future__ import annotations
+scripts/import_materials.py:8:import argparse
+scripts/import_materials.py:9:import csv
+scripts/import_materials.py:10:import hashlib
+scripts/import_materials.py:11:import io
+scripts/import_materials.py:12:import json
+scripts/import_materials.py:13:import re
+scripts/import_materials.py:14:import sys
+scripts/import_materials.py:15:import zipfile
+scripts/import_materials.py:16:from datetime import datetime, timezone
+scripts/import_materials.py:17:from pathlib import Path
+scripts/import_materials.py:18:from xml.etree import ElementTree as ET
+scripts/import_materials.py:26:class MaterialError(ValueError):
+scripts/import_materials.py:30:def utc_now():
+scripts/import_materials.py:34:def sha256(data):
+scripts/import_materials.py:38:def scoped(project, path, *, must_exist=True):
+scripts/import_materials.py:50:def relative(project, path):
+scripts/import_materials.py:54:def write_new(path, content):
+scripts/import_materials.py:60:def json_bytes(value):
+scripts/import_materials.py:64:def read_csv_bytes(data, *, delimiter=",", max_rows=50000):
+scripts/import_materials.py:95:def paragraph_text(element):
+scripts/import_materials.py:111:def extract_docx(data, *, max_unpacked=DEFAULT_MAX_UNPACKED):
+scripts/import_materials.py:173:def validate_time(value):
+scripts/import_materials.py:182:def register(project, source_id, input_path, kind, *, origin=None, synthetic=False,
+scripts/import_materials.py:201:        from urllib.parse import urlparse
+scripts/import_materials.py:219:                from .extract_formats import extract_xlsx, extract_pdf, FormatError
+scripts/import_materials.py:221:                from extract_formats import extract_xlsx, extract_pdf, FormatError
+scripts/import_materials.py:277:            # A changed import policy/provenance is a meaningful revision even with identical bytes.
+scripts/import_materials.py:308:def main():
+scripts/import_materials.py:310:    parser.add_argument("--project", required=True)
+scripts/import_materials.py:311:    parser.add_argument("--source-id", required=True)
+scripts/import_materials.py:312:    parser.add_argument("--input", required=True)
+scripts/import_materials.py:313:    parser.add_argument("--kind", required=True, choices=["docx", "csv", "text", "web-excerpt", "xlsx", "pdf"])
+scripts/import_materials.py:314:    parser.add_argument("--origin")
+scripts/import_materials.py:315:    parser.add_argument("--synthetic", action="store_true")
+scripts/import_materials.py:316:    parser.add_argument("--accessed-at")
+scripts/import_materials.py:317:    parser.add_argument("--locator")
+scripts/import_materials.py:318:    parser.add_argument("--limitations", action="append", default=[])
+scripts/import_materials.py:319:    parser.add_argument("--retrieval-status", choices=["current_host_read", "supplied_snapshot"])
+scripts/import_materials.py:320:    parser.add_argument("--delimiter", default=",")
+scripts/import_materials.py:321:    parser.add_argument("--max-bytes", type=int, default=DEFAULT_MAX_BYTES)
+scripts/import_materials.py:322:    parser.add_argument("--max-unpacked", type=int, default=DEFAULT_MAX_UNPACKED)
+scripts/import_materials.py:323:    parser.add_argument("--max-rows", type=int, default=50000)
+scripts/import_materials.py:324:    parser.add_argument("--selection", dest="selection_path", help="XLSX: проектный JSON ranges со sheet/range/units/period")
+scripts/import_materials.py:325:    parser.add_argument("--max-cells", type=int, default=100000)
+scripts/import_materials.py:326:    parser.add_argument("--max-sheets", type=int, default=64)
+scripts/import_materials.py:327:    parser.add_argument("--max-pages", type=int, default=200)
+scripts/import_materials.py:328:    parser.add_argument("--max-page-stream", type=int, default=8 * 1024 * 1024)
+scripts/import_materials.py:329:    parser.add_argument("--max-text-chars", type=int, default=2000000)
+scripts/decision_followup.py:6:from __future__ import annotations
+scripts/decision_followup.py:8:import argparse
+scripts/decision_followup.py:9:import copy
+scripts/decision_followup.py:10:from datetime import datetime, timedelta
+scripts/decision_followup.py:11:import hashlib
+scripts/decision_followup.py:12:import json
+scripts/decision_followup.py:13:from pathlib import Path
+scripts/decision_followup.py:14:import re
+scripts/decision_followup.py:15:import sys
+scripts/decision_followup.py:18:class FollowupError(ValueError):
+scripts/decision_followup.py:22:def require(ok, message):
+scripts/decision_followup.py:27:def text_value(value, name):
+scripts/decision_followup.py:31:def moment(value):
+scripts/decision_followup.py:41:def unique(items, label):
+scripts/decision_followup.py:54:def digest(value):
+scripts/decision_followup.py:59:def check_ref(ref, artifacts):
+scripts/decision_followup.py:65:def acyclic(edges, label):
+scripts/decision_followup.py:80:def validate_extensions(data, read_artifact, read_basis):
+scripts/decision_followup.py:289:def validate_transition(previous, candidate):
+scripts/decision_followup.py:325:def validate_change(data, change):
+scripts/decision_followup.py:339:def artifact_json(project, data, aid):
+scripts/decision_followup.py:351:def xlsx_extract(project, data, source):
+scripts/decision_followup.py:360:def compare_selection(project, data, old, new):
+scripts/decision_followup.py:378:def locator_overlap(a, b):
+scripts/decision_followup.py:409:def impact(project, data, event):
+scripts/decision_followup.py:500:def register_event(data, event):
+scripts/decision_followup.py:512:def apply_change(project, data, event):
+scripts/decision_followup.py:534:def apply_event(project, data, event):
+scripts/decision_followup.py:589:def followup_view(data, as_of, timezone, clock):
+scripts/decision_followup.py:658:def render_view(view):
+scripts/decision_followup.py:687:def reconcile(project, event_id):
+scripts/decision_followup.py:688:    import project_state as ps
+scripts/decision_followup.py:710:def main(argv=None):
+scripts/decision_followup.py:711:    import project_state as ps
+scripts/decision_followup.py:713:    parser.add_argument('command', choices=['view', 'impact', 'reconcile', 'apply'])
+scripts/decision_followup.py:714:    parser.add_argument('--project', required=True)
+scripts/decision_followup.py:715:    parser.add_argument('--as-of')
+scripts/decision_followup.py:716:    parser.add_argument('--timezone')
+scripts/decision_followup.py:717:    parser.add_argument('--clock', choices=['actual', 'simulated'])
+scripts/decision_followup.py:718:    parser.add_argument('--event', help='Событие JSON внутри проекта')
+scripts/decision_followup.py:719:    parser.add_argument('--event-id')
+scripts/decision_followup.py:720:    parser.add_argument('--draft', help='Новый путь кандидата внутри проекта, без перезаписи')
+scripts/decision_followup.py:721:    parser.add_argument('--markdown', action='store_true')
+- **Condition:** id, description, claim_ids, metric_ids, output_ids, next_action; unresolved_reason и review_after при наличии. Commitment связывается с ним через condition_ids; обратные review-ссылки не являются циклом доказательного вывода.
+- **Review:** id, event_id, status needs_review/revised/reviewed_unchanged, reason, next_action, owner_review_required, impact и resolution_evidence. Закрытый аналитический review требует resolution_event kind=review, соответствующий результату. Исторический impact не перезаписывается. Снятие owner_review_required требует нового choice с resolves_reviews; review сам не принимает решение. Предложение меняется отдельно от history.
+
+`evidence_change.change`: type corrected_value/superseding_version/withdrawn_support/new_contradiction/changed_assumption/freshness_review/nonmaterial; source `{id,version}`, replacement при наличии, locators (точные координаты или `*`), reason, old_ground, new_ground, applicability. Утилита валидирует версии/обходит связи, но не решает, правдив ли источник и существенен ли смысл текста. Nonmaterial нельзя использовать, чтобы скрыть реально изменённые XLSX ячейки/контекст. Числовое сравнение не отменяет отзыв или противоречие.
+
+У claim допускаются `review_dependencies` (claim IDs, причина пересмотра без выведения) и `context_from` (контекст без распространения impact), а также status needs_review/withdrawn/superseded/contradicted и support_reason. У source_fact остаётся истинным историческое «источник сообщал», даже если текущая применимость отозвана. Координатор явно разделяет оба смысла. `artifact_dependencies:[{from,to,reason}]` задаёт ацикличные вычислительные связи между закреплёнными версиями; claims используют прежние evidence/derived_from. Outputs достигаются через conditions. Пропущенную смысловую связь ни validator, ни traversal не могут угадать.
+
+При отказе публикации осмотри `reconcile`: валидный current является authority. Результат published означает наличие полного результата в current; absent_from_current не доказывает, что событие никогда не публиковалось. Более новая history могла остаться до публикации или после явного recovery: validated_publication_unknown требует сверки наблюдений. Invalid candidate даёт только имя/диагноз, без raw bytes. Без current loader возвращает явную ошибку; восстановления или завершения по orphan автоматически нет. Артефакт, записанный до save, не считается опубликованной работой.

@@ -1,0 +1,6 @@
+{
+  "checked_native_workflow_files": 12,
+  "workflow_mismatches": [],
+  "suspicious_explicit_command_paths": [],
+  "scope": "Captured command args and pinned native files only; bootstrap and patch operations in participant metadata. Does not establish OS isolation."
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-c",
+    "import sys,importlib.metadata,json; print(json.dumps({'python':sys.version,'packages':{x:importlib.metadata.version(x) for x in ['PyQt5','PyMuPDF','Markdown']}},ensure_ascii=False))"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:52:00.342837+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:52:00.461123+00:00",
+  "elapsed_seconds": 0.125,
+  "returncode": 0,
+  "stdout_sha256": "24081c26af803506b084fd18208df11aa72cc042f9581e0a087663f01451f054",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

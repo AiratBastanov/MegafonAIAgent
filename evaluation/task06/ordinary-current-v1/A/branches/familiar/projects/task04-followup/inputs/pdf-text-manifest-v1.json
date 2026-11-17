@@ -1,0 +1,38 @@
+{
+  "synthetic": true,
+  "purpose": "Ожидаемые строки собственного PDF fixture для проверки полноты; не независимый рыночный источник",
+  "physical_pages": [
+    {
+      "page": 1,
+      "label": "A",
+      "lines": [
+        "SYNTHETIC DEVELOPMENT BRIEF - not an official competition brief",
+        "RelayBox: a hypothetical B2B file-transfer prototype.",
+        "Decision: choose an audience and an offer, or stop the standalone initiative.",
+        "Current: team upload, read-only external download link, manual link revoke.",
+        "Limits: 2 GB per file; links expire after 7 days; recipient needs no account.",
+        "Not implemented: recipient upload, password, named access, SSO, audit export.",
+        "Proposed price: RUB 3000 per organisation per month; price is unvalidated.",
+        "Capabilities are fixture statements, not production acceptance evidence.",
+        "Printed label: A (physical page 1)."
+      ]
+    },
+    {
+      "page": 2,
+      "label": "1",
+      "lines": [
+        "SYNTHETIC SALES MEMO - no real customers or interviews",
+        "Sales headline: accounting offices lead with eight paid pilots.",
+        "Definition used by sales: paid pilot means interest in a paid offer.",
+        "Sales did not reconcile receipts; finance paid30 requires a received payment.",
+        "Agency task: send draft media assets to an external client for download.",
+        "Accounting task: collect client files; recipient uploads are required.",
+        "Workbook: September cohort, observation through 31 October 2026.",
+        "Each organisation has one segment and at most one first payment in 30 days.",
+        "No random sampling. Neither interest nor these fixtures prove market demand.",
+        "Acquisition cost, repeated monthly payment and exit cost remain unknown.",
+        "Printed label: 1 (physical page 2)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 scripts/decision_followup.py | Select-Object -Skip 79 -First 246; Get-Content -Encoding UTF8 scripts/decision_followup.py | Select-Object -Skip 325 -First 54; Get-Content -Encoding UTF8 scripts/decision_followup.py | Select-Object -Skip 710 -First 80; Get-Content -Encoding UTF8 knowledge/record-contracts.md | Select-Object -Skip 47 -First 7"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "started_at": "2026-11-16T13:40:21.798442+00:00",
+  "ended_at": "2026-11-16T13:40:22.068038+00:00",
+  "elapsed_seconds": 0.2809999999990396,
+  "returncode": 0
+}

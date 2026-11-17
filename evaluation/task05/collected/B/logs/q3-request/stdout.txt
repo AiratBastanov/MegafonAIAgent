@@ -1,0 +1,14 @@
+На 2026-12-19T14:00:00+03:00 (симулированное время) в обе ветки пришли inbox/q3/repeated-correction-v2.txt и inbox/q3/irrelevant-note-v1.txt. Нужно ли что-то переписать, завести обязательство или вновь запросить решение владельца? Что остаётся открытым после прошлого шага? Обнови передачу контекста только в необходимом объёме.
+
+Прочитай RUNTIME.md. Все shell-команды после bootstrap проводи через capture.py для сохранения точных stdout/stderr/времени. В responses/q3.md сохрани полный первый итоговый ответ; не перезаписывай его после обратной связи. В responses/q3-meta.json запиши начало/конец по UTC, ошибки/повторы, внешнюю помощь, все чтения/записи вне capture, неизвестные model/tokens/charges. В финальном сообщении воспроизведи этот ответ. Не читай другие рабочие папки, evaluation/ или ответы будущих шагов.
+# Runtime и наблюдения
+
+Python: `C:\Users\BastaPC\Desktop\MegafonAIAgent\.venv\Scripts\python.exe` (существующая проектная .venv, не скопирована).
+Рабочая папка — текущий package root. Чтение RUNTIME.md и исходного prompt допускается напрямую как bootstrap.
+Команды выполняй из package root через общий generic capture:
+
+```powershell
+& "C:\Users\BastaPC\Desktop\MegafonAIAgent\.venv\Scripts\python.exe" -X utf8 capture.py logs q1-read -- powershell -NoProfile -Command "Get-Content -Encoding UTF8 context.md"
+```
+
+Каждый LABEL новый. Можно вызывать Python с -X utf8 и -c для чтения/арифметики/записи файлов. capture сохраняет команду, cwd, stdout/stderr, exit, начало/конец/elapsed. Запись артефактов через apply_patch допустима; перечисли такие записи в meta. Изменения источников и старых ответов запрещены; новые outputs/notes получают новые пути. Не читай соседние каталоги. История своего контекста и собственные заметки сохраняются между шагами.

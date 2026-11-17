@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project_id": "demo-002",
+  "objective": "Выбрать аудиторию и предложение B2B-передачи файлов с проверяемыми основаниями",
+  "decision_question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+  "stage": "inputs_checked_conflict_unresolved",
+  "completed": ["Прочитаны постановка и определения учебных материалов", "Импортированы PDF/XLSX и две реально прочитанные публичные страницы", "Полнота текста собственного PDF и решающие исходные XLSX значения проверены; кэши формул не использованы"],
+  "unresolved_questions": ["Противоречие восьми платных пилотов в PDF и другого определения оплаты в XLSX ещё не разрешено", "Кто и за какую дополнительную ценность готов платить?", "Неизвестны реальные CAC, повторные платежи, стоимость выхода и бюджет проверки"],
+  "pending_actions": ["Сопоставить определения и исходные координаты, выбрать и выполнить полезный расчёт", "Записать последствия конфликта для аудитории/предложения/обещаний", "Сохранить новую revision и согласованно остановиться перед полным синтезом", "После ограниченной фазы: экономика, варианты, пять outputs и независимое ревью"],
+  "next_action": "Разрешить существенное противоречие PDF/XLSX: проверить определения, выполнить нужные расчёты из literal cells без reimport, записать вывод с последствиями для выбора аудитории. Добавить прямые references/claims, опубликовать новую revision через save, проверить load и сделать паузу перед пятью стратегиями.",
+  "artifacts": [],
+  "sources": [],
+  "claims": [
+    {"id":"C001","kind":"source_fact","text":"Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась","evidence":[{"artifact_id":"S001v1-extract","source_id":"S001","source_version":1,"locator":"physical-page:1/block:4-8"}],"derived_from":[],"synthetic":true},
+    {"id":"C002","kind":"source_fact","text":"Коммерческий заголовок учебного PDF называет восемь платных пилотов бухбюро; смысл и согласованность с таблицей требуют проверки","evidence":[{"artifact_id":"S001v1-extract","source_id":"S001","source_version":1,"locator":"physical-page:2/block:2-4"}],"derived_from":[],"synthetic":true,"status":"needs_review"},
+    {"id":"C003","kind":"source_fact","text":"В учебной книге раздельно заданы contacted, trials, interest и paid30, имеются неизвестные расходы и формулы без проверенного кэша; агрегаты ещё не рассчитаны","evidence":[{"artifact_id":"S002v1-extract","source_id":"S002","source_version":1,"locator":"'Воронка'!A2:K4; 'Экономика'!A2:J3"},{"artifact_id":"DEFINITIONS","locator":"Воронка и Экономика"}],"derived_from":[],"synthetic":true},
+    {"id":"C004","kind":"source_fact","text":"Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture","evidence":[{"artifact_id":"S003v1-extract","source_id":"S003","source_version":1,"locator":"line:6-10; host sections What is Dropbox Transfer / size limits / expiry"}],"derived_from":[],"synthetic":false},
+    {"id":"C005","kind":"source_fact","text":"Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию","evidence":[{"artifact_id":"S004v1-extract","source_id":"S004","source_version":1,"locator":"line:6-10; host introduction55-63 and82"}],"derived_from":[],"synthetic":false}
+  ],
+  "decision": {"status":"proposed","owner":"unassigned"},
+  "continuation_phase": {"bounded":true,"stop_after":"Содержательный разбор конфликта с расчётом и последствиями, новая state revision и успешный load","next_phase":"Сценарная экономика, полный синтез пяти документов и ревью"},
+  "resources": {"demonstration_started_at":"2026-11-16T09:30:57+00:00","tokens":null,"charges":null,"exact_model_id":null,"human_minutes":null},
+  "limitations": ["Входы PDF/XLSX синтетические, рыночный спрос не проверен", "Официальный дополнительный бриф недоступен через текущий маршрут", "Нет человеческого бизнес-одобрения"]
+}

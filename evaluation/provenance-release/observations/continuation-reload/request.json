@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\scripts\\project_state.py",
+    "load",
+    "--project",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\provenance-release\\continuation-workspace\\projects\\task06-rehearsal"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-17T09:02:02.087146+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected"
+}

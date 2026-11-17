@@ -1,0 +1,273 @@
+﻿{
+  "ok": true,
+  "state": {
+    "schema_version": 1,
+    "project_id": "demo-002",
+    "objective": "Выбрать аудиторию и предложение B2B-передачи файлов с проверяемыми основаниями",
+    "decision_question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+    "stage": "inputs_checked_conflict_unresolved",
+    "completed": [
+      "Прочитаны постановка и определения учебных материалов",
+      "Импортированы PDF/XLSX и две реально прочитанные публичные страницы",
+      "Полнота текста собственного PDF и решающие исходные XLSX значения проверены; кэши формул не использованы"
+    ],
+    "unresolved_questions": [
+      "Противоречие восьми платных пилотов в PDF и другого определения оплаты в XLSX ещё не разрешено",
+      "Кто и за какую дополнительную ценность готов платить?",
+      "Неизвестны реальные CAC, повторные платежи, стоимость выхода и бюджет проверки"
+    ],
+    "pending_actions": [
+      "Сопоставить определения и исходные координаты, выбрать и выполнить полезный расчёт",
+      "Записать последствия конфликта для аудитории/предложения/обещаний",
+      "Сохранить новую revision и согласованно остановиться перед полным синтезом",
+      "После ограниченной фазы: экономика, варианты, пять outputs и независимое ревью"
+    ],
+    "next_action": "Разрешить существенное противоречие PDF/XLSX: проверить определения, выполнить нужные расчёты из literal cells без reimport, записать вывод с последствиями для выбора аудитории. Добавить прямые references/claims, опубликовать новую revision через save, проверить load и сделать паузу перед пятью стратегиями.",
+    "artifacts": [
+      {
+        "id": "PROJECT",
+        "path": "project.md",
+        "sha256": "7b434dc1af7ab422e9a6e0e55ac1d5ee02bad49f900d6d2b8b4e738df707fe46"
+      },
+      {
+        "id": "DEFINITIONS",
+        "path": "inputs/DATA_DICTIONARY.md",
+        "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+      },
+      {
+        "id": "SELECTION-v1",
+        "path": "inputs/selection-v1.json",
+        "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+      },
+      {
+        "id": "PDF-MANIFEST",
+        "path": "inputs/pdf-text-manifest-v1.json",
+        "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+      },
+      {
+        "id": "FIDELITY-v1",
+        "path": "evidence/fidelity-v1.json",
+        "sha256": "aaa6bf51ec98915388ce7f92f7c2115617244433bb19082cfbb25076250cb63b"
+      },
+      {
+        "id": "QUESTIONS-v1",
+        "path": "evidence/research-questions-v1.md",
+        "sha256": "866b23a93fe50e57647b2f7869a364640f552dd71392362f5eb407f5e2b5c09b"
+      },
+      {
+        "id": "IMPORT-v1",
+        "path": "evidence/import-observation-v1.json",
+        "sha256": "382bcd51c231778fa66b39e65ea25f5fe26fab21191288ffa8a99cf9d8208f5a"
+      },
+      {
+        "id": "S001v1-meta",
+        "path": "evidence/sources/S001/v1/source.json",
+        "sha256": "3c2493e7b8f3c56a3f4f8d9fe2a75522869b969d6a526e0616b7b61733820ef2"
+      },
+      {
+        "id": "S001v1-original",
+        "path": "evidence/sources/S001/v1/original.pdf",
+        "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+      },
+      {
+        "id": "S001v1-extract",
+        "path": "evidence/sources/S001/v1/extract.json",
+        "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+      },
+      {
+        "id": "S002v1-meta",
+        "path": "evidence/sources/S002/v1/source.json",
+        "sha256": "1e111f5037984afeeb34735fac51b1f43672f1f69622335ef0d6a94c63b66d52"
+      },
+      {
+        "id": "S002v1-original",
+        "path": "evidence/sources/S002/v1/original.xlsx",
+        "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+      },
+      {
+        "id": "S002v1-extract",
+        "path": "evidence/sources/S002/v1/extract.json",
+        "sha256": "8f936010faaa9e158e597505ace65de3bb3754b5bcbfa201af006964e5666862"
+      },
+      {
+        "id": "S003v1-meta",
+        "path": "evidence/sources/S003/v1/source.json",
+        "sha256": "1d428c505005ab6c4b13a2051c62b1e1125d8595fd5d505490ee01f1d153045b"
+      },
+      {
+        "id": "S003v1-original",
+        "path": "evidence/sources/S003/v1/original.txt",
+        "sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd"
+      },
+      {
+        "id": "S003v1-extract",
+        "path": "evidence/sources/S003/v1/extract.json",
+        "sha256": "94c6cf80d1135ff701d5c3416fedea68288e7715509a4efe359739e166f4a461"
+      },
+      {
+        "id": "S004v1-meta",
+        "path": "evidence/sources/S004/v1/source.json",
+        "sha256": "78d0957c6f7f47ce3b1d57d4c7c047cad39403dda80df3633e50a4218a1f686f"
+      },
+      {
+        "id": "S004v1-original",
+        "path": "evidence/sources/S004/v1/original.txt",
+        "sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f"
+      },
+      {
+        "id": "S004v1-extract",
+        "path": "evidence/sources/S004/v1/extract.json",
+        "sha256": "e40f1800fb1496146954225e03f2b9a2ad6cd19a71f16fbc4e107fe889aa2818"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "version": 1,
+        "synthetic": true,
+        "artifact_ids": [
+          "S001v1-meta",
+          "S001v1-original",
+          "S001v1-extract"
+        ]
+      },
+      {
+        "id": "S002",
+        "version": 1,
+        "synthetic": true,
+        "artifact_ids": [
+          "S002v1-meta",
+          "S002v1-original",
+          "S002v1-extract"
+        ]
+      },
+      {
+        "id": "S003",
+        "version": 1,
+        "synthetic": false,
+        "artifact_ids": [
+          "S003v1-meta",
+          "S003v1-original",
+          "S003v1-extract"
+        ]
+      },
+      {
+        "id": "S004",
+        "version": 1,
+        "synthetic": false,
+        "artifact_ids": [
+          "S004v1-meta",
+          "S004v1-original",
+          "S004v1-extract"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C001",
+        "kind": "source_fact",
+        "text": "Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась",
+        "evidence": [
+          {
+            "artifact_id": "S001v1-extract",
+            "source_id": "S001",
+            "source_version": 1,
+            "locator": "physical-page:1/block:4-8"
+          }
+        ],
+        "derived_from": [],
+        "synthetic": true
+      },
+      {
+        "id": "C002",
+        "kind": "source_fact",
+        "text": "Коммерческий заголовок учебного PDF называет восемь платных пилотов бухбюро; смысл и согласованность с таблицей требуют проверки",
+        "evidence": [
+          {
+            "artifact_id": "S001v1-extract",
+            "source_id": "S001",
+            "source_version": 1,
+            "locator": "physical-page:2/block:2-4"
+          }
+        ],
+        "derived_from": [],
+        "synthetic": true,
+        "status": "needs_review"
+      },
+      {
+        "id": "C003",
+        "kind": "source_fact",
+        "text": "В учебной книге раздельно заданы contacted, trials, interest и paid30, имеются неизвестные расходы и формулы без проверенного кэша; агрегаты ещё не рассчитаны",
+        "evidence": [
+          {
+            "artifact_id": "S002v1-extract",
+            "source_id": "S002",
+            "source_version": 1,
+            "locator": "'Воронка'!A2:K4; 'Экономика'!A2:J3"
+          },
+          {
+            "artifact_id": "DEFINITIONS",
+            "locator": "Воронка и Экономика"
+          }
+        ],
+        "derived_from": [],
+        "synthetic": true
+      },
+      {
+        "id": "C004",
+        "kind": "source_fact",
+        "text": "Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture",
+        "evidence": [
+          {
+            "artifact_id": "S003v1-extract",
+            "source_id": "S003",
+            "source_version": 1,
+            "locator": "line:6-10; host sections What is Dropbox Transfer / size limits / expiry"
+          }
+        ],
+        "derived_from": [],
+        "synthetic": false
+      },
+      {
+        "id": "C005",
+        "kind": "source_fact",
+        "text": "Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию",
+        "evidence": [
+          {
+            "artifact_id": "S004v1-extract",
+            "source_id": "S004",
+            "source_version": 1,
+            "locator": "line:6-10; host introduction55-63 and82"
+          }
+        ],
+        "derived_from": [],
+        "synthetic": false
+      }
+    ],
+    "decision": {
+      "status": "proposed",
+      "owner": "unassigned"
+    },
+    "continuation_phase": {
+      "bounded": true,
+      "stop_after": "Содержательный разбор конфликта с расчётом и последствиями, новая state revision и успешный load",
+      "next_phase": "Сценарная экономика, полный синтез пяти документов и ревью"
+    },
+    "resources": {
+      "demonstration_started_at": "2026-11-16T09:30:57+00:00",
+      "tokens": null,
+      "charges": null,
+      "exact_model_id": null,
+      "human_minutes": null
+    },
+    "limitations": [
+      "Входы PDF/XLSX синтетические, рыночный спрос не проверен",
+      "Официальный дополнительный бриф недоступен через текущий маршрут",
+      "Нет человеческого бизнес-одобрения"
+    ],
+    "revision": 1,
+    "saved_at": "2026-11-16T09:37:07.569335+00:00",
+    "state_sha256": "6468929900847380dad0bf988c041951c5d9ae6a3ede589da755038a645992cd"
+  },
+  "warnings": []
+}

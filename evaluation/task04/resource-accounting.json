@@ -1,0 +1,476 @@
+{
+  "recorded_at": "2026-11-16T12:26:33.107849+00:00",
+  "timezone_for_display": "Europe/Moscow (+03:00)",
+  "development": {
+    "started_at": "2026-11-16T11:36:25+00:00",
+    "ended_at": "2026-11-16T12:26:33.107849+00:00",
+    "elapsed_seconds": 3008.107849,
+    "scope": "Gross wall interval: реализация, demo, review, тесты, документация; не активное время человека"
+  },
+  "demo": {
+    "started_at": "2026-11-16T11:53:15.830232+00:00",
+    "ended_at": "2026-11-16T12:16:16.284853+00:00",
+    "elapsed_seconds": 1380.454621,
+    "scope": "Подготовка изолированной копии → текущий host lifecycle → отдельная локальная приёмка r11"
+  },
+  "interval_rule": "Demo, команды, reviewer и ожидания вложены в development; интервалы не складывать.",
+  "recorded_command_runs": 31,
+  "recorded_nonzero_command_runs": 0,
+  "command_elapsed_seconds_not_additive": [
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at": "2026-11-16T11:43:14.199210+00:00",
+      "ended_at": "2026-11-16T11:43:16.034302+00:00",
+      "elapsed_seconds": 1.8290000000015425,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/fix_canonical_metadata.py"
+      ],
+      "started_at": "2026-11-16T12:09:26.565141+00:00",
+      "ended_at": "2026-11-16T12:09:27.243729+00:00",
+      "elapsed_seconds": 0.6870000000017171,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/check_delivery.py"
+      ],
+      "started_at": "2026-11-16T12:25:39.077237+00:00",
+      "ended_at": "2026-11-16T12:25:39.615006+00:00",
+      "elapsed_seconds": 0.5470000000022992,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/decision_followup.py",
+        "apply",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--event",
+        "inputs/owner-choice-v1.json",
+        "--draft",
+        "drafts/owner-choice-v1.json"
+      ],
+      "started_at": "2026-11-16T11:55:12.609622+00:00",
+      "ended_at": "2026-11-16T11:55:12.926999+00:00",
+      "elapsed_seconds": 0.31199999999807915,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/project_state.py",
+        "save",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--draft",
+        "drafts/owner-choice-v1.json"
+      ],
+      "started_at": "2026-11-16T11:55:13.552742+00:00",
+      "ended_at": "2026-11-16T11:55:14.101375+00:00",
+      "elapsed_seconds": 0.5470000000022992,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/configure_demo.py"
+      ],
+      "started_at": "2026-11-16T11:55:02.261221+00:00",
+      "ended_at": "2026-11-16T11:55:02.904971+00:00",
+      "elapsed_seconds": 0.6409999999996217,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/finalize_demo.py"
+      ],
+      "started_at": "2026-11-16T12:16:11.532443+00:00",
+      "ended_at": "2026-11-16T12:16:12.600372+00:00",
+      "elapsed_seconds": 1.0780000000013388,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/project_state.py",
+        "load",
+        "--project",
+        "evaluation/task04/projects/task04-followup"
+      ],
+      "started_at": "2026-11-16T11:55:01.354029+00:00",
+      "ended_at": "2026-11-16T11:55:01.555332+00:00",
+      "elapsed_seconds": 0.2029999999977008,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/prepare_copy.py"
+      ],
+      "started_at": "2026-11-16T11:53:15.830232+00:00",
+      "ended_at": "2026-11-16T11:53:16.438540+00:00",
+      "elapsed_seconds": 0.6100000000005821,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/record_protocol.py"
+      ],
+      "started_at": "2026-11-16T11:56:11.764081+00:00",
+      "ended_at": "2026-11-16T11:56:12.448122+00:00",
+      "elapsed_seconds": 0.6869999999980791,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/project_state.py",
+        "load",
+        "--project",
+        "evaluation/task04/projects/task04-followup"
+      ],
+      "started_at": "2026-11-16T12:17:40.219088+00:00",
+      "ended_at": "2026-11-16T12:17:40.453757+00:00",
+      "elapsed_seconds": 0.23399999999674037,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/decision_followup.py",
+        "view",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--as-of",
+        "2026-11-17T12:00:00+03:00",
+        "--timezone",
+        "+03:00",
+        "--clock",
+        "simulated",
+        "--markdown"
+      ],
+      "started_at": "2026-11-16T11:55:14.749506+00:00",
+      "ended_at": "2026-11-16T11:55:14.956223+00:00",
+      "elapsed_seconds": 0.2029999999977008,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/decision_followup.py",
+        "view",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--as-of",
+        "2026-12-19T12:00:00+03:00",
+        "--timezone",
+        "+03:00",
+        "--clock",
+        "simulated"
+      ],
+      "started_at": "2026-11-16T12:08:04.458815+00:00",
+      "ended_at": "2026-11-16T12:08:04.705022+00:00",
+      "elapsed_seconds": 0.23399999999674037,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/decision_followup.py",
+        "view",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--as-of",
+        "2026-11-18T12:00:00+03:00",
+        "--timezone",
+        "+03:00",
+        "--clock",
+        "simulated",
+        "--markdown"
+      ],
+      "started_at": "2026-11-16T11:56:13.152968+00:00",
+      "ended_at": "2026-11-16T11:56:13.384216+00:00",
+      "elapsed_seconds": 0.23400000000037835,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_followup.py",
+        "-v"
+      ],
+      "started_at": "2026-11-16T11:47:34.638542+00:00",
+      "ended_at": "2026-11-16T11:47:35.709109+00:00",
+      "elapsed_seconds": 1.0780000000013388,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_followup.py",
+        "-v"
+      ],
+      "started_at": "2026-11-16T12:03:54.543924+00:00",
+      "ended_at": "2026-11-16T12:03:55.756379+00:00",
+      "elapsed_seconds": 1.2190000000009604,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/make_review_packet.py"
+      ],
+      "started_at": "2026-11-16T12:19:06.047280+00:00",
+      "ended_at": "2026-11-16T12:19:06.312353+00:00",
+      "elapsed_seconds": 0.26599999999962165,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/import_materials.py",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--source-id",
+        "S007",
+        "--input",
+        "inputs/nonmaterial-note-v1.txt",
+        "--kind",
+        "text",
+        "--synthetic"
+      ],
+      "started_at": "2026-11-16T12:06:42.912920+00:00",
+      "ended_at": "2026-11-16T12:06:43.008736+00:00",
+      "elapsed_seconds": 0.09400000000096043,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/import_materials.py",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--source-id",
+        "S006",
+        "--input",
+        "inputs/mock-capability-withdrawal-v1.txt",
+        "--kind",
+        "text",
+        "--synthetic"
+      ],
+      "started_at": "2026-11-16T11:56:54.568322+00:00",
+      "ended_at": "2026-11-16T11:56:54.664884+00:00",
+      "elapsed_seconds": 0.09400000000096043,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/check_acceptance.py"
+      ],
+      "started_at": "2026-11-16T12:16:13.237778+00:00",
+      "ended_at": "2026-11-16T12:16:16.295336+00:00",
+      "elapsed_seconds": 3.061999999998079,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/exercise_nonmaterial.py"
+      ],
+      "started_at": "2026-11-16T12:08:02.819466+00:00",
+      "ended_at": "2026-11-16T12:08:03.834839+00:00",
+      "elapsed_seconds": 1.0160000000032596,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/exercise_numeric.py"
+      ],
+      "started_at": "2026-11-16T12:05:06.040284+00:00",
+      "ended_at": "2026-11-16T12:05:06.899367+00:00",
+      "elapsed_seconds": 0.8600000000005821,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/resolve_numeric.py"
+      ],
+      "started_at": "2026-11-16T12:06:41.413191+00:00",
+      "ended_at": "2026-11-16T12:06:42.282239+00:00",
+      "elapsed_seconds": 0.8600000000005821,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/check_recovery.py",
+        "evaluation/task04/recovery-01"
+      ],
+      "started_at": "2026-11-16T11:51:45.156303+00:00",
+      "ended_at": "2026-11-16T11:51:47.688043+00:00",
+      "elapsed_seconds": 2.5309999999990396,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/check_recovery.py",
+        "evaluation/task04/recovery-final"
+      ],
+      "started_at": "2026-11-16T12:09:33.661916+00:00",
+      "ended_at": "2026-11-16T12:09:36.062698+00:00",
+      "elapsed_seconds": 2.3909999999996217,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/register_withdrawal.py"
+      ],
+      "started_at": "2026-11-16T11:56:56.340508+00:00",
+      "ended_at": "2026-11-16T11:56:57.087748+00:00",
+      "elapsed_seconds": 0.75,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at": "2026-11-16T12:09:27.875410+00:00",
+      "ended_at": "2026-11-16T12:09:33.062351+00:00",
+      "elapsed_seconds": 5.187999999998283,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_at": "2026-11-16T12:17:33.889810+00:00",
+      "ended_at": "2026-11-16T12:17:39.613621+00:00",
+      "elapsed_seconds": 5.71900000000096,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/decision_followup.py",
+        "apply",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--event",
+        "inputs/withdrawal-event-v1.json",
+        "--draft",
+        "drafts/withdrawal-applied-v1.json"
+      ],
+      "started_at": "2026-11-16T11:56:57.703698+00:00",
+      "ended_at": "2026-11-16T11:56:58.057778+00:00",
+      "elapsed_seconds": 0.3600000000005821,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "evaluation/task04/publish_withdrawal_review.py"
+      ],
+      "started_at": "2026-11-16T12:01:16.665984+00:00",
+      "ended_at": "2026-11-16T12:01:17.437163+00:00",
+      "elapsed_seconds": 0.7659999999996217,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+        "scripts/project_state.py",
+        "save",
+        "--project",
+        "evaluation/task04/projects/task04-followup",
+        "--draft",
+        "drafts/withdrawal-applied-v1.json"
+      ],
+      "started_at": "2026-11-16T11:56:58.688744+00:00",
+      "ended_at": "2026-11-16T11:56:59.296280+00:00",
+      "elapsed_seconds": 0.6090000000003783,
+      "returncode": 0
+    }
+  ],
+  "retries_and_fixes": [
+    "Один reviewer использован несколькими проходами; находки и actual test runs в independent-review-v2.md.",
+    "Reviewer наблюдал один unit failure ожидания текста ошибки; boundary уже отклонял опасное действие. Исправлен regex, затронутые checks повторены.",
+    "Два полных финальных regression runs: 80 затем 81 после дополнительного guard новых legacy approvals. Это развитие тестов, не quota.",
+    "Два сохранённых recovery harness runs: первый до уточнения publication_unknown; финальный после. Старые результаты не переписаны.",
+    "Один apply_patch отвергнут: Delete+Add одного DEVELOPMENT_STATE в одном patch. Файл не изменился; затем применён обычный Update с сохранённым history.",
+    "Один короткий диагностический python -c показал mojibake stdout из legacy Windows encoding; source bytes не менялись. CLI явно UTF-8, далее -X utf8.",
+    "Эквивалентных nested fresh Codex launches: не выполнялись. Auth/provider/restrictions не менялись."
+  ],
+  "human_assistance": {
+    "observed": "Исходный TASK04 авторизовал локальную разработку/симуляцию; последующих сообщений или бизнес-решения в ходе выполнения не получено.",
+    "active_minutes": null,
+    "reason": "Телеметрия активной работы человека недоступна"
+  },
+  "models": {
+    "coordinator": "Существующий Codex host",
+    "independent_review_agents": 1,
+    "exact_model_id": null,
+    "tokens": null
+  },
+  "cost": {
+    "charges": null,
+    "currency": null,
+    "basis": "unknown",
+    "note": "Телеметрии тарификации нет; отсутствие новых провайдеров не означает нулевой стоимости"
+  },
+  "new_dependencies_or_providers": [],
+  "business_experiment_executed": false,
+  "research_used": [
+    "https://docs.python.org/3.12/library/os.html#os.replace"
+  ],
+  "final_code_sha256": {
+    "scripts/project_state.py": "29755e1ccea17312996424f7e00a2e9e281d9d55586464d32cd71843fbd064bc",
+    "scripts/decision_followup.py": "f5d25278eb12dc05ab1aa3e79910ae51d0a895330786f5ed73de3ba2b5575fc9",
+    "tests/test_followup.py": "1d68f1425faebf5fc8d5271fbf4110dd1824b3d676286c50606c2fb9dd10049d",
+    "tests/test_followup_recovery.py": "3e3066995da3b7d6f1a90d6c9bf3d20904cc22c5fde500c043f0a06f2b8e85b7"
+  }
+}

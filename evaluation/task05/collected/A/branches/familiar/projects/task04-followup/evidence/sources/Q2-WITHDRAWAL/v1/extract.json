@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Синтетическая заметка автора описания прототипа; 2026-12-19T13:00:00+03:00."
+    },
+    {
+      "locator": "line:2",
+      "text": "Отзываю поддержку фразы recipient needs no account из S001@1, physical-page:1/block:5."
+    },
+    {
+      "locator": "line:3",
+      "text": "У автора нет протокола, позволяющего поддерживать это обещание. Нового результата испытания не предоставлено."
+    },
+    {
+      "locator": "line:4",
+      "text": "Другие положения описания и таблица не меняются этим сообщением."
+    }
+  ],
+  "source_id": "Q2-WITHDRAWAL",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "a329b857648cd3310ddb1e7ded9f3134707cc37122c186125f1c7afbab472168",
+  "extraction_method": "utf8-lines-v1"
+}

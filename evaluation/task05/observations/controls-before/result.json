@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "evaluation/task05/probe_controls.py",
+    "--code-root",
+    "evaluation/task05/frozen-v2/A",
+    "--output",
+    "evaluation/task05/controls-before.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T13:41:19.216411+00:00",
+  "ended_at": "2026-11-16T13:41:20.011966+00:00",
+  "elapsed_seconds": 0.7969999999986612,
+  "returncode": 0
+}

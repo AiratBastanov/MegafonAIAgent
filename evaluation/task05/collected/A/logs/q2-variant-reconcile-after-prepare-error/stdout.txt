@@ -1,0 +1,8 @@
+{
+  "outcome": "absent_from_current",
+  "revision": 3,
+  "event_id": "Q2-VARIANT-WITHDRAWAL",
+  "candidates": [],
+  "warnings": [],
+  "next_action": "Осмотреть вход, оставшиеся артефакты и наблюдения публикации/восстановления. History могла быть кандидатом или прежней публикацией до recovery; её статус неизвестен. Повтор только после сверки."
+}

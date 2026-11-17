@@ -1,0 +1,3 @@
+{"branch": "familiar", "unexpected_extra_node": ["artifact:Q2-RAW-IMPACT"], "state_unchanged_revision": 3, "new_draft": "drafts/q2-evidence-base-v2.json", "recomputed_impact_matches": true, "original_files_retained": true}
+{"branch": "variant", "unexpected_extra_node": ["artifact:Q2-RAW-IMPACT"], "state_unchanged_revision": 3, "new_draft": "drafts/q2-evidence-base-v2.json", "recomputed_impact_matches": true, "original_files_retained": true}
+Created q2-prepare-v2.py; q2-prepare.py and failed stdout/stderr are unchanged.

@@ -1,0 +1,30 @@
+{
+  "states": {
+    "projects/demo-001": {
+      "revision": 5,
+      "state_sha256": "0a71b32e72ad9c2db0967534b45d08445a0ad24518bae93aaf6d8706fb3b1ed6"
+    },
+    "projects/demo-002": {
+      "revision": 5,
+      "state_sha256": "a00e36c041e5c909fb050daa486090a9dea644a5dc8f4fe433f9675675fc5a53"
+    },
+    "projects/task06-rehearsal": {
+      "revision": 6,
+      "state_sha256": "ab2a105db33ee4d93516028728f9ff776c378d67ac93eeacfa0f5532e4339f81"
+    },
+    "evaluation/task07/demo-workspace/projects/task06-rehearsal": {
+      "revision": 9,
+      "state_sha256": "db69c08f70fe2fa43e8ca2842cc26b0a0a9ac7d25e914b67ebb8a337f441f398"
+    }
+  },
+  "final_media": {
+    "submission/Описание проекта.pdf": "7faf5b4da1fbea29c9045580abc29849260baee633ced5978fb93c4eefd4b193",
+    "submission/PROJECT_DESCRIPTION.pdf": "7faf5b4da1fbea29c9045580abc29849260baee633ced5978fb93c4eefd4b193",
+    "submission/video/Демонстрация.mp4": "243e78d1c5dfe54073f817b53f9669f608f896fc7ac084e08c72ded332b3e8db"
+  },
+  "media_evidence": [
+    "evaluation/task07/capture/final-verification-v2/verification.json",
+    "evaluation/task07/capture/FINAL_REVIEW.md",
+    "evaluation/task07/editorial/FINAL_REVIEW.md"
+  ]
+}

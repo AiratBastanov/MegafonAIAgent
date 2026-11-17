@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 RUNTIME.md; Get-Content -Encoding UTF8 inbox/q2/familiar-withdrawal-v1.txt; Get-Content -Encoding UTF8 inbox/q2/variant-withdrawal-v1.txt; Get-Content -Encoding UTF8 branches/familiar/projects/task04-followup/project.md; Get-Content -Encoding UTF8 branches/familiar/projects/task04-followup/notes/q1/handoff-v1.md; Get-Content -Encoding UTF8 branches/variant/projects/task04-followup/project.md; Get-Content -Encoding UTF8 branches/variant/projects/task04-followup/notes/q1/handoff-v1.md"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "started_at": "2026-11-16T13:51:03.988516+00:00",
+  "ended_at": "2026-11-16T13:51:04.221674+00:00",
+  "elapsed_seconds": 0.23400000000037835,
+  "returncode": 0
+}

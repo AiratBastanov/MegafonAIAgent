@@ -1,0 +1,164 @@
+{
+  "audited_at": "2026-11-16T09:56:03.332159+00:00",
+  "reviewer": "independent_formats_agent",
+  "status": "NOT_VERIFIED",
+  "criterion": "fresh_process_substantive_phase_new_state_revision_separate_reload",
+  "manifest_file_count": 39,
+  "archive_sha256": "4987a5f82363292d3b461c07b197d4f0f860621bb7cdb23c99a26027c3e4c7f2",
+  "archive_hash_matches": true,
+  "archive_contents": {
+    "missing": [],
+    "added": [],
+    "mismatched": []
+  },
+  "workspace_changed": [],
+  "workspace_missing": [],
+  "workspace_added": [
+    "scripts/__pycache__/import_materials.cpython-312.pyc"
+  ],
+  "current_revision": 1,
+  "current_state_sha256": "6468929900847380dad0bf988c041951c5d9ae6a3ede589da755038a645992cd",
+  "current_file_sha256": "914fbd5473469a163e933ba5d9fedcd789eeabeb8afe7020597b94168b1482c8",
+  "starting_and_subsequent_load_byte_identical": true,
+  "history_files": [
+    "r000001.json"
+  ],
+  "outputs_exist": false,
+  "next_action": "Разрешить существенное противоречие PDF/XLSX: проверить определения, выполнить нужные расчёты из literal cells без reimport, записать вывод с последствиями для выбора аудитории. Добавить прямые references/claims, опубликовать новую revision через save, проверить load и сделать паузу перед пятью стратегиями.",
+  "event_counts": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed": 22,
+    "item.started": 20,
+    "error": 7
+  },
+  "completed_command_count": 20,
+  "successful_commands": 19,
+  "failed_commands": 1,
+  "commands": [
+    {
+      "line": 5,
+      "item_id": "item_1",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath RUNTIME.md'"
+    },
+    {
+      "line": 10,
+      "item_id": "item_2",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"rg --files -g AGENTS.md -g '\"'!other*'\"' -g '\"'!evaluation/**'\"' -g '\"'!projects/**'\"'; rg --files projects/demo-002\""
+    },
+    {
+      "line": 11,
+      "item_id": "item_3",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath knowledge/procedures/strategy-cycle.md -Encoding UTF8'"
+    },
+    {
+      "line": 13,
+      "item_id": "item_4",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath knowledge/record-contracts.md -Encoding UTF8'"
+    },
+    {
+      "line": 15,
+      "item_id": "item_5",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath RUNTIME.md -Encoding UTF8'"
+    },
+    {
+      "line": 17,
+      "item_id": "item_6",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath projects/demo-002/project.md -Encoding UTF8'"
+    },
+    {
+      "line": 19,
+      "item_id": "item_7",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"& 'C:\\\\Users\\\\BastaPC\\\\Desktop\\\\MegafonAIAgent\\\\.venv\\\\Scripts\\\\python.exe' scripts/project_state.py load --project projects/demo-002\""
+    },
+    {
+      "line": 28,
+      "item_id": "item_10",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath projects/demo-002/inputs/DATA_DICTIONARY.md,projects/demo-002/inputs/selection-v1.json -Encoding UTF8'"
+    },
+    {
+      "line": 29,
+      "item_id": "item_9",
+      "exit_code": 1,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath AGENTS.md -Encoding UTF8\nrg --files --hidden -g AGENTS.md projects/demo-002 knowledge scripts'"
+    },
+    {
+      "line": 30,
+      "item_id": "item_11",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath projects/demo-002/evidence/sources/S001/v1/extract.json -Encoding UTF8'"
+    },
+    {
+      "line": 31,
+      "item_id": "item_13",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath knowledge/tool-contracts.md,knowledge/methods.md,knowledge/procedures/evidence-review.md -Encoding UTF8'"
+    },
+    {
+      "line": 32,
+      "item_id": "item_14",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath projects/demo-002/evidence/fidelity-v1.json,projects/demo-002/evidence/research-questions-v1.md,projects/demo-002/evidence/import-observation-v1.json -Encoding UTF8'"
+    },
+    {
+      "line": 33,
+      "item_id": "item_12",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"& 'C:\\\\Users\\\\BastaPC\\\\Desktop\\\\MegafonAIAgent\\\\.venv\\\\Scripts\\\\python.exe' scripts/analyze_table.py --help\nGet-Item -LiteralPath projects/demo-002/evidence/sources/S002/v1/extract.json | Select-Object Name,Length\""
+    },
+    {
+      "line": 35,
+      "item_id": "item_15",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath scripts/analyze_table.py -Encoding UTF8'"
+    },
+    {
+      "line": 37,
+      "item_id": "item_16",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath knowledge/tool-contracts.md,knowledge/methods.md,knowledge/procedures/evidence-review.md -Encoding UTF8'"
+    },
+    {
+      "line": 39,
+      "item_id": "item_17",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command '$extract = Get-Content -LiteralPath projects/demo-002/evidence/sources/S002/v1/extract.json -Raw -Encoding UTF8 | ConvertFrom-Json\n$extract.PSObject.Properties.Name\n$extract | Select-Object format,method,workbook,limitations | ConvertTo-Json -Depth 8'"
+    },
+    {
+      "line": 41,
+      "item_id": "item_18",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command '$extract = Get-Content -LiteralPath projects/demo-002/evidence/sources/S002/v1/extract.json -Raw -Encoding UTF8 | ConvertFrom-Json\n$extract.sheets[0].PSObject.Properties.Name\n$extract.sheets[0].cells[0] | ConvertTo-Json -Depth 6\n$extract.workbook_sheets | ConvertTo-Json -Depth 4'"
+    },
+    {
+      "line": 44,
+      "item_id": "item_20",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"rg -n '\"'^(def |[A-Z_]+ =)|computed|evidence|derived_from|spec|source_version|calculation'\"' scripts/project_state.py\""
+    },
+    {
+      "line": 45,
+      "item_id": "item_19",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -LiteralPath projects/demo-002/evidence/research-questions-v1.md -Encoding UTF8\n$check = Get-Content -LiteralPath projects/demo-002/evidence/fidelity-v1.json -Raw -Encoding UTF8 | ConvertFrom-Json\n$check | Select-Object * -ExcludeProperty checks | ConvertTo-Json -Depth 6'"
+    },
+    {
+      "line": 47,
+      "item_id": "item_21",
+      "exit_code": 0,
+      "command": "\"C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command '$extract = Get-Content -LiteralPath projects/demo-002/evidence/sources/S002/v1/extract.json -Raw -Encoding UTF8 | ConvertFrom-Json\nforeach ($sheet in $extract.sheets | Where-Object { $_.name -in @('\"'Воронка','Экономика') }) {\n    \"'$sheet | Select-Object name,state,merged_ranges,hidden_columns,hidden_rows | ConvertTo-Json -Compress -Depth 5\n    $sheet.cells | Where-Object { $_.address -match '\"'\"'^[A-K][2-4]$'\"' } | Select-Object address,value,type,formula,cache_status,hidden_column | ConvertTo-Json -Compress -Depth 4\n}\""
+    }
+  ],
+  "last_message_bytes": 0,
+  "new_model_launches_during_audit": 0,
+  "project_state_writes_during_audit": 0,
+  "audit_only_error": "First audit display used legacy cp1251 and raised UnicodeEncodeError; repeated with -X utf8, without changing project files."
+}

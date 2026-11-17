@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-16T10:29:25.152983+00:00",
+  "passed": true,
+  "local_document_links_checked": 68,
+  "broken_links": [],
+  "packet_project_id": "demo-002",
+  "packet_revision": 4,
+  "complete_outputs_present": 5,
+  "state_sha256": "6086a824f25a3a1e13198d1964b968f5c283cfb40b536a51ae98608b8b2f9d2d",
+  "packet_sha256": "34b91b86892199dd6fdb3d724a7e622c04fca130e5c07eb188e59ec50874d2c8",
+  "reviewed_runtime_files_unchanged": {
+    "scripts/analyze_table.py": "a2f4f8988a8b8e5f1a98fddc7435d8ef8c9428eb52db4cf1648615a90fe8493b",
+    "scripts/extract_formats.py": "f5c68d0b881506cb70c69081f4e12ea49e75fc8c99644e6e5d4a55f53d01c4cc",
+    "scripts/import_materials.py": "a4ea118bda3cc9e6dd849ddcc8ebb7cf41874a6b420c33e37edf664476021c45"
+  },
+  "reports_sha256": {
+    "README.md": "149b6c1f53bb2b522cc75e401fc4056a1a5f02488dbfebafc8beaefb1123bc4a",
+    "docs/TASK03_REPORT.md": "321457e6eba25f880e26b30df10a1233fdde2a4b6de7337c81b9f1a5963afbde",
+    "docs/TASK03_REVIEW_PACKET.md": "34b91b86892199dd6fdb3d724a7e622c04fca130e5c07eb188e59ec50874d2c8",
+    "docs/DEVELOPMENT_STATE.md": "44b361c320920450d5d26c192a13919f11351d0aeeb455af07b173a60b1f65e0",
+    "projects/demo-002/README.md": "606451779d672193a335768a1d9e06137d102526757b977217be88d3681d5898"
+  },
+  "kind": "final_package_integrity_not_fresh_host_observation"
+}

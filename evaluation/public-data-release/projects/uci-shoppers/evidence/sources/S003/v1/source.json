@@ -1,0 +1,29 @@
+{
+  "id": "S003",
+  "kind": "web-excerpt",
+  "origin": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+  "input_sha256": "780c2d3ed7fbd3aa3c351e4f7353b9e492875328a9ab3f75c44cb33e3f7e6d68",
+  "synthetic": false,
+  "accessed_at": "2026-11-17T09:39:20+00:00",
+  "locator": "Dataset Information; Additional Variable Information; License",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Краткое изложение прочитанной страницы; не точная цитата, не HTML и не независимый источник от S001.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-17T09:47:53+00:00",
+  "published_at": null,
+  "input_path": "inputs/official-description-v1.md",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S003/v1/original.txt",
+    "sha256": "780c2d3ed7fbd3aa3c351e4f7353b9e492875328a9ab3f75c44cb33e3f7e6d68"
+  },
+  "extract": {
+    "path": "evidence/sources/S003/v1/extract.json",
+    "sha256": "b436fd35326934ce882f0bd65b7bf2a1c519a9531c98cdf40a2f179346a5821d"
+  }
+}

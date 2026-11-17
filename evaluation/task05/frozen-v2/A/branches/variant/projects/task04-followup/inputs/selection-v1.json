@@ -1,0 +1,47 @@
+{
+  "ranges": [
+    {
+      "sheet": "Воронка",
+      "range": "A1:K4",
+      "period": "2026-09",
+      "units": {
+        "A": "month",
+        "B": "category",
+        "C": "organisations",
+        "D": "organisations",
+        "E": "organisations",
+        "F": "organisations",
+        "G": "RUB",
+        "H": "RUB",
+        "I": "RUB",
+        "J": "date",
+        "K": "ratio"
+      }
+    },
+    {
+      "sheet": "Экономика",
+      "range": "A1:J3",
+      "period": "2026-11-scenario",
+      "units": {
+        "A": "scenario_month",
+        "B": "category",
+        "C": "RUB/account/month",
+        "D": "RUB/account/month",
+        "E": "minutes/account/month",
+        "F": "RUB/hour",
+        "G": "RUB/month",
+        "H": "RUB",
+        "I": "accounts",
+        "J": "RUB/account/month"
+      }
+    },
+    {
+      "sheet": "Примечания",
+      "range": "A1:A3",
+      "period": "not_applicable",
+      "units": {
+        "A": "text"
+      }
+    }
+  ]
+}

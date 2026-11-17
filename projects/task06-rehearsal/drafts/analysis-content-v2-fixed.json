@@ -1,0 +1,127 @@
+{
+  "stage": "research_complete",
+  "completed": [
+    "Начальные материалы импортированы",
+    "Пауза r1 сохранена отдельно до расчётов",
+    "Текущий координатор разрешил конфликт определений и проверил арифметику"
+  ],
+  "unresolved_questions": [
+    "Нет подтверждённого спроса, CAC, продлений и полной экономики",
+    "Неизвестны владелец, бюджет, стоимость выхода и приёмка прототипа"
+  ],
+  "pending_actions": [
+    "Сравнить четыре разных варианта",
+    "Подготовить продуктовую и коммуникационную стратегии и план проверки"
+  ],
+  "next_action": "Синтезировать пять документов с сильными возражениями и опровержимыми порогами; решение не принимать за владельца",
+  "new_artifacts": {
+    "ANALYSIS1": "evidence/analysis-v1.md",
+    "FUNNEL1": "evidence/calculations/funnel-v1.json",
+    "ECON_RAW1": "evidence/calculations/economics-raw-v1.json",
+    "ECON1": "evidence/calculations/economics-v1.json",
+    "INDEPENDENT1": "evidence/calculations/independent-v1.json",
+    "FIDELITY1": "evidence/fidelity-v1.json"
+  },
+  "new_claims": [
+    {
+      "id": "C003",
+      "kind": "source_fact",
+      "text": "Восемь платных пилотов в memo означает интерес; XLSX сообщает одну первую оплату у бухбюро.",
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical_page=2; text lines 2–4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!D4:F4",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "derived_from": [],
+      "synthetic": true
+    },
+    {
+      "id": "C004",
+      "kind": "computed",
+      "text": "Доля первой оплаты среди проб в fixture: агентства 2/8=25%, бухбюро 1/10=10%; не причинный эффект.",
+      "evidence": [
+        {
+          "artifact_id": "FUNNEL1",
+          "locator": "groups[].metrics.paid_per_trial_pct",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "derived_from": [],
+      "synthetic": true
+    },
+    {
+      "id": "C005",
+      "kind": "computed",
+      "text": "Сценарий v1: вклад 2100 RUB/account/month; при 20 остаток 12000 до неизвестных расходов; положительный с 15.",
+      "evidence": [
+        {
+          "artifact_id": "ECON1",
+          "locator": "base; formulas"
+        },
+        {
+          "artifact_id": "SCENARIOS",
+          "locator": "limitations"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "Экономика!C3:I3",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "derived_from": [],
+      "synthetic": true
+    },
+    {
+      "id": "C006",
+      "kind": "hypothesis",
+      "text": "Исходящий сценарий агентств требует меньше нового функционала, чем сбор для бухбюро; спрос этим не доказан.",
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS1",
+          "locator": "C006"
+        }
+      ],
+      "derived_from": [
+        "C001",
+        "C002",
+        "C003"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "C007",
+      "kind": "recommendation",
+      "text": "Предложить ограниченное обучение на исходящей задаче агентств после решения владельца; keep/close остаются реальными альтернативами.",
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS1",
+          "locator": "C007"
+        }
+      ],
+      "derived_from": [
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "synthetic": true
+    }
+  ],
+  "artifact_dependencies": [
+    {
+      "from": "ECON1",
+      "to": "ECON_RAW1",
+      "reason": "Сценарные формулы используют закреплённые исходные literal metrics"
+    }
+  ]
+}

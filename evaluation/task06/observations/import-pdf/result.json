@@ -1,0 +1,22 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/import_materials.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--source-id",
+    "S001",
+    "--input",
+    "inputs/product-brief-v1.pdf",
+    "--kind",
+    "pdf",
+    "--synthetic"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:24:38.004423+00:00",
+  "ended_at": "2026-11-16T15:24:38.233224+00:00",
+  "elapsed_seconds": 0.21900000000096043,
+  "returncode": 0
+}

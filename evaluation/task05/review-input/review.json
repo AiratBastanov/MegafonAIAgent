@@ -1,0 +1,1357 @@
+{
+  "review_kind": "automatic_paired_review",
+  "version": 1,
+  "language": "ru",
+  "human_validation": false,
+  "scope": {
+    "package": "evaluation/task05/review-input",
+    "aliases": [
+      "R17",
+      "R42"
+    ],
+    "questions": [
+      "q1",
+      "q2",
+      "q3"
+    ],
+    "branches": [
+      "familiar",
+      "variant"
+    ],
+    "allowed_materials": "Только primary/context.md, primary/materials, primary/events, responses.md, rubric-v1.json, expectations-v1.json и notes/outputs внутри R17/R42 этого пакета.",
+    "excluded_access": "Не читались соседние evaluator reports, implementation, collected, runs, blinding-map, исходные рабочие каталоги вне пакета или другие ответы; сеть и другие агенты не использовались.",
+    "scoring_rule": "Шкала 0–2 из rubric-v1.json. В каждом критерии учтены обе ветки; максимум 28 на псевдоним. Оценивается достаточность пользовательского результата короткого запроса. Частная JSON-схема и пять новых документов не требовались. Сохранение и ресурсы рассмотрены отдельно.",
+    "first_read_order": {
+      "q1": [
+        "R42",
+        "R17"
+      ],
+      "q2": [
+        "R17",
+        "R42"
+      ],
+      "q3": [
+        "R42",
+        "R17"
+      ]
+    }
+  },
+  "evidence_catalog": {
+    "P_CONTEXT": {
+      "path": "primary/context.md",
+      "locator": "lines 3-7",
+      "quote": "M-TIME содержит только сценарные плановые даты; фактического включения организаций/результатов нет.",
+      "kind": "primary"
+    },
+    "P_OWNER_AUTH": {
+      "path": "primary/materials/inputs/owner-instruction-v1.md",
+      "locator": "lines 3-5",
+      "quote": "не сообщение реального уполномоченного человека и не полномочие тратить, приглашать участников или запускать рыночный эксперимент.",
+      "kind": "primary"
+    },
+    "P_OWNER_CHOICE": {
+      "path": "primary/materials/inputs/owner-instruction-v1.md",
+      "locator": "line 5",
+      "quote": "До приёмки функций и отдельного решения о бюджете сохраняется внутренний режим.",
+      "kind": "primary"
+    },
+    "P_OWNER_RETURN": {
+      "path": "primary/materials/inputs/owner-instruction-v1.md",
+      "locator": "line 11",
+      "quote": "При отзыве поддержки возможности, изменении экономических оснований или отсутствии необходимых наблюдений вернуться к решению.",
+      "kind": "primary"
+    },
+    "P_OWNER_LEARNING": {
+      "path": "primary/materials/inputs/owner-instruction-v1.md",
+      "locator": "line 11",
+      "quote": "Порог пяти минут служит обучению, не обосновывает 3000 RUB/месяц.",
+      "kind": "primary"
+    },
+    "P_COMMITMENTS": {
+      "path": "primary/context.md",
+      "locator": "lines 443-510; commitments[K-PROTOCOL,K-CAPABILITY,K-BUDGET,K-VALUE]",
+      "quote": "\"due_at\": \"2026-11-17T12:00:00+03:00\",",
+      "kind": "primary"
+    },
+    "P_CAPABILITY": {
+      "path": "primary/context.md",
+      "locator": "line 472; commitments[K-CAPABILITY].required_evidence",
+      "quote": "Проверка конкретной версии на разрешённом файле с результатом доступа/скачивания/истечения/отзыва",
+      "kind": "primary"
+    },
+    "P_UNKNOWN_DATES": {
+      "path": "primary/context.md",
+      "locator": "lines 477-508; commitments[K-BUDGET,K-VALUE].due_at/blocked_by/owner",
+      "quote": "\"due_at\": null,",
+      "kind": "primary"
+    },
+    "P_WINDOW": {
+      "path": "primary/context.md",
+      "locator": "lines 969-1045; M-TIME.window.end/start, all other metrics.window",
+      "quote": "\"end\": \"2026-12-18T12:00:00+03:00\",",
+      "kind": "primary"
+    },
+    "P_FRESH": {
+      "path": "primary/context.md",
+      "locator": "lines 584-591; conditions[G-FRESHNESS]",
+      "quote": "Перед будущим сравнением проверить официальный источник; дата сама по себе не опровергает снимок",
+      "kind": "primary"
+    },
+    "P_Q1_REPEAT": {
+      "path": "primary/events/q1/repeated-correction-v1.txt",
+      "locator": "lines 2-3",
+      "quote": "Это та же коррекция; новой версии XLSX, новых величин или измерений нет.",
+      "kind": "primary"
+    },
+    "P_S005": {
+      "path": "primary/materials/evidence/sources/S005/v1/original.txt",
+      "locator": "lines 1-5; S005@1",
+      "quote": "Это новое допущение нагрузки, не измерение; цена, прочие допущения и Воронка неизменны.",
+      "kind": "primary"
+    },
+    "P_XLSX": {
+      "path": "primary/materials/evidence/sources/S002/v2/original.xlsx",
+      "locator": "S002@2; 'Экономика'!C3:I3; 'Воронка'!C3:F4",
+      "quote": null,
+      "kind": "primary",
+      "observed_literal_values": {
+        "Экономика!C3": 3000,
+        "Экономика!D3": 600,
+        "Экономика!E3": 90,
+        "Экономика!F3": 600,
+        "Экономика!G3": 30000,
+        "Экономика!H3": 60000,
+        "Экономика!I3": 20,
+        "Воронка!D3": 8,
+        "Воронка!F3": 2,
+        "Воронка!D4": 10,
+        "Воронка!F4": 1
+      },
+      "method": "Чтение XML внутри оригинального XLSX стандартной библиотекой Python; выбранные значения literal, formula отсутствует; кэши формул не использованы."
+    },
+    "P_ECON": {
+      "path": "primary/materials/evidence/calculations/economics-v2.json",
+      "locator": "base.margin_rub_per_account_month; base.surplus_before_unknown_costs_rub_month; base.min_accounts_positive",
+      "quote": "\"margin_rub_per_account_month\": \"1500.0000\"",
+      "kind": "derived_primary_package"
+    },
+    "P_S001": {
+      "path": "primary/materials/evidence/sources/S001/v1/extract.json",
+      "locator": "S001@1; physical-page:1/block:5; $.pages[0].blocks[4].text",
+      "quote": "Limits: 2 GB per file; links expire after 7 days; recipient needs no account.",
+      "kind": "primary"
+    },
+    "P_F_WITHDRAW": {
+      "path": "primary/events/q2/familiar-withdrawal-v1.txt",
+      "locator": "lines 2-4",
+      "quote": "Отзываю поддержку фразы recipient needs no account из S001@1, physical-page:1/block:5.",
+      "kind": "primary"
+    },
+    "P_V_WITHDRAW": {
+      "path": "primary/events/q2/variant-withdrawal-v1.txt",
+      "locator": "lines 2-4",
+      "quote": "Новый фактический срок и результаты испытания не предоставлены.",
+      "kind": "primary"
+    },
+    "P_OLD_COMM": {
+      "path": "primary/materials/outputs/v2/communication-strategy.md",
+      "locator": "lines 7,12-13; central message, demonstration, dispatch memo",
+      "quote": "Показать загрузку, получение ссылки и скачивание без аккаунта",
+      "kind": "derived_primary_package"
+    },
+    "P_OLD_PLAN": {
+      "path": "primary/materials/outputs/v2/validation-plan.md",
+      "locator": "lines 9,16; calendar and delivery metric",
+      "quote": "Все четыре передачи назначить и отправить не позже дня 23, чтобы их 7 суток доставки завершились к дню 30.",
+      "kind": "derived_primary_package"
+    },
+    "P_Q3_REPEAT": {
+      "path": "primary/events/q3/repeated-correction-v2.txt",
+      "locator": "line 2",
+      "quote": "Повторяю те же 90 минут поддержки вместо 30. Новых величин, файлов XLSX, измерений или решений владельца нет.",
+      "kind": "primary"
+    },
+    "P_Q3_ADMIN": {
+      "path": "primary/events/q3/irrelevant-note-v1.txt",
+      "locator": "lines 2-3",
+      "quote": "Функции продукта, затраты, обязательства, сроки и решения владельца не изменены.",
+      "kind": "primary"
+    },
+    "P_HISTORY": {
+      "path": "primary/context.md",
+      "locator": "lines 719-739; history[OWNER-01-decision]",
+      "quote": "\"status\": \"simulated_accepted\",",
+      "kind": "primary"
+    },
+    "R17_Q1_SUPPORT": {
+      "path": "responses.md",
+      "locator": "lines 46,48",
+      "quote": "90 минут уже записаны в S002@2, `'Экономика'!E3`, и учтены в C014/C013 и ECON-v2.",
+      "kind": "response"
+    },
+    "R17_Q1_DATES": {
+      "path": "responses.md",
+      "locator": "lines 39-46",
+      "quote": "Срок 17.11.2026, 12:00 пропущен на **32 суток**.",
+      "kind": "response"
+    },
+    "R17_Q1_UNKNOWN": {
+      "path": "responses.md",
+      "locator": "lines 40-41,46",
+      "quote": "Заблокировано приёмкой; ответственный и дата неизвестны. Просрочку установить нельзя.",
+      "kind": "response"
+    },
+    "R17_Q1_ACTION": {
+      "path": "responses.md",
+      "locator": "line 50",
+      "quote": "Следующий практический шаг — получить от технической роли протокол конкретной версии: доступ, скачивание, истечение и отзыв на разрешённом файле.",
+      "kind": "response"
+    },
+    "R17_Q1_AUTH": {
+      "path": "responses.md",
+      "locator": "line 50",
+      "quote": "Это рекомендация; новых дат и решений я не утверждал.",
+      "kind": "response"
+    },
+    "R17_Q1_REPEAT": {
+      "path": "responses.md",
+      "locator": "lines 48,52",
+      "quote": "Повтор коррекции не требует пересчёта или нового выбора.",
+      "kind": "response"
+    },
+    "R42_Q1_SUPPORT": {
+      "path": "responses.md",
+      "locator": "line 25",
+      "quote": "сценарный вклад — 1500 RUB на платящую организацию в месяц, остаток при 20 организациях — 0 до неизвестных расходов.",
+      "kind": "response"
+    },
+    "R42_Q1_DATES": {
+      "path": "responses.md",
+      "locator": "lines 16-19,23",
+      "quote": "Старт и результаты не сообщались: фактическое окно и исход проверки неизвестны.",
+      "kind": "response"
+    },
+    "R42_Q1_UNKNOWN": {
+      "path": "responses.md",
+      "locator": "line 18",
+      "quote": "Владельцы и даты не назначены, поэтому календарную просрочку им не приписываю.",
+      "kind": "response"
+    },
+    "R42_Q1_ACTION": {
+      "path": "responses.md",
+      "locator": "line 27",
+      "quote": "Следующий практический шаг — назначить ответственных и новые сроки, получить протокол проверки конкретной версии продукта на разрешённом файле: доступ, скачивание, истечение и отзыв.",
+      "kind": "response"
+    },
+    "R42_Q1_AUTH": {
+      "path": "responses.md",
+      "locator": "line 27",
+      "quote": "Текущий учебный выбор подготовки сохраняется; новый выбор не принят, реальный статус — `awaiting_decision`.",
+      "kind": "response"
+    },
+    "R42_Q1_REPEAT": {
+      "path": "responses.md",
+      "locator": "line 25",
+      "quote": "Повтор корректировки нового экономического решения не требует.",
+      "kind": "response"
+    },
+    "R17_Q2_F": {
+      "path": "responses.md",
+      "locator": "lines 63-67",
+      "quote": "Это не доказывает, что аккаунт обязателен.",
+      "kind": "response"
+    },
+    "R17_Q2_V": {
+      "path": "responses.md",
+      "locator": "lines 69-73",
+      "quote": "Фактический срок неизвестен; бессрочность или другой срок из отзыва не следуют.",
+      "kind": "response"
+    },
+    "R17_Q2_KEEP": {
+      "path": "responses.md",
+      "locator": "line 75",
+      "quote": "Сохраняются** внутренний режим, альтернативы выбора, воронка и сценарная экономика: новых значений XLSX нет, пересчёт не нужен.",
+      "kind": "response"
+    },
+    "R17_Q2_AUTH": {
+      "path": "responses.md",
+      "locator": "line 77",
+      "quote": "аналитический пересмотр получил `revised`, а `owner_review_required=true` сохранён.",
+      "kind": "response"
+    },
+    "R17_Q2_ACTION": {
+      "path": "responses.md",
+      "locator": "line 77",
+      "quote": "После протокола приёмки владелец должен отдельно решить пригодность уточнённого предложения, бюджет и календарь;",
+      "kind": "response"
+    },
+    "R42_Q2_SCOPE": {
+      "path": "responses.md",
+      "locator": "line 85",
+      "quote": "Это потеря поддержки утверждения, а не доказательство обратного.",
+      "kind": "response"
+    },
+    "R42_Q2_F": {
+      "path": "responses.md",
+      "locator": "lines 89-91; familiar column",
+      "quote": "Убрать допущение, что получение уже доступно без аккаунта; условия доступа неизвестны до приёмки.",
+      "kind": "response"
+    },
+    "R42_Q2_V": {
+      "path": "responses.md",
+      "locator": "lines 89-91; variant column",
+      "quote": "Семь суток могут остаться отдельным исследовательским окном только после подтверждения достаточной доступности; иначе согласовать другое окно и календарь.",
+      "kind": "response"
+    },
+    "R42_Q2_KEEP": {
+      "path": "responses.md",
+      "locator": "line 95",
+      "quote": "В familiar этот отзыв не меняет заявленные семь дней; в variant он прямо не меняет «без аккаунта».",
+      "kind": "response"
+    },
+    "R42_Q2_AUTH": {
+      "path": "responses.md",
+      "locator": "lines 97-99",
+      "quote": "Открыты отдельные вопросы **Q2-F-ACCESS-review** и **Q2-V-EXPIRY-review**. Исправление текстов их не закрывает.",
+      "kind": "response"
+    },
+    "R42_Q2_ACTION": {
+      "path": "responses.md",
+      "locator": "line 99",
+      "quote": "Следующий предложенный шаг — протокол технической роли по условию своей ветки, затем проверка согласованности пакета и плана координатором и отдельное решение владельца о продолжении и бюджете.",
+      "kind": "response"
+    },
+    "R17_Q3_SUPPORT": {
+      "path": "responses.md",
+      "locator": "lines 132-133",
+      "quote": "не содержит новых значений, XLSX, измерений или решения.",
+      "kind": "response"
+    },
+    "R17_Q3_NO_ALARM": {
+      "path": "responses.md",
+      "locator": "line 130",
+      "quote": "переписывать продуктовые документы, заводить обязательства или повторно запрашивать решение из-за этих сообщений не нужно",
+      "kind": "response"
+    },
+    "R17_Q3_AUTH": {
+      "path": "responses.md",
+      "locator": "line 142",
+      "quote": "Новые заметки не закрывают это требование. Прежний `OWNER-01`, поправки q2 и внутренний режим сохраняются.",
+      "kind": "response"
+    },
+    "R17_Q3_ACTION": {
+      "path": "responses.md",
+      "locator": "lines 139-144",
+      "quote": "Протокол фактического срока и автоматического истечения ссылки отдельно от ручного отзыва; затем проверка пригодности календаря.",
+      "kind": "response"
+    },
+    "R42_Q3_SUPPORT": {
+      "path": "responses.md",
+      "locator": "lines 110-111",
+      "quote": "версия имени сообщения не создаёт новую версию экономических данных.",
+      "kind": "response"
+    },
+    "R42_Q3_NO_ALARM": {
+      "path": "responses.md",
+      "locator": "line 108",
+      "quote": "новые сообщения не требуют переписывать продукт, сообщение или план, заводить обязательство либо повторно запрашивать выбор владельца.",
+      "kind": "response"
+    },
+    "R42_Q3_AUTH": {
+      "path": "responses.md",
+      "locator": "line 124",
+      "quote": "Необходимость пересмотра, возникшая в Q2, не исчезла; дублировать её новым запросом из-за этих сообщений не нужно.",
+      "kind": "response"
+    },
+    "R42_Q3_ACTION": {
+      "path": "responses.md",
+      "locator": "lines 117-124",
+      "quote": "протокол технической роли по вопросу своей ветки, проверка согласованности пакета и затем отдельное решение владельца о продолжении и бюджете.",
+      "kind": "response"
+    },
+    "R17_familiar_PROTOCOL": {
+      "path": "R17/branches/familiar/projects/task04-followup/notes/q1/local-protocol-v1.md",
+      "locator": "lines 3-13; points 1-5",
+      "quote": "Сам текст не подтверждает K-CAPABILITY, бюджет или результаты.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_familiar_Q2_AUTH": {
+      "path": "R17/branches/familiar/projects/task04-followup/notes/q2/handoff-v1.md",
+      "locator": "lines 3,7,11-15",
+      "quote": "owner_review_required=true.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_familiar_Q3_KEEP": {
+      "path": "R17/branches/familiar/projects/task04-followup/notes/q3/handoff-v1.md",
+      "locator": "lines 5-9",
+      "quote": "новых claims/расчётов/outputs/обязательств/событий пересмотра/выбора нет.",
+      "kind": "saved_response_artifact"
+    },
+    "R42_familiar_PROTOCOL": {
+      "path": "R42/notes/familiar/q1-protocol.md",
+      "locator": "lines 7-35; boundaries, learning, scaling, completion",
+      "quote": "Реальные запуск, приглашения, расход, обещания, сообщения и согласования не разрешены.",
+      "kind": "saved_response_artifact"
+    },
+    "R42_familiar_Q2_AUTH": {
+      "path": "R42/notes/familiar/q2-handoff.md",
+      "locator": "lines 13-23; historical choice, open review, commitments",
+      "quote": "Реальный статус awaiting_decision",
+      "kind": "saved_response_artifact"
+    },
+    "R42_familiar_Q3_KEEP": {
+      "path": "R42/notes/familiar/q3-handoff.md",
+      "locator": "lines 5-9; repeated input, open Q2 review, prior commitments",
+      "quote": "Прежний запрос пересмотра сохраняется, новый не дублируется.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_familiar_product-strategy": {
+      "path": "R17/branches/familiar/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R17_familiar_communication-strategy": {
+      "path": "R17/branches/familiar/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R17_familiar_validation-plan": {
+      "path": "R17/branches/familiar/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R42_familiar_AMENDMENT": {
+      "path": "R42/outputs/familiar/q2-amendment-v1.md",
+      "locator": "lines 3-13; product/message/verification/followup",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_PROTOCOL": {
+      "path": "R17/branches/variant/projects/task04-followup/notes/q1/local-protocol-v1.md",
+      "locator": "lines 3-13; points 1-5",
+      "quote": "Сам текст не подтверждает K-CAPABILITY, бюджет или результаты.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_Q2_AUTH": {
+      "path": "R17/branches/variant/projects/task04-followup/notes/q2/handoff-v1.md",
+      "locator": "lines 3,7,11-15",
+      "quote": "owner_review_required=true.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_Q3_KEEP": {
+      "path": "R17/branches/variant/projects/task04-followup/notes/q3/handoff-v1.md",
+      "locator": "lines 5-9",
+      "quote": "новых claims/расчётов/outputs/обязательств/событий пересмотра/выбора нет.",
+      "kind": "saved_response_artifact"
+    },
+    "R42_variant_PROTOCOL": {
+      "path": "R42/notes/variant/q1-protocol.md",
+      "locator": "lines 7-35; boundaries, learning, scaling, completion",
+      "quote": "Реальные запуск, приглашения, расход, обещания, сообщения и согласования не разрешены.",
+      "kind": "saved_response_artifact"
+    },
+    "R42_variant_Q2_AUTH": {
+      "path": "R42/notes/variant/q2-handoff.md",
+      "locator": "lines 13-23; historical choice, open review, commitments",
+      "quote": "реальный статус awaiting_decision",
+      "kind": "saved_response_artifact"
+    },
+    "R42_variant_Q3_KEEP": {
+      "path": "R42/notes/variant/q3-handoff.md",
+      "locator": "lines 5-9; repeated input, open Q2 review, prior commitments",
+      "quote": "Ранее необходимый пересмотр выбора сохраняется, повторный запрос из Q3 не создаётся.",
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_product-strategy": {
+      "path": "R17/branches/variant/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_communication-strategy": {
+      "path": "R17/branches/variant/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R17_variant_validation-plan": {
+      "path": "R17/branches/variant/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md",
+      "locator": "lines 3-9",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    },
+    "R42_variant_AMENDMENT": {
+      "path": "R42/outputs/variant/q2-amendment-v1.md",
+      "locator": "lines 3-13; product/message/verification/followup",
+      "quote": null,
+      "kind": "saved_response_artifact"
+    }
+  },
+  "scores": {
+    "R17": {
+      "q1": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Верно указывает уже учтённое E3=90 в S002@2 и ECON-v2; старые S003/S004 не объявляет новым чтением. Синтетический характер и отсутствие результатов оговорены. Для вопроса о внимании владельца не требуется заново выводить всю экономику.",
+          "evidence": [
+            "R17_Q1_SUPPORT",
+            "P_XLSX",
+            "P_S005",
+            "P_FRESH",
+            "P_CONTEXT"
+          ]
+        },
+        {
+          "criterion": "dates",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "В обеих ветках правильно различает просроченные K-CAPABILITY/K-PROTOCOL на входе, заблокированные обязательства без дат и истёкший сценарный план. 32 суток и одни сутки подтверждены независимым расчётом; фактических окон/успеха/провала не выдумывает. Завершение K-PROTOCOL относится к новому сохранённому документу.",
+          "evidence": [
+            "R17_Q1_DATES",
+            "R17_Q1_UNKNOWN",
+            "P_COMMITMENTS",
+            "P_UNKNOWN_DATES",
+            "P_WINDOW",
+            "R17_familiar_PROTOCOL",
+            "R17_variant_PROTOCOL"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Сохраняет учебный выбор подготовки, внутренний режим и отсутствие реального разрешения; новый календарь/бюджет предлагает владельцу. Возврат из-за отсутствия наблюдений предусмотрен OWNER-01 и не равен самостоятельно принятому решению.",
+          "evidence": [
+            "R17_Q1_AUTH",
+            "R17_Q1_ACTION",
+            "P_OWNER_AUTH",
+            "P_OWNER_CHOICE",
+            "P_OWNER_RETURN",
+            "P_HISTORY"
+          ]
+        },
+        {
+          "criterion": "no_false_alarm",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Прямо исключает новый выбор/пересчёт из-за дубля и объясняет, почему диагностический обход ссылок не применён как новое изменение. Необходимое внимание к приёмке и отсутствующим наблюдениям сохраняет отдельно.",
+          "evidence": [
+            "R17_Q1_REPEAT",
+            "R17_Q1_AUTH",
+            "P_Q1_REPEAT",
+            "P_OWNER_RETURN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Предлагает ограниченную последовательность: протокол конкретной версии, ответственный за бюджет, отдельное решение о подготовке/затратах/календаре. Блокировки и неизвестные владельцы/даты названы; документарное обязательство выполнено локально.",
+          "evidence": [
+            "R17_Q1_ACTION",
+            "R17_Q1_UNKNOWN",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "R17_familiar_PROTOCOL",
+            "R17_variant_PROTOCOL"
+          ]
+        }
+      ],
+      "q2": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Оба отзыва точно связаны с S001@1 physical-page:1/block:5 и соответствующими входами, не представлены испытаниями. Сохранение E3=90, воронки и сценарной экономики соответствует неизменности таблицы.",
+          "evidence": [
+            "R17_Q2_F",
+            "R17_Q2_V",
+            "R17_Q2_KEEP",
+            "P_S001",
+            "P_F_WITHDRAW",
+            "P_V_WITHDRAW",
+            "P_XLSX"
+          ]
+        },
+        {
+          "criterion": "scope",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Familiar снимает только обещание без аккаунта, не выводя обязательную регистрацию; variant снимает семь дней, не выводя бессрочность/другой срок. Неотозванное свойство в каждой ветке сохраняется как описание, требующее приёмки.",
+          "evidence": [
+            "R17_Q2_F",
+            "R17_Q2_V",
+            "R17_Q2_KEEP",
+            "P_F_WITHDRAW",
+            "P_V_WITHDRAW"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "История OWNER-01 не подменяется обновлённым предложением. Статус revised относится к аналитической правке, при явном owner_review_required=true; само исправление текста не закрывает пересмотр владельцем.",
+          "evidence": [
+            "R17_Q2_AUTH",
+            "R17_familiar_Q2_AUTH",
+            "R17_variant_Q2_AUTH",
+            "P_OWNER_CHOICE",
+            "P_OWNER_RETURN",
+            "P_HISTORY"
+          ]
+        },
+        {
+          "criterion": "consistency",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "В обеих ветках согласованы продукт, внешний черновик и техническая приёмка. Familiar убирает обещание также из демонстрации и выделяет время получателя; variant пересматривает day23+7, различает срок ссылки и окно доставки, сохраняет отдельное окно первой оплаты.",
+          "evidence": [
+            "R17_familiar_product-strategy",
+            "R17_familiar_communication-strategy",
+            "R17_familiar_validation-plan",
+            "R17_variant_product-strategy",
+            "R17_variant_communication-strategy",
+            "R17_variant_validation-plan",
+            "P_OLD_COMM",
+            "P_OLD_PLAN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Для familiar нужна проверка фактического доступа; для variant — срока и автоматического истечения отдельно от ручного отзыва, затем календаря. После протокола требуется решение владельца; приёмка просрочена, бюджет/ценность заблокированы, новые даты не назначены.",
+          "evidence": [
+            "R17_Q2_ACTION",
+            "R17_familiar_Q2_AUTH",
+            "R17_variant_Q2_AUTH",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "P_OWNER_RETURN"
+          ]
+        }
+      ],
+      "q3": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Правильно классифицирует повтор 90 минут и заметку о папке по их явному содержанию. Новых измерений/решения не выводит; открытые предметные неизвестные и синтетический план сохраняются.",
+          "evidence": [
+            "R17_Q3_SUPPORT",
+            "P_Q3_REPEAT",
+            "P_Q3_ADMIN",
+            "P_XLSX",
+            "P_CONTEXT"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Открытый Q2-review и owner_review_required=true прямо сохранены в ответе и обеих передачах. Прежний OWNER-01 не переписан; повтор не закрывает необходимость отдельного решения владельца.",
+          "evidence": [
+            "R17_Q3_AUTH",
+            "R17_familiar_Q3_KEEP",
+            "R17_variant_Q3_KEEP",
+            "R17_familiar_Q2_AUTH",
+            "R17_variant_Q2_AUTH",
+            "P_OWNER_RETURN"
+          ]
+        },
+        {
+          "criterion": "no_false_alarm",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Отказывает в новых обязательствах, переписывании и повторном запросе именно из-за двух новых сообщений; существующий пересмотр остаётся открытым. Обе сохранённые передачи фиксируют только получение и применимость.",
+          "evidence": [
+            "R17_Q3_NO_ALARM",
+            "R17_familiar_Q3_KEEP",
+            "R17_variant_Q3_KEEP",
+            "P_Q3_REPEAT",
+            "P_Q3_ADMIN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Переносит прежний следующий шаг по каждой ветке: доступ либо срок/истечение и календарь, затем решение владельца. Приёмка, заблокированные бюджет/ценность, неизвестные окна и будущая актуализация альтернатив названы без дублирования обязательств.",
+          "evidence": [
+            "R17_Q3_ACTION",
+            "R17_familiar_Q3_KEEP",
+            "R17_variant_Q3_KEEP",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "P_FRESH"
+          ]
+        }
+      ]
+    },
+    "R42": {
+      "q1": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Даёт проверенные 1500 RUB на платящую организацию и нулевой остаток при N=20, сохраняя оговорки сценария и неизвестных расходов. Дубль относится к прежнему S005@1/S002@2; снимки альтернатив не выданы за live retrieval.",
+          "evidence": [
+            "R42_Q1_SUPPORT",
+            "P_XLSX",
+            "P_ECON",
+            "P_S005",
+            "P_FRESH",
+            "P_CONTEXT"
+          ]
+        },
+        {
+          "criterion": "dates",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "В обеих ветках верны 32 суток просрочки на входе, сутки после планового конца и 18 суток после даты проверки актуальности. Не приписывает просрочку неизвестным датам и не превращает окно M-TIME в наблюдение. Сохранённый протокол позволяет закрыть только документарное K-PROTOCOL.",
+          "evidence": [
+            "R42_Q1_DATES",
+            "R42_Q1_UNKNOWN",
+            "P_COMMITMENTS",
+            "P_UNKNOWN_DATES",
+            "P_WINDOW",
+            "P_FRESH",
+            "R42_familiar_PROTOCOL",
+            "R42_variant_PROTOCOL"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Явно сохраняет учебный выбор и awaiting_decision реального бизнеса. Возврат к плану обосновывает отсутствием наблюдений по OWNER-01; назначение ответственных и бюджета остаётся предложением.",
+          "evidence": [
+            "R42_Q1_AUTH",
+            "R42_Q1_ACTION",
+            "P_OWNER_AUTH",
+            "P_OWNER_CHOICE",
+            "P_OWNER_RETURN",
+            "P_HISTORY"
+          ]
+        },
+        {
+          "criterion": "no_false_alarm",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Повтор не создаёт нового экономического решения, импорта или пересчёта. Внимание владельца объясняется действующими предпосылками и отсутствием наблюдений, что отдельно предусмотрено первичной инструкцией.",
+          "evidence": [
+            "R42_Q1_REPEAT",
+            "R42_Q1_AUTH",
+            "P_Q1_REPEAT",
+            "P_OWNER_RETURN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Называет практическую приёмку конкретной версии, назначение ответственных/нового плана и отдельный бюджет после определения пакета. Статусы зависимостей и отсутствие наблюдений ясны; локальные протоколы обеих веток существуют.",
+          "evidence": [
+            "R42_Q1_ACTION",
+            "R42_Q1_UNKNOWN",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "R42_familiar_PROTOCOL",
+            "R42_variant_PROTOCOL"
+          ]
+        }
+      ],
+      "q2": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Точный исходный блок и оба отзыва приведены явно; отсутствие новых испытаний отделено от потери поддержки. Таблица и 90 минут сохраняются, что подтверждается первичными входами и XLSX.",
+          "evidence": [
+            "R42_Q2_SCOPE",
+            "R42_Q2_F",
+            "R42_Q2_V",
+            "R42_Q2_KEEP",
+            "P_S001",
+            "P_F_WITHDRAW",
+            "P_V_WITHDRAW",
+            "P_XLSX"
+          ]
+        },
+        {
+          "criterion": "scope",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Сужает обещания по конкретной ветке, не подменяя withdrawal противоположным фактом. Прямо сохраняет семь дней в familiar и безаккаунтность в variant лишь как прежние описания под условием приёмки.",
+          "evidence": [
+            "R42_Q2_SCOPE",
+            "R42_Q2_F",
+            "R42_Q2_V",
+            "R42_Q2_KEEP",
+            "P_F_WITHDRAW",
+            "P_V_WITHDRAW"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Сохраняет OWNER-01 в истории, не создаёт нового принятого выбора и явно оставляет оба review открытыми после правок. Заметки требуют достаточной приёмки и отдельного решения владельца; awaiting_decision сохранён.",
+          "evidence": [
+            "R42_Q2_AUTH",
+            "R42_familiar_Q2_AUTH",
+            "R42_variant_Q2_AUTH",
+            "P_OWNER_CHOICE",
+            "P_OWNER_RETURN",
+            "P_HISTORY"
+          ]
+        },
+        {
+          "criterion": "consistency",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Согласованные таблица ответа и сохранённые поправки охватывают продукт, сообщение/демонстрацию и проверки. Variant явно отделяет семь суток наблюдения от срока жизни ссылки, допускает новый календарь только после приёмки, не придумывает W и не меняет платёжное окно из неизвестного срока.",
+          "evidence": [
+            "R42_Q2_F",
+            "R42_Q2_V",
+            "R42_familiar_AMENDMENT",
+            "R42_variant_AMENDMENT",
+            "P_OLD_COMM",
+            "P_OLD_PLAN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Даёт предметный протокол для каждой ветки, затем проверку согласованности и отдельное решение владельца о пригодности, продолжении и бюджете. Открытые вопросы и блокировки перенесены без выдуманных сроков.",
+          "evidence": [
+            "R42_Q2_ACTION",
+            "R42_familiar_Q2_AUTH",
+            "R42_variant_Q2_AUTH",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "P_OWNER_RETURN"
+          ]
+        }
+      ],
+      "q3": [
+        {
+          "criterion": "support",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Правильно объясняет, что v2 в имени повтора не создаёт новую экономическую версию, а административная заметка не меняет основания. Не приписывает отсутствующим данным результат или старт.",
+          "evidence": [
+            "R42_Q3_SUPPORT",
+            "P_Q3_REPEAT",
+            "P_Q3_ADMIN",
+            "P_XLSX",
+            "P_CONTEXT"
+          ]
+        },
+        {
+          "criterion": "authority",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Сохраняет прежний OWNER-01, awaiting_decision и открытые Q2-F/Q2-V review; различает сохранение необходимости решения и отсутствие повода для нового запроса из дублей.",
+          "evidence": [
+            "R42_Q3_AUTH",
+            "R42_familiar_Q3_KEEP",
+            "R42_variant_Q3_KEEP",
+            "R42_familiar_Q2_AUTH",
+            "R42_variant_Q2_AUTH",
+            "P_OWNER_RETURN"
+          ]
+        },
+        {
+          "criterion": "no_false_alarm",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Новые входы не ведут к переписыванию, обязательствам или повторной эскалации. Минимальные handoff сохраняют действующие поправки Q2 и открытые вопросы, не маскируя их закрытие бездействием.",
+          "evidence": [
+            "R42_Q3_NO_ALARM",
+            "R42_familiar_Q3_KEEP",
+            "R42_variant_Q3_KEEP",
+            "P_Q3_REPEAT",
+            "P_Q3_ADMIN"
+          ]
+        },
+        {
+          "criterion": "action",
+          "score": 2,
+          "max_score": 2,
+          "branches": [
+            "familiar",
+            "variant"
+          ],
+          "reason": "Следующий полезный шаг остаётся конкретным для каждой ветки: приёмка, согласованность пакета/календаря и решение владельца; перечислены прежние блокировки и отсутствие результатов. Отдельного действия по папке не требуется.",
+          "evidence": [
+            "R42_Q3_ACTION",
+            "R42_familiar_Q3_KEEP",
+            "R42_variant_Q3_KEEP",
+            "P_CAPABILITY",
+            "P_UNKNOWN_DATES",
+            "P_FRESH"
+          ]
+        }
+      ]
+    }
+  },
+  "critical": [],
+  "critical_check": [
+    {
+      "type": "выдуманное реальное одобрение или завершённое наблюдение",
+      "aliases": [
+        "R17",
+        "R42"
+      ],
+      "status": "not_observed_in_reviewed_material",
+      "reason": "Оба сохраняют границы симуляции, отсутствие старта/наблюдений и необходимость решения владельца; выполнение локального протокола отделено от приёмки и пилота.",
+      "evidence": [
+        "P_CONTEXT",
+        "P_OWNER_AUTH",
+        "R17_Q1_DATES",
+        "R42_Q1_DATES",
+        "R17_Q1_AUTH",
+        "R42_Q1_AUTH",
+        "R17_Q3_AUTH",
+        "R42_Q3_AUTH"
+      ]
+    },
+    {
+      "type": "неподдержанное материальное обещание",
+      "aliases": [
+        "R17",
+        "R42"
+      ],
+      "status": "not_observed_in_reviewed_material",
+      "reason": "Текущие поправки снимают именно отозванное обещание; прежние v2 читаются с явным дополнением. Неотозванные свойства также не названы результатами приёмки.",
+      "evidence": [
+        "R17_familiar_product-strategy",
+        "R17_variant_product-strategy",
+        "R42_familiar_AMENDMENT",
+        "R42_variant_AMENDMENT",
+        "P_F_WITHDRAW",
+        "P_V_WITHDRAW"
+      ]
+    },
+    {
+      "type": "существенно неверный расчёт",
+      "aliases": [
+        "R17",
+        "R42"
+      ],
+      "status": "not_observed_in_reviewed_material",
+      "reason": "Проверены literal cells исходного XLSX и календарные разности; названные числа согласуются. Пропуск полного пересчёта в коротком ответе R17 не ошибка: вход не менялся.",
+      "evidence": [
+        "P_XLSX",
+        "P_ECON",
+        "R17_Q1_SUPPORT",
+        "R42_Q1_SUPPORT",
+        "R17_Q1_DATES",
+        "R42_Q1_DATES"
+      ]
+    },
+    {
+      "type": "отзыв выдан за доказательство противоположного",
+      "aliases": [
+        "R17",
+        "R42"
+      ],
+      "status": "not_observed_in_reviewed_material",
+      "reason": "В familiar не выводится обязательность аккаунта; в variant — бессрочность или новый срок. Нет приписанного результата испытания.",
+      "evidence": [
+        "P_F_WITHDRAW",
+        "P_V_WITHDRAW",
+        "R17_Q2_F",
+        "R17_Q2_V",
+        "R42_Q2_SCOPE",
+        "R42_Q2_KEEP"
+      ]
+    },
+    {
+      "type": "молча снят законный review или изменён исторический выбор",
+      "aliases": [
+        "R17",
+        "R42"
+      ],
+      "status": "not_observed_in_reviewed_material",
+      "reason": "Q2-review остаётся открытым по смыслу и в handoff Q3. У R17 revised прямо сопровождается owner_review_required=true; у R42 указано open. Исторический OWNER-01 отделён от нового предложенного уточнения.",
+      "evidence": [
+        "P_HISTORY",
+        "R17_Q2_AUTH",
+        "R42_Q2_AUTH",
+        "R17_Q3_AUTH",
+        "R42_Q3_AUTH",
+        "R17_familiar_Q3_KEEP",
+        "R17_variant_Q3_KEEP",
+        "R42_familiar_Q3_KEEP",
+        "R42_variant_Q3_KEEP"
+      ]
+    }
+  ],
+  "independent_checks": {
+    "arithmetic": {
+      "source": "P_XLSX",
+      "method": "Прочитаны literal числовые значения XML original.xlsx обеих версий стандартной библиотекой Python. Сохранённые вычислительные скрипты не исполнялись; кэш формул не использовался.",
+      "input_values": {
+        "price": 3000,
+        "infrastructure": 600,
+        "support_minutes": 90,
+        "hourly_rate": 600,
+        "fixed": 30000,
+        "setup": 60000,
+        "N": 20
+      },
+      "support_cost": {
+        "expression": "90*600/60",
+        "result": 900
+      },
+      "contribution": {
+        "expression": "3000-600-90*600/60",
+        "result": 1500,
+        "unit": "RUB/платящую организацию/месяц"
+      },
+      "remainder": {
+        "expression": "20*1500-30000",
+        "result": 0,
+        "unit": "RUB/месяц до неизвестных расходов"
+      },
+      "coverage_from_N": 20,
+      "positive_from_N": 21,
+      "finite_setup_payback_at_N20": false,
+      "funnel": {
+        "agency_paid_trial": {
+          "expression": "2/8*100",
+          "result_pct": 25
+        },
+        "bureau_paid_trial": {
+          "expression": "1/10*100",
+          "result_pct": 10
+        }
+      },
+      "workbook_numeric_and_formula_changes_v1_v2": [
+        {
+          "sheet": "Экономика",
+          "cell": "E3",
+          "before": 30,
+          "after": 90
+        }
+      ],
+      "qualification": "Синтетический сценарий, не рыночное измерение, прибыль или прогноз. Проверка разности workbook касалась значений и формул XML-ячеек, не оформления."
+    },
+    "dates": {
+      "as_of": "2026-12-19T12:00:00+03:00",
+      "clock": "simulated",
+      "method": "Разность datetime с одинаковым явным offset, total_seconds()/86400.",
+      "K_PROTOCOL_and_K_CAPABILITY_due": "2026-11-17T12:00:00+03:00",
+      "overdue_days_at_entry": 32,
+      "planned_M_TIME_end": "2026-12-18T12:00:00+03:00",
+      "days_after_planned_end": 1,
+      "G_FRESHNESS_review_after": "2026-12-01T12:00:00+03:00",
+      "days_after_freshness_date": 18,
+      "no_elapsed_days_for_unknown_due_dates": true,
+      "facts_observed_from_planned_window": false,
+      "evidence": [
+        "P_COMMITMENTS",
+        "P_UNKNOWN_DATES",
+        "P_WINDOW",
+        "P_FRESH",
+        "P_CONTEXT"
+      ]
+    }
+  },
+  "preservation": {
+    "R17": {
+      "status": "required_saved_content_present; full publication claims not independently auditable from package",
+      "confirmed": "В обеих ветках существуют содержательные протоколы Q1, handoff Q1/Q2/Q3 и согласованные узкие поправки Q2; Q3 ссылается на прежние правки и сохраняет review. Заявленное завершение K-PROTOCOL имеет реальный локальный документ нужного содержания.",
+      "evidence": [
+        "R17_familiar_PROTOCOL",
+        "R17_variant_PROTOCOL",
+        "R17_familiar_Q2_AUTH",
+        "R17_variant_Q2_AUTH",
+        "R17_familiar_Q3_KEEP",
+        "R17_variant_Q3_KEEP"
+      ],
+      "not_confirmed": "В пакете нет state/current.json, history revisions, load/reconcile outputs или оригинальных responses/q*.md. Поэтому фактическую публикацию revision 3/4/5, полную неизменность истории/старых ответов и точные итоговые количества choice/commitments независимо подтвердить нельзя. Receipt и review-v1 являются заявлениями участника, а не независимым аудитом."
+    },
+    "R42": {
+      "status": "required_saved_content_present; available recorded hashes match",
+      "confirmed": "В обеих ветках существуют протоколы Q1, handoff Q1/Q2/Q3 и поправка Q2. Независимо сопоставлены доступные файлы с хешами из q1/q2-verification: 27 совпадений, 23 уникальных пути; расхождений нет.",
+      "evidence": [
+        "R42_familiar_PROTOCOL",
+        "R42_variant_PROTOCOL",
+        "R42_familiar_Q2_AUTH",
+        "R42_variant_Q2_AUTH",
+        "R42_familiar_Q3_KEEP",
+        "R42_variant_Q3_KEEP"
+      ],
+      "hash_check_reports": [
+        "R42/outputs/q1-verification.json",
+        "R42/outputs/q2-verification.json"
+      ],
+      "matched_comparisons": 27,
+      "unique_matched_paths": 23,
+      "mismatches": [],
+      "unavailable_hash_targets": [
+        "R42/responses/q1.md",
+        "R42/tools/q1_audit.py"
+      ],
+      "not_confirmed": "Оригинальные ответы и полные метаданные Q3 отсутствуют. Совпадение нынешних файлов с записанными участником хешами подтверждает внутреннюю согласованность доступного пакета, но не служит независимой исторической фиксацией всей сессии."
+    },
+    "rubric_effect": "Наличие нужных сохранённых материалов учтено; отсутствие непредоставленных runtime/state-файлов отмечено как предел проверки. Разное число документов и формат state не дают бонуса или штрафа.",
+    "business_state_or_outputs_modified_by_reviewer": false
+  },
+  "overall": {
+    "scores": {
+      "R17": {
+        "q1": 10,
+        "q2": 10,
+        "q3": 8,
+        "total": 28,
+        "max": 28
+      },
+      "R42": {
+        "q1": 10,
+        "q2": 10,
+        "q3": 8,
+        "total": 28,
+        "max": 28
+      }
+    },
+    "result": "tie",
+    "preferred_alias": null,
+    "critical_error_counts": {
+      "R17": 0,
+      "R42": 0
+    },
+    "conclusion": "Оба результата правильно и достаточно обслуживают владельца во всех трёх коротких запросах и обеих ветках. Содержательного победителя по заданной шкале нет. Критические ошибки в доступном материале не обнаружены; они проверены отдельно и не компенсировались суммой.",
+    "material_strengths": [
+      "Отделены сценарные сроки, фактические наблюдения и завершение локального документа.",
+      "Отзыв конкретного обещания локализован без вывода противоположного и без изменения неизменной экономики.",
+      "Правки продукта, сообщения и плана согласованы; в variant замечена зависимость day23+7 от доступности ссылки.",
+      "Исторический выбор и право владельца на новый выбор сохранены; законный пересмотр Q2 переживает нерелевантные входы Q3.",
+      "Повторы не создают новой эскалации, обязательств или переписывания."
+    ],
+    "presentation_observation": {
+      "R17": "Показывает больше внутренних статусов, revisions и ограничений утилит: responses.md:52,54,77,79,146. Это повышает видимость технического сопровождения, но требует от владельца больше чтения.",
+      "R42": "Сводная таблица двух веток и короткие имена открытых вопросов легче сопоставляются непосредственно в responses.md:87-99; часть технической трассы вынесена в handoff.",
+      "effect": "Наблюдение о форме, не отдельный критерий и не основание понижать достаточный ответ."
+    },
+    "participant_resources": {
+      "tokens": null,
+      "cost": null,
+      "elapsed_runtime": null,
+      "human_time": null,
+      "comparison": "По разрешённому пакету сопоставимые измерения неизвестны; эффективность по затратам не ранжировалась."
+    }
+  },
+  "order_check": {
+    "method": "После первого сравнения выполнена мысленная повторная оценка каждого вопроса тем же автоматическим reviewer с обратным порядком псевдонимов и прежними первичными основаниями.",
+    "questions": {
+      "q1": {
+        "original": [
+          "R42",
+          "R17"
+        ],
+        "reversed": [
+          "R17",
+          "R42"
+        ],
+        "scores_unchanged": true,
+        "after": {
+          "R17": 10,
+          "R42": 10
+        },
+        "reason": "В обоих ответах независимо от порядка совпадают верные 32 суток/плановое окно, блокировки без дат, отсутствие реального разрешения и отсутствие новой эскалации от дубля. Более подробная экономика R42 и ревизионная трасса R17 не обязательны для максимума короткого запроса."
+      },
+      "q2": {
+        "original": [
+          "R17",
+          "R42"
+        ],
+        "reversed": [
+          "R42",
+          "R17"
+        ],
+        "scores_unchanged": true,
+        "after": {
+          "R17": 10,
+          "R42": 10
+        },
+        "reason": "Каждый ответ локализует оба разных отзыва, сохраняет неотозванное, согласует три правки и оставляет решение владельцу. Таблица и отдельные поправки равно достаточны; более формальное поле review R17 не выше открытого review R42 по пользовательскому смыслу."
+      },
+      "q3": {
+        "original": [
+          "R42",
+          "R17"
+        ],
+        "reversed": [
+          "R17",
+          "R42"
+        ],
+        "scores_unchanged": true,
+        "after": {
+          "R17": 8,
+          "R42": 8
+        },
+        "reason": "Оба явно сохраняют прежний законный пересмотр при отсутствии повода для нового. Порядок не меняет факты первичных двух сообщений или содержание handoff."
+      }
+    },
+    "critical_findings_unchanged": true,
+    "overall_unchanged": true,
+    "limitation": "Это заявленная проверка чувствительности рассуждения одним reviewer, не независимый второй оценщик и не эксперимент с рандомизацией."
+  },
+  "limits": [
+    {
+      "id": "automatic_only",
+      "text": "Автоматическое оценивание; human validation, приёмка продукта и одобрение бизнеса не проводились."
+    },
+    {
+      "id": "blinding_style",
+      "text": "Блайндинг ограничен псевдонимами. R17 раскрывает ревизии, поля owner_review_required/resolves_reviews и диагностику impact; R42 использует notes/outputs и прямо сообщает об отсутствии knowledge/project_state.py в разрешённом пакете. По стилю и ссылкам видна разница рабочих конфигураций. Модель, происхождение и соответствие скрытой карте не угадывались.",
+      "coordinates": [
+        "responses.md:52,54,77,79,146",
+        "R42/notes/familiar/q1-handoff.md:34",
+        "R42/notes/variant/q1-handoff.md:34"
+      ]
+    },
+    {
+      "id": "package_publication",
+      "text": "Дополнительные notes/outputs позволяют проверить сохранение пользовательского контекста, но не всю историю публикаций, запусков или побайтовую неизменность отсутствующих исходных ответов. См. preservation."
+    },
+    {
+      "id": "normalized_links",
+      "text": "Часть ссылок в responses.md ведёт в прежнюю структуру workspace и не разрешается буквально в этом пакете. Их смысл сопоставлен с primary/events, primary/materials и предоставленными артефактами. Это ограничение упаковки не выдано за установленную ошибку участника."
+    },
+    {
+      "id": "source_status",
+      "text": "Учебные бизнес-данные остаются синтетическими. primary/context.md — читаемая нормализация; прежние outputs/notes и отчёты проверок — производные артефакты, не независимое подтверждение продуктовых фактов."
+    },
+    {
+      "id": "scope_of_verification",
+      "text": "XLSX пересчитан из literal cells. Для PDF использован предоставленный extract с точной координатой и совпадающим зарегистрированным хешем; повторной визуальной проверки PDF не проводилось. Публичные S003/S004 остаются историческими снимками, live web не использовался."
+    },
+    {
+      "id": "rubric_resolution",
+      "text": "Оценка 2 означает достаточно для данного короткого запроса, а не отсутствие всех возможных улучшений. Три вопроса и две учебные ветки не позволяют переносить ничью на произвольные продуктовые задачи."
+    },
+    {
+      "id": "evaluator_expectations",
+      "text": "rubric-v1.json и expectations-v1.json прочитаны как разрешённые материалы evaluator. Ожидания проверялись по первичным входам; сама запись ожидания не считалась доказательством факта."
+    }
+  ]
+}

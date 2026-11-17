@@ -1,0 +1,21 @@
+{
+  "title": "Online Shoppers Purchasing Intention Dataset",
+  "creators": [
+    "C. Sakar",
+    "Yomi Kastro"
+  ],
+  "year": 2018,
+  "doi": "https://doi.org/10.24432/C5F88Q",
+  "source_url": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "owner_original_path": "online+shoppers+purchasing+intention+dataset/online_shoppers_intention.csv",
+  "owner_original_absolute_path": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\online+shoppers+purchasing+intention+dataset\\online_shoppers_intention.csv",
+  "original_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "local_copy": "inputs/online_shoppers_intention.csv",
+  "downloaded_by": "owner before this task",
+  "redownloaded": false,
+  "official_description_accessed_at": "2026-11-17T09:41:16.695666+00:00",
+  "comparison_scope": "18 columns = 17 features + Revenue; 12330 rows, 1908 TRUE, 10422 FALSE; no empty cells. UCI does not publish a file hash here; identity verified locally, not against an official checksum.",
+  "modification": "Original bytes unchanged. Derived CSV retains all 18 cells per row and adds three explicitly defined fields."
+}

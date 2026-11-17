@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "1794846444s since unix epoch",
+  "overallStatus": "ok",
+  "codexVersion": "0.169.0-alpha.11.1",
+  "checks": {
+    "config.load": {
+      "id": "config.load",
+      "category": "config",
+      "status": "ok",
+      "summary": "config loaded",
+      "details": {
+        "CODEX_HOME": "C:\\Users\\BastaPC\\.codex",
+        "active thread overrides": "not inspected",
+        "config.toml": "C:\\Users\\BastaPC\\.codex\\config.toml",
+        "config.toml parse": "ok",
+        "configuration load ms": "5",
+        "configuration scope": "invocation config, including cloud-managed policy",
+        "configured TUI mode": "fullscreen",
+        "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+        "enabled feature flags": "<redacted>",
+        "feature flag overrides": "none",
+        "feature flags enabled": "73",
+        "log dir": "C:\\Users\\BastaPC\\.codex\\log",
+        "mcp servers": "0",
+        "model": "gpt-6-astra",
+        "model provider": "openai",
+        "sqlite home": "C:\\Users\\BastaPC\\.codex"
+      },
+      "remediation": null,
+      "durationMs": 5
+    },
+    "network.env": {
+      "id": "network.env",
+      "category": "network",
+      "status": "ok",
+      "summary": "network-related environment looks readable",
+      "details": {
+        "managed proxy": "not configured",
+        "proxy env vars": "none",
+        "respect system proxy": "disabled"
+      },
+      "remediation": null,
+      "durationMs": 0
+    },
+    "network.provider_reachability": {
+      "id": "network.provider_reachability",
+      "category": "reachability",
+      "status": "ok",
+      "summary": "active provider endpoints are reachable over HTTP",
+      "details": {
+        "ChatGPT inference URL": "https://chatgpt.com/backend-api/<redacted> reachable (HTTP 405)",
+        "reachability mode": "ChatGPT auth"
+      },
+      "remediation": null,
+      "durationMs": 436
+    },
+    "network.websocket_reachability": {
+      "id": "network.websocket_reachability",
+      "category": "websocket",
+      "status": "ok",
+      "summary": "Responses WebSocket handshake succeeded",
+      "details": {
+        "DNS": "2 IPv4, 0 IPv6, first IPv4",
+        "auth mode": "chatgpt",
+        "connect timeout": "15000 ms",
+        "endpoint": "wss://chatgpt.com/backend-api/<redacted>",
+        "handshake result": "HTTP 101 Switching Protocols",
+        "model provider": "openai",
+        "provider name": "OpenAI",
+        "proxy env vars": "none",
+        "reasoning header": "false",
+        "server model present": "false",
+        "supports websockets": "true",
+        "wire API": "responses"
+      },
+      "remediation": null,
+      "durationMs": 983
+    }
+  }
+}

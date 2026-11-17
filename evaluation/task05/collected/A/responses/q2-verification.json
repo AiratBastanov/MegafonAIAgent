@@ -1,0 +1,76 @@
+{
+  "familiar": {
+    "revision": 4,
+    "state_sha256": "520b46cc1b9824e09bfd4313302d5839abd707d26317b236e309b4524d003c47",
+    "previous_revision": 3,
+    "previous_state_sha256": "909af54ac625ebbc539d2a263f8416175d7eea2a97b5395fe9090ce37e78f8ce",
+    "reconcile": {
+      "Q2-FAMILIAR-WITHDRAWAL": {
+        "outcome": "published",
+        "revision": 4,
+        "event_id": "Q2-FAMILIAR-WITHDRAWAL",
+        "warnings": []
+      },
+      "Q2-FAMILIAR-REVIEW": {
+        "outcome": "published",
+        "revision": 4,
+        "event_id": "Q2-FAMILIAR-REVIEW",
+        "warnings": []
+      }
+    },
+    "old_artifacts_and_sources_preserved": true,
+    "history_unchanged": true,
+    "economic_claims_and_metrics_unchanged": true,
+    "q1_completion_unchanged": true,
+    "review_status": "revised",
+    "owner_review_required": true,
+    "current_outputs": {
+      "communication-strategy": "OUTPUT-Q2-communication-strategy",
+      "options": "OUTPUT-v2-options",
+      "product-strategy": "OUTPUT-Q2-product-strategy",
+      "situation": "OUTPUT-Q2-situation",
+      "validation-plan": "OUTPUT-Q2-validation-plan"
+    },
+    "q1_response_hashes_unchanged": {
+      "responses/q1.md": "1c304850525bd58afce0b09a5026321cb2ba6bf3a6b435f4621f86d802000fe0",
+      "responses/q1-meta.json": "46e272bac5cb87879ed9b35012596da238a857626d41df128322dd24cb5c21d6"
+    }
+  },
+  "variant": {
+    "revision": 4,
+    "state_sha256": "19eeb299e95925565ebbb8c1d9bb1a102f1bfd629c31e9856c45332cc18e2ae4",
+    "previous_revision": 3,
+    "previous_state_sha256": "636aa22ee1eac993d835160d565273758d77e4e090a2537972d8184ce2e5da36",
+    "reconcile": {
+      "Q2-VARIANT-WITHDRAWAL": {
+        "outcome": "published",
+        "revision": 4,
+        "event_id": "Q2-VARIANT-WITHDRAWAL",
+        "warnings": []
+      },
+      "Q2-VARIANT-REVIEW": {
+        "outcome": "published",
+        "revision": 4,
+        "event_id": "Q2-VARIANT-REVIEW",
+        "warnings": []
+      }
+    },
+    "old_artifacts_and_sources_preserved": true,
+    "history_unchanged": true,
+    "economic_claims_and_metrics_unchanged": true,
+    "q1_completion_unchanged": true,
+    "review_status": "revised",
+    "owner_review_required": true,
+    "current_outputs": {
+      "communication-strategy": "OUTPUT-Q2-communication-strategy",
+      "options": "OUTPUT-v2-options",
+      "product-strategy": "OUTPUT-Q2-product-strategy",
+      "situation": "OUTPUT-Q2-situation",
+      "validation-plan": "OUTPUT-Q2-validation-plan"
+    },
+    "q1_response_hashes_unchanged": {
+      "responses/q1.md": "1c304850525bd58afce0b09a5026321cb2ba6bf3a6b435f4621f86d802000fe0",
+      "responses/q1-meta.json": "46e272bac5cb87879ed9b35012596da238a857626d41df128322dd24cb5c21d6"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "S003",
+  "kind": "web-excerpt",
+  "origin": "https://help.dropbox.com/share/dropbox-transfer",
+  "input_sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T09:31:01+00:00",
+  "locator": "What is Dropbox Transfer? host lines55-58; limits70-78; expiry80-85",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T09:34:45+00:00",
+  "published_at": null,
+  "input_path": "inputs/dropbox-transfer-read-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S003/v1/original.txt",
+    "sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd"
+  },
+  "extract": {
+    "path": "evidence/sources/S003/v1/extract.json",
+    "sha256": "94c6cf80d1135ff701d5c3416fedea68288e7715509a4efe359739e166f4a461"
+  }
+}

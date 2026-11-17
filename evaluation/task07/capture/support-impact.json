@@ -1,0 +1,1 @@
+{"operation":"run","id":"support-impact","title":"Что затронуло новое основание","caption":"Существующая процедура связывает источник, расчёты, условия решения и обязательства.","argv":["python","-X","utf8","evaluation/task07/demo_admin.py","event","inputs/support-change-content-v1.json"],"cwd":"."}

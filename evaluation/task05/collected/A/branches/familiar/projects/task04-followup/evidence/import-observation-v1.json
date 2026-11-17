@@ -1,0 +1,206 @@
+[
+  {
+    "reused": false,
+    "source": {
+      "id": "S001",
+      "kind": "pdf",
+      "origin": "inputs/product-brief-v1.pdf",
+      "input_sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d",
+      "synthetic": true,
+      "accessed_at": null,
+      "locator": null,
+      "retrieval_status": "local_import",
+      "extraction_method": "pypdf/7.1.0/plain-visitor-v1",
+      "limitations": [
+        "Только текстовый слой: OCR, проверка визуальной вёрстки и восстановление произвольных таблиц не выполняются.",
+        "physical_page — позиция в PDF с 1; page_label — метаданные/умолчание, а не подтверждённый напечатанный номер страницы.",
+        "blocks — фрагменты visitor в порядке извлечения, не доказанные визуальные абзацы. Координаты приблизительные.",
+        "Наличие текста не доказывает полноту; решающие фразы/числа и отмеченную неоднозначность сверяет координатор с оригиналом.",
+        "Предохранитель content stream проверяется после декомпрессии pypdf; это не абсолютная граница памяти на враждебных PDF. Размер входа/страниц также ограничен.",
+        "Команды и ссылки внутри PDF — данные; активные действия и сетевые переходы не исполняются."
+      ],
+      "delimiter": null,
+      "version": 1,
+      "imported_at": "2026-11-16T09:34:45+00:00",
+      "published_at": null,
+      "input_path": "inputs/product-brief-v1.pdf",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S001/v1/original.pdf",
+        "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+      },
+      "extract": {
+        "path": "evidence/sources/S001/v1/extract.json",
+        "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "3c2493e7b8f3c56a3f4f8d9fe2a75522869b969d6a526e0616b7b61733820ef2"
+    }
+  },
+  {
+    "reused": false,
+    "source": {
+      "id": "S002",
+      "kind": "xlsx",
+      "origin": "inputs/offer-v1.xlsx",
+      "input_sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668",
+      "synthetic": true,
+      "accessed_at": null,
+      "locator": null,
+      "retrieval_status": "local_import",
+      "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+      "limitations": [
+        "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+        "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+        "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+        "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+        "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+      ],
+      "delimiter": null,
+      "selection": {
+        "ranges": [
+          {
+            "sheet": "Воронка",
+            "range": "A1:K4",
+            "period": "2026-09",
+            "units": {
+              "A": "month",
+              "B": "category",
+              "C": "organisations",
+              "D": "organisations",
+              "E": "organisations",
+              "F": "organisations",
+              "G": "RUB",
+              "H": "RUB",
+              "I": "RUB",
+              "J": "date",
+              "K": "ratio"
+            }
+          },
+          {
+            "sheet": "Экономика",
+            "range": "A1:J3",
+            "period": "2026-11-scenario",
+            "units": {
+              "A": "scenario_month",
+              "B": "category",
+              "C": "RUB/account/month",
+              "D": "RUB/account/month",
+              "E": "minutes/account/month",
+              "F": "RUB/hour",
+              "G": "RUB/month",
+              "H": "RUB",
+              "I": "accounts",
+              "J": "RUB/account/month"
+            }
+          },
+          {
+            "sheet": "Примечания",
+            "range": "A1:A3",
+            "period": "not_applicable",
+            "units": {
+              "A": "text"
+            }
+          }
+        ]
+      },
+      "selection_input": {
+        "path": "inputs/selection-v1.json",
+        "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+      },
+      "version": 1,
+      "imported_at": "2026-11-16T09:34:45+00:00",
+      "published_at": null,
+      "input_path": "inputs/offer-v1.xlsx",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S002/v1/original.xlsx",
+        "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+      },
+      "extract": {
+        "path": "evidence/sources/S002/v1/extract.json",
+        "sha256": "8f936010faaa9e158e597505ace65de3bb3754b5bcbfa201af006964e5666862"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "1e111f5037984afeeb34735fac51b1f43672f1f69622335ef0d6a94c63b66d52"
+    }
+  },
+  {
+    "reused": false,
+    "source": {
+      "id": "S003",
+      "kind": "web-excerpt",
+      "origin": "https://help.dropbox.com/share/dropbox-transfer",
+      "input_sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd",
+      "synthetic": false,
+      "accessed_at": "2026-11-16T09:31:01+00:00",
+      "locator": "What is Dropbox Transfer? host lines55-58; limits70-78; expiry80-85",
+      "retrieval_status": "current_host_read",
+      "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+      "limitations": [
+        "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+      ],
+      "delimiter": null,
+      "version": 1,
+      "imported_at": "2026-11-16T09:34:45+00:00",
+      "published_at": null,
+      "input_path": "inputs/dropbox-transfer-read-v1.txt",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S003/v1/original.txt",
+        "sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd"
+      },
+      "extract": {
+        "path": "evidence/sources/S003/v1/extract.json",
+        "sha256": "94c6cf80d1135ff701d5c3416fedea68288e7715509a4efe359739e166f4a461"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "1d428c505005ab6c4b13a2051c62b1e1125d8595fd5d505490ee01f1d153045b"
+    }
+  },
+  {
+    "reused": false,
+    "source": {
+      "id": "S004",
+      "kind": "web-excerpt",
+      "origin": "https://help.dropbox.com/share/create-file-request",
+      "input_sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f",
+      "synthetic": false,
+      "accessed_at": "2026-11-16T09:31:01+00:00",
+      "locator": "Introduction host lines55-63; administrator limit82",
+      "retrieval_status": "current_host_read",
+      "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+      "limitations": [
+        "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+      ],
+      "delimiter": null,
+      "version": 1,
+      "imported_at": "2026-11-16T09:34:45+00:00",
+      "published_at": null,
+      "input_path": "inputs/dropbox-request-read-v1.txt",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S004/v1/original.txt",
+        "sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f"
+      },
+      "extract": {
+        "path": "evidence/sources/S004/v1/extract.json",
+        "sha256": "e40f1800fb1496146954225e03f2b9a2ad6cd19a71f16fbc4e107fe889aa2818"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "78d0957c6f7f47ce3b1d57d4c7c047cad39403dda80df3633e50a4218a1f686f"
+    }
+  }
+]

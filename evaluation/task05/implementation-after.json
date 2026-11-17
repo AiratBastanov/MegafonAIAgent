@@ -1,0 +1,21 @@
+{
+  "scripts/analyze_table.py": "a2f4f8988a8b8e5f1a98fddc7435d8ef8c9428eb52db4cf1648615a90fe8493b",
+  "scripts/decision_followup.py": "8d03758ec23fe9b120aaacc42402dec6d593d82a6e919bd05625a88a6b703f3e",
+  "scripts/extract_formats.py": "f5c68d0b881506cb70c69081f4e12ea49e75fc8c99644e6e5d4a55f53d01c4cc",
+  "scripts/import_materials.py": "a4ea118bda3cc9e6dd849ddcc8ebb7cf41874a6b420c33e37edf664476021c45",
+  "scripts/project_state.py": "29755e1ccea17312996424f7e00a2e9e281d9d55586464d32cd71843fbd064bc",
+  "knowledge/methods.md": "d668ef0fd40cbc492724b98b61c82caabd84b5f4363a7f774b9debb3f5f712ee",
+  "knowledge/procedures/decision-followup.md": "cb20b290c93f71919f8c50e4b8fc9ea6972097e73cab1c116683228bc8ce2208",
+  "knowledge/procedures/evidence-review.md": "2eab1e480e273108dc9a2354c793936997260a5e3f87a79dee226b531d1fa107",
+  "knowledge/procedures/strategy-cycle.md": "625e6beb9448eb797c320e63d93186a765e3e51e9ce0a56e4a8c8d0611c038cb",
+  "knowledge/record-contracts.md": "9a28461cc522cfc99d90addb7ee4f467459b53e5db5cb9c8eb5d2fdd16393450",
+  "knowledge/tool-contracts.md": "25ab466865d9109293e3ad7878368aee0bb6713feff61e852e4d36e0b620d52e",
+  "tests/test_followup.py": "ddd3e953895bf9769b7c13abe3d9bdd073b956ef869b568e82f2e8261c35b517",
+  "tests/test_followup_recovery.py": "3e3066995da3b7d6f1a90d6c9bf3d20904cc22c5fde500c043f0a06f2b8e85b7",
+  "tests/test_formats.py": "b9b86c7116b3741790d6f8fd792d595e8ca5b3c2fedbc884cc60da906295148b",
+  "tests/test_fresh_launcher.py": "413cac57949610fd7878cf298d45988bf16fcf3442565600688203aa13bd5d40",
+  "tests/test_materials.py": "008848051d036a73a8f9db81932ddb3a6de61dcb2152227ce0a2fa3747018258",
+  "tests/test_state.py": "f37752c4008c50a1132c3f5dd1d8cd9547028a74223efb37fa70f2beb7b68410",
+  "tests/test_xlsx_calculation.py": "3567f47eedbbd26033253832acd813b76bc47acdffcfbaba321a4c4677cda588",
+  "AGENTS.md": "2e8fc90bf19e62dd38ad98862233d68c9bc51c656966d711d0d6f1a255f205da"
+}

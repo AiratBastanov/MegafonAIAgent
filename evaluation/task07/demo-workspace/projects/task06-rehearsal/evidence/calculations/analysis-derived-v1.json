@@ -1,0 +1,235 @@
+{
+  "record_type": "project_analysis_calculation",
+  "synthetic": true,
+  "source": {
+    "id": "S002",
+    "version": 1
+  },
+  "inputs": [
+    {
+      "path": "inputs/analysis-calculation-spec-v2.json",
+      "sha256": "d7ef6d8e2a0ea2f92d807afc02ac2be6ddc8f076b9d3777c8b1f414c76d662c8"
+    },
+    {
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "85c1e02fddedfcb9702094a4cad7c242b0e90b06d7bff8b5b42adcda15f60768"
+    },
+    {
+      "path": "evidence/calculations/economics-base-v1.json",
+      "sha256": "9ae45027f4a08de51c5c728e07c19246e7fe6902ccaf9569f0b62b8932f65420"
+    },
+    {
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "path": "evidence/reproduce-analysis-v2.py",
+      "sha256": "5ae5c90adef12a6786f2a49184091403596ff9bea33c61b000e541b673eb389b"
+    }
+  ],
+  "definitions": {
+    "historical_contribution": {
+      "formula": "revenue30 - variable30",
+      "unit": "RUB per segment over first 30 days of each trial"
+    },
+    "pooled_paid_per_trial": {
+      "formula": "100 * sum(paid30) / sum(trials)",
+      "unit": "%"
+    },
+    "support_cost": {
+      "formula": "support_minutes * hourly_cost / 60",
+      "unit": "RUB/account/month"
+    },
+    "unit_contribution": {
+      "formula": "price - infra - support_cost",
+      "unit": "RUB/account/month"
+    },
+    "fixed_coverage_accounts": {
+      "formula": "ceil(fixed / unit_contribution) if unit_contribution > 0 else null",
+      "unit": "paying accounts"
+    },
+    "monthly_balance": {
+      "formula": "accounts * unit_contribution - fixed",
+      "unit": "RUB/month"
+    },
+    "conditional_setup_payback": {
+      "formula": "setup / monthly_balance if monthly_balance > 0 else null",
+      "unit": "months"
+    }
+  },
+  "historical": [
+    {
+      "segment": "агентства",
+      "row": 3,
+      "contribution_rub": "4200.00",
+      "acquisition_rub": null,
+      "source_locators": [
+        "'Воронка'!G3",
+        "'Воронка'!H3",
+        "'Воронка'!I3"
+      ]
+    },
+    {
+      "segment": "бухбюро",
+      "row": 4,
+      "contribution_rub": "-600.00",
+      "acquisition_rub": null,
+      "source_locators": [
+        "'Воронка'!G4",
+        "'Воронка'!H4",
+        "'Воронка'!I4"
+      ]
+    }
+  ],
+  "pooled_paid_per_trial": {
+    "numerator": "3",
+    "denominator": "18",
+    "pct": "16.67"
+  },
+  "economics_scenarios": [
+    {
+      "support_minutes": "30",
+      "support_cost_rub": "300.00",
+      "unit_contribution_rub": "2100.00",
+      "fixed_coverage_accounts": 15,
+      "balances": [
+        {
+          "accounts": "10",
+          "monthly_balance_rub": "-9000.00",
+          "conditional_setup_payback_months": null
+        },
+        {
+          "accounts": "20",
+          "monthly_balance_rub": "12000.00",
+          "conditional_setup_payback_months": "5.00"
+        },
+        {
+          "accounts": "30",
+          "monthly_balance_rub": "33000.00",
+          "conditional_setup_payback_months": "1.82"
+        }
+      ]
+    },
+    {
+      "support_minutes": "90",
+      "support_cost_rub": "900.00",
+      "unit_contribution_rub": "1500.00",
+      "fixed_coverage_accounts": 20,
+      "balances": [
+        {
+          "accounts": "10",
+          "monthly_balance_rub": "-15000.00",
+          "conditional_setup_payback_months": null
+        },
+        {
+          "accounts": "20",
+          "monthly_balance_rub": "0.00",
+          "conditional_setup_payback_months": null
+        },
+        {
+          "accounts": "30",
+          "monthly_balance_rub": "15000.00",
+          "conditional_setup_payback_months": "4.00"
+        }
+      ]
+    },
+    {
+      "support_minutes": "180",
+      "support_cost_rub": "1800.00",
+      "unit_contribution_rub": "600.00",
+      "fixed_coverage_accounts": 50,
+      "balances": [
+        {
+          "accounts": "10",
+          "monthly_balance_rub": "-24000.00",
+          "conditional_setup_payback_months": null
+        },
+        {
+          "accounts": "20",
+          "monthly_balance_rub": "-18000.00",
+          "conditional_setup_payback_months": null
+        },
+        {
+          "accounts": "30",
+          "monthly_balance_rub": "-12000.00",
+          "conditional_setup_payback_months": null
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "status": "passed",
+    "normalized_cells_matched_to_original_xml": 27,
+    "arithmetic": "Decimal primary, Fraction from original XLSX XML independently; all metric values, missing acquisition, coverage bounds and scenario balances checked",
+    "workbook_sheets": [
+      {
+        "name": "Воронка",
+        "state": "visible"
+      },
+      {
+        "name": "Экономика",
+        "state": "visible"
+      },
+      {
+        "name": "Примечания",
+        "state": "hidden"
+      }
+    ],
+    "excluded_formulas": [
+      {
+        "locator": "'Воронка'!K3",
+        "cache_status": "missing",
+        "used": false
+      },
+      {
+        "locator": "'Воронка'!K4",
+        "cache_status": "missing",
+        "used": false
+      },
+      {
+        "locator": "'Экономика'!J3",
+        "cache_status": "missing",
+        "used": false
+      }
+    ],
+    "pdf_pages": [
+      {
+        "physical_page": 1,
+        "printed_label": "A",
+        "matched_lines": 9
+      },
+      {
+        "physical_page": 2,
+        "printed_label": "1",
+        "matched_lines": 11
+      }
+    ],
+    "pdf_method": "Original Tj strings compared with registered blocks and fixture manifest; no visual rendering or independent business validation"
+  },
+  "limitations": [
+    "Числа — условная чувствительность, не прогноз продаж или измеренная стоимость",
+    "Неизвестные CAC, налоги, продления и выход не принимаются за ноль",
+    "Покрытие fixed и окупаемость setup условны при сохранении указанных доходов/затрат каждый месяц"
+  ],
+  "reproduce": ".\\.venv\\Scripts\\python.exe -X utf8 projects/task06-rehearsal/evidence/reproduce-analysis-v2.py --check"
+}

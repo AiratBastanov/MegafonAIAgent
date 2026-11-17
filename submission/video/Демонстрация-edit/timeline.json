@@ -1,0 +1,424 @@
+{
+  "created_at": "2026-11-16T17:36:03.218073+00:00",
+  "note": "Cuts from actual local capture; edited duration is not runtime; no generated transcript or document render substituted.",
+  "sum_encoded_duration_seconds": 421.90000000000003,
+  "segments": [
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 0,
+      "end": 8.6,
+      "speed": 0.4,
+      "label": "Запрос руководителя. Учебные клиентские данные; не официальный бриф",
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 21.499999999999996,
+      "encoded_duration_seconds": 21.5,
+      "output_start": 0,
+      "output_end": 21.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 406,
+      "end": 419,
+      "speed": 0.55,
+      "label": "Обзор исходного PDF. Этот просмотр снят после продолжения",
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 23.636363636363633,
+      "encoded_duration_seconds": 23.6,
+      "output_start": 21.5,
+      "output_end": 45.1
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 425,
+      "end": 449,
+      "label": "Исходная таблица: интерес и оплата различаются. Просмотр после продолжения",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 24.0,
+      "encoded_duration_seconds": 24.0,
+      "output_start": 45.1,
+      "output_end": 69.1
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 27.7,
+      "end": 35,
+      "crop": [
+        0,
+        0,
+        1440,
+        285
+      ],
+      "label": "Возвращаемся к ранней записи: подлинная пауза сохранена в 18:25 МСК",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 7.300000000000001,
+      "encoded_duration_seconds": 7.3,
+      "output_start": 69.1,
+      "output_end": 76.39999999999999
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 35,
+      "end": 41.7,
+      "crop": [
+        40,
+        585,
+        1300,
+        100
+      ],
+      "label": "На этой границе расчётов и стратегий ещё нет",
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 6.700000000000003,
+      "encoded_duration_seconds": 6.7,
+      "output_start": 76.39999999999999,
+      "output_end": 83.1
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 77.8,
+      "end": 81.3,
+      "speed": 0.3,
+      "crop": [
+        40,
+        568,
+        1320,
+        190
+      ],
+      "label": "Новая независимая сессия прочитала память и сама определила следующий шаг",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 11.666666666666668,
+      "encoded_duration_seconds": 11.6,
+      "output_start": 83.1,
+      "output_end": 94.69999999999999
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 139.2,
+      "end": 146,
+      "speed": 0.4,
+      "crop": [
+        40,
+        575,
+        1320,
+        200
+      ],
+      "label": "Агент обнаружил: восемь интересов — не восемь оплат",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 17.00000000000003,
+      "encoded_duration_seconds": 17.0,
+      "output_start": 94.69999999999999,
+      "output_end": 111.69999999999999
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 446.1,
+      "end": 459,
+      "crop": [
+        40,
+        565,
+        1320,
+        190
+      ],
+      "label": "Собственные расчёты и заметка; числовая проверка прошла",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 12.899999999999977,
+      "encoded_duration_seconds": 12.9,
+      "output_start": 111.69999999999999,
+      "output_end": 124.6
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 788.4,
+      "end": 807.3,
+      "crop": [
+        28,
+        238,
+        1384,
+        330
+      ],
+      "label": "Отдельный процесс нашёл новую сохранённую работу. Сессия заняла 10 мин 19 с",
+      "cut_before": true,
+      "source_sha256": "3b0914ec436b30ab990db3f720f65b9319396b3b7358ef4a9bddf28c1d100e7c",
+      "expected_duration_seconds": 18.899999999999977,
+      "encoded_duration_seconds": 18.9,
+      "output_start": 124.6,
+      "output_end": 143.5
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 480,
+      "end": 495,
+      "crop": [
+        40,
+        460,
+        1320,
+        288
+      ],
+      "label": "Новые официальные сведения изменили основание проверки; арифметика сохранена",
+      "cut_before": true,
+      "source_sha256": "6acff51653181f2a688554f93761f3df106cd9ecf470c761b352595410aef74d",
+      "expected_duration_seconds": 15.0,
+      "encoded_duration_seconds": 15.0,
+      "output_start": 143.5,
+      "output_end": 158.5
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 840,
+      "end": 854,
+      "crop": [
+        40,
+        566,
+        1320,
+        190
+      ],
+      "label": "Агент подготовил варианты и обе стратегии",
+      "cut_before": true,
+      "source_sha256": "6acff51653181f2a688554f93761f3df106cd9ecf470c761b352595410aef74d",
+      "expected_duration_seconds": 14.0,
+      "encoded_duration_seconds": 14.0,
+      "output_start": 158.5,
+      "output_end": 172.5
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 1320,
+      "end": 1335,
+      "crop": [
+        40,
+        566,
+        1320,
+        190
+      ],
+      "label": "Самопроверка: исправлены окно неплательщиков и смысл сэкономленного времени",
+      "cut_before": true,
+      "source_sha256": "6acff51653181f2a688554f93761f3df106cd9ecf470c761b352595410aef74d",
+      "expected_duration_seconds": 15.0,
+      "encoded_duration_seconds": 15.0,
+      "output_start": 172.5,
+      "output_end": 187.5
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 1440,
+      "end": 1448,
+      "crop": [
+        40,
+        568,
+        1320,
+        220
+      ],
+      "label": "Лимит сервиса остановил сессию до сохранения стратегий",
+      "cut_before": true,
+      "source_sha256": "6acff51653181f2a688554f93761f3df106cd9ecf470c761b352595410aef74d",
+      "expected_duration_seconds": 8.0,
+      "encoded_duration_seconds": 8.0,
+      "output_start": 187.5,
+      "output_end": 195.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 4,
+      "end": 23,
+      "crop": [
+        28,
+        183,
+        1384,
+        535
+      ],
+      "label": "Далее тот же пример завершает координатор текущей беседы",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 19.0,
+      "encoded_duration_seconds": 19.0,
+      "output_start": 195.5,
+      "output_end": 214.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 355,
+      "end": 368,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Координатор применил замечание рецензента и сохранил стратегии",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 13.0,
+      "encoded_duration_seconds": 13.0,
+      "output_start": 214.5,
+      "output_end": 227.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 455,
+      "end": 481,
+      "label": "Справка Яндекса: тариф, пароль и запрет скачивания имеют разный смысл",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 26.0,
+      "encoded_duration_seconds": 26.0,
+      "output_start": 227.5,
+      "output_end": 253.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 490,
+      "end": 511,
+      "label": "Четыре варианта: выбор, отказы и условие закрытия",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 21.0,
+      "encoded_duration_seconds": 21.0,
+      "output_start": 253.5,
+      "output_end": 274.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 515,
+      "end": 532,
+      "speed": 0.8,
+      "label": "Продуктовая стратегия: узкая исходящая задача и проверяемая ценность",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 21.25,
+      "encoded_duration_seconds": 21.2,
+      "output_start": 274.5,
+      "output_end": 295.7
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 535.5,
+      "end": 539,
+      "speed": 0.15,
+      "crop": [
+        28,
+        275,
+        1384,
+        520
+      ],
+      "label": "Коммуникация: только описанные функции, после приёмки; без обещания экономии",
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 23.333333333333336,
+      "encoded_duration_seconds": 23.3,
+      "output_start": 295.7,
+      "output_end": 319.0
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 541,
+      "end": 546,
+      "speed": 0.4,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Симулированный выбор записан отдельно: роли, сроки и условия допуска",
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 12.5,
+      "encoded_duration_seconds": 12.5,
+      "output_start": 319.0,
+      "output_end": 331.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 548,
+      "end": 563,
+      "crop": [
+        28,
+        310,
+        1384,
+        380
+      ],
+      "label": "Инженер — приёмка; аналитик — бюджет; руководитель — отдельный допуск",
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 15.0,
+      "encoded_duration_seconds": 15.0,
+      "output_start": 331.5,
+      "output_end": 346.5
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 574,
+      "end": 581,
+      "speed": 0.3,
+      "crop": [
+        28,
+        238,
+        1384,
+        555
+      ],
+      "label": "После выбора изменена одна ячейка: поддержка 30 → 90 минут",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 23.333333333333336,
+      "encoded_duration_seconds": 23.3,
+      "output_start": 346.5,
+      "output_end": 369.8
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 584,
+      "end": 599,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Проверено влияние на основания, условия и обязательства",
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 15.0,
+      "encoded_duration_seconds": 15.0,
+      "output_start": 369.8,
+      "output_end": 384.8
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 794,
+      "end": 804,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Пять документов согласованы с пересмотром. Незатронутое использовано повторно",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 10.0,
+      "encoded_duration_seconds": 10.0,
+      "output_start": 384.8,
+      "output_end": 394.8
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 840,
+      "end": 849.5,
+      "speed": 0.35,
+      "crop": [
+        28,
+        242,
+        1384,
+        552
+      ],
+      "label": "Итог: прежний выбор виден, новый допуск заблокирован. Пилот не начат",
+      "cut_before": true,
+      "source_sha256": "d35885d91334fd6adb554cdda977a8ae24052fc93b736dc6ea3b54fc977e2dc6",
+      "expected_duration_seconds": 27.142857142857146,
+      "encoded_duration_seconds": 27.1,
+      "output_start": 394.8,
+      "output_end": 421.90000000000003
+    }
+  ],
+  "output_sha256": "b7adf8efab03aae17c3b7c97433376d55c82680803dd95b0ea428b690b2b7682"
+}

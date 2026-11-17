@@ -1,0 +1,208 @@
+{
+  "checked_at": "2026-11-16T06:53:10.483832+00:00",
+  "method": "csv.DictReader + fractions.Fraction; no analyze_table import",
+  "input_sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c",
+  "result_sha256": "bdfc9b42ca5287d62fe515b0148a7dca3d7f12a77c01bdfa964ba47e0300fc05",
+  "checks": [
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "80",
+      "observed": "80.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "60",
+      "observed": "60.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "20",
+      "observed": "20.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "24000",
+      "observed": "24000.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "recurring"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "50",
+      "observed": "50.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "20",
+      "observed": "20.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "5",
+      "observed": "5.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "1500",
+      "observed": "1500.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-08",
+        "segment": "occasional"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "80",
+      "observed": "80.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "60",
+      "observed": "60.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "20",
+      "observed": "20.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "6000",
+      "observed": "6000.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "recurring"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "activation_pct",
+      "exact_fraction": "50",
+      "observed": "50.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "retention_pct",
+      "exact_fraction": "20",
+      "observed": "20.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "paid_pct",
+      "exact_fraction": "5",
+      "observed": "5.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "revenue_rub",
+      "exact_fraction": "6000",
+      "observed": "6000.00",
+      "pass": true
+    },
+    {
+      "group": {
+        "period": "2026-09",
+        "segment": "occasional"
+      },
+      "metric": "variable_cost_rub",
+      "exact_fraction": null,
+      "observed": null,
+      "pass": true
+    }
+  ]
+}

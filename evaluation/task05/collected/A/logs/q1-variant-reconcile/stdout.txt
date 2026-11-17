@@ -1,0 +1,6 @@
+{
+  "outcome": "published",
+  "revision": 3,
+  "event_id": "Q1-K-PROTOCOL-COMPLETE",
+  "warnings": []
+}

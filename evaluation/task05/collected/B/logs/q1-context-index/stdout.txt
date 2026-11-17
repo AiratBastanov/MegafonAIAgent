@@ -1,0 +1,70 @@
+7:В checkpoint нет открытых review. Координатор ещё не фиксировал завершение K-PROTOCOL.
+9:## objective
+12:## decision_question
+15:## stage
+18:## completed
+35:## unresolved_questions
+42:## pending_actions
+49:## next_action
+50:"Применить синтетическую инструкцию OWNER-01; реального бизнес-одобрения нет"
+52:## Версии источников
+116:## Реестр локаторов и файлов (пути относительно materials)
+144:| ECON-CHECK-v1 | evidence/calculations/independent-v1.json | e6059f6b15e415a260c43aa0e4c06fc2afd84b68a1076801e14c2dfe7cc017b7 |
+146:| CHECK-TOOL-v1 | evidence/calculations/check-offer-tool-v1.py | 09a236b7a9f6088c2e3ee29603b79affb579f4553958d2f05e4185a2eeb6f8ec |
+155:| ECON-CHECK-v2 | evidence/calculations/independent-v2.json | 330e00153d485966c122cba0c15118c69965741be96453fcde7f3b19a5cb89ff |
+158:| CORRECTION-CHECK-v2 | evidence/correction-check-v2.json | 68ddf8774a9a2bc203e4cd8b8a40f96dad4837084116060757fe9ce949e8e005 |
+172:| OWNER-INSTRUCTION | inputs/owner-instruction-v1.md | 3b419510f375b0b14065a583196a50663ec7b4c4cd34145f6d3c9089f42c6a9d |
+174:## Сохранённые утверждения: тип, статус, источник
+176:### C001 · source_fact · synthetic=True
+190:### C002 · source_fact · synthetic=True
+206:### C003 · source_fact · synthetic=True
+224:### C004 · source_fact · synthetic=False
+238:### C005 · source_fact · synthetic=False
+252:### C006 · source_fact · synthetic=True
+279:### C007 · computed · synthetic=True
+294:      "artifact_id": "ECON-CHECK-v1",
+300:### C008 · assumption · synthetic=True
+320:### C009 · computed · synthetic=True
+338:      "artifact_id": "ECON-CHECK-v1",
+346:### C010 · hypothesis · synthetic=True
+366:### C011 · recommendation · synthetic=True
+384:### C012 · assumption · synthetic=True
+394:### C014 · source_fact · synthetic=True
+412:      "artifact_id": "CORRECTION-CHECK-v2",
+418:### C013 · computed · synthetic=True
+437:      "artifact_id": "ECON-CHECK-v2",
+443:## Предыдущая запись: commitments
+455:    "id": "K-PROTOCOL",
+459:    "decision_id": "OWNER-01-decision"
+470:    "id": "K-CAPABILITY",
+474:    "decision_id": "OWNER-01-decision"
+478:      "K-CAPABILITY"
+487:    "id": "K-BUDGET",
+491:    "decision_id": "OWNER-01-decision"
+495:      "K-BUDGET"
+505:    "id": "K-VALUE",
+509:    "decision_id": "OWNER-01-decision"
+513:## Предыдущая запись: conditions
+595:## Предыдущая запись: current_outputs
+604:## Предыдущая запись: events
+651:        "id": "K-PROTOCOL",
+665:        "id": "K-CAPABILITY",
+672:          "K-CAPABILITY"
+681:        "id": "K-BUDGET",
+688:          "K-BUDGET"
+698:        "id": "K-VALUE",
+704:    "id": "OWNER-01",
+708:      "artifact_id": "OWNER-INSTRUCTION",
+716:## Предыдущая запись: history
+737:    "id": "OWNER-01-decision",
+739:    "instruction_event": "OWNER-01",
+814:              "artifact_id": "ECON-CHECK-v1",
+927:              "artifact_id": "ECON-CHECK-v2",
+955:              "artifact_id": "CORRECTION-CHECK-v2",
+969:## Предыдущая запись: metrics
+1049:## Предыдущая запись: owner
+1052:## Предыдущая запись: proposed_option
+1055:## Предыдущая запись: question
+1058:## Предыдущая запись: reviews
+1061:## Предыдущая запись: status
+1064:## Объявленные зависимости артефактов

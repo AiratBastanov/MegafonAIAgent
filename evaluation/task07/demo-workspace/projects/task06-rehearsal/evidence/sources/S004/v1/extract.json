@@ -1,0 +1,54 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Официальный источник: Dropbox Help, What is Dropbox Transfer?"
+    },
+    {
+      "locator": "line:2",
+      "text": "URL: https://help.dropbox.com/share/dropbox-transfer"
+    },
+    {
+      "locator": "line:3",
+      "text": "Прочитано: 2026-11-16, через web/open. Дата обновления страницы: 2026-09-24."
+    },
+    {
+      "locator": "line:4",
+      "text": "Версия локальной записи: 1. Это датированный пересказ и короткая цитата, не полный HTML и не испытание сервиса."
+    },
+    {
+      "locator": "line:5",
+      "text": ""
+    },
+    {
+      "locator": "line:6",
+      "text": "Раздел What is Dropbox Transfer?, строки 55–58 прочитанного представления: сервис предназначен для передачи готовых файлов; получателю не нужен аккаунт Dropbox для доступа и скачивания."
+    },
+    {
+      "locator": "line:7",
+      "text": "Раздел What are the size limits?, строки 70–79: лимит всей передачи Basic — 2 GB; Family/Plus — 50 GB; Transfer/Standard/Professional/Education/Essentials/Advanced/Business — 100 GB; Business Plus/Enterprise — 250 GB. Replay Add-On позволяет 250 GB. Это не лимит одного файла вымышленного RelayBox."
+    },
+    {
+      "locator": "line:8",
+      "text": "Раздел Can I customize my transfers?, строки 67–69: пароль, собственный срок, логотип и фон описаны для Standard/Professional/Education/Essentials/Business/Business Plus/Advanced/Enterprise. Basic, Family и Plus в этом перечне отсутствуют. Права отдельного плана Transfer на пароль из этой строки не установлены."
+    },
+    {
+      "locator": "line:9",
+      "text": "Раздел When does a transfer expire?, строки 80–85: Basic/Family/Plus — 7 дней; перечисленные расширенные планы и Transfer позволяют свой срок, по умолчанию 30 дней."
+    },
+    {
+      "locator": "line:10",
+      "text": "Короткая цитата, строка 73: “Dropbox Basic: 2 GB”."
+    },
+    {
+      "locator": "line:11",
+      "text": "Ограничение: источник описывает возможности конкурента, но не спрос, продажи, цены или расходы RelayBox."
+    }
+  ],
+  "source_id": "S004",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "04d71d8cc0c96ef76fc470f5aff01631e09cb83fa0012e42fc0580c86ebc9720",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

@@ -1,0 +1,25 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/analyze_table.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--input",
+    "evidence/sources/S002/v2/original.xlsx",
+    "--source-id",
+    "S002",
+    "--source-version",
+    "2",
+    "--spec",
+    "inputs/metrics-economics-v1.json",
+    "--output",
+    "evidence/calculations/economics-raw-v2.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:30:44.954929+00:00",
+  "ended_at": "2026-11-16T15:30:45.207434+00:00",
+  "elapsed_seconds": 0.26600000000325963,
+  "returncode": 0
+}

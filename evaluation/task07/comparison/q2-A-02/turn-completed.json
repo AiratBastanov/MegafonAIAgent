@@ -1,0 +1,19 @@
+{
+  "threadId": "01a1e53d-d1f7-7152-a244-2f3c30f24c66",
+  "turn": {
+    "id": "01a1e54b-ae77-7793-b0ff-1319461b40d9",
+    "rootTurnId": "01a1e54b-ae77-7793-b0ff-1319461b40d9",
+    "items": [],
+    "itemsView": "notLoaded",
+    "status": "failed",
+    "error": {
+      "message": "You’ve hit your usage limit. Visit https://chatgpt.com/settings/usage to purchase more credits or try again at Nov 17th, 2026 5:34 PM.",
+      "codexErrorInfo": "usageLimitExceeded",
+      "additionalDetails": null,
+      "misalignment": null
+    },
+    "startedAt": 1794848304,
+    "completedAt": 1794848943,
+    "durationMs": 639100
+  }
+}

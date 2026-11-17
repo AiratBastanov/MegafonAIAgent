@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-16 13:38:06 UTC",
+  "route": "collaboration.spawn_agent",
+  "fork_turns": "none",
+  "model_override": null,
+  "reasoning_override": null,
+  "messages": {
+    "A": "Рабочая папка только C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/A. Прочитай в ней request-q1.txt и RUNTIME.md и выполни запрос. В каждом shell-вызове явно указывай эту папку workdir. Не читай каталог родительского репозитория, соседние workspace, evaluator files или будущие задания. Не создавай других агентов. Сохрани полный первый ответ и метаданные, как указано в запросе. Унаследованные правила безопасности сохраняются.",
+    "B": "Рабочая папка только C:/Users/BastaPC/AppData/Local/Temp/megafon-task05-clean-20zjuuxd/B. Прочитай в ней request-q1.txt и RUNTIME.md и выполни запрос. В каждом shell-вызове явно указывай эту папку workdir. Не читай каталог родительского репозитория, соседние workspace, evaluator files или будущие задания. Не создавай других агентов. Сохрани полный первый ответ и метаданные, как указано в запросе. Унаследованные правила безопасности сохраняются."
+  }
+}

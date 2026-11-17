@@ -1,0 +1,13 @@
+{
+  "command": [
+    ".venv/Scripts/python.exe",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\_task06\\prep1",
+  "started_at": "2026-11-16T15:41:48.233202+00:00",
+  "ended_at": "2026-11-16T15:41:48.692867+00:00",
+  "elapsed_seconds": 0.4680000000007567,
+  "returncode": 0
+}

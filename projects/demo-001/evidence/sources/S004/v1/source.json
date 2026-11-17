@@ -1,0 +1,26 @@
+{
+  "id": "S004",
+  "kind": "text",
+  "origin": "inputs/correction-v2.txt",
+  "input_sha256": "656fcf319958f3b92c6202f5208b8f6822c726a72ef010cbdb77901084b99537",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "utf8-lines-v1",
+  "limitations": [],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T07:23:39+00:00",
+  "published_at": null,
+  "input_path": "inputs/correction-v2.txt",
+  "tool_version": "1.1",
+  "original": {
+    "path": "evidence/sources/S004/v1/original.txt",
+    "sha256": "656fcf319958f3b92c6202f5208b8f6822c726a72ef010cbdb77901084b99537"
+  },
+  "extract": {
+    "path": "evidence/sources/S004/v1/extract.json",
+    "sha256": "90bac7fce7ad21e6025ff93f439ffc534cd42329d570a67816385970270307d5"
+  }
+}

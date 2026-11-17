@@ -1,0 +1,11 @@
+{
+  "reason": "После сохранённого содержательного шага повторялись ошибки transport; одинаковые бесполезные ожидания прекращены координатором",
+  "last_substantive_artifact_at": "2026-11-16T07:16:50.660387+00:00",
+  "process_end_at": "2026-11-16T07:32:32.240830+00:00",
+  "action": "Stop-Process only recorded own Codex PID5140, process name checked; approved host route after default access denied",
+  "full_cli_cycle_completed": false,
+  "new_state_saved_by_fresh_agent": false,
+  "new_calculation_saved_by_fresh_agent": true,
+  "not_emergency_ui_cancel_test": true,
+  "automatic_review_rejected": false
+}

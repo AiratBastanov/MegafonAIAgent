@@ -1,0 +1,16 @@
+{
+  "stage":"awaiting_decision",
+  "completed":["Исходники, пауза r1 и продолжение координатора сохранены","Пять документов v1 выпущены","Коррекция S002@2 зарегистрирована; изменена одна selected cell","Расчёты v2 независимо проверены","Пять документов v2 согласованы, незатронутая воронка переиспользована"],
+  "unresolved_questions":["Решение владельца, бюджет и ответственный не определены","Спрос, CAC, налоги, продления и стоимость выхода неизвестны","Приёмка реальных функций не выполнена"],
+  "pending_actions":["Решение владельца о разрешённом исследовании задачи и затрат; коммерческий пилот не запускать"],
+  "next_action":"Представить четыре варианта с нулевым сценарием при 20 организациях; согласовать владельца/бюджет/приёмку либо keep/close",
+  "new_artifacts":{
+    "OUT2_SITUATION":"outputs/v2/situation.md","OUT2_OPTIONS":"outputs/v2/options.md",
+    "OUT2_PRODUCT":"outputs/v2/product-strategy.md","OUT2_COMM":"outputs/v2/communication-strategy.md",
+    "OUT2_VALIDATION":"outputs/v2/validation-plan.md","REVIEW2":"evidence/correction-review-v2.md"
+  },
+  "new_claims":[
+    {"id":"C008","kind":"computed","text":"Синтетическая база v2: вклад 1500 RUB/account/month, остаток при 20 равен нулю до неизвестных расходов; строго положительный с 21.","evidence":[{"artifact_id":"ECON2","locator":"base; formulas"},{"artifact_id":"S002v2_extract","locator":"'Экономика'!C3:I3","source_id":"S002","source_version":2},{"artifact_id":"INDEPENDENT2","locator":"checks"}],"derived_from":[],"synthetic":true},
+    {"id":"C009","kind":"recommendation","text":"Сузить предложение до согласованного исследования задачи/поддержки; не обосновывать коммерческий пилот прежним остатком 12000. Keep/close остаются вариантами решения владельца.","evidence":[{"artifact_id":"REVIEW2","locator":"Последствия коррекции"}],"derived_from":["C001","C002","C003","C004","C006","C008"],"synthetic":true}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "codex",
+    "doctor",
+    "--network-only",
+    "--json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:27:04.575691+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:27:04.642279+00:00",
+  "elapsed_seconds": 0.0629999999946449,
+  "returncode": 1,
+  "stdout_sha256": "6ec2299917411572d4da50f205ba05822f290845fc02d2b56de37b7d4025a687",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

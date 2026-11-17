@@ -1,0 +1,1 @@
+{"operation":"run","id":"pause-inspect","title":"Подлинная пауза перед расчётами","caption":"Сохранено 16.11.2026, 18:25:36 МСК. Ни расчётов, ни готовых стратегий на этой границе ещё нет.","argv":["python","-X","utf8","evaluation/task07/capture/inspect_pause.py"],"cwd":"."}

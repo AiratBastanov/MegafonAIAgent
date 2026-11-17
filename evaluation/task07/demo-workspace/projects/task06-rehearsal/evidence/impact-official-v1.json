@@ -1,0 +1,84 @@
+{
+  "record_type": "decision_impact",
+  "event_id": "official-context-20261116-v1",
+  "change_type": "changed_assumption",
+  "source": {
+    "id": "S003",
+    "version": 1
+  },
+  "locators": [
+    "*"
+  ],
+  "old_ground": "C002/C016: сохранённое общее описание исходящей передачи и входящего сбора Dropbox; тарифные пределы и вторая альтернатива не были установлены. Никакого подтверждённого уникального преимущества или принятого выбора не было.",
+  "new_ground": "S004–S006/v1: точные размеры и сроки по названным планам Transfer, отдельные пределы file requests, Яндекс Диск и отдельность пароля/запрета скачивания; OFFICIAL_NARROW_REVIEW уточняет смысл. Источники предоставлены как снимки, не новое web-чтение координатора.",
+  "affected": [
+    {
+      "node": "artifact:ANALYSIS_NOTE",
+      "path": [
+        "source:S003@1",
+        "artifact:S003v1_original",
+        "artifact:ANALYSIS_NOTE"
+      ],
+      "reason": "input to calculation, verification or derived analytical document",
+      "recomputation": true
+    },
+    {
+      "node": "artifact:ANALYSIS_REVIEW",
+      "path": [
+        "source:S003@1",
+        "artifact:S003v1_original",
+        "artifact:ANALYSIS_NOTE",
+        "artifact:ANALYSIS_REVIEW"
+      ],
+      "reason": "input to calculation, verification or derived analytical document",
+      "recomputation": true
+    },
+    {
+      "node": "claim:C002",
+      "path": [
+        "source:S003@1",
+        "claim:C002"
+      ],
+      "reason": "evidence T1–T2",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C013",
+      "path": [
+        "source:S003@1",
+        "artifact:S003v1_original",
+        "artifact:ANALYSIS_NOTE",
+        "claim:C013"
+      ],
+      "reason": "evidence",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C015",
+      "path": [
+        "source:S003@1",
+        "artifact:S003v1_original",
+        "artifact:ANALYSIS_NOTE",
+        "claim:C015"
+      ],
+      "reason": "evidence",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C016",
+      "path": [
+        "source:S003@1",
+        "claim:C016"
+      ],
+      "reason": "evidence accessed_at; retrieval_status; limitations",
+      "recomputation": false
+    }
+  ],
+  "reusable": [],
+  "precision": "conservative",
+  "uncertain_locators": [
+    "artifact_dependency:S003v1_original"
+  ],
+  "comparison": null,
+  "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности."
+}

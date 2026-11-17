@@ -1,0 +1,22 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Синтетическое входящее сообщение 2026-12-19T12:00:00+03:00."
+    },
+    {
+      "locator": "line:2",
+      "text": "Повторяю исправление S005@1: на Экономика!E3 использовать 90 минут, а не 30."
+    },
+    {
+      "locator": "line:3",
+      "text": "Это та же коррекция; новой версии XLSX, новых величин или измерений нет."
+    }
+  ],
+  "source_id": "Q1-REPEAT",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "9cdf4e8f4c13425878ccac387eca1183c77f0e82e6ca529eed7337dbeeebd42f",
+  "extraction_method": "utf8-lines-v1"
+}

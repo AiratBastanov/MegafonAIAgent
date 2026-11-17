@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/check_recovery.py",
+    "evaluation/task04/recovery-final"
+  ],
+  "started_at": "2026-11-16T12:09:33.661916+00:00",
+  "ended_at": "2026-11-16T12:09:36.062698+00:00",
+  "elapsed_seconds": 2.3909999999996217,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

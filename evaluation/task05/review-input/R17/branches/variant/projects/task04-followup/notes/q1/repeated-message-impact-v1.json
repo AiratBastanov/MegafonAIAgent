@@ -1,0 +1,193 @@
+{
+  "event_id": "Q1-REPEAT-IMPACT-ONLY",
+  "change_type": "nonmaterial",
+  "source": {
+    "id": "S005",
+    "version": 1
+  },
+  "locators": [
+    "line:1-5"
+  ],
+  "old_ground": "S005@1 уже учтён в S002@2: Экономика!E3 = 90 минут.",
+  "new_ground": "То же основание: Экономика!E3 = 90 минут.",
+  "affected": [
+    {
+      "node": "claim:C011",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C011"
+      ],
+      "reason": "review_dependency, не доказательное выведение",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C012",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C011",
+        "claim:C012"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C013",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C013"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C014",
+      "path": [
+        "source:S005@1",
+        "claim:C014"
+      ],
+      "reason": "evidence line:1-5",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-BUDGET",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "commitment:K-BUDGET"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-CAPABILITY",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C011",
+        "condition:G-CAPABILITY",
+        "commitment:K-CAPABILITY"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-PROTOCOL",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "commitment:K-PROTOCOL"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-VALUE",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "commitment:K-VALUE"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-CAPABILITY",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C011",
+        "condition:G-CAPABILITY"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-ECONOMICS",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-VALUE",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "claim:C011",
+        "claim:C012",
+        "condition:G-VALUE"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v2-communication-strategy",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v2-communication-strategy"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v2-options",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v2-options"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v2-product-strategy",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v2-product-strategy"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v2-situation",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v2-situation"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v2-validation-plan",
+      "path": [
+        "source:S005@1",
+        "claim:C014",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v2-validation-plan"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    }
+  ],
+  "reusable": [],
+  "precision": "declared_links",
+  "uncertain_locators": [],
+  "comparison": null,
+  "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности."
+}

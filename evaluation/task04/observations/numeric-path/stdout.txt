@@ -1,0 +1,74 @@
+{
+  "revision": 8,
+  "decisive_paths": [
+    {
+      "node": "claim:C011",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C011"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C013",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-ECONOMICS",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    }
+  ],
+  "funnel_affected": false,
+  "values": {
+    "1": {
+      "source": "S002@1",
+      "locator": "'Экономика'!C3:I3",
+      "input_values": {
+        "C": "3000",
+        "D": "600",
+        "E": "30",
+        "F": "600",
+        "G": "30000",
+        "H": "60000",
+        "I": "20"
+      },
+      "margin": "2100",
+      "surplus_N20": "12000",
+      "unknown_costs": null,
+      "unit": "RUB/платящую организацию/месяц; остаток RUB/месяц",
+      "checked_against": "ECON-v1/base"
+    },
+    "2": {
+      "source": "S002@2",
+      "locator": "'Экономика'!C3:I3",
+      "input_values": {
+        "C": "3000",
+        "D": "600",
+        "E": "90",
+        "F": "600",
+        "G": "30000",
+        "H": "60000",
+        "I": "20"
+      },
+      "margin": "1500",
+      "surplus_N20": "0",
+      "unknown_costs": null,
+      "unit": "RUB/платящую организацию/месяц; остаток RUB/месяц",
+      "checked_against": "ECON-v2/base"
+    }
+  }
+}

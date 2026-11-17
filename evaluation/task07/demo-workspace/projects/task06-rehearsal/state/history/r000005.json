@@ -1,0 +1,1128 @@
+{
+  "artifact_dependencies": [
+    {
+      "from": "S002v1_original",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "FUNNEL_CALC"
+    },
+    {
+      "from": "S002v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "FUNNEL_CALC"
+    },
+    {
+      "from": "FUNNEL_SPEC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "FUNNEL_CALC"
+    },
+    {
+      "from": "S002v1_original",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ECON_BASE_CALC"
+    },
+    {
+      "from": "S002v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ECON_BASE_CALC"
+    },
+    {
+      "from": "ECON_SPEC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ECON_BASE_CALC"
+    },
+    {
+      "from": "FUNNEL_CALC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "ECON_BASE_CALC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "S002v1_original",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "S002v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "S001v1_original",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "S001v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "PDF_MANIFEST",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "SCENARIOS",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "ANALYSIS_SPEC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "ANALYSIS_CHECKER",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_CALC"
+    },
+    {
+      "from": "ANALYSIS_CALC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_NOTE"
+    },
+    {
+      "from": "S001v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_NOTE"
+    },
+    {
+      "from": "S002v1_extract",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_NOTE"
+    },
+    {
+      "from": "S003v1_original",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_NOTE"
+    },
+    {
+      "from": "DICTIONARY",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_NOTE"
+    },
+    {
+      "from": "ANALYSIS_NOTE",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_REVIEW"
+    },
+    {
+      "from": "ANALYSIS_CALC",
+      "reason": "input to calculation, verification or derived analytical document",
+      "to": "ANALYSIS_REVIEW"
+    },
+    {
+      "from": "S004v1_original",
+      "reason": "Первичный предоставленный снимок или уточнение использованы в производной оценке применимости",
+      "to": "COMPETITION_APPLICABILITY"
+    },
+    {
+      "from": "S005v1_original",
+      "reason": "Первичный предоставленный снимок или уточнение использованы в производной оценке применимости",
+      "to": "COMPETITION_APPLICABILITY"
+    },
+    {
+      "from": "S006v1_original",
+      "reason": "Первичный предоставленный снимок или уточнение использованы в производной оценке применимости",
+      "to": "COMPETITION_APPLICABILITY"
+    },
+    {
+      "from": "OFFICIAL_NARROW_REVIEW",
+      "reason": "Первичный предоставленный снимок или уточнение использованы в производной оценке применимости",
+      "to": "COMPETITION_APPLICABILITY"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "c4f393526d6de849fb9d22799f5a1e12918a1068b5d95c6fbde0e87c4af95a42"
+    },
+    {
+      "id": "REQUEST",
+      "path": "inputs/manager-request-v1.txt",
+      "sha256": "1da5eba107816507c823dc6760b3f2fd529cff31d675ceaeadcfd0d46175f814"
+    },
+    {
+      "id": "ORIGIN",
+      "path": "inputs/PROVENANCE.json",
+      "sha256": "a59124d6debf88a6e6d876566cfad4df446f5d51c3c5321f10127d8aa1a5b464"
+    },
+    {
+      "id": "DICTIONARY",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "FUNNEL_SPEC",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "ECON_SPEC",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SCENARIOS",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "PDF_MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "S001v1_meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+    },
+    {
+      "id": "S001v1_original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1_extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1_meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "9aa677834113aae266d89607d87ea93d34bad78cd56877274256333f6e27e9eb"
+    },
+    {
+      "id": "S002v1_original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1_extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "id": "S003v1_meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "75dbf5358554216f860d71cf86caa2098eb658b0ba7e980f6fab8939960956b9"
+    },
+    {
+      "id": "S003v1_original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f"
+    },
+    {
+      "id": "S003v1_extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "d75e27653d0e43d80a87229dc91a21dc321062886c56672888a32b9db91d7e6e"
+    },
+    {
+      "id": "CONTINUE_REQUEST",
+      "path": "inputs/continue-request-v1.txt",
+      "sha256": "7067b05778dda59145213b189d7af98ed4955829a6f4824653372feb96cfb587"
+    },
+    {
+      "id": "FUNNEL_CALC",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "85c1e02fddedfcb9702094a4cad7c242b0e90b06d7bff8b5b42adcda15f60768"
+    },
+    {
+      "id": "ECON_BASE_CALC",
+      "path": "evidence/calculations/economics-base-v1.json",
+      "sha256": "9ae45027f4a08de51c5c728e07c19246e7fe6902ccaf9569f0b62b8932f65420"
+    },
+    {
+      "id": "ANALYSIS_SPEC_DRAFT",
+      "path": "inputs/analysis-calculation-spec-v1.json",
+      "sha256": "f416ad370fdf54378b3bd4f61547a39983333decbac116f71573a4095a6f0d02"
+    },
+    {
+      "id": "ANALYSIS_SPEC",
+      "path": "inputs/analysis-calculation-spec-v2.json",
+      "sha256": "d7ef6d8e2a0ea2f92d807afc02ac2be6ddc8f076b9d3777c8b1f414c76d662c8"
+    },
+    {
+      "id": "CHECKER_FAILED_V1",
+      "path": "evidence/reproduce-analysis-v1.py",
+      "sha256": "b188f0d3aaa17334faa57e45abb2191af6cc3e366c441339d9df33fc2b75dfae"
+    },
+    {
+      "id": "ANALYSIS_CHECKER",
+      "path": "evidence/reproduce-analysis-v2.py",
+      "sha256": "5ae5c90adef12a6786f2a49184091403596ff9bea33c61b000e541b673eb389b"
+    },
+    {
+      "id": "ANALYSIS_CALC",
+      "path": "evidence/calculations/analysis-derived-v1.json",
+      "sha256": "aefa62fdfe867b888f8dddbed1963e7bbea31a4c41b9504d8056c75b52c78e61"
+    },
+    {
+      "id": "ANALYSIS_NOTE",
+      "path": "evidence/analysis-v1.md",
+      "sha256": "8ca1c8bb9af42ef08d3f54862b6be7f1e5f8e470cc96b303f57bf74b1ba6b3e3"
+    },
+    {
+      "id": "ANALYSIS_REVIEW",
+      "path": "evidence/review-analysis-v1.md",
+      "sha256": "bb9771e4f795df710d30a5bc20386cd639c065c95309c7fc637a97e6e3f3f8c5"
+    },
+    {
+      "id": "RESUME_ACTIONS",
+      "path": "evidence/actions-resume-v1.jsonl",
+      "sha256": "54f25ba871123ce7190a018669cb8c3feb60236112d6051e66cf21140a42ffa3"
+    },
+    {
+      "id": "SYNTHESIS_REQUEST",
+      "path": "inputs/synthesis-request-v1.txt",
+      "sha256": "6e35de8a690703ab161817c9a6e354a927afd8560d89066d9e93936451e22dfc"
+    },
+    {
+      "id": "MIGRATION_TEXT_REPAIR",
+      "path": "drafts/migration-text-v4.json",
+      "sha256": "b34ce489f8b328bcd78fa8a5edd27b32b8121b76da6f2bae70b01eab79e7fb11"
+    },
+    {
+      "id": "OFFICIAL_MANIFEST",
+      "path": "inputs/official-2026-11-16/manifest.json",
+      "sha256": "921ee6b940e7bc21cd885343cc0b41bfa771a4e0ed03ced861c7264f5d716128"
+    },
+    {
+      "id": "OFFICIAL_NARROW_REVIEW",
+      "path": "inputs/official-2026-11-16/review.md",
+      "sha256": "21b5c837eda317cb0165ccf9f0a8f91620894d4b25b9e8d92b9652e4070ebe6d"
+    },
+    {
+      "id": "OFFICIAL_IMPORT_CHECK",
+      "path": "evidence/official-import-verification-v1.json",
+      "sha256": "12d79f7cbcdd434b1eefbb18fb2fb75a3107d1a67c581dea4ce534fa2c7cb5ee"
+    },
+    {
+      "id": "COMPETITION_APPLICABILITY",
+      "path": "evidence/competition-applicability-v1.md",
+      "sha256": "e32a6af08cf274d4f69a027392b86415543a9e5f8c24b8fd9e715b5bbf967a18"
+    },
+    {
+      "id": "S004v1_meta",
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "6f68c74cb79d4a9281915e375dacf063d6e9694b068e4041439fa0e0ce095533"
+    },
+    {
+      "id": "S004v1_original",
+      "path": "evidence/sources/S004/v1/original.txt",
+      "sha256": "04d71d8cc0c96ef76fc470f5aff01631e09cb83fa0012e42fc0580c86ebc9720"
+    },
+    {
+      "id": "S004v1_extract",
+      "path": "evidence/sources/S004/v1/extract.json",
+      "sha256": "cb30667be65b73dacef49b6256aace5c4a78d666faac5a1e3d29124c1b58f7f4"
+    },
+    {
+      "id": "S005v1_meta",
+      "path": "evidence/sources/S005/v1/source.json",
+      "sha256": "44b5dd1a0959ed9292d5cdbcfbb1ce7fe92f43602acb58a21238f45424dba2e7"
+    },
+    {
+      "id": "S005v1_original",
+      "path": "evidence/sources/S005/v1/original.txt",
+      "sha256": "ac296e52061cb35b98f3b5ce8ff7242652fd765471905c9e8444922834032cd9"
+    },
+    {
+      "id": "S005v1_extract",
+      "path": "evidence/sources/S005/v1/extract.json",
+      "sha256": "eadd66bc6d4f38323fdc2f23a71f4b3a5867b139c00f4c744fba60ac0e5ed743"
+    },
+    {
+      "id": "S006v1_meta",
+      "path": "evidence/sources/S006/v1/source.json",
+      "sha256": "f7f9107417b35851c5a49ff7c2aa0d4e53f0efa4c6bbb0ef495e5720773a1c8a"
+    },
+    {
+      "id": "S006v1_original",
+      "path": "evidence/sources/S006/v1/original.txt",
+      "sha256": "7f0875268f518be12b57c9b2be95841387d83215524f3dea55502ac5e468fe6e"
+    },
+    {
+      "id": "S006v1_extract",
+      "path": "evidence/sources/S006/v1/extract.json",
+      "sha256": "abb6ca9745778883ba5b1ef605383f4ff524f24d024758dcec8b31ccc828137d"
+    },
+    {
+      "id": "OFFICIAL_CHANGE_EVENT",
+      "path": "inputs/event-official-context-v1.json",
+      "sha256": "dae71cbf83de82ea38be1b6cfe81263e38a246628af342e7a9a58c11f663c50c"
+    },
+    {
+      "id": "OFFICIAL_IMPACT",
+      "path": "evidence/impact-official-v1.json",
+      "sha256": "dee1ef539f04fb4cf98c707cb6c5bcdcb4b048d585886aa6fcdaeba121bb5bae"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical_page=1; text lines 4–8",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебная спецификация перечисляет исходящую передачу и ручной отзыв ссылки; входящая загрузка получателем отсутствует. Это описание fixture, не производственная приёмка."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003v1_original",
+          "locator": "T1–T2",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "status": "needs_review",
+      "support_reason": "official-context-20261116-v1: Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+      "synthetic": false,
+      "text": "Публичная справка Dropbox описывает отправку transfer и входящий сбор file requests. Реальная применимость к выбранным клиентам не проверена."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical-page:2/block:2; physical-page:2/block:3; physical-page:2/block:4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!E4:F4",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "В S001/v1 sales paid pilot означает интерес к платному предложению; поступления не сверялись. Восемь у бухбюро соответствует interest E4=8, а paid30 F4=1 требует первой полученной оплаты. Это разные определения, а не восемь подтверждённых платежей."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "DICTIONARY",
+          "locator": "абзац, начинающийся «Воронка!A3:K4»"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!A3:F4; 'Воронка'!J3:J4",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical-page:2/block:7; physical-page:2/block:8; physical-page:2/block:9",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебная когорта сентября 2026 наблюдается по 31.10.2026; paid30 означает первую оплату в 30 суток после старта пробы, окна завершены по условию fixture. Агентства: contacted/trials/interest/paid30=20/8/5/2, бухбюро=20/10/8/1. Строки не пересекаются, отбор не случайный; знаменатель конверсии пробы trials, от обращения contacted."
+    },
+    {
+      "derived_from": [
+        "C004"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "FUNNEL_CALC",
+          "locator": "groups[0:2].metrics: paid_per_trial_pct, interest_per_trial_pct, paid_per_contact_pct; normalization.rows[0:2].cells.contacted/trials/interest/paid30",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "checks.arithmetic; checks.normalized_cells_matched_to_original_xml"
+        }
+      ],
+      "id": "C005",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "На синтетической воронке: paid30/trials агентства 2/8=25,00%, бухбюро 1/10=10,00%; interest/trials 5/8=62,50% и 8/10=80,00%; paid30/contacted 2/20=10,00% и 1/20=5,00%. Сравнение описательное, не причинный эффект."
+    },
+    {
+      "derived_from": [
+        "C004",
+        "C005"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "pooled_paid_per_trial"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!D3:D4; 'Воронка'!F3:F4",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C006",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Совокупная доля первой оплаты из проб равна (2+1)/(8+10)=3/18=16,67%; используется отношение сумм по непересекающимся группам одного горизонта, не среднее процентов."
+    },
+    {
+      "derived_from": [
+        "C004"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "historical[0:2]"
+        },
+        {
+          "artifact_id": "FUNNEL_CALC",
+          "locator": "groups[0:2].metrics.revenue30/variable30/acquisition",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!G3:I4",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "DICTIONARY",
+          "locator": "абзац «Воронка!A3:K4»: revenue30/variable30, acquisition_rub"
+        }
+      ],
+      "id": "C007",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Вклад за первые 30 суток по всем trials сегмента после только указанных переменных затрат: агентства 6000−1800=4200 ₽, бухбюро 3000−3600=−600 ₽. Acquisition I3:I4 отсутствует и остаётся неизвестным; это не прибыль и не месячный вклад на платящую организацию."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "ECON_BASE_CALC",
+          "locator": "groups[0].metrics; normalization.rows[0].cells.price/infra/support_minutes/hourly_cost/fixed/setup/accounts",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Экономика'!A3:I3",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "DICTIONARY",
+          "locator": "абзац «Экономика!A3:J3»"
+        }
+      ],
+      "id": "C008",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Отдельный сценарий агентств: цена 3000 ₽/организацию/месяц; инфраструктура 600; поддержка 30 минут/организацию/месяц при 600 ₽/час; избегаемые fixed 30000 ₽/месяц; setup 60000 ₽; условные 20 платящих организаций. Это допущения, не прогноз или измеренная прибыль; налоги, CAC, продления и выход неизвестны."
+    },
+    {
+      "derived_from": [
+        "C008",
+        "C011"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "economics_scenarios[0]; economics_scenarios[0].balances[1]"
+        },
+        {
+          "artifact_id": "ANALYSIS_SPEC",
+          "locator": "definitions.support_cost/unit_contribution/fixed_coverage_accounts/monthly_balance/conditional_setup_payback"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Экономика'!C3:I3",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C009",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "При базовых допущениях агентств: support=30/60×600=300 ₽/организацию/месяц; unit contribution=3000−600−300=2100 ₽; ceil(30000/2100)=15 платящих организаций покрывают только указанные fixed. При 20 организациях остаток 12000 ₽/месяц; условное покрытие setup=60000/12000=5 месяцев при повторных неизменных платежах/затратах. Полная окупаемость не установлена."
+    },
+    {
+      "derived_from": [
+        "C008",
+        "C011"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "economics_scenarios[0:3].unit_contribution_rub/fixed_coverage_accounts/balances"
+        },
+        {
+          "artifact_id": "SCENARIOS",
+          "locator": "support_minutes_scenarios; accounts_scenarios; limitations"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Экономика'!C3:H3",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C010",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Чувствительность агентств: при поддержке 30/90/180 минут вклад 2100/1500/600 ₽ на организацию в месяц, пороги покрытия указанных fixed 15/20/50. Остатки при 10/20/30 организациях: −9000/12000/33000; −15000/0/15000; −24000/−18000/−12000 ₽ в месяц. Нулевой/отрицательный остаток даёт null срока покрытия setup, а не нулевой срок."
+    },
+    {
+      "derived_from": [
+        "C008"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "SCENARIOS",
+          "locator": "kind; support_minutes_scenarios; accounts_scenarios; limitations"
+        },
+        {
+          "artifact_id": "ANALYSIS_SPEC",
+          "locator": "missing_policy; scenario_policy"
+        },
+        {
+          "artifact_id": "DICTIONARY",
+          "locator": "абзац «Экономика!A3:J3»: сценарные месячные допущения для агентств"
+        }
+      ],
+      "id": "C011",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "30/90/180 минут поддержки и 10/20/30 платящих организаций — условные варианты чувствительности. Покрытие fixed и setup предполагает сохранение указанной цены/затрат и ежемесячных платежей. Неизвестные CAC, налоги, продления и выход не считаются нулевыми; сценарии не переносятся на бухбюро."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical-page:1/block:4; physical-page:1/block:5; physical-page:1/block:6; physical-page:1/block:8; physical-page:2/block:5; physical-page:2/block:6",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "ANALYSIS_CALC",
+          "locator": "checks.pdf_pages; checks.pdf_method"
+        }
+      ],
+      "id": "C012",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Fixture описывает командную загрузку, внешнее скачивание по ссылке и ручной отзыв; лимит 2 GB/файл, срок ссылки 7 дней, без аккаунта получателя. Recipient upload, пароль, именной доступ, SSO и экспорт аудита отсутствуют. Агентствам описана отправка материалов, бухбюро — сбор с загрузкой получателем. Производственная приёмка не подтверждена."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C012"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_NOTE",
+          "locator": "A3. Что позволяет описанный прототип"
+        },
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical-page:1/block:4–6; physical-page:2/block:5–6",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C013",
+      "kind": "hypothesis",
+      "status": "needs_review",
+      "support_reason": "official-context-20261116-v1: Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+      "synthetic": true,
+      "text": "Соответствие агентского сценария направлению передачи — рабочая гипотеза по спецификации, требующая проверки конкретных ограничений. Задача входящего сбора бухбюро требует отсутствующей функции; описанный прототип нельзя считать готовым решением этой задачи. Это функциональное сопоставление, не доказательство спроса или выбор аудитории."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical-page:2/block:9; physical-page:2/block:10",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!I3:I4",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "DICTIONARY",
+          "locator": "абзацы «Воронка!A3:K4» и «Экономика!A3:J3»"
+        },
+        {
+          "artifact_id": "PROJECT",
+          "locator": "абзацы 2–3: владелец, бюджет, разрешения"
+        },
+        {
+          "artifact_id": "REQUEST",
+          "locator": "последнее предложение: решение о расходах и запуске не принято"
+        }
+      ],
+      "id": "C014",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Источники оставляют неизвестными привлечение, повторные ежемесячные платежи и выход; словарь дополнительно не определяет налоги. Выборки не случайные; синтетические интересы/оплаты не доказывают рыночный спрос. Реальный владелец и бюджет неизвестны по project.md, разрешение на расходы и запуск отсутствует."
+    },
+    {
+      "derived_from": [
+        "C003",
+        "C005",
+        "C007",
+        "C009",
+        "C010",
+        "C013",
+        "C014"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS_NOTE",
+          "locator": "A6. Граница продолжения"
+        },
+        {
+          "artifact_id": "PROJECT",
+          "locator": "последний абзац: пауза и сохранение аналитической заметки"
+        },
+        {
+          "artifact_id": "REQUEST",
+          "locator": "основной абзац: аудитории, оставить/закрыть, стратегии и план проверки"
+        }
+      ],
+      "id": "C015",
+      "kind": "recommendation",
+      "status": "needs_review",
+      "support_reason": "official-context-20261116-v1: Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+      "synthetic": true,
+      "text": "Следующий аналитический шаг — сравнить исходящую передачу агентствам, разработку сбора для бухбюро, сохранение положения и закрытие с условиями выбора, возражениями, затратами и обратимостью; затем подготовить пять документов и проверку. Текущая ограниченная фаза заканчивается перед синтезом, без бизнес-выбора и запуска."
+    },
+    {
+      "derived_from": [
+        "C002"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S003v1_original",
+          "locator": "вводные два абзаца; T1–T2; абзац «Ограничения»",
+          "source_id": "S003",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S003v1_meta",
+          "locator": "accessed_at; retrieval_status; limitations",
+          "source_id": "S003",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "ANALYSIS_NOTE",
+          "locator": "A3, абзац «Контекст C002/C016»"
+        }
+      ],
+      "id": "C016",
+      "kind": "source_fact",
+      "status": "needs_review",
+      "support_reason": "official-context-20261116-v1: Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+      "synthetic": false,
+      "text": "S003/v1 является сохранённым кратким пересказом прошлого host-чтения справки Dropbox, зарегистрированным 16.11.2026. Это не HTML, не приёмка продукта и не новое чтение в текущем продолжении; цены, региональная доступность и применимость к конкретным клиентам в снимке не проверены."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S004v1_original",
+          "locator": "Раздел What are the size limits?, строки исходного представления 70–79; локальная строка 7",
+          "source_id": "S004",
+          "source_version": 1
+        }
+      ],
+      "id": "C017",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Предоставленный снимок Dropbox Transfer от 16.11.2026: лимит всей передачи Basic 2 GB; Family/Plus 50 GB; Transfer/Standard/Professional/Education/Essentials/Advanced/Business 100 GB; Business Plus/Enterprise 250 GB; Replay Add-On позволяет 250 GB. Это не лимит файла RelayBox."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S004v1_original",
+          "locator": "локальные строки 3, 6, 8–9; What is Dropbox Transfer? 55–58; Can I customize my transfers? 67–69; When does a transfer expire? 80–85",
+          "source_id": "S004",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "OFFICIAL_NARROW_REVIEW",
+          "locator": "раздел «Dropbox Transfer: дата обновления», строка первичного представления 52"
+        }
+      ],
+      "id": "C018",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Transfer не требует аккаунта получателя. Basic/Family/Plus: срок 7 дней. Перечисленные расширенные планы и Transfer: свой срок, по умолчанию 30 дней. Пароль, собственный срок, логотип и фон перечислены для Standard/Professional/Education/Essentials/Business/Business Plus/Advanced/Enterprise; Basic/Family/Plus отсутствуют в списке, пароль отдельного Transfer из этой строки не установлен. Дата обновления 24.09.2026 сообщена издателем, не является датой изменения каждой функции."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S005v1_original",
+          "locator": "локальные строки 6–7; Introduction 55–63",
+          "source_id": "S005",
+          "source_version": 1
+        }
+      ],
+      "id": "C019",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Предоставленный снимок Dropbox file requests: запросы доступны на всех планах, отправителю не нужен аккаунт. Basic/Plus/Family принимают входящий файл до 2 GB; Professional/Essentials/Business/Business Plus/Standard/Advanced/Enterprise до 250 GB. Объём занимает место принимающего аккаунта, при нехватке места загрузка ошибочна. Эти размеры относятся к входящему файлу, не исходящей передаче."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S005v1_original",
+          "locator": "локальные строки 8–10; How to create a file request 73–75,82,94; How to close a file request 111",
+          "source_id": "S005",
+          "source_version": 1
+        }
+      ],
+      "id": "C020",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "В file requests срок приёма и поздние загрузки описаны для Professional/Essentials/Business/Business Plus/Standard/Advanced/Enterprise. Пароль — отдельный необязательный шаг без явной тарифной границы; ограничения пароля Transfer сюда не переносятся. Администратор может отключить requests, папка назначения по умолчанию закрыта от других; закрытие запроса останавливает загрузки до открытия."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S006v1_original",
+          "locator": "локальные строки 6,8–9; Introduction 48–54; Как долго работает ссылка 127–130; Не скачивается файл 181–182",
+          "source_id": "S006",
+          "source_version": 1
+        }
+      ],
+      "id": "C021",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Предоставленный снимок Яндекс Диска: без Яндекс 360 частые скачивания могут вызвать суточное ограничение, числовой предел здесь неизвестен. Просмотр непопулярных форматов в компьютерном браузере требует аккаунта, в мобильном — приложения; перечень форматов не установлен. Без заданного срока ссылка действует до закрытия доступа. Веб-скачивание публичной папки: менее 50 GB и менее 10000 файлов; для крупных папок описан компьютерный клиент с тарифом."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S006v1_original",
+          "locator": "локальная строка 7; Как поделиться 86–114",
+          "source_id": "S006",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "OFFICIAL_NARROW_REVIEW",
+          "locator": "раздел «Яндекс: пароль и право просмотра»; первичные строки 103,105,109"
+        }
+      ],
+      "id": "C022",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Настройки пароля, срока и запрета скачивания Яндекс Диска описаны с тарифами Яндекс 360. Пароль предоставляет просмотр без права редактирования; сам по себе не доказывает запрет скачивания, который задаётся отдельно. Запрет убирает скачивание/сохранение на Диск, у документов также печать, у аудиофайлов прослушивание из Диска; скриншоты и запись экрана остаются возможными. Уточнение того же исследователя не является независимым вторым источником."
+    },
+    {
+      "derived_from": [
+        "C012",
+        "C017",
+        "C018",
+        "C019",
+        "C020",
+        "C021",
+        "C022"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "COMPETITION_APPLICABILITY",
+          "locator": "разделы «Существенное изменение» и «Предстоящая аналитическая коррекция»"
+        }
+      ],
+      "id": "C023",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Доступ без аккаунта, семидневная ссылка и передача файлов не являются доказанным уникальным преимуществом RelayBox; конкуренты уже описывают пересекающиеся задачи. Возможная ценность для агентств должна проявиться в конкретном рабочем процессе и сравнении с лучшим разрешённым вариантом клиента. Эти справки не подтверждают спрос или экономику RelayBox."
+    }
+  ],
+  "completed": [
+    "Постановка записана",
+    "Начальные PDF/XLSX импортированы с хешами и координатами",
+    "Реально прочитана публичная справка альтернатив; сохранена выдержка",
+    "Продолжение из проверенной revision 1: все закреплённые хеши совпали, источники S001–S003/v1 повторно не импортировались",
+    "Разрешена неоднозначность paid pilot: 8 интересов и 1 первая оплата у бухбюро; исходные источники сохранены",
+    "Проверены функциональные ограничения исходящей передачи и отсутствие входящего сбора по PDF",
+    "Штатно рассчитаны воронка и сценарные входы экономики; вклад, пороги и чувствительность вычислены с явными определениями",
+    "27 ячеек независимо сверены с исходным XML XLSX; Fraction проверил арифметику, оригинальный текст PDF сверён с 20 строками extract/manifest",
+    "Сохранены evidence/analysis-v1.md и содержательный review-analysis-v1.md; проверка кэша исправлена новой версией без изменения старых файлов",
+    "В revision 3 передача двух новых русских строк через stdin PowerShell потеряла Unicode. Данные источников, claims, расчёты и история выбора не менялись. Строки восстановлены из отдельного UTF-8 файла новой revision; r3 сохранена для диагностики.",
+    "Прочитаны и зарегистрированы три предоставленных официальных снимка; SHA/размеры совпали с manifest. Прочитано узкое уточнение, оценена применимость. Сохранён impact существенного изменения конкурентного контекста; старая арифметика переиспользуется без пересчёта."
+  ],
+  "decision": {
+    "commitments": [],
+    "conditions": [],
+    "current_outputs": {},
+    "events": [
+      {
+        "at": "2026-11-16T16:50:43.178844+00:00",
+        "change": {
+          "applicability": "Пересмотреть конкурентные claims, смысл аналитической заметки, все пять будущих документов и критерии сравнения. Сохранить арифметику S001/S002 и её исходные хеши; не выводить спрос или цену RelayBox из функций конкурентов. Не объявлять историческое C002 ложным.",
+          "locators": [
+            "*"
+          ],
+          "new_ground": "S004–S006/v1: точные размеры и сроки по названным планам Transfer, отдельные пределы file requests, Яндекс Диск и отдельность пароля/запрета скачивания; OFFICIAL_NARROW_REVIEW уточняет смысл. Источники предоставлены как снимки, не новое web-чтение координатора.",
+          "old_ground": "C002/C016: сохранённое общее описание исходящей передачи и входящего сбора Dropbox; тарифные пределы и вторая альтернатива не были установлены. Никакого подтверждённого уникального преимущества или принятого выбора не было.",
+          "reason": "Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+          "source": {
+            "id": "S003",
+            "version": 1
+          },
+          "type": "changed_assumption"
+        },
+        "fingerprint": "ab1268af219883be826981296e63b6118bb8211112b02b44fa2bd875f0326135",
+        "id": "official-context-20261116-v1",
+        "kind": "evidence_change",
+        "project_id": "task06-rehearsal",
+        "provenance": {
+          "artifact_id": "OFFICIAL_MANIFEST",
+          "kind": "source_material",
+          "locator": "sources[0:3]; access_date; note; review.md зарегистрирован отдельно"
+        }
+      }
+    ],
+    "format_version": 2,
+    "history": [],
+    "metrics": [],
+    "owner": "unassigned",
+    "proposed_option": "Выбор ещё не синтезирован; продолжить сравнение четырёх вариантов на сохранённых основаниях",
+    "question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+    "reviews": [
+      {
+        "claim_status_before": {
+          "C002": {},
+          "C013": {},
+          "C015": {},
+          "C016": {}
+        },
+        "event_id": "official-context-20261116-v1",
+        "id": "review-official-context-20261116-v1",
+        "impact": {
+          "affected": [
+            {
+              "node": "artifact:ANALYSIS_NOTE",
+              "path": [
+                "source:S003@1",
+                "artifact:S003v1_original",
+                "artifact:ANALYSIS_NOTE"
+              ],
+              "reason": "input to calculation, verification or derived analytical document",
+              "recomputation": true
+            },
+            {
+              "node": "artifact:ANALYSIS_REVIEW",
+              "path": [
+                "source:S003@1",
+                "artifact:S003v1_original",
+                "artifact:ANALYSIS_NOTE",
+                "artifact:ANALYSIS_REVIEW"
+              ],
+              "reason": "input to calculation, verification or derived analytical document",
+              "recomputation": true
+            },
+            {
+              "node": "claim:C002",
+              "path": [
+                "source:S003@1",
+                "claim:C002"
+              ],
+              "reason": "evidence T1–T2",
+              "recomputation": false
+            },
+            {
+              "node": "claim:C013",
+              "path": [
+                "source:S003@1",
+                "artifact:S003v1_original",
+                "artifact:ANALYSIS_NOTE",
+                "claim:C013"
+              ],
+              "reason": "evidence",
+              "recomputation": false
+            },
+            {
+              "node": "claim:C015",
+              "path": [
+                "source:S003@1",
+                "artifact:S003v1_original",
+                "artifact:ANALYSIS_NOTE",
+                "claim:C015"
+              ],
+              "reason": "evidence",
+              "recomputation": false
+            },
+            {
+              "node": "claim:C016",
+              "path": [
+                "source:S003@1",
+                "claim:C016"
+              ],
+              "reason": "evidence accessed_at; retrieval_status; limitations",
+              "recomputation": false
+            }
+          ],
+          "change_type": "changed_assumption",
+          "comparison": null,
+          "event_id": "official-context-20261116-v1",
+          "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности.",
+          "locators": [
+            "*"
+          ],
+          "new_ground": "S004–S006/v1: точные размеры и сроки по названным планам Transfer, отдельные пределы file requests, Яндекс Диск и отдельность пароля/запрета скачивания; OFFICIAL_NARROW_REVIEW уточняет смысл. Источники предоставлены как снимки, не новое web-чтение координатора.",
+          "old_ground": "C002/C016: сохранённое общее описание исходящей передачи и входящего сбора Dropbox; тарифные пределы и вторая альтернатива не были установлены. Никакого подтверждённого уникального преимущества или принятого выбора не было.",
+          "precision": "conservative",
+          "record_type": "decision_impact",
+          "reusable": [],
+          "source": {
+            "id": "S003",
+            "version": 1
+          },
+          "uncertain_locators": [
+            "artifact_dependency:S003v1_original"
+          ]
+        },
+        "next_action": "Проверить затронутые основания и подготовить отдельное предложение владельцу",
+        "owner_review_required": true,
+        "reason": "Новый точный конкурентный контекст существенно меняет основания будущего выбора, позиционирования и контроль эксперимента; старое общее описание нельзя считать достаточным.",
+        "resolution_evidence": [],
+        "status": "needs_review"
+      }
+    ],
+    "status": "proposed"
+  },
+  "decision_question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+  "next_action": "Подготовить четыре варианта и пять согласованных документов на уточнённом конкурентном основании; завершить аналитический review отдельным событием, сохранив необходимость решения руководителя.",
+  "objective": "Выбрать аудиторию и предложение RelayBox либо оставить/закрыть направление; учебная репетиция TASK06",
+  "pending_actions": [
+    "В следующей фазе сравнить четыре варианта: исходящая передача агентствам, разработка входящего сбора для бухбюро, оставить как есть, закрыть направление",
+    "Указать для вариантов сильные возражения, условия предпочтения, дополнительные/избегаемые затраты и обратимость; неизвестное не приравнивать к нулю",
+    "Написать пять согласованных документов в новой outputs/v1 и опровержимый план проверки; провести evidence-review",
+    "После синтеза сохранить awaiting_decision; реальный бизнес-выбор остаётся за уполномоченным человеком"
+  ],
+  "project_id": "task06-rehearsal",
+  "resume_basis": {
+    "phase": "analysis_only_before_synthesis",
+    "revision": 1,
+    "state_sha256": "f2a7cfa9028252b7d6fc20571033236a4b8a2660f97615941f3e577c755673a3",
+    "unchanged_source_versions": [
+      "S001/v1",
+      "S002/v1",
+      "S003/v1"
+    ]
+  },
+  "revision": 5,
+  "saved_at": "2026-11-16T16:50:44.251458+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001v1_meta",
+        "S001v1_original",
+        "S001v1_extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v1_meta",
+        "S002v1_original",
+        "S002v1_extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003v1_meta",
+        "S003v1_original",
+        "S003v1_extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S004v1_meta",
+        "S004v1_original",
+        "S004v1_extract"
+      ],
+      "id": "S004",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S005v1_meta",
+        "S005v1_original",
+        "S005v1_extract"
+      ],
+      "id": "S005",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S006v1_meta",
+        "S006v1_original",
+        "S006v1_extract"
+      ],
+      "id": "S006",
+      "synthetic": false,
+      "version": 1
+    }
+  ],
+  "stage": "competitive_evidence_review_in_progress",
+  "state_sha256": "039c25def3bb60d2ce0b328661f5f87dd2187f753e51250e96c65aaa61e8c183",
+  "unresolved_questions": [
+    "Реальный спрос, повторные платежи и причина платить за RelayBox вместо доступных альтернатив не подтверждены; fixture не является рыночным наблюдением",
+    "Неизвестны реальные CAC, налоги, стоимость поддержки и реализации входящего сбора, обязательства и стоимость выхода",
+    "Не раскрыты причина учебной оплаты бухбюро и способ выполнения их задачи при отсутствии загрузки получателем",
+    "Пригодность альтернатив для конкретных клиентов, актуальные условия и региональная доступность не проверены в этом продолжении",
+    "Реальный владелец и бюджет неизвестны; бизнес-разрешение на запуск, контакты и расходы отсутствует"
+  ]
+}

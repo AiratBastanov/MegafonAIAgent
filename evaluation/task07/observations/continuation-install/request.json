@@ -1,0 +1,17 @@
+{
+  "command": [
+    "evaluation/task07/demo-workspace/.venv/Scripts/python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--find-links",
+    "evaluation/task07/demo-workspace/third_party/wheels",
+    "-r",
+    "evaluation/task07/demo-workspace/requirements.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:28:13.392148+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected"
+}

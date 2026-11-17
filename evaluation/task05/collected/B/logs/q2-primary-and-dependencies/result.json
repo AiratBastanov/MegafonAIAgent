@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 materials/evidence/sources/S001/v1/extract.json; Get-Content -Encoding UTF8 materials/outputs/v2/options.md; Get-Content -Encoding UTF8 materials/outputs/v2/situation.md"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:51:29.446700+00:00",
+  "ended_at": "2026-11-16T13:51:29.733713+00:00",
+  "elapsed_seconds": 0.2820000000028813,
+  "returncode": 0
+}

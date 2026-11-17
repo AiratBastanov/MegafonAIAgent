@@ -1,0 +1,20 @@
+{
+  "id": "Q1-K-PROTOCOL-COMPLETE",
+  "project_id": "task04-followup",
+  "kind": "completion",
+  "at": "2026-12-19T12:00:00+03:00",
+  "clock": "simulated",
+  "provenance": {
+    "kind": "agent_review",
+    "artifact_id": "Q1-REVIEW-AND-REUSE",
+    "locator": "Q1-DATES; заключительный абзац"
+  },
+  "commitment_id": "K-PROTOCOL",
+  "completion_evidence": [
+    {
+      "artifact_id": "Q1-PROTOCOL",
+      "locator": "пункты 1–5 и проверка координатора"
+    }
+  ],
+  "completion_check": "Сохранён и прочитан локальный протокол: learning/scaling, неизвестные, запрет реального запуска. Завершена только подготовка документа; нет подтверждения приёмки, бюджета, старта или результатов."
+}

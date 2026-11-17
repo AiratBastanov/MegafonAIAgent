@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_followup.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.2938643999998476,
+  "files_sha256": {
+    "scripts/project_state.py": "9624dd7dedacc374b4dbd61d3def50c185d8131c53661d27015721337efa90c6",
+    "scripts/decision_followup.py": "24e432ab2ea0fb360f7ada5d8ff864c2873233b75e49911fecdc2f21b2530725",
+    "tests/test_followup.py": "2b416531bb74b45fa3e8920d2678c622bc5cd9084816067130f693e4f527b5ef"
+  }
+}

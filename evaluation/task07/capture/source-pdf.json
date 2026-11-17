@@ -1,0 +1,1 @@
+{"operation":"run","id":"view-pdf","title":"Откуда взялось противоречие","caption":"Просмотр источника после продолжения: физическая страница и блоки сохранены.","argv":["python","-X","utf8","evaluation/task07/capture/show_sources.py","pdf"],"cwd":"."}

@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-11-16T07:05:02.895284+00:00",
+  "request": "Продолжи анализ проекта demo-001 по сохранённому состоянию.",
+  "argv": [
+    "c:\\Users\\BastaPC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64\\codex.EXE",
+    "exec",
+    "--cd",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\continuation-workspace",
+    "--sandbox",
+    "workspace-write",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "--json",
+    "--color",
+    "never",
+    "--output-last-message",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\fresh-session-authorized-route\\last-message.txt",
+    "Продолжи анализ проекта demo-001 по сохранённому состоянию."
+  ],
+  "new_session": true,
+  "prior_transcript_supplied": false,
+  "timeout_seconds": 300
+}

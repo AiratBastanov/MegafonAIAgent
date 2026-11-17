@@ -1,0 +1,21 @@
+{
+  "revision": 10,
+  "affected": [],
+  "identical_replays": [
+    "OWNER-01",
+    "WITHDRAW-01",
+    "NONMATERIAL-01"
+  ],
+  "decision_count": 1,
+  "commitment_count": 4,
+  "outputs_unchanged": {
+    "OUTPUT-v3-communication-strategy": "a5e48961c86fe37830b046e1a324296f0ef8bc6489abea03055a8b8ec81de03f",
+    "OUTPUT-v3-options": "7a30aadb8f0ed7be99c4507e9fb7cb260b3730db43dfd1cf1c1866a3c7dd6526",
+    "OUTPUT-v3-product-strategy": "c8bf32640d12e33218ca5cb3b38a3aca0f54328089453d6845cef3a3fd9f0088",
+    "OUTPUT-v3-situation": "62a80aa21cdd6e0711798b830068c839560db96c24a6a8a817fd829cf0e4b865",
+    "OUTPUT-v3-validation-plan": "2ff58788ea83d69e1fa3ea288acc377e33ff04ec41edba7b658ad799a86ce2ea"
+  },
+  "claims_unchanged": true,
+  "foreign_project_rejected": true,
+  "canonical_and_continuation_unchanged": true
+}

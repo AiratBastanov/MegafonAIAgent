@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-17T09:42:04.664971+00:00",
+  "repository": "AiratBastanov/MegafonAIAgent",
+  "credential_method": "normal git credential helper; response never saved or printed",
+  "existing_auth_available": true,
+  "anonymous": {
+    "status": 404,
+    "diagnostic": "Not Found"
+  },
+  "authenticated": {
+    "status": 200,
+    "value": {
+      "full_name": "AiratBastanov/MegafonAIAgent",
+      "html_url": "https://github.com/AiratBastanov/MegafonAIAgent",
+      "private": true,
+      "visibility": "private",
+      "default_branch": "main",
+      "size": 0,
+      "archived": false,
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+      }
+    }
+  },
+  "branches": {
+    "status": 200,
+    "value": []
+  },
+  "rulesets": {
+    "status": 403,
+    "diagnostic": "Upgrade to GitHub Pro or make this repository public to enable this feature."
+  },
+  "main_protection": {
+    "status": 403,
+    "diagnostic": "Upgrade to GitHub Pro or make this repository public to enable this feature."
+  }
+}

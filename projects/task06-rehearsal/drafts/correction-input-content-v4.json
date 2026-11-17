@@ -1,0 +1,14 @@
+{
+  "stage":"correction_review",
+  "pending_actions":["Завершить проверку числовой коррекции и обновить затронутые стратегии"],
+  "next_action":"Сопоставить изменение E3 с экономикой, переиспользовать неизменную воронку; не принимать решение за владельца",
+  "artifact_dependencies":[
+    {"from":"ECON_RAW1","to":"ECON1","reason":"Literal raw metrics -> сценарные формулы; исправлено направление метаданных зависимости"},
+    {"from":"ECON_RAW2","to":"ECON2","reason":"Literal raw metrics v2 -> сценарные формулы v2"}
+  ],
+  "new_artifacts":{
+    "CORRECTION_REQUEST":"inputs/correction-request-v2.txt",
+    "ECON_RAW2":"evidence/calculations/economics-raw-v2.json","ECON2":"evidence/calculations/economics-v2.json",
+    "INDEPENDENT2":"evidence/calculations/independent-v2.json","FIDELITY2":"evidence/fidelity-v2.json"
+  }
+}

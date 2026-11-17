@@ -1,0 +1,78 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "# Атрибуция и прочитанное описание"
+    },
+    {
+      "locator": "line:2",
+      "text": ""
+    },
+    {
+      "locator": "line:3",
+      "text": "Источник: Sakar, C. & Kastro, Y. (2018), **Online Shoppers Purchasing Intention Dataset**, UCI Machine Learning Repository. [Официальная страница](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset), [DOI](https://doi.org/10.24432/C5F88Q), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Прочитана веб-инструментом 17 ноября 2026 года. Это краткое изложение, не точная цитата и не оригинальный HTML."
+    },
+    {
+      "locator": "line:4",
+      "text": ""
+    },
+    {
+      "locator": "line:5",
+      "text": "## Состав и единица наблюдения"
+    },
+    {
+      "locator": "line:6",
+      "text": ""
+    },
+    {
+      "locator": "line:7",
+      "text": "Разделы Dataset Information и Additional Variable Information: 12 330 сессий, 17 признаков и целевой Revenue. При формировании выборки сессии относили к разным пользователям в пределах годового периода. Revenue означает факт покупки; это не сумма денег. Страница сообщает об отсутствии пропусков."
+    },
+    {
+      "locator": "line:8",
+      "text": ""
+    },
+    {
+      "locator": "line:9",
+      "text": "## Контрольные числа"
+    },
+    {
+      "locator": "line:10",
+      "text": ""
+    },
+    {
+      "locator": "line:11",
+      "text": "Начальное описание: 1 908 сессий с покупкой, 10 422 без покупки. Раздел Dataset Files указывает online_shoppers_intention.csv. Локальный файл сверялся по структуре и этим числам; опубликованная UCI контрольная сумма на прочитанной странице отсутствует."
+    },
+    {
+      "locator": "line:12",
+      "text": ""
+    },
+    {
+      "locator": "line:13",
+      "text": "## Признаки и границы"
+    },
+    {
+      "locator": "line:14",
+      "text": ""
+    },
+    {
+      "locator": "line:15",
+      "text": "Есть группы посещённых страниц и времени, BounceRates, ExitRates, PageValues, SpecialDay, Month, операционная система, браузер, регион, тип трафика, тип посетителя и выходной день. PageValues связан с ценностью страниц перед транзакцией; его доступность до решения не установлена. В проверке его не используют как предиктор. Номера годов, деньги, маржа и назначенное вмешательство в CSV отсутствуют."
+    },
+    {
+      "locator": "line:16",
+      "text": ""
+    },
+    {
+      "locator": "line:17",
+      "text": "Локальная копия сохраняет оригинальные байты. Добавленные расчётные индикаторы описаны в [карте преобразования](derivation-v1.json); никаких строк и исходных ячеек не удалено."
+    }
+  ],
+  "source_id": "S003",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "780c2d3ed7fbd3aa3c351e4f7353b9e492875328a9ab3f75c44cb33e3f7e6d68",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

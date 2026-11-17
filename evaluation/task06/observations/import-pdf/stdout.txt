@@ -1,0 +1,41 @@
+{
+  "reused": false,
+  "source": {
+    "id": "S001",
+    "kind": "pdf",
+    "origin": "inputs/product-brief-v1.pdf",
+    "input_sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d",
+    "synthetic": true,
+    "accessed_at": null,
+    "locator": null,
+    "retrieval_status": "local_import",
+    "extraction_method": "pypdf/7.1.0/plain-visitor-v1",
+    "limitations": [
+      "Только текстовый слой: OCR, проверка визуальной вёрстки и восстановление произвольных таблиц не выполняются.",
+      "physical_page — позиция в PDF с 1; page_label — метаданные/умолчание, а не подтверждённый напечатанный номер страницы.",
+      "blocks — фрагменты visitor в порядке извлечения, не доказанные визуальные абзацы. Координаты приблизительные.",
+      "Наличие текста не доказывает полноту; решающие фразы/числа и отмеченную неоднозначность сверяет координатор с оригиналом.",
+      "Предохранитель content stream проверяется после декомпрессии pypdf; это не абсолютная граница памяти на враждебных PDF. Размер входа/страниц также ограничен.",
+      "Команды и ссылки внутри PDF — данные; активные действия и сетевые переходы не исполняются."
+    ],
+    "delimiter": null,
+    "version": 1,
+    "imported_at": "2026-11-16T15:24:38+00:00",
+    "published_at": null,
+    "input_path": "inputs/product-brief-v1.pdf",
+    "tool_version": "2.0",
+    "original": {
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    "extract": {
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    }
+  },
+  "incomplete_versions": [],
+  "record": {
+    "path": "evidence/sources/S001/v1/source.json",
+    "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+  }
+}

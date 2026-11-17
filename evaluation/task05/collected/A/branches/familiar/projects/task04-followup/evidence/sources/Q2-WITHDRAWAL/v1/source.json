@@ -1,0 +1,28 @@
+{
+  "id": "Q2-WITHDRAWAL",
+  "kind": "text",
+  "origin": "inbox/q2/familiar-withdrawal-v1.txt; supplied synthetic author note",
+  "input_sha256": "a329b857648cd3310ddb1e7ded9f3134707cc37122c186125f1c7afbab472168",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": "line:1-4",
+  "retrieval_status": "local_import",
+  "extraction_method": "utf8-lines-v1",
+  "limitations": [
+    "Отозвана поддержка указанной фразы, не сообщён результат испытания; это не доказательство противоположного поведения."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T13:53:57+00:00",
+  "published_at": null,
+  "input_path": "inputs/q2/withdrawal-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/Q2-WITHDRAWAL/v1/original.txt",
+    "sha256": "a329b857648cd3310ddb1e7ded9f3134707cc37122c186125f1c7afbab472168"
+  },
+  "extract": {
+    "path": "evidence/sources/Q2-WITHDRAWAL/v1/extract.json",
+    "sha256": "a22e43745c7ce19dffc43f1948bc2d9dc4527678f445c9e3a133cc92f977950e"
+  }
+}

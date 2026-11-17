@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "codex --version; codex exec --help"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T13:37:51.591586+00:00",
+  "ended_at": "2026-11-16T13:37:51.842340+00:00",
+  "elapsed_seconds": 0.25,
+  "returncode": 0
+}

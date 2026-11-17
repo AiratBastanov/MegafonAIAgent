@@ -1,0 +1,577 @@
+{
+  "artifacts": [
+    {
+      "id": "S001-meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "4b9e28481faf3835b44458d537f698a1aee6da4847f247a635eb4e110602ed42"
+    },
+    {
+      "id": "S001-original",
+      "path": "evidence/sources/S001/v1/original.docx",
+      "sha256": "f87f3def3de8f79abd67c1ee8244771e01bbf640e53ff3068b0682ae09e8ae8d"
+    },
+    {
+      "id": "S001-extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "928979d2a93ef85f93b22e52504a1e9e61dc4fb3cfaf5ec7dfab4963291bd8b5"
+    },
+    {
+      "id": "S002-meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "6e95b504538378db3fe84ea1f4f35ea8528414d7af35289c4305b11a252c6196"
+    },
+    {
+      "id": "S002-original",
+      "path": "evidence/sources/S002/v1/original.csv",
+      "sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c"
+    },
+    {
+      "id": "S002-extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "f55a06447d6084aab00520a25377e9faff6d00f7d52ed2c11c4b8bb7d191a3cb"
+    },
+    {
+      "id": "S003-meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "b134bc65c9d3b6da82ba998152fb62f6c454e20fcd21551e2d68b74189fef384"
+    },
+    {
+      "id": "S003-original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "00d2b92e9a6fe0c79dde0abb41f27e19880362ff6d22b13e2d5b869399d36ccf"
+    },
+    {
+      "id": "S003-extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "0b0b8224aae1e6fb039c14cd2629e5d003aa43cbf235e420aac7575e7ca45374"
+    },
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "edeb325521bf370d9426d72d41255937852c14041d8b5ec8fc3bc9be7219b944"
+    },
+    {
+      "id": "DEFINITIONS",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "e097828b7c3a56776f85ffe1a7a2b648dd5d9fbc0b8cd9e88c5a28b3b3a1482a"
+    },
+    {
+      "id": "SPEC-total",
+      "path": "inputs/metrics-total.json",
+      "sha256": "639c9fed6d2781ba19d7973f3b2ef88379c24514161fbad0de0ef63645d06e74"
+    },
+    {
+      "id": "SPEC-segments",
+      "path": "inputs/metrics-segments.json",
+      "sha256": "e69472987bb3b4431925afeb3d0f5415889795d8e765d6535e51f403c4dadf98"
+    },
+    {
+      "id": "CALC-total-v1",
+      "path": "evidence/calculations/total-v1.json",
+      "sha256": "78d89998a191d96269f176933df1bf0c5607fe7dded4ae07aed7f31b0b6cb935"
+    },
+    {
+      "id": "CALC-segments-v1",
+      "path": "evidence/calculations/segments-v1.json",
+      "sha256": "bdfc9b42ca5287d62fe515b0148a7dca3d7f12a77c01bdfa964ba47e0300fc05"
+    },
+    {
+      "id": "CHECK-total-v1",
+      "path": "evidence/calculations/independent-total-v1.json",
+      "sha256": "7bec780e46501c06d36c674f64c6291210454f5eb0859c8dea7429be5f771416"
+    },
+    {
+      "id": "CHECK-segments-v1",
+      "path": "evidence/calculations/independent-segments-v1.json",
+      "sha256": "6a84869d3ac74eab4ea1595b4aded8d1e17fc35273a6d0a5e3b7df72197c4a95"
+    },
+    {
+      "id": "RESEARCH-v1",
+      "path": "evidence/research-v1.md",
+      "sha256": "9467dc3b77de7869383eab8000abbe5b8aae89a854459408b414e73b68b13135"
+    },
+    {
+      "id": "ECON-input-v1",
+      "path": "evidence/calculations/economics-input-v1.json",
+      "sha256": "fae250cfa4d864e39d20a9fb97475981b6b4218c088b498da3eba4fda2a7cd0b"
+    },
+    {
+      "id": "ECON-v1",
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "4b634b74b93d1767366019340c2fa70c032c16e848a2cbfc9e77a77b18c73464"
+    },
+    {
+      "id": "ECON-CHECK-v1",
+      "path": "evidence/independent-economics-v1.md",
+      "sha256": "9b9b3c665dce1b71db2ba726a07bebe91fb98ecc5e1a603bca4339da4a3136c3"
+    },
+    {
+      "id": "OUTPUT-v1-situation",
+      "path": "outputs/v1/situation.md",
+      "sha256": "c8623ed1999819d71512202c9e3ffa9ee11821cf2c8833dc1ceb6091c6fcda92"
+    },
+    {
+      "id": "OUTPUT-v1-options",
+      "path": "outputs/v1/options.md",
+      "sha256": "1553b3cdfbe3ac74a38ad12a574a8436779d115c18a823bdc56189c768eec59e"
+    },
+    {
+      "id": "OUTPUT-v1-product-strategy",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "ec2640aaccae3d2e58c9925b63224dc6e79064252b6cfed28064e497c1fd9404"
+    },
+    {
+      "id": "OUTPUT-v1-communication-strategy",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "ee0c91c5a2374e3ffe48838f2732ccd73b38131e1d656ce07f005b4b909766d7"
+    },
+    {
+      "id": "OUTPUT-v1-validation-plan",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "8c0e610617d65c0ac85877aa2019843a99899565c29619729652091789a37a22"
+    },
+    {
+      "id": "S002v2-meta",
+      "path": "evidence/sources/S002/v2/source.json",
+      "sha256": "493c85d9f9f35ecb14c6414e336997000ab761e447c0e57f2491889cd1d436eb"
+    },
+    {
+      "id": "S002v2-original",
+      "path": "evidence/sources/S002/v2/original.csv",
+      "sha256": "42638137ff119dd0926381eab312d399886608360883c2fd6bd329b56e4dc57c"
+    },
+    {
+      "id": "S002v2-extract",
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "85ce45626de06e01874e20e598713c58494f9406aaa094cd29396d80b1cae80c"
+    },
+    {
+      "id": "S004-meta",
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "9379317a033528d24e69e1696715ae7311e5f06aac49d4d93217b2e2eec64162"
+    },
+    {
+      "id": "S004-original",
+      "path": "evidence/sources/S004/v1/original.txt",
+      "sha256": "656fcf319958f3b92c6202f5208b8f6822c726a72ef010cbdb77901084b99537"
+    },
+    {
+      "id": "S004-extract",
+      "path": "evidence/sources/S004/v1/extract.json",
+      "sha256": "90bac7fce7ad21e6025ff93f439ffc534cd42329d570a67816385970270307d5"
+    },
+    {
+      "id": "CALC-total-v2",
+      "path": "evidence/calculations/total-v2.json",
+      "sha256": "ac179edafc6622c8bcca2c08b454d249821d1b4f31f6e37f234f2751d2366efc"
+    },
+    {
+      "id": "CALC-segments-v2",
+      "path": "evidence/calculations/segments-v2.json",
+      "sha256": "23362663dbb613b9a24b3e9ebe28c781049000aebe49010e30b9d0ad78e414c3"
+    },
+    {
+      "id": "CHECK-total-v2",
+      "path": "evidence/calculations/independent-total-v2.json",
+      "sha256": "07c0308c1cabdabcf42c17b71d383062c6f64ced9167df7cccf9d30e6b0c5697"
+    },
+    {
+      "id": "CHECK-segments-v2",
+      "path": "evidence/calculations/independent-segments-v2.json",
+      "sha256": "42ee3caff67e26d4f2f128f8cd08720c16e042c1c123b5eaeb4b07b9bbe0ef4f"
+    },
+    {
+      "id": "CORRECTION-v2",
+      "path": "evidence/correction-impact-v2.md",
+      "sha256": "c8ce3b3ec4594c3bbac9334067b72402024f5c9cf733c5ac13c53ad8e7dd0235"
+    },
+    {
+      "id": "OUTPUT-v2-situation",
+      "path": "outputs/v2/situation.md",
+      "sha256": "ef377b1f0357095a9c29227a7c3147539508a93184e749e551ef0c1024fa3c62"
+    },
+    {
+      "id": "OUTPUT-v2-options",
+      "path": "outputs/v2/options.md",
+      "sha256": "774b160d6e29f50dc47de329c0216ac4beb574c8549dd7ceb112acd13cedb332"
+    },
+    {
+      "id": "OUTPUT-v2-product-strategy",
+      "path": "outputs/v2/product-strategy.md",
+      "sha256": "8679fb70e415b3e6fd6c87f82d643544d93ec1c90d32faaf28f7153991924914"
+    },
+    {
+      "id": "OUTPUT-v2-communication-strategy",
+      "path": "outputs/v2/communication-strategy.md",
+      "sha256": "b45feb9a48d91d4564733e6d32cdb0436d58f8d9cf200e4709a4ef7634894f50"
+    },
+    {
+      "id": "OUTPUT-v2-validation-plan",
+      "path": "outputs/v2/validation-plan.md",
+      "sha256": "9d1d3fd3ce350f9005f5ddaac603353b8d7b8c57040e51e57ed2641d38c23fee"
+    },
+    {
+      "id": "REVIEW-v1",
+      "path": "evidence/review-v1.md",
+      "sha256": "c0ebc04c64d752c44f2d02317666d969a7082f6c5713d0b1ec091f9564c04381"
+    },
+    {
+      "id": "REVIEW-v2",
+      "path": "evidence/review-v2.md",
+      "sha256": "af8a3cb26d9346770f1d6015f714bc1aa8844c58ed090acba1643d7fb9406edf"
+    },
+    {
+      "id": "RUN-OBSERVATION",
+      "path": "evidence/run-observation.md",
+      "sha256": "7d5230f6f73b8be454157701be36de520f43b26b063b2e8a63c7a882b5b371cd"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b3/t1/r2/c2/p1; body/b3/t1/r3/c2/p1",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Текущие функции — ручное создание/дата/список/отметка/копирование; onboarding и автоповтор только предлагаются"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CALC-total-v1",
+          "locator": "groups period=2026-08,2026-09 metrics.retention_pct",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "computed",
+      "status": "superseded",
+      "superseded_reason": "S004 test correction; see C009-C012",
+      "synthetic": true,
+      "text": "В синтетических когортах общее удержание D28 52%→28%; 260/500 и 140/500"
+    },
+    {
+      "derived_from": [
+        "C002"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "CALC-segments-v1",
+          "locator": "groups[].retention_pct; denominator",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "RESEARCH-v1",
+          "locator": "Q1"
+        }
+      ],
+      "id": "C003",
+      "kind": "computed",
+      "status": "superseded",
+      "superseded_reason": "S004 test correction; see C009-C012",
+      "synthetic": true,
+      "text": "Сегментное удержание 60%/20% неизменно; доля recurring 80%→20% воспроизводит агрегат28% без изменения ставок"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003-extract",
+          "locator": "lines 7-10; Introduction to recurring dates, host lines52-65",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Todoist описывает автоматический перенос повторяющейся задачи на следующую дату после завершения"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b7/p6",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "CALC-total-v1",
+          "locator": "groups[].metrics.variable_cost_rub.value=null; status=missing",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Переменные и избегаемые фиксированные расходы и стоимость новых функций неизвестны"
+    },
+    {
+      "derived_from": [
+        "C003"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b4/p3; body/b6/p5",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C006",
+      "kind": "hypothesis",
+      "status": "superseded",
+      "superseded_reason": "S004 test correction; see C009-C012",
+      "synthetic": true,
+      "text": "Изменение состава привлечения может объяснять агрегатный спад; плохой первый экран остаётся конкурирующей непроверенной гипотезой"
+    },
+    {
+      "derived_from": [
+        "C005"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ECON-v1",
+          "locator": "cohort_scenarios; pilot_scenarios; assumptions"
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "арифметика и ограничения"
+        }
+      ],
+      "id": "C007",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Сценарный вклад первого месяца сентябрьской когорты меняется от +3600 до −10200 RUB; при иллюстративном пилоте100 человек/K2000/v60 минимально9 добавочных плательщиков. Это не прибыль направления и не прогноз спроса"
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+      ],
+      "evidence": [],
+      "id": "C008",
+      "kind": "recommendation",
+      "status": "superseded",
+      "superseded_reason": "S004 test correction; see C009-C012",
+      "synthetic": true,
+      "text": "Предложен ограниченный тест ручного направляемого сценария recurring после подтверждения экономики; автоповтор и закрытие пока не обоснованы"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CALC-total-v2",
+          "locator": "groups[0,1].metrics.retention_pct",
+          "source_id": "S002",
+          "source_version": 2
+        }
+      ],
+      "id": "C009",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "После тестовой коррекции общее D28 52%→24%, сентябрь120/500 вместо140/500"
+    },
+    {
+      "derived_from": [
+        "C009"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "CALC-segments-v2",
+          "locator": "groups[0..3].metrics.retention_pct and denominator",
+          "source_id": "S002",
+          "source_version": 2
+        },
+        {
+          "artifact_id": "CORRECTION-v2",
+          "locator": "результаты и разложение"
+        }
+      ],
+      "id": "C010",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Recurring60%→40%, occasional20%→20%; прежний составный контрфактический показатель28%, после изменения ставки24%; разложение−24/−4п.п. зависит от выбранного порядка"
+    },
+    {
+      "derived_from": [
+        "C010"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S001-extract",
+          "locator": "body/b4/p3; body/b6/p5",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S004-extract",
+          "locator": "line:1-3",
+          "source_id": "S004",
+          "source_version": 1
+        }
+      ],
+      "id": "C011",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Состав аудитории недостаточен для описания всего спада: возможны ошибка учёта, качество канала внутри сегмента, барьер первого или повторного действия; причина не установлена"
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C004",
+        "C005",
+        "C007",
+        "C009",
+        "C010",
+        "C011"
+      ],
+      "evidence": [],
+      "id": "C012",
+      "kind": "recommendation",
+      "synthetic": true,
+      "text": "Сначала сверить учёт и экономику, затем после решения владельца проверить пакет направляемого сценария с ручной помощью; разработку автоповтора, массовый трафик и закрытие пока не утверждать"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CALC-total-v2",
+          "locator": "groups[0,1].metrics.activation_pct, paid_pct, revenue_rub",
+          "source_id": "S002",
+          "source_version": 2
+        }
+      ],
+      "id": "C013",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Активация74%→56%, первая оплата17%→8%, выручка первых месяцев25500→12000RUB; коррекция D28 этих полей не меняет"
+    },
+    {
+      "derived_from": [
+        "C010",
+        "C012"
+      ],
+      "evidence": [],
+      "id": "C014",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Плановые4 недели набора+30 суток, ориентир400 на группу, цель+10п.п., 95%интервал и порог жалоб5п.п. — предложения для согласования, не фактические ограничения или одобрение"
+    }
+  ],
+  "completed": [
+    "DOCX S001@1 прочитан с координатами",
+    "CSV S002@1 зарегистрирован и рассчитан по двум спецификациям",
+    "Официальная страница Todoist реально прочитана, S003@1",
+    "30 значений независимо проверены Fraction",
+    "Описательное объяснение сменой состава сохранено; причинность не установлена",
+    "Рассчитаны и отдельно проверены условные затраты когорты и дополнительная экономика пилота; решения ещё нет",
+    "Координатор написал пять результатов v1 на проверенных evidence; независимое содержательное ревью выполняется отдельно",
+    "Тестовая коррекция S004/S002@2: показатели пересчитаны, 30 значений независимо проверены, пять результатов v2 и исправления RV1–RV4 подготовлены",
+    "Независимое автоматическое ревью v2 завершено: RV1–RV4 исправлены; пять результатов согласованы с доказательствами и коррекцией"
+  ],
+  "decision": {
+    "correction_is_test_fixture": true,
+    "human_approval": false,
+    "option": "data_reconciliation_then_conditional_guided_pilot",
+    "owner": "unassigned",
+    "status": "awaiting_decision"
+  },
+  "decision_question": "Оставить продукт, исправить активацию, развить регулярные задачи или закрыть направление?",
+  "next_action": "Представить владельцу outputs/v2 и запросить фактические расходы/сверку учёта; реальный пилот, публикации и закрытие не начинать до решения",
+  "objective": "Предложить руководителю обоснованный следующий обратимый шаг для учебного планировщика с падением повторного использования",
+  "pending_actions": [
+    "Владелец проверяет синтетическую демонстрацию и предоставляет доступный официальный дополнительный бриф",
+    "Для реального продукта: сверить учёт уникальных пользователей/канала и фактическую экономику",
+    "Уполномоченный руководитель выбирает следующее действие и допустимые расходы"
+  ],
+  "project_id": "demo-001",
+  "review": {
+    "automated": "actual subagent plan_amendments; evaluation/review-v2.md copied to evidence; PASS after fixes",
+    "business_approval": "pending",
+    "human": "pending"
+  },
+  "revision": 5,
+  "saved_at": "2026-11-16T07:34:59.567855+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001-meta",
+        "S001-original",
+        "S001-extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002-meta",
+        "S002-original",
+        "S002-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003-meta",
+        "S003-original",
+        "S003-extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v2-meta",
+        "S002v2-original",
+        "S002v2-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 2
+    },
+    {
+      "artifact_ids": [
+        "S004-meta",
+        "S004-original",
+        "S004-extract"
+      ],
+      "id": "S004",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "0a71b32e72ad9c2db0967534b45d08445a0ad24518bae93aaf6d8706fb3b1ed6",
+  "stop": {
+    "emergency_ui_cancel_tested": false,
+    "kind": "cooperative_checkpoint",
+    "reason": "Запланированная проверка продолжения TASK02 до синтеза"
+  },
+  "unresolved_questions": [
+    "Избегаемые расходы, переменная себестоимость и стоимость разработки неизвестны",
+    "Неизвестны канал привлечения, причинный эффект onboarding и спрос на автоповтор",
+    "Официальный дополнительный бриф недоступен текущему web route"
+  ]
+}

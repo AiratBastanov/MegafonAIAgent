@@ -1,0 +1,42 @@
+{
+  "artifact_before_save": {
+    "passed": true,
+    "after": {
+      "revision": 3,
+      "event_count": 1,
+      "separate_load": 0
+    }
+  },
+  "partial_history": {
+    "passed": true,
+    "after": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    }
+  },
+  "previous_replace": {
+    "passed": true,
+    "after": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    }
+  },
+  "current_replace": {
+    "passed": true,
+    "after": {
+      "revision": 4,
+      "event_count": 1,
+      "separate_load": 0
+    }
+  },
+  "missing_evidence": {
+    "passed": true,
+    "after": "explicit recovery r2"
+  },
+  "corrupt_current": {
+    "passed": true,
+    "after": "explicit recovery r2"
+  }
+}

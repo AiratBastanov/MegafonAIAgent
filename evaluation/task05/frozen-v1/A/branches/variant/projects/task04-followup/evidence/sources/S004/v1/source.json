@@ -1,0 +1,28 @@
+{
+  "id": "S004",
+  "kind": "web-excerpt",
+  "origin": "https://help.dropbox.com/share/create-file-request",
+  "input_sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T09:31:01+00:00",
+  "locator": "Introduction host lines55-63; administrator limit82",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T09:34:45+00:00",
+  "published_at": null,
+  "input_path": "inputs/dropbox-request-read-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S004/v1/original.txt",
+    "sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f"
+  },
+  "extract": {
+    "path": "evidence/sources/S004/v1/extract.json",
+    "sha256": "e40f1800fb1496146954225e03f2b9a2ad6cd19a71f16fbc4e107fe889aa2818"
+  }
+}

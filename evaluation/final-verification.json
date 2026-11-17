@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-16T07:48:11.811601+00:00",
+  "markdown_links_checked": 66,
+  "errors": [],
+  "brief_sha256": "c0dc6437e6489ac54bc13df40bee6cf8a726d19c06e309eef5cc56e9bc779bd3",
+  "canonical_revision": 5,
+  "previous_revision": 4,
+  "artifact_hashes_checked": 45,
+  "source_versions": [
+    [
+      "S001",
+      1
+    ],
+    [
+      "S002",
+      1
+    ],
+    [
+      "S003",
+      1
+    ],
+    [
+      "S002",
+      2
+    ],
+    [
+      "S004",
+      1
+    ]
+  ],
+  "decision_status": "awaiting_decision",
+  "no_business_approval": true
+}

@@ -1,0 +1,16 @@
+{
+  "operation": "run",
+  "id": "sample-load",
+  "title": "Проверка сохранённого состояния",
+  "caption": "Проба реальной записи: штатная команда читает сохранённые файлы проекта.",
+  "argv": [
+    "C:/Users/BastaPC/Desktop/MegafonAIAgent/.venv/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/project_state.py",
+    "load",
+    "--project",
+    "projects/task06-rehearsal"
+  ],
+  "cwd": "."
+}

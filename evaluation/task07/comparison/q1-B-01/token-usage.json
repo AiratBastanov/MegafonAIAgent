@@ -1,0 +1,23 @@
+{
+  "threadId": "01a1e53d-d5de-7c22-91b1-f6b730eaa139",
+  "turnId": "01a1e53d-d60d-7fe2-b331-065278c0dce5",
+  "tokenUsage": {
+    "total": {
+      "totalTokens": 627175,
+      "inputTokens": 607264,
+      "cachedInputTokens": 565760,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 19911,
+      "reasoningOutputTokens": 9202
+    },
+    "last": {
+      "totalTokens": 71282,
+      "inputTokens": 69492,
+      "cachedInputTokens": 69120,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1790,
+      "reasoningOutputTokens": 286
+    },
+    "modelContextWindow": 258400
+  }
+}

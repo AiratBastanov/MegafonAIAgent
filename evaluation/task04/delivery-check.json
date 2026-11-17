@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-11-16T12:25:39.602946+00:00",
+  "passed": true,
+  "local_links_checked": 115,
+  "broken_links": [],
+  "resource_accounting_pending_final_capture": true,
+  "complete_outputs_in_packet": 5,
+  "project_id": "task04-followup",
+  "revision": 11,
+  "decision": "simulated_accepted",
+  "canonical_decisions": "awaiting_decision",
+  "continuation_and_logs_unchanged": true,
+  "report_sha256": "aa52721fce72c0653faad3979c3d894698fb7357e47cee7660ba8d96b7257f1f",
+  "packet_sha256": "6723e48bec594ab3d75e9347e6aa24d75119612ad856f673fd02abf27f50f2c7"
+}

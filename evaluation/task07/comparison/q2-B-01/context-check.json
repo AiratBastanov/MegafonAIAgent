@@ -1,0 +1,9 @@
+{
+  "sourceMatch": true,
+  "settingsMatch": false,
+  "freshMatch": true,
+  "expectedSources": [],
+  "actualSources": [],
+  "model": "gpt-6-astra",
+  "reasoningEffort": "max"
+}

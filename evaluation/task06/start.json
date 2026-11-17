@@ -1,0 +1,10 @@
+{
+  "first_observed_clock_utc": "2026-11-16T15:15:38+00:00",
+  "recorded_at": "2026-11-16T15:18:40.870812+00:00",
+  "note": "Начальное чтение до первого clock отдельно не измерено. Время клиента Europe/Moscow = UTC+03:00.",
+  "model_id": null,
+  "model_settings": null,
+  "tokens": null,
+  "charges": null,
+  "human_active_time": null
+}

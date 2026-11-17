@@ -1,0 +1,15 @@
+{
+  "stage":"review_pending",
+  "completed_add":"Тестовая коррекция S004/S002@2: показатели пересчитаны, 30 значений независимо проверены, пять результатов v2 и исправления RV1–RV4 подготовлены",
+  "pending_actions":["Подтвердить исправления независимым автоматическим ревью v2", "Получить фактическую экономику и сверку учёта у владельца", "Получить реальное решение о следующем действии"],
+  "next_action":"Завершить автоматическую проверку v2; затем запросить у владельца фактические расходы и сверку учёта перед решением о пилоте",
+  "decision":{"status":"awaiting_decision","option":"data_reconciliation_then_conditional_guided_pilot","owner":"unassigned","human_approval":false,"correction_is_test_fixture":true},
+  "claims":[
+    {"id":"C009","kind":"computed","text":"После тестовой коррекции общее D28 52%→24%, сентябрь120/500 вместо140/500","evidence":[{"artifact_id":"CALC-total-v2","locator":"groups[0,1].metrics.retention_pct","source_id":"S002","source_version":2}],"derived_from":[],"synthetic":true},
+    {"id":"C010","kind":"computed","text":"Recurring60%→40%, occasional20%→20%; прежний составный контрфактический показатель28%, после изменения ставки24%; разложение−24/−4п.п. зависит от выбранного порядка","evidence":[{"artifact_id":"CALC-segments-v2","locator":"groups[0..3].metrics.retention_pct and denominator","source_id":"S002","source_version":2},{"artifact_id":"CORRECTION-v2","locator":"результаты и разложение"}],"derived_from":["C009"],"synthetic":true},
+    {"id":"C011","kind":"hypothesis","text":"Состав аудитории недостаточен для описания всего спада: возможны ошибка учёта, качество канала внутри сегмента, барьер первого или повторного действия; причина не установлена","evidence":[{"artifact_id":"S001-extract","locator":"body/b4/p3; body/b6/p5","source_id":"S001","source_version":1},{"artifact_id":"S004-extract","locator":"line:1-3","source_id":"S004","source_version":1}],"derived_from":["C010"],"synthetic":true},
+    {"id":"C012","kind":"recommendation","text":"Сначала сверить учёт и экономику, затем после решения владельца проверить пакет направляемого сценария с ручной помощью; разработку автоповтора, массовый трафик и закрытие пока не утверждать","evidence":[],"derived_from":["C001","C004","C005","C007","C009","C010","C011"],"synthetic":true},
+    {"id":"C013","kind":"computed","text":"Активация74%→56%, первая оплата17%→8%, выручка первых месяцев25500→12000RUB; коррекция D28 этих полей не меняет","evidence":[{"artifact_id":"CALC-total-v2","locator":"groups[0,1].metrics.activation_pct, paid_pct, revenue_rub","source_id":"S002","source_version":2}],"derived_from":[],"synthetic":true},
+    {"id":"C014","kind":"assumption","text":"Плановые4 недели набора+30 суток, ориентир400 на группу, цель+10п.п., 95%интервал и порог жалоб5п.п. — предложения для согласования, не фактические ограничения или одобрение","evidence":[],"derived_from":["C010","C012"],"synthetic":true}
+  ]
+}

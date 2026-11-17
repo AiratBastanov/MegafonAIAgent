@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-17T08:01:53.537577+00:00",
+  "source_sha256": "d8736e57ee619361c16433afb94a40ad683525c4adda4ba122bc2c59cfeec24c",
+  "before_sha256": "7faf5b4da1fbea29c9045580abc29849260baee633ced5978fb93c4eefd4b193",
+  "page_pixels_match": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "renderer": "1.26.3",
+  "scale": 1.5,
+  "passed": true
+}

@@ -1,0 +1,34 @@
+{
+  "purpose": "Не менять входы независимого процесса: ссылки его README на общие документы доступны в корне пакета",
+  "copies": [
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "mappings": [
+        {
+          "original": "submission/README.md",
+          "packaged": "submission/README.md"
+        },
+        {
+          "original": "docs/ARCHITECTURE_REVIEW.md",
+          "packaged": "docs/ARCHITECTURE_REVIEW.md"
+        },
+        {
+          "original": "docs/ARCHITECTURE.md",
+          "packaged": "docs/ARCHITECTURE.md"
+        },
+        {
+          "original": "evaluation/task07/continuation-review.md",
+          "packaged": "evaluation/task07/continuation-review.md"
+        },
+        {
+          "original": "submission/TECHNICAL_APPENDIX.md",
+          "packaged": "submission/TECHNICAL_APPENDIX.md"
+        },
+        {
+          "original": "docs/DEVELOPMENT_STATE.md",
+          "packaged": "docs/DEVELOPMENT_STATE.md"
+        }
+      ]
+    }
+  ]
+}

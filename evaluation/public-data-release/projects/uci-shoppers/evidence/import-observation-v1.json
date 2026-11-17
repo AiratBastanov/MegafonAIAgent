@@ -1,0 +1,46 @@
+{
+  "original_import": {
+    "reused": false,
+    "source": {
+      "id": "S001",
+      "kind": "csv",
+      "origin": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+      "input_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+      "synthetic": false,
+      "accessed_at": null,
+      "locator": null,
+      "retrieval_status": "local_import",
+      "extraction_method": "stdlib.csv/strict-utf8-v1",
+      "limitations": [
+        "Исторические наблюдательные данные; год сессий не указан в CSV. Это не пользователи RelayBox или МегаФона.",
+        "Revenue — признак покупки, не денежная выручка. Строки не являются повторными визитами одного пользователя."
+      ],
+      "delimiter": ",",
+      "version": 1,
+      "imported_at": "2026-11-17T09:41:17+00:00",
+      "published_at": null,
+      "input_path": "inputs/online_shoppers_intention.csv",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S001/v1/original.csv",
+        "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+      },
+      "extract": {
+        "path": "evidence/sources/S001/v1/extract.json",
+        "sha256": "a6802b3ab552c01a41a49a8b57ac1bb20d8c08c09fcb46fee4a3a102bb89bf6c"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "c8ee29744b24edf2943e48c9e3648cef3daccd5e817bc4d7cca0c98e19d355d3"
+    }
+  },
+  "runtime_sha256": {
+    "analyze_table.py": "a2f4f8988a8b8e5f1a98fddc7435d8ef8c9428eb52db4cf1648615a90fe8493b",
+    "decision_followup.py": "24e432ab2ea0fb360f7ada5d8ff864c2873233b75e49911fecdc2f21b2530725",
+    "extract_formats.py": "f5c68d0b881506cb70c69081f4e12ea49e75fc8c99644e6e5d4a55f53d01c4cc",
+    "import_materials.py": "a4ea118bda3cc9e6dd849ddcc8ebb7cf41874a6b420c33e37edf664476021c45",
+    "project_state.py": "dd78edb397ac7fc1db0d2c90fcfb934bf091b0113b1e79b11e5109218c81ac1c"
+  }
+}

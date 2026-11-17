@@ -1,0 +1,971 @@
+{
+  "at": "2026-11-17T10:03:03.716367+00:00",
+  "archive_sha256": "300fe5bd743e51d8a434c35045d2509ddd68b8382d72a614db0a9f889d9f1041",
+  "files": 4665,
+  "crc_pass": true,
+  "hash_mismatch": [],
+  "broken_active_links": [],
+  "historical_links_with_mapping": [
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "TASK03_REPORT.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "TASK03_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "../evaluation/task03/checks-final/result.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "../evaluation/task03/resource-accounting.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "../projects/demo-002/README.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "../evaluation/task03/fresh-session-audit.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "target": "../evaluation/task03/fresh-session-01/outcome.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "target": "TASK04_REPORT.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "target": "TASK04_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "target": "history/DEVELOPMENT_STATE-before-TASK04.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "target": "../evaluation/task03/fresh-session-audit.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "target": "../evaluation/task03/fresh-session-01/outcome.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "TASK05_REPORT.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "TASK05_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "SUBMISSION_READINESS.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "history/DEVELOPMENT_STATE-before-TASK05.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/observations/regression-final-03/result.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/implementation-final-02.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/controls-final.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/code-review-final.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/code-review-impact.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/acceptance.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/resource-accounting.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task05/README.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "SUBMISSION_READINESS.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task03/fresh-session-audit.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "target": "../evaluation/task03/fresh-session-01/outcome.json"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "../submission/README.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "TASK06_REPORT.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "TASK06_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "history/DEVELOPMENT_STATE-before-TASK06.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "../projects/task06-rehearsal/README.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "TASK05_REPORT.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "../evaluation/task06/ORDINARY_HANDOFF.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "../evaluation/task06/CONTINUATION_HANDOFF.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "../submission/DEMO_RUNBOOK.md"
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK07.md",
+      "target": "SUBMISSION_READINESS.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "knowledge/procedures/strategy-cycle.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "knowledge/procedures/evidence-review.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "knowledge/procedures/decision-followup.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "knowledge/tool-contracts.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "knowledge/record-contracts.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/TASK04_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/TASK04_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "evaluation/task04/projects/task04-followup/project.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/TASK03_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/TASK03_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/DEVELOPMENT_STATE.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "evaluation/task03/fresh-session-audit.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "docs/TASK02_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "target": "projects/demo-001/README.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "submission/README.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "AGENTS.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "knowledge/procedures/strategy-cycle.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "knowledge/procedures/evidence-review.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "knowledge/procedures/decision-followup.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "knowledge/tool-contracts.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "knowledge/record-contracts.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/TASK04_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/TASK04_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "evaluation/task04/projects/task04-followup/project.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/TASK03_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/TASK03_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/DEVELOPMENT_STATE.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "evaluation/task03/fresh-session-audit.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "docs/TASK02_REPORT.md"
+    },
+    {
+      "source": "docs/history/README-before-TASK07.md",
+      "target": "projects/demo-001/README.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK06.md",
+      "target": "../evaluation/task05/README.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "history/SUBMISSION_READINESS-before-TASK06.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "../submission/README.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "../submission/PROJECT_DESCRIPTION.pdf"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "TASK06_REPORT.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "TASK06_REVIEW_PACKET.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "../evaluation/task06/CONTINUATION_HANDOFF.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "../evaluation/task06/ORDINARY_HANDOFF.md"
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK07.md",
+      "target": "../submission/DEMO_RUNBOOK.md"
+    },
+    {
+      "source": "evaluation/continuation-workspace/README.md",
+      "target": "docs/TASK02_REPORT.md"
+    },
+    {
+      "source": "evaluation/continuation-workspace/README.md",
+      "target": "docs/DEVELOPMENT_STATE.md"
+    },
+    {
+      "source": "evaluation/continuation-workspace-v2/README.md",
+      "target": "docs/TASK02_REPORT.md"
+    },
+    {
+      "source": "evaluation/continuation-workspace-v2/README.md",
+      "target": "docs/DEVELOPMENT_STATE.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "submission/README.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "docs/ARCHITECTURE_REVIEW.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "docs/ARCHITECTURE.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "evaluation/task07/continuation-review.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "submission/TECHNICAL_APPENDIX.md"
+    },
+    {
+      "source": "evaluation/provenance-release/continuation-workspace/README.md",
+      "target": "docs/DEVELOPMENT_STATE.md"
+    },
+    {
+      "source": "evaluation/task04/projects/task04-followup/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../context.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../outputs/q1-verification.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../context.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../inbox/q1/repeated-correction-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/evidence/calculations/economics-v2.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/familiar/q1-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/variant/q1-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/branches/familiar/projects/task04-followup/state/history/r000003.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/branches/variant/projects/task04-followup/state/history/r000003.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/inbox/q1/repeated-correction-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/branches/familiar/projects/task04-followup/evidence/sources/S005/v1/original.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/branches/familiar/projects/task04-followup/evidence/sources/S002/v2/extract.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/branches/familiar/projects/task04-followup/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q1-meta.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/inbox/q2/familiar-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/inbox/q2/variant-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q2.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q2-meta.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../inbox/q2/familiar-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../inbox/q2/variant-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/outputs/v2/product-strategy.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/outputs/v2/communication-strategy.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../outputs/familiar/q2-amendment-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../outputs/variant/q2-amendment-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/familiar/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/variant/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../outputs/q2-verification.json"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../inbox/q3/repeated-correction-v2.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../inbox/q3/irrelevant-note-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/familiar/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/variant/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/familiar/q3-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "../notes/variant/q3-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/inbox/q3/repeated-correction-v2.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/inbox/q3/irrelevant-note-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q3.md"
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "target": "R17/responses/q3-meta.json"
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/B/materials/evidence/demo002-review-v1.md",
+      "target": "../state/history/r000002.json"
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/B/materials/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/B/materials/evidence/demo002-review-v1.md",
+      "target": "../state/history/r000002.json"
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/B/materials/evidence/demo002-review-v2.md",
+      "target": "../../../evaluation/task03/demo001-baseline-manifest.json"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../context.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../outputs/q1-verification.json"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../context.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../inbox/q1/repeated-correction-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../materials/evidence/calculations/economics-v2.json"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../materials/outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../notes/familiar/q1-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "target": "../notes/variant/q1-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../inbox/q2/familiar-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../inbox/q2/variant-withdrawal-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../materials/outputs/v2/product-strategy.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../materials/outputs/v2/communication-strategy.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../materials/outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../outputs/familiar/q2-amendment-v1.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../outputs/variant/q2-amendment-v1.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../materials/inputs/owner-instruction-v1.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../notes/familiar/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../notes/variant/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "target": "../outputs/q2-verification.json"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../inbox/q3/repeated-correction-v2.txt"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../inbox/q3/irrelevant-note-v1.txt"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../notes/familiar/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../notes/variant/q2-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../notes/familiar/q3-handoff.md"
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "target": "../notes/variant/q3-handoff.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/DEMO_RUNBOOK.md",
+      "target": "../evaluation/task06/CONTINUATION_HANDOFF.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/01-DEVELOPMENT_STATE-before-TASK04.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/02-DEVELOPMENT_STATE-before-TASK05.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/03-DEVELOPMENT_STATE-before-TASK06.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/04-README-before-TASK06.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/05-SUBMISSION_READINESS-before-TASK06.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/06-README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/07-README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/08-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/09-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/10-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/11-demo002-review-v1.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/12-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/13-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/14-demo002-review-v1.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/15-demo002-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/16-responses.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/17-q1.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/18-q2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/19-q3.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/EVIDENCE_MAP.md",
+      "target": "portable-evidence/20-readme-before-task04.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/manager-request-v1.txt"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/PROVENANCE.json"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/web-alternatives-v1.txt"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/evidence/analysis-v1.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/outputs/v2/product-strategy.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/outputs/v2/communication-strategy.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/evidence/correction-impact-v1.json"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/evidence/calculations/independent-v2.json"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/evidence/correction-review-v2.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../AGENTS.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../knowledge/procedures/strategy-cycle.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../knowledge/record-contracts.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../docs/ARCHITECTURE.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task06/CONTINUATION_HANDOFF.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../third_party/wheels/README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../AGENTS.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../knowledge/procedures/strategy-cycle.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../knowledge/procedures/evidence-review.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../knowledge/procedures/decision-followup.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/manager-request-v1.txt"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/continue-request-v1.txt"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../projects/task06-rehearsal/inputs/correction-request-v2.txt"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task06/SOURCES.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task05/review-input/review.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task05/resource-accounting.json"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task06/ORDINARY_HANDOFF.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task06/resource-accounting-v1.json"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../evaluation/task06/WORKLOG.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "../README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "screenshots/README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "screenshots/source-brief-p02.png"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "screenshots/result-v2-fixed-p01.png"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/PROJECT_DESCRIPTION.md",
+      "target": "screenshots/followup-r6-fixed-p01.png"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "../projects/task06-rehearsal/README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "screenshots/README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "../evaluation/task06/CONTINUATION_HANDOFF.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "../README.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "../docs/TASK06_REPORT.md"
+    },
+    {
+      "source": "evaluation/task07/prior-jury/README.md",
+      "target": "../docs/TASK06_REVIEW_PACKET.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "project.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "outputs/v2/situation.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "outputs/v2/options.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "outputs/v2/product-strategy.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "outputs/v2/communication-strategy.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "outputs/v2/validation-plan.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "../../docs/TASK03_REVIEW_PACKET.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "evidence/correction-impact-v2.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "evidence/calculations/independent-v2.json"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "evidence/demo002-review-v2.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "state/current.json"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "../../docs/TASK03_REPORT.md"
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "target": "../../evaluation/task03/fresh-session-audit.md"
+    }
+  ],
+  "forbidden_paths": [],
+  "suspect_secret_paths": [],
+  "secret_check_scope": "Allowlisted package only; known token/private-key markers, not a universal detector.",
+  "passed": true,
+  "extracted": "_public-data-release\\candidate"
+}

@@ -1,0 +1,13 @@
+{
+  "operation": "run",
+  "id": "change-workbook",
+  "title": "После выбора: поддержка выросла втрое",
+  "caption": "Новый учебный сценарий, а не наблюдение клиентов. Изменяем одну ячейку и проверяем расчёт.",
+  "argv": [
+    "python",
+    "-X",
+    "utf8",
+    "evaluation/task07/change_workbook.py"
+  ],
+  "cwd": "."
+}

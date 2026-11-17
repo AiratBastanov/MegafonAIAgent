@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pip",
+    "cache",
+    "info"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:21:43.888493+00:00",
+  "ended_at": "2026-11-16T15:21:46.524610+00:00",
+  "elapsed_seconds": 2.6409999999996217,
+  "returncode": 0
+}

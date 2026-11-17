@@ -1,0 +1,22 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Синтетическая административная заметка 2026-12-19T14:00:00+03:00."
+    },
+    {
+      "locator": "line:2",
+      "text": "В учебном каталоге переименована папка иллюстраций для обложки в slides-art."
+    },
+    {
+      "locator": "line:3",
+      "text": "Функции продукта, затраты, обязательства, сроки и решения владельца не изменены."
+    }
+  ],
+  "source_id": "Q3-ADMIN",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "e2cba3b330782553515976d161c1d6bd0ce0d819c153bc0bc369fb2a00255f01",
+  "extraction_method": "utf8-lines-v1"
+}

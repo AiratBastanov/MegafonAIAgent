@@ -1,0 +1,72 @@
+[
+  {
+    "path": "scripts/project_state.py",
+    "sha256": "29755e1ccea17312996424f7e00a2e9e281d9d55586464d32cd71843fbd064bc",
+    "snapshot": "evaluation/architecture-review/before/scripts/project_state.py"
+  },
+  {
+    "path": "tests/test_state.py",
+    "sha256": "f37752c4008c50a1132c3f5dd1d8cd9547028a74223efb37fa70f2beb7b68410",
+    "snapshot": "evaluation/architecture-review/before/tests/test_state.py"
+  },
+  {
+    "path": "evaluation/task04/check_recovery.py",
+    "sha256": "bd58f035fd691176dd60b923818c39c0bddeef7f8de165de6039b771f07ed6c8",
+    "snapshot": "evaluation/architecture-review/before/evaluation/task04/check_recovery.py"
+  },
+  {
+    "path": "knowledge/record-contracts.md",
+    "sha256": "0dfb290e5cf0d4154672702ca45c3d8a34dfab30c2d74d42c8a5b68df39f618e",
+    "snapshot": "evaluation/architecture-review/before/knowledge/record-contracts.md.txt"
+  },
+  {
+    "path": "knowledge/procedures/strategy-cycle.md",
+    "sha256": "625e6beb9448eb797c320e63d93186a765e3e51e9ce0a56e4a8c8d0611c038cb",
+    "snapshot": "evaluation/architecture-review/before/knowledge/procedures/strategy-cycle.md.txt"
+  },
+  {
+    "path": "knowledge/procedures/decision-followup.md",
+    "sha256": "cb20b290c93f71919f8c50e4b8fc9ea6972097e73cab1c116683228bc8ce2208",
+    "snapshot": "evaluation/architecture-review/before/knowledge/procedures/decision-followup.md.txt"
+  },
+  {
+    "path": "knowledge/tool-contracts.md",
+    "sha256": "25ab466865d9109293e3ad7878368aee0bb6713feff61e852e4d36e0b620d52e",
+    "snapshot": "evaluation/architecture-review/before/knowledge/tool-contracts.md.txt"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "e645d1d14cc42e7ded27c248b55d2ed5c2faa28b03c9cb0c2e39ec2c558d67ee",
+    "snapshot": "evaluation/architecture-review/before/docs/ARCHITECTURE.md.txt"
+  },
+  {
+    "path": "docs/DEVELOPMENT_STATE.md",
+    "sha256": "2fc0231efc8b96769cf03fe2293f8b5f4b45cefabe4a5961d3a62a0cd492c597",
+    "snapshot": "evaluation/architecture-review/before/docs/DEVELOPMENT_STATE.md.txt"
+  },
+  {
+    "path": "docs/SUBMISSION_READINESS.md",
+    "sha256": "f24368e99a7b37d1c592c7658617d71c0aa251a80c082d50962662039f9b3f47",
+    "snapshot": "evaluation/architecture-review/before/docs/SUBMISSION_READINESS.md.txt"
+  },
+  {
+    "path": "README.md",
+    "sha256": "4172ecddc72fdecdde23fb2272097023113b390825d28348e64507daad64b5eb",
+    "snapshot": "evaluation/architecture-review/before/README.md.txt"
+  },
+  {
+    "path": "projects/INDEX.md",
+    "sha256": "fc4898abb614fc010f9c15b27b9b93da007a377fcad1b5aaa331a2d6a0a03b5b",
+    "snapshot": "evaluation/architecture-review/before/projects/INDEX.md.txt"
+  },
+  {
+    "path": "submission/TECHNICAL_APPENDIX.md",
+    "sha256": "c64a22bea181dfc0325ac2ba465b32f87d7b46d9a9cc6f3e81319f7e74b48131",
+    "snapshot": "evaluation/architecture-review/before/submission/TECHNICAL_APPENDIX.md.txt"
+  },
+  {
+    "path": "submission/README.md",
+    "sha256": "dd7bb43a2a05372eff47c30cf130eefa7f6765991fdb271fca0ce970757f151f",
+    "snapshot": "evaluation/architecture-review/before/submission/README.md.txt"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "q1-inspect.py"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "started_at": "2026-11-16T13:41:27.534957+00:00",
+  "ended_at": "2026-11-16T13:41:27.833602+00:00",
+  "elapsed_seconds": 0.3120000000017171,
+  "returncode": 0
+}

@@ -1,0 +1,31 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/import_materials.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--source-id",
+    "S003",
+    "--input",
+    "inputs/web-alternatives-v1.txt",
+    "--kind",
+    "web-excerpt",
+    "--origin",
+    "https://help.dropbox.com/share/create-file-request",
+    "--accessed-at",
+    "2026-11-16T15:25:32.7971965Z",
+    "--locator",
+    "T1-T2",
+    "--retrieval-status",
+    "current_host_read",
+    "--limitations",
+    "accessed_at is excerpt-registration time after the current-host reading on 2026-11-16; exact origin fetch time is unknown."
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:25:32.864887+00:00",
+  "ended_at": "2026-11-16T15:25:32.962373+00:00",
+  "elapsed_seconds": 0.09400000000096043,
+  "returncode": 0
+}

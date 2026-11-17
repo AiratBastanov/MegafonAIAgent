@@ -1,0 +1,1 @@
+{"verified": true, "response": "responses/q2.md", "meta": "responses/q2-meta.json", "ended_utc": "2026-11-16T13:57:31.024013+00:00", "prior_q1_artifacts_unchanged": true}

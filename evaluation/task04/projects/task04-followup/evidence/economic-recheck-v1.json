@@ -1,0 +1,86 @@
+{
+  "synthetic": true,
+  "method": "Decimal из закреплённых literal cells; сверка уже существующих ECON-v1/v2",
+  "values": {
+    "1": {
+      "source": "S002@1",
+      "locator": "'Экономика'!C3:I3",
+      "input_values": {
+        "C": "3000",
+        "D": "600",
+        "E": "30",
+        "F": "600",
+        "G": "30000",
+        "H": "60000",
+        "I": "20"
+      },
+      "margin": "2100",
+      "surplus_N20": "12000",
+      "unknown_costs": null,
+      "unit": "RUB/платящую организацию/месяц; остаток RUB/месяц",
+      "checked_against": "ECON-v1/base"
+    },
+    "2": {
+      "source": "S002@2",
+      "locator": "'Экономика'!C3:I3",
+      "input_values": {
+        "C": "3000",
+        "D": "600",
+        "E": "90",
+        "F": "600",
+        "G": "30000",
+        "H": "60000",
+        "I": "20"
+      },
+      "margin": "1500",
+      "surplus_N20": "0",
+      "unknown_costs": null,
+      "unit": "RUB/платящую организацию/месяц; остаток RUB/месяц",
+      "checked_against": "ECON-v2/base"
+    }
+  },
+  "recomputed_production_artifacts": [],
+  "reuse": "CALC-FUNNEL-v1 и ECON-v2 уже соответствуют выбранным входам; новые расчётные версии не нужны",
+  "changes": [
+    {
+      "locator": "'Экономика'!E3",
+      "old": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 30,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      },
+      "new": {
+        "address": "E3",
+        "locator": "'Экономика'!E3",
+        "value": 90,
+        "type": "n",
+        "python_type": "int",
+        "number_format": "General",
+        "formula": null,
+        "cached_value": null,
+        "cached_type": null,
+        "cache_status": "not_applicable",
+        "cache_freshness": "not_applicable",
+        "merged_anchor": null,
+        "hidden_row": false,
+        "hidden_column": false,
+        "comment": null,
+        "hyperlink": null
+      }
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-16T16:29:10Z",
+  "access_date": "2026-11-16",
+  "timezone": "Europe/Moscow",
+  "record_kind": "official_web_sources_curated_notes",
+  "note": "Recorded timestamp is creation of this evidence index, not exact network retrieval time. No raw HTML retained. Titles, source update dates, section locators and short quotes are in each note. Synthetic=false describes the public source, not fictional RelayBox business data.",
+  "sources": [
+    {
+      "path": "dropbox-transfer-2026-11-16.txt",
+      "url": "https://help.dropbox.com/share/dropbox-transfer",
+      "title": "What is Dropbox Transfer?",
+      "publisher": "Dropbox",
+      "source_updated_date": "2026-09-24",
+      "local_version": 1,
+      "synthetic": false,
+      "capture_method": "web/open, curated dated paraphrase and short quote",
+      "sha256": "04d71d8cc0c96ef76fc470f5aff01631e09cb83fa0012e42fc0580c86ebc9720",
+      "bytes": 2090,
+      "words_including_metadata": 181,
+      "original_quote_words": 4,
+      "locations": ["What is Dropbox Transfer?: 55-58", "Can I customize my transfers?: 67-69", "What are the size limits?: 70-79", "When does a transfer expire?: 80-85"]
+    },
+    {
+      "path": "dropbox-file-request-2026-11-16.txt",
+      "url": "https://help.dropbox.com/share/create-file-request",
+      "title": "How to create and manage Dropbox file requests",
+      "publisher": "Dropbox",
+      "source_updated_date": "2025-05-15",
+      "local_version": 1,
+      "synthetic": false,
+      "capture_method": "web/open, curated dated paraphrase and short quote",
+      "sha256": "ac296e52061cb35b98f3b5ce8ff7242652fd765471905c9e8444922834032cd9",
+      "bytes": 2335,
+      "words_including_metadata": 184,
+      "original_quote_words": 4,
+      "locations": ["Introduction: 55-63", "How to create a file request: 73-75,82,94", "How to close a file request: 111"]
+    },
+    {
+      "path": "yandex-sharing-2026-11-16.txt",
+      "url": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "title": "Поделиться ссылкой",
+      "publisher": "Яндекс",
+      "source_updated_date": null,
+      "local_version": 1,
+      "synthetic": false,
+      "capture_method": "web/open, curated dated paraphrase and short quote",
+      "sha256": "7f0875268f518be12b57c9b2be95841387d83215524f3dea55502ac5e468fe6e",
+      "bytes": 2596,
+      "words_including_metadata": 188,
+      "original_quote_words": 8,
+      "locations": ["Introduction: 48-54", "Как поделиться: 86-114", "Как долго работает ссылка: 127-130", "Не скачивается файл: 181-182"]
+    }
+  ],
+  "additional_brief_routes": [
+    {
+      "operation": "web/search_query",
+      "queries": ["site:challenge.mgimo.ai \"МегаФон\" \"бриф\"", "site:challenge.mgimo.ai \"Стратег\" \"продуктов\"", "site:mgimo.ai \"ai-project\""],
+      "outcome": "Empty search results; no results found for provided queries",
+      "interpretation": "No indexed brief found in these queries; publication status cannot be inferred"
+    },
+    {
+      "operation": "web/open https://challenge.mgimo.ai/ then click link Личный кабинет",
+      "outcome": "Public root readable. Cabinet link resolves to https://challenge.mgimo.ai/login. Sign-in page shows email/password form. No additional brief contents received.",
+      "root_locators": "Номинации: lines 33,46; Как участвовать: 96; FAQ: 199-201",
+      "login_locators": "Вход в кабинет: lines 9-19",
+      "interpretation": "Authentication boundary observed on public navigation, not an assertion that the brief does not exist. No login or password recovery action performed."
+    },
+    {
+      "operation": "mcp__codex_apps__codex_document_control_list_document_sessions({})",
+      "outcome": { "executors": [] },
+      "message": "No connected Codex document sessions were found.",
+      "interpretation": "No already connected document session supplying the brief was exposed."
+    }
+  ],
+  "prompt_guides": {
+    "search_scope": "Current repository only, rg --files; .git, venv and .env excluded; no unrelated personal directories read",
+    "exact_command": "rg --files -g '*Codex Prompting Guide.txt' -g '*Model guidance*.txt' -g '*Rethinking skills*.txt' -g 'PromptGuide.txt' -g 'AgentsMD.txt' -g 'PersonalizeChatGpt.txt' -g '!.git/**' -g '!**/.venv/**' -g '!**/.env'",
+    "exit_code": 1,
+    "stdout": "",
+    "outcome": "No matching repository file names. ChatGPT attachments not assumed to be on local disk.",
+    "unavailable": ["Codex Prompting Guide.txt", "Model guidance _ OpenAI API.txt", "Rethinking skills and prompts for GPT-6 Astra _ OpenAI Developers.txt", "PromptGuide.txt", "AgentsMD.txt", "PersonalizeChatGpt.txt"]
+  },
+  "boundaries": ["No project state written", "No credentials read", "No external messaging", "No business figures generated", "No change to runtime or original checkpoints"]
+}

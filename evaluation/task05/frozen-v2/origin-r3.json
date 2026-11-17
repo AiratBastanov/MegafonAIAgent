@@ -1,0 +1,9 @@
+{
+  "source": "evaluation/task04/projects/task04-followup/state/history/r000003.json",
+  "sha256": "c3eb3284bd8e05477fae4c6cdea7ce71252b82fac8cc6ed85ef073878adb77a5",
+  "state_sha256": "00eae0732882394653ed093327000116f80da28f8517c922af2ed9c9f7a2909b",
+  "revision": 3,
+  "familiar_reuse": "отзыв безаккаунтного доступа",
+  "new_variant": "отзыв срока ссылки 7 суток; факт той же строки источника, иной предел обещания",
+  "prior_preparation_cost": "TASK04 историческая разработка; не распределяется как per-run, неизвестно сколько времени стоило только r3"
+}

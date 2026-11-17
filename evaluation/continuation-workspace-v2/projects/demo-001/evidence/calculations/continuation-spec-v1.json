@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "purpose": "Проверка арифметики сохранённых оснований и расчёт ограничений предлагаемого эксперимента; не новые наблюдения",
+  "source_csv": "evidence/sources/S002/v1/original.csv",
+  "saved_totals": "evidence/calculations/total-v1.json",
+  "saved_segments": "evidence/calculations/segments-v1.json",
+  "saved_economics": "evidence/calculations/economics-v1.json",
+  "economics_input": "evidence/calculations/economics-input-v1.json",
+  "design_assumptions": {
+    "baseline_d28": "0.60",
+    "target_d28": "0.70",
+    "alpha_two_sided": "0.05",
+    "power": "0.80",
+    "pilot_total_users": "100",
+    "treatment_share": "0.5",
+    "recurring_arrivals_per_month": "100",
+    "planning_days_per_month": "30",
+    "outcome_maturation_days": "28",
+    "payment_window_days": "30",
+    "illustrative_price_rub": "300",
+    "illustrative_variable_per_payer_rub": "60",
+    "illustrative_total_incremental_test_cost_rub": "2000",
+    "practical_d28_effect_pp": "10",
+    "payment_harm_margin_pp": "5",
+    "assignment_or_outcome_missing_limit_pct": "5",
+    "notes": [
+      "Базовая D28=60% и поток 100 recurring за сентябрь — синтетические наблюдения S002@1 rows:4-4; их перенос в будущее является допущением.",
+      "Рост D28 на 10 п.п. — предложенный порог полезности, не ожидаемый результат и не утверждённая цель.",
+      "Уровень значимости, мощность, лимиты вреда/пропусков и длительность окна оплаты — проектные допущения координатора.",
+      "Размер выборки — нормальное приближение для двух независимых долей при равных группах, без поправки на потери и календарные изменения.",
+      "Пилот 100 человек — 50 treatment и 50 control. Прежний экономический сценарий 100 человек подразумевал 100 получающих воздействие.",
+      "2000 RUB, v=60 и отсутствие изменения цены/возвратов — иллюстрация, не оценка стоимости и не бюджет; затраты контроля и измерения входят в K.",
+      "Никаких продлений, LTV или оплаты из удержания не выводится."
+    ]
+  }
+}

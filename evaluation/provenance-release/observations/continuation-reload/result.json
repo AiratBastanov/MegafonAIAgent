@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\scripts\\project_state.py",
+    "load",
+    "--project",
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\provenance-release\\continuation-workspace\\projects\\task06-rehearsal"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-17T09:02:02.087146+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-17T09:02:02.325611+00:00",
+  "elapsed_seconds": 0.23400000000037835,
+  "returncode": 0,
+  "stdout_sha256": "f179674ddd6dd5a0310628f6146606e06de7d0545806a2a97ded1f604629d054",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

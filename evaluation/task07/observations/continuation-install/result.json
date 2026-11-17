@@ -1,0 +1,23 @@
+{
+  "command": [
+    "evaluation/task07/demo-workspace/.venv/Scripts/python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--no-index",
+    "--find-links",
+    "evaluation/task07/demo-workspace/third_party/wheels",
+    "-r",
+    "evaluation/task07/demo-workspace/requirements.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:28:13.392148+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:28:15.556001+00:00",
+  "elapsed_seconds": 2.172000000005937,
+  "returncode": 0,
+  "stdout_sha256": "8e05d039f572b7dc41286974f2fd9b181812f77b2f71abdc346f9d029cb89185",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

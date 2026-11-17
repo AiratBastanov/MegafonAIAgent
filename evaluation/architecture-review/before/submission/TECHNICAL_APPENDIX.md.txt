@@ -1,0 +1,33 @@
+# Источники и технические проверки
+
+Основное описание и видео написаны для жюри. Здесь находятся подробные журналы, точные запросы, версии и контрольные суммы. Технические имена в связанных файлах сохранены для воспроизводимости.
+
+## Реальное продолжение и запись
+
+- [Независимое продолжение: результат и метод](../evaluation/task07/continuation-review.md), [машинная проверка](../evaluation/task07/continuation-result.json), [запрос и события нового процесса](../evaluation/task07/observations/continuation-cli/request.json), [полный вывод](../evaluation/task07/observations/continuation-cli/stdout.txt).
+- [Следующий запрос той же сессии](../evaluation/task07/synthesis-prompt.txt), [её результат с сервисной ошибкой](../evaluation/task07/observations/synthesis-cli/result.json), [объяснение смены координатора](../evaluation/task07/service-boundary.md).
+- [Исходная незавершённая копия и правила передачи](../evaluation/task06/CONTINUATION_HANDOFF.md), [проверка происхождения](../evaluation/task07/continuation-before.json). Это пакет исправленной реализации; старый архив не использовался для проверки нового результата.
+- [Диагностика захвата](../evaluation/task07/capture/DIAGNOSIS.md), [события реального окна](../evaluation/task07/capture/viewer-events.jsonl), [монтажная карта](../evaluation/task07/capture/final-edit-v2.json). Оригиналы находятся в `evaluation/task07/capture/raw/`; ничего не выдаётся за непрерывное десятиминутное исполнение.
+- [Проверка готового видео](../evaluation/task07/capture/final-verification-v2/verification.json), [визуальный просмотр](../evaluation/task07/capture/FINAL_REVIEW.md). Запись показывает текущий агент и его инструменты; проектное окно выводит настоящие сообщения и результаты команд.
+
+## Основания продуктового примера
+
+- [Три официальных источника с датами и координатами](../evaluation/task07/research/README.md), [проверка точных тарифных границ](../evaluation/task07/research/review.md).
+- [Первый собственный анализ новой сессии](../evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/analysis-v1.md), [исправленная независимая проверка арифметики](../evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/reproduce-analysis-v2.py).
+- [Рецензия на стратегии](../evaluation/task07/editorial/demo-review-v1.md), [применение замечания](../evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/coordinator-review-v1.md).
+- [Симулированная инструкция руководителя](../evaluation/task07/demo-workspace/projects/task06-rehearsal/inputs/manager-choice-simulated-v1.md), [новое смоделированное допущение](../evaluation/task07/demo-workspace/projects/task06-rehearsal/inputs/support-change-simulated-v1.md), [проверка влияния](../evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/support-impact-v1.json), [содержательный пересмотр](../evaluation/task07/demo-workspace/projects/task06-rehearsal/evidence/followup-review-v1.md).
+- [Текущее проверяемое состояние](../evaluation/task07/demo-workspace/projects/task06-rehearsal/state/current.json). История в той же папке сохраняет исходный выбор и все предыдущие версии. [Пять итоговых документов](EXAMPLE.md) читаются отдельно от машинного состояния.
+
+## Инструкции, сравнение и ограничения измерения
+
+[Основные инструкции](../AGENTS.md), [цикл анализа](../knowledge/procedures/strategy-cycle.md), [проверка оснований](../knowledge/procedures/evidence-review.md), [сопровождение решений](../knowledge/procedures/decision-followup.md) и [контракт памяти](../knowledge/record-contracts.md) — реально используемые файлы. Шесть названных текстовых руководств в доступной папке не найдены; их содержание не приписывается реализации.
+
+[Прежнее сравнение и оценки](../evaluation/task05/review-input/review.md), [его измерения](../evaluation/task05/resource-accounting.json): обе конфигурации дали одинаково адекватные ответы; файловая заняла больше времени, преимущество не установлено. [Новое независимое сравнение](../evaluation/task07/comparison/RESULT.md) осталось неполным из-за лимита сервиса; новые итоговые оценки и победитель не объявлены.
+
+Настроенная модель новых CLI-сессий — gpt-6-astra; это не подтверждение точного серверного варианта. Денежные списания и активное время человека неизвестны. Наблюдаемые счётчики токенов не являются ценой; накопительные и вложенные поля не суммируются повторно. Полные команды, границы времени, исправления и участие координатора описаны в [техническом отчёте](../docs/TASK07_REPORT.md) и [пакете проверки](../docs/TASK07_REVIEW_PACKET.md).
+
+## Проверка поставляемого архива
+
+Внутри архива есть `MANIFEST.json` с хешами файлов. Результат чистой распаковки, установки без сети и итоговой регрессии находится **рядом с архивом в «Проверка.md»** поставляемого комплекта. Он относится к точной контрольной сумме архива и не включён в самохеширование. Исторические проверки не подменяют эту финальную проверку.
+
+[Исторические свидетельства и переносимые ссылки](EVIDENCE_MAP.md) доступны отдельно. Публичный адрес GitHub вернул 404 при анонимной проверке; это не различает закрытый и отсутствующий репозиторий. Публикация, доступ жюри и отправка формы ещё не выполнялись.

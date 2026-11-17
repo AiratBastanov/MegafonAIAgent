@@ -1,0 +1,102 @@
+{
+  "review_kind": "automatic_paired_review",
+  "human_validation": false,
+  "started_utc": "2026-11-16T14:13:33.9054738Z",
+  "started_utc_definition": "Первое успешное чтение локальных UTC-часов после инвентаризации пакета; предыдущая попытка Get-Date -AsUTC не поддержана установленным PowerShell. Точная более ранняя граница первого обращения к инструменту неизвестна.",
+  "ended_utc": "2026-11-16T14:25:16.668859+00:00",
+  "ended_utc_definition": "Завершение содержательной оценки и валидации review.json/review.md; перед записью этих метаданных.",
+  "clock_source": "Локальные [DateTime]::UtcNow и Python datetime.now(timezone.utc); сценарные даты Q1/Q2/Q3 не использованы для длительности reviewer.",
+  "measured_elapsed_seconds": 702.763386,
+  "measured_elapsed_scope": "От первого успешного чтения UTC до завершения оценки; включает чтение, расчёты, подготовку отчёта и технические ошибки, не является оценкой времени человека.",
+  "allowed_root": "C:/Users/BastaPC/Desktop/MegafonAIAgent/evaluation/task05/review-input",
+  "access": {
+    "only_local_package": true,
+    "network_calls": 0,
+    "other_agents_used": 0,
+    "forbidden_sibling_parent_reports_or_implementation_read": false,
+    "business_state_modified": false,
+    "participant_outputs_modified": false
+  },
+  "resources": {
+    "input_files_hashed": 111,
+    "input_bytes_hashed_per_integrity_pass": 702849,
+    "input_integrity_passes": 2,
+    "evidence_catalog_entries": 73,
+    "scored_criterion_alias_pairs": 28,
+    "rubric_maximum_per_alias": 28,
+    "total_tool_calls": null,
+    "model_input_tokens": null,
+    "model_output_tokens": null,
+    "model_total_tokens": null,
+    "monetary_cost": null,
+    "human_time": null,
+    "unknown_reason": "Достоверная телеметрия токенов/стоимости и сопоставимые ресурсы участников не предоставлены; значения не оценивались косвенно."
+  },
+  "significant_actions": [
+    "Прочитаны rubric/expectations, первичный контекст, инструкции и события, все шесть ответов, необходимые сохранённые протоколы/поправки/handoff обеих веток.",
+    "Независимо прочитаны literal XLSX cells обеих версий, проверены экономика, воронка, единственное изменение значения E3 и разности сценарных дат.",
+    "Проверены существование обещанных локальных материалов, 27 доступных сопоставлений хешей R42 и границы независимой проверки публикаций.",
+    "После первого сравнения выполнена мысленная смена порядка каждого вопроса; баллы и критические выводы не изменились.",
+    "Написаны review.json и review.md, проверены все цитаты/файлы, применимые критерии и суммы.",
+    "Два прохода хеширования 111 исходных файлов: изменений или добавлений вне трёх файлов review нет."
+  ],
+  "technical_issues": [
+    {
+      "issue": "Get-Date -AsUTC недоступен в установленной версии PowerShell.",
+      "resolution": "Использован [DateTime]::UtcNow; неизвестная более ранняя граница не выдумана."
+    },
+    {
+      "issue": "Несколько крупных чтений были усечены бюджетом вывода.",
+      "resolution": "Для оценивания необходимые фрагменты прочитаны отдельно; точность всех использованных цитат затем автоматически проверена."
+    },
+    {
+      "issue": "В выводе Python имена русских листов отобразились с ошибкой кодировки.",
+      "resolution": "Названия перепроверены через ASCII JSON escapes; исходные файлы и числовые значения не затронуты."
+    },
+    {
+      "issue": "Одна попытка передать весь каталог цитат через командную строку превысила ограничение Windows CreateProcess (206).",
+      "resolution": "Отчёт создан apply_patch; проверка цитат читала локальный review.json. Неуспешная команда не запустила процесс и не меняла файлы."
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "scores": {
+      "R17": {
+        "q1": 10,
+        "q2": 10,
+        "q3": 8,
+        "total": 28,
+        "max": 28
+      },
+      "R42": {
+        "q1": 10,
+        "q2": 10,
+        "q3": 8,
+        "total": 28,
+        "max": 28
+      }
+    },
+    "evidence_count": 73
+  },
+  "input_integrity": {
+    "checked_files": 111,
+    "changed": [],
+    "added": []
+  },
+  "outputs": {
+    "review.json": {
+      "bytes": 66785,
+      "sha256": "f8882233d4de01ad3bf91696a9d3be1b7ee46e732c7dd9b890593d579ccf1234"
+    },
+    "review.md": {
+      "bytes": 4212,
+      "sha256": "9914ad142bdbc3ad073e72969a6555afe1e0b5808167ff6d8b4de82296479bd5"
+    }
+  },
+  "written_files": [
+    "review.json",
+    "review.md",
+    "review-meta.json"
+  ],
+  "limitations": "Это независимое автоматическое чтение разрешённого пакета, не human validation. Существование протоколов/поправок проверено; полные runtime/state-сессии вне пакета не аудировались. Блайндинг ограничен стилем и ссылками; модель не угадывалась."
+}

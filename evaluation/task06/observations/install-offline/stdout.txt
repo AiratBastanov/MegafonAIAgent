@@ -1,0 +1,6 @@
+Looking in links: third_party/wheels
+Processing c:\users\bastapc\desktop\megafonaiagent\third_party\wheels\openpyxl-3.1.5-py2.py3-none-any.whl (from -r requirements.txt (line 3))
+Processing c:\users\bastapc\desktop\megafonaiagent\third_party\wheels\pypdf-7.1.0-py3-none-any.whl (from -r requirements.txt (line 4))
+Processing c:\users\bastapc\desktop\megafonaiagent\third_party\wheels\et_xmlfile-2.0.0-py3-none-any.whl (from -r requirements.txt (line 6))
+Installing collected packages: pypdf, et-xmlfile, openpyxl
+Successfully installed et-xmlfile-2.0.0 openpyxl-3.1.5 pypdf-7.1.0

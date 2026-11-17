@@ -1,0 +1,8 @@
+{
+  "raw_preserved": false,
+  "reason": "explicit_recovery_previous",
+  "recorded_at": "2026-11-16T12:09:35.489809+00:00",
+  "replaced_file": "state/current.json",
+  "sha256": "eb95d3cdb38f9779858cc5aa4f5d61cbd6896e24072df43856fb2e701b8f3c27",
+  "size_bytes": 4125
+}

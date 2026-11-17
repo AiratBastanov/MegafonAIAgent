@@ -1,0 +1,18 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T14:09:59.296845+00:00",
+  "ended_at": "2026-11-16T14:10:05.941124+00:00",
+  "elapsed_seconds": 6.65599999999904,
+  "returncode": 0
+}

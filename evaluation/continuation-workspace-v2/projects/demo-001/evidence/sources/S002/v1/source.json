@@ -1,0 +1,26 @@
+{
+  "id": "S002",
+  "kind": "csv",
+  "origin": "inputs/cohorts-v1.csv",
+  "input_sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "stdlib.csv/strict-utf8-v1",
+  "limitations": [],
+  "delimiter": ",",
+  "version": 1,
+  "imported_at": "2026-11-16T06:51:53+00:00",
+  "published_at": null,
+  "input_path": "inputs/cohorts-v1.csv",
+  "tool_version": "1.0",
+  "original": {
+    "path": "evidence/sources/S002/v1/original.csv",
+    "sha256": "ab2e51163227582c093057bbabcbf7fde0dd9351ace04d33b1a8d89bfb98815c"
+  },
+  "extract": {
+    "path": "evidence/sources/S002/v1/extract.json",
+    "sha256": "f55a06447d6084aab00520a25377e9faff6d00f7d52ed2c11c4b8bb7d191a3cb"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "calculated_at": "2026-11-16T17:25:05.078752+00:00",
+  "tool": "calc_offer_scenarios",
+  "tool_version": "1",
+  "synthetic": true,
+  "source": {
+    "id": "S002",
+    "version": 2
+  },
+  "input": {
+    "path": "inputs/offer-v2.xlsx",
+    "sha256": "d65a1e3802d7db82c23d577e859b6fa48a9f44b7c04edba66cc7228619376248"
+  },
+  "raw_metrics": {
+    "path": "evidence/calculations/economics-base-v2.json",
+    "sha256": "22fa940c3c54f2f5458ca176d115707c7f62b32fcca42231067e094cbde0a03e"
+  },
+  "assumptions": {
+    "path": "inputs/economics-sensitivity-v1.json",
+    "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+  },
+  "tool_sha256": "b698be2b6da3dc3607314c2474073e39676c31ea6e82d60a950aebfec1848bdb",
+  "provenance": {
+    "source_type": "xlsx",
+    "input_sha256": "d65a1e3802d7db82c23d577e859b6fa48a9f44b7c04edba66cc7228619376248",
+    "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+    "limitations": [
+      "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+      "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+      "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+      "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+      "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+    ],
+    "extract": {
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "4e9cdfeabb42483c97ae58718561e795cceaa78fc6826c1fea6c80dd3cfeb233"
+    }
+  },
+  "formulas": {
+    "support": "minutes * RUB_per_hour / 60",
+    "margin": "price - infra - support",
+    "surplus": "paying_accounts * margin - avoidable_fixed",
+    "nonnegative": "ceil(fixed/margin) if margin>0",
+    "positive": "floor(fixed/margin)+1 if margin>0",
+    "payback": "setup/surplus if surplus>0"
+  },
+  "base": {
+    "support_minutes": "90.00",
+    "accounts": "20",
+    "support_rub_per_account_month": "900.0000",
+    "margin_rub_per_account_month": "1500.0000",
+    "surplus_before_unknown_costs_rub_month": "0.0000",
+    "min_accounts_nonnegative": 20,
+    "min_accounts_positive": 21,
+    "conditional_setup_payback_months": null
+  },
+  "scenarios": [
+    {
+      "support_minutes": "30",
+      "accounts": "10",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "-9000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "20",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "12000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "5"
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "30",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "33000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "1.818181818181818181818181818"
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "10",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "-15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "20",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "0.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "30",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": "4"
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "10",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-24000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "20",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-18000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "30",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-12000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    }
+  ],
+  "limitations": [
+    "Числа — условная чувствительность, не прогноз продаж или измеренная стоимость",
+    "Неизвестные CAC, налоги, продления и выход не принимаются за ноль",
+    "Покрытие fixed и окупаемость setup условны при сохранении указанных доходов/затрат каждый месяц"
+  ],
+  "reproduce": {
+    "raw_metrics": "evidence/calculations/economics-base-v2.json",
+    "assumptions": "inputs/economics-sensitivity-v1.json"
+  }
+}

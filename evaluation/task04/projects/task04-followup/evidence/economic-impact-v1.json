@@ -1,0 +1,404 @@
+{
+  "event_id": "ECON-RECHECK-01",
+  "change_type": "changed_assumption",
+  "source": {
+    "id": "S002",
+    "version": 1
+  },
+  "locators": [
+    "'Экономика'!E3"
+  ],
+  "old_ground": "S002@1: поддержка 30 минут, вклад 2100, N20 остаток 12000",
+  "new_ground": "S002@2: 90 минут, вклад 1500, N20 остаток 0 до неизвестных расходов",
+  "affected": [
+    {
+      "node": "artifact:ECON-RAW-v1",
+      "path": [
+        "source:S002@1",
+        "artifact:ECON-RAW-v1"
+      ],
+      "reason": "Расчёт использует изменённый selection",
+      "recomputation": true
+    },
+    {
+      "node": "artifact:ECON-v1",
+      "path": [
+        "source:S002@1",
+        "artifact:ECON-v1"
+      ],
+      "reason": "Нет точного selection: проверить расчёт",
+      "recomputation": true
+    },
+    {
+      "node": "claim:C003",
+      "path": [
+        "source:S002@1",
+        "claim:C003"
+      ],
+      "reason": "evidence 'Воронка'!A2:K4; 'Экономика'!A2:J3",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C008",
+      "path": [
+        "source:S002@1",
+        "claim:C008"
+      ],
+      "reason": "evidence 'Экономика'!A1:J3; 'Воронка'!I3:I4",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C009",
+      "path": [
+        "source:S002@1",
+        "artifact:ECON-RAW-v1",
+        "claim:C009"
+      ],
+      "reason": "evidence",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C011",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C011"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C012",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C011",
+        "claim:C012"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C013",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C016",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013",
+        "claim:C016"
+      ],
+      "reason": "review_dependency, не доказательное выведение",
+      "recomputation": false
+    },
+    {
+      "node": "claim:C017",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013",
+        "claim:C016",
+        "claim:C017"
+      ],
+      "reason": "derived_from",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-BUDGET",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "commitment:K-BUDGET"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-CAPABILITY",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013",
+        "claim:C016",
+        "condition:G-CAPABILITY",
+        "commitment:K-CAPABILITY"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-PROTOCOL",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "commitment:K-PROTOCOL"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "commitment:K-VALUE",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "commitment:K-VALUE"
+      ],
+      "reason": "Обязательство проверяет это условие",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-CAPABILITY",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013",
+        "claim:C016",
+        "condition:G-CAPABILITY"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-ECONOMICS",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "condition:G-VALUE",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "claim:C013",
+        "claim:C016",
+        "claim:C017",
+        "condition:G-VALUE"
+      ],
+      "reason": "Условие пересмотра решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v3-communication-strategy",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v3-communication-strategy"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v3-options",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v3-options"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v3-product-strategy",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v3-product-strategy"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v3-situation",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v3-situation"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    },
+    {
+      "node": "output:OUTPUT-v3-validation-plan",
+      "path": [
+        "source:S002@1",
+        "claim:C008",
+        "condition:G-ECONOMICS",
+        "output:OUTPUT-v3-validation-plan"
+      ],
+      "reason": "Текст использует условие решения",
+      "recomputation": false
+    }
+  ],
+  "reusable": [
+    {
+      "artifact_id": "CALC-FUNNEL-v1",
+      "reason": "Все выбранные расчётом ячейки вне изменения",
+      "locators": [
+        "'Воронка'!A3",
+        "'Воронка'!B3",
+        "'Воронка'!C3",
+        "'Воронка'!D3",
+        "'Воронка'!E3",
+        "'Воронка'!F3",
+        "'Воронка'!G3",
+        "'Воронка'!H3",
+        "'Воронка'!I3",
+        "'Воронка'!A4",
+        "'Воронка'!B4",
+        "'Воронка'!C4",
+        "'Воронка'!D4",
+        "'Воронка'!E4",
+        "'Воронка'!F4",
+        "'Воронка'!G4",
+        "'Воронка'!H4",
+        "'Воронка'!I4"
+      ]
+    }
+  ],
+  "precision": "declared_links",
+  "uncertain_locators": [],
+  "comparison": {
+    "method": "compare_all_extracted_cell_records",
+    "changes": [
+      {
+        "locator": "'Экономика'!E3",
+        "old": {
+          "address": "E3",
+          "locator": "'Экономика'!E3",
+          "value": 30,
+          "type": "n",
+          "python_type": "int",
+          "number_format": "General",
+          "formula": null,
+          "cached_value": null,
+          "cached_type": null,
+          "cache_status": "not_applicable",
+          "cache_freshness": "not_applicable",
+          "merged_anchor": null,
+          "hidden_row": false,
+          "hidden_column": false,
+          "comment": null,
+          "hyperlink": null
+        },
+        "new": {
+          "address": "E3",
+          "locator": "'Экономика'!E3",
+          "value": 90,
+          "type": "n",
+          "python_type": "int",
+          "number_format": "General",
+          "formula": null,
+          "cached_value": null,
+          "cached_type": null,
+          "cache_status": "not_applicable",
+          "cache_freshness": "not_applicable",
+          "merged_anchor": null,
+          "hidden_row": false,
+          "hidden_column": false,
+          "comment": null,
+          "hyperlink": null
+        }
+      }
+    ],
+    "scope_changed": false,
+    "unchanged_cells": [
+      "'Воронка'!A1",
+      "'Воронка'!A2",
+      "'Воронка'!A3",
+      "'Воронка'!A4",
+      "'Воронка'!B1",
+      "'Воронка'!B2",
+      "'Воронка'!B3",
+      "'Воронка'!B4",
+      "'Воронка'!C1",
+      "'Воронка'!C2",
+      "'Воронка'!C3",
+      "'Воронка'!C4",
+      "'Воронка'!D1",
+      "'Воронка'!D2",
+      "'Воронка'!D3",
+      "'Воронка'!D4",
+      "'Воронка'!E1",
+      "'Воронка'!E2",
+      "'Воронка'!E3",
+      "'Воронка'!E4",
+      "'Воронка'!F1",
+      "'Воронка'!F2",
+      "'Воронка'!F3",
+      "'Воронка'!F4",
+      "'Воронка'!G1",
+      "'Воронка'!G2",
+      "'Воронка'!G3",
+      "'Воронка'!G4",
+      "'Воронка'!H1",
+      "'Воронка'!H2",
+      "'Воронка'!H3",
+      "'Воронка'!H4",
+      "'Воронка'!I1",
+      "'Воронка'!I2",
+      "'Воронка'!I3",
+      "'Воронка'!I4",
+      "'Воронка'!J1",
+      "'Воронка'!J2",
+      "'Воронка'!J3",
+      "'Воронка'!J4",
+      "'Воронка'!K1",
+      "'Воронка'!K2",
+      "'Воронка'!K3",
+      "'Воронка'!K4",
+      "'Примечания'!A1",
+      "'Примечания'!A2",
+      "'Примечания'!A3",
+      "'Экономика'!A1",
+      "'Экономика'!A2",
+      "'Экономика'!A3",
+      "'Экономика'!B1",
+      "'Экономика'!B2",
+      "'Экономика'!B3",
+      "'Экономика'!C1",
+      "'Экономика'!C2",
+      "'Экономика'!C3",
+      "'Экономика'!D1",
+      "'Экономика'!D2",
+      "'Экономика'!D3",
+      "'Экономика'!E1",
+      "'Экономика'!E2",
+      "'Экономика'!F1",
+      "'Экономика'!F2",
+      "'Экономика'!F3",
+      "'Экономика'!G1",
+      "'Экономика'!G2",
+      "'Экономика'!G3",
+      "'Экономика'!H1",
+      "'Экономика'!H2",
+      "'Экономика'!H3",
+      "'Экономика'!I1",
+      "'Экономика'!I2",
+      "'Экономика'!I3",
+      "'Экономика'!J1",
+      "'Экономика'!J2",
+      "'Экономика'!J3"
+    ],
+    "limit": "Только зарегистрированные selections; остальные области не проверены"
+  },
+  "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности."
+}

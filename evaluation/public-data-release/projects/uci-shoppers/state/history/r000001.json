@@ -1,0 +1,350 @@
+{
+  "artifact_dependencies": [
+    {
+      "from": "A006",
+      "reason": "Все исходные ячейки сохранены; добавлены три явно определённых поля",
+      "to": "A019"
+    },
+    {
+      "from": "A019",
+      "reason": "Штатный расчёт по версии S002/v1",
+      "to": "A001"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "A001",
+      "path": "evidence/calculations/by-month-visitor-v1.json",
+      "sha256": "0b046d5fd977f97fcd2351f35987d05a65226603f2760f9ed4d9ad49888892ed"
+    },
+    {
+      "id": "A002",
+      "path": "evidence/calculations/independent-v1.json",
+      "sha256": "6de024daa34ade3b69c1e1e19488b2d0198436188275f0cfc936289f9c190439"
+    },
+    {
+      "id": "A003",
+      "path": "evidence/import-observation-v1.json",
+      "sha256": "001adaa9051b2d9bd016589f610f1d50f6aab621cb6af2ffa61cac19a247f465"
+    },
+    {
+      "id": "A004",
+      "path": "evidence/review-v1.md",
+      "sha256": "6449f11078c4f7e2312f2f57881a93a243b34879af2d19d7a81e34ad571ecf0d"
+    },
+    {
+      "id": "A005",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "a6802b3ab552c01a41a49a8b57ac1bb20d8c08c09fcb46fee4a3a102bb89bf6c"
+    },
+    {
+      "id": "A006",
+      "path": "evidence/sources/S001/v1/original.csv",
+      "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+    },
+    {
+      "id": "A007",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "c8ee29744b24edf2943e48c9e3648cef3daccd5e817bc4d7cca0c98e19d355d3"
+    },
+    {
+      "id": "A008",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "f62c2c73eeb13c6eb04ceba9848fbc1a6aab3f1ca6767ef1663f67e8a07ae22a"
+    },
+    {
+      "id": "A009",
+      "path": "evidence/sources/S002/v1/original.csv",
+      "sha256": "c885fcbb6654cfac2b8bb9818f682d3d27eb3059d157c7306b4effdafdccc757"
+    },
+    {
+      "id": "A010",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "07a0eae67c7835327b870135157d78a8a0121d1172c9824ab0334fe2569e319e"
+    },
+    {
+      "id": "A011",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "b436fd35326934ce882f0bd65b7bf2a1c519a9531c98cdf40a2f179346a5821d"
+    },
+    {
+      "id": "A012",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "780c2d3ed7fbd3aa3c351e4f7353b9e492875328a9ab3f75c44cb33e3f7e6d68"
+    },
+    {
+      "id": "A013",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "b9c799a13c8e062d07cfa7f2ae9739b46d28ada99ad8beb71c0fe66e9d67e704"
+    },
+    {
+      "id": "A014",
+      "path": "inputs/attribution-v1.json",
+      "sha256": "6e16d60dbab61dea0aab9ef43776001f345cc43714aa04e1973cecb50cbbe076"
+    },
+    {
+      "id": "A015",
+      "path": "inputs/derivation-v1.json",
+      "sha256": "e54bdfe406442633cd2535c219a5ec8712c14a0af0e1f6e9c54367fd644d849f"
+    },
+    {
+      "id": "A016",
+      "path": "inputs/metrics-v1.json",
+      "sha256": "775147f14a2a56fed60d6ceb82e038092eac46f95c12fcf08003e05031284913"
+    },
+    {
+      "id": "A017",
+      "path": "inputs/official-description-v1.md",
+      "sha256": "780c2d3ed7fbd3aa3c351e4f7353b9e492875328a9ab3f75c44cb33e3f7e6d68"
+    },
+    {
+      "id": "A018",
+      "path": "inputs/online_shoppers_intention.csv",
+      "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+    },
+    {
+      "id": "A019",
+      "path": "inputs/session-counts-v1.csv",
+      "sha256": "c885fcbb6654cfac2b8bb9818f682d3d27eb3059d157c7306b4effdafdccc757"
+    },
+    {
+      "id": "A020",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "44a7a00065ab462c9bca5d8be7f7145bf04b6e99c72a3cfadefa221ec6c4c08e"
+    },
+    {
+      "id": "A021",
+      "path": "outputs/v1/options.md",
+      "sha256": "aa89aa0aab9428e8eab642105b4791cc1ee87802333ec0b0afed4a3ed67f531b"
+    },
+    {
+      "id": "A022",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "39b2b3d4f0183241b6bf3f65e0f3fd4cdd7afcdb024488cb7f8fbd848a9159c3"
+    },
+    {
+      "id": "A023",
+      "path": "outputs/v1/situation.md",
+      "sha256": "cfd9a9cf21893e1784bbc5c3424985c598a51b67317d66acf90d3c1d89c9c21e"
+    },
+    {
+      "id": "A024",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "bbdcd9a9215324cfea309f96faa487663372c5be4080956610587d46d11ea09d"
+    },
+    {
+      "id": "A025",
+      "path": "project.md",
+      "sha256": "f06da7ee70792f12c43ca367817dcea53dd2f833da759e36f930e1bd26a80636"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A012",
+          "locator": "Состав и единица наблюдения; Контрольные числа",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "UCI описывает 12330 сессий разных пользователей, 17 признаков и Revenue как признак покупки."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A006",
+          "locator": "rows:2-12331; Month, VisitorType, Revenue",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "A002",
+          "locator": "overall; by_visitor; by_month_visitor"
+        }
+      ],
+      "id": "C002",
+      "kind": "computed",
+      "synthetic": false,
+      "text": "1908/12330 = 15.4745% сессий с покупкой; 10422 без покупки."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A006",
+          "locator": "rows:2-12331; Month, VisitorType, Revenue",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "A002",
+          "locator": "overall; by_visitor; by_month_visitor"
+        }
+      ],
+      "id": "C003",
+      "kind": "computed",
+      "synthetic": false,
+      "text": "New: 422/1694=24.9115%; Returning:1470/10551=13.9323%; Other:16/85=18.8235%."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A006",
+          "locator": "rows:2-12331; Month, VisitorType, Revenue",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "A002",
+          "locator": "overall; by_visitor; by_month_visitor"
+        }
+      ],
+      "id": "C004",
+      "kind": "computed",
+      "synthetic": false,
+      "text": "Доля у новых выше в 9 из 10 представленных месяцев; исключение Feb с одним новым посетителем."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C003",
+        "C004"
+      ],
+      "evidence": [],
+      "id": "C005",
+      "kind": "hypothesis",
+      "synthetic": false,
+      "text": "Причины различия могут быть в намерениях, канале, товарах и сезонности; причинный эффект не установлен."
+    },
+    {
+      "derived_from": [
+        "C002",
+        "C003",
+        "C005"
+      ],
+      "evidence": [],
+      "id": "C006",
+      "kind": "recommendation",
+      "synthetic": false,
+      "text": "Предложить диагностику на современных данных до вмешательства; решение за владельцем."
+    },
+    {
+      "derived_from": [
+        "C005"
+      ],
+      "evidence": [],
+      "id": "C007",
+      "kind": "hypothesis",
+      "synthetic": false,
+      "text": "Объяснение условий покупки может помочь, если диагностика подтвердит соответствующий барьер."
+    },
+    {
+      "derived_from": [
+        "C006",
+        "C007"
+      ],
+      "evidence": [],
+      "id": "C008",
+      "kind": "recommendation",
+      "synthetic": false,
+      "text": "Сообщать только проверенные условия; будущую помощь не выдавать за доступную функцию."
+    },
+    {
+      "derived_from": [
+        "C006",
+        "C007"
+      ],
+      "evidence": [],
+      "id": "C009",
+      "kind": "recommendation",
+      "synthetic": false,
+      "text": "После допуска сравнить конкретную функцию с обычным путём по случайному назначению до воздействия."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A024",
+          "locator": "Предлагаемое окно набора; сроки являются допущением"
+        }
+      ],
+      "id": "C010",
+      "kind": "assumption",
+      "synthetic": false,
+      "text": "Предлагаются 28 дней набора, семь дней на покупку каждого пользователя и отдельное фактическое окно возвратов."
+    }
+  ],
+  "completed": [
+    "Проверены все строки оригинала и описание UCI",
+    "Штатный импорт без усечения",
+    "Штатный расчёт и независимый пересчёт всех 23 групп",
+    "Подготовлены пять документов и критическая проверка координатора"
+  ],
+  "decision": {
+    "current_outputs": {
+      "communication-strategy": "A020",
+      "options": "A021",
+      "product-strategy": "A022",
+      "situation": "A023",
+      "validation-plan": "A024"
+    },
+    "status": "awaiting_decision"
+  },
+  "decision_question": "Есть ли основание менять путь покупки по типу посетителя?",
+  "next_action": "Прочитать пять результатов и решить, получать ли современные данные для диагностики; повторно не импортировать UCI.",
+  "objective": "Одна изолированная проверка существующего агента на независимом публичном CSV.",
+  "pending_actions": [
+    "Получить решение владельца о диагностике или отказе от гипотезы"
+  ],
+  "project_id": "uci-shoppers",
+  "revision": 1,
+  "saved_at": "2026-11-17T09:47:54.173691+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "A005",
+        "A006",
+        "A007"
+      ],
+      "id": "S001",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "A008",
+        "A009",
+        "A010"
+      ],
+      "id": "S002",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "A011",
+        "A012",
+        "A013"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "9fce254247fc9f7227979fd752787d1a63ac61cdbc95c8f77c4cea63f5054f7c",
+  "unresolved_questions": [
+    "Современные данные магазина",
+    "Причина непокупки",
+    "Маржа, расходы и допустимый риск",
+    "Владелец и разрешение диагностики"
+  ]
+}

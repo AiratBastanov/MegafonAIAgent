@@ -1,0 +1,6 @@
+{
+  "changed": true,
+  "published": false,
+  "draft": "drafts/withdrawal-applied-v1.json",
+  "next_action": "Проверить кандидат и выполнить project_state save"
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "evaluation/task06/seal_draft.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--from-current",
+    "--content",
+    "drafts/final-content-v5.json",
+    "--output",
+    "drafts/final-v5.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:34:29.579742+00:00",
+  "ended_at": "2026-11-16T15:34:29.753681+00:00",
+  "elapsed_seconds": 0.1879999999946449,
+  "returncode": 0
+}

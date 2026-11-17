@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 request-q3.txt; Get-Content -Encoding UTF8 RUNTIME.md"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T14:07:20.427867+00:00",
+  "ended_at": "2026-11-16T14:07:20.628065+00:00",
+  "elapsed_seconds": 0.18700000000171713,
+  "returncode": 0
+}

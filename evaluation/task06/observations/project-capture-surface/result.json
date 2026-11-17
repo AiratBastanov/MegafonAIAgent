@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent*' -or .MainWindowTitle -like '*TASK06*' } | Select-Object ProcessName,Id,MainWindowTitle"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:35:30.946298+00:00",
+  "ended_at": "2026-11-16T15:35:49.924640+00:00",
+  "elapsed_seconds": 18.985000000000582,
+  "returncode": 0
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/check_delivery.py"
+  ],
+  "started_at": "2026-11-16T12:25:39.077237+00:00",
+  "ended_at": "2026-11-16T12:25:39.615006+00:00",
+  "elapsed_seconds": 0.5470000000022992,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

@@ -1,0 +1,306 @@
+{
+  "checked_at": "2026-11-16T15:30:45.695406+00:00",
+  "synthetic": true,
+  "method": "Полный PDF text manifest + literal bytes собственного генератора; decisive XLSX values сверены с raw OOXML ET, не результатом openpyxl",
+  "pdf_sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d",
+  "xlsx_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+  "xlsx_source_version": 2,
+  "visual_layout_verified": false,
+  "market_validation": false,
+  "checks": [
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 1,
+      "text": "SYNTHETIC DEVELOPMENT BRIEF - not an official competition brief",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 2,
+      "text": "RelayBox: a hypothetical B2B file-transfer prototype.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 3,
+      "text": "Decision: choose an audience and an offer, or stop the standalone initiative.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 4,
+      "text": "Current: team upload, read-only external download link, manual link revoke.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 5,
+      "text": "Limits: 2 GB per file; links expire after 7 days; recipient needs no account.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 6,
+      "text": "Not implemented: recipient upload, password, named access, SSO, audit export.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 7,
+      "text": "Proposed price: RUB 3000 per organisation per month; price is unvalidated.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 8,
+      "text": "Capabilities are fixture statements, not production acceptance evidence.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 1,
+      "expected_line": 9,
+      "text": "Printed label: A (physical page 1).",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 1,
+      "text": "SYNTHETIC SALES MEMO - no real customers or interviews",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 2,
+      "text": "Sales headline: accounting offices lead with eight paid pilots.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 3,
+      "text": "Definition used by sales: paid pilot means interest in a paid offer.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 4,
+      "text": "Sales did not reconcile receipts; finance paid30 requires a received payment.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 5,
+      "text": "Agency task: send draft media assets to an external client for download.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 6,
+      "text": "Accounting task: collect client files; recipient uploads are required.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 7,
+      "text": "Workbook: September cohort, observation through 31 October 2026.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 8,
+      "text": "Each organisation has one segment and at most one first payment in 30 days.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 9,
+      "text": "No random sampling. Neither interest nor these fixtures prove market demand.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 10,
+      "text": "Acquisition cost, repeated monthly payment and exit cost remain unknown.",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S001@1",
+      "physical_page": 2,
+      "expected_line": 11,
+      "text": "Printed label: 1 (physical page 2).",
+      "source_literal_verified": true,
+      "extraction_complete_for_line": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!C3",
+      "original_xml_value": "20",
+      "extract_value": 20,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!C4",
+      "original_xml_value": "20",
+      "extract_value": 20,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!D3",
+      "original_xml_value": "8",
+      "extract_value": 8,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!D4",
+      "original_xml_value": "10",
+      "extract_value": 10,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!E3",
+      "original_xml_value": "5",
+      "extract_value": 5,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!E4",
+      "original_xml_value": "8",
+      "extract_value": 8,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!F3",
+      "original_xml_value": "2",
+      "extract_value": 2,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!F4",
+      "original_xml_value": "1",
+      "extract_value": 1,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!G3",
+      "original_xml_value": "6000",
+      "extract_value": 6000,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!G4",
+      "original_xml_value": "3000",
+      "extract_value": 3000,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!H3",
+      "original_xml_value": "1800",
+      "extract_value": 1800,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Воронка'!H4",
+      "original_xml_value": "3600",
+      "extract_value": 3600,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!C3",
+      "original_xml_value": "3000",
+      "extract_value": 3000,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!D3",
+      "original_xml_value": "600",
+      "extract_value": 600,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!E3",
+      "original_xml_value": "90",
+      "extract_value": 90,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!F3",
+      "original_xml_value": "600",
+      "extract_value": 600,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!G3",
+      "original_xml_value": "30000",
+      "extract_value": 30000,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!H3",
+      "original_xml_value": "60000",
+      "extract_value": 60000,
+      "pass": true
+    },
+    {
+      "source": "S002@2",
+      "locator": "'Экономика'!I3",
+      "original_xml_value": "20",
+      "extract_value": 20,
+      "pass": true
+    }
+  ],
+  "passed": true
+}

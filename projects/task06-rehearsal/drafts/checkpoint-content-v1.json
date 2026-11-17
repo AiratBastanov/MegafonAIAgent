@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "project_id": "task06-rehearsal",
+  "objective": "Выбрать аудиторию и предложение RelayBox либо оставить/закрыть направление; учебная репетиция TASK06",
+  "decision_question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+  "stage": "evidence_imported_pause",
+  "completed": ["Постановка записана", "Начальные PDF/XLSX импортированы с хешами и координатами", "Реально прочитана публичная справка альтернатив; сохранена выдержка"],
+  "unresolved_questions": ["Что означает восемь платных пилотов в PDF относительно paid30 XLSX?", "Какой сегмент соответствует текущим функциям?", "Каковы вклад, порог и неизвестные затраты?", "Реальный владелец и бюджет неизвестны"],
+  "pending_actions": ["Разрешить противоречие определений", "Выполнить расчёты по явным specs и независимую проверку", "Сохранить аналитический артефакт и новую revision", "Затем сравнить варианты и написать пять согласованных документов"],
+  "next_action": "Загрузить state; без повторного импорта сопоставить PDF physical_page=2 с Воронка!D3:F4, проверить арифметику и возможности, записать evidence/analysis-v1.md и новую revision; остановиться перед синтезом",
+  "decision": {"status": "proposed"},
+  "new_artifacts": {
+    "PROJECT": "project.md",
+    "REQUEST": "inputs/manager-request-v1.txt",
+    "ORIGIN": "inputs/PROVENANCE.json",
+    "DICTIONARY": "inputs/DATA_DICTIONARY.md",
+    "SELECTION": "inputs/selection-v1.json",
+    "FUNNEL_SPEC": "inputs/metrics-funnel-v1.json",
+    "ECON_SPEC": "inputs/metrics-economics-v1.json",
+    "SCENARIOS": "inputs/economics-sensitivity-v1.json",
+    "PDF_MANIFEST": "inputs/pdf-text-manifest-v1.json"
+  },
+  "new_claims": [
+    {"id":"C001","kind":"source_fact","text":"Учебная спецификация перечисляет исходящую передачу и ручной отзыв ссылки; входящая загрузка получателем отсутствует. Это описание fixture, не производственная приёмка.","evidence":[{"artifact_id":"S001v1_extract","locator":"physical_page=1; text lines 4–8","source_id":"S001","source_version":1}],"derived_from":[],"synthetic":true},
+    {"id":"C002","kind":"source_fact","text":"Публичная справка Dropbox описывает отправку transfer и входящий сбор file requests. Реальная применимость к выбранным клиентам не проверена.","evidence":[{"artifact_id":"S003v1_original","locator":"T1–T2","source_id":"S003","source_version":1}],"derived_from":[],"synthetic":false}
+  ]
+}

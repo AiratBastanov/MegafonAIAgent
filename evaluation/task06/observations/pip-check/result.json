@@ -1,0 +1,13 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:22:52.222814+00:00",
+  "ended_at": "2026-11-16T15:22:52.683892+00:00",
+  "elapsed_seconds": 0.46899999999732245,
+  "returncode": 0
+}

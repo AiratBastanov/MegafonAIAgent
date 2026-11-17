@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "rg -n '^##|commitments|conditions|evidence_events|assumptions' context.md; Get-Content -Encoding UTF8 inbox/q1/repeated-correction-v1.txt"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "started_at": "2026-11-16T13:38:59.333429+00:00",
+  "ended_at": "2026-11-16T13:38:59.563599+00:00",
+  "elapsed_seconds": 0.21899999999732245,
+  "returncode": 0
+}

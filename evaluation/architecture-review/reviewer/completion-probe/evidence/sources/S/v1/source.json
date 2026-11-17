@@ -1,0 +1,26 @@
+{
+  "id": "S",
+  "kind": "text",
+  "origin": "input.txt",
+  "input_sha256": "4dd3cfc5e46ce98ef6dbbb722e0f7f319476bae38472ab9520e7802b40ae514e",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "utf8-lines-v1",
+  "limitations": [],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-17T07:43:03+00:00",
+  "published_at": null,
+  "input_path": "input.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S/v1/original.txt",
+    "sha256": "4dd3cfc5e46ce98ef6dbbb722e0f7f319476bae38472ab9520e7802b40ae514e"
+  },
+  "extract": {
+    "path": "evidence/sources/S/v1/extract.json",
+    "sha256": "0b82355ec70a71fc08238defb5cc7f6dc6a8d72b0e65758370bd80c362de3ba6"
+  }
+}

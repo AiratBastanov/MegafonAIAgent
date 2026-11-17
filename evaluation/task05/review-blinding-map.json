@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-11-16T14:12:48.438741+00:00",
+  "aliases": {
+    "A": "R17",
+    "B-ablation": "R42"
+  },
+  "order": {
+    "q1": [
+      "B-ablation",
+      "A"
+    ],
+    "q2": [
+      "A",
+      "B-ablation"
+    ],
+    "q3": [
+      "B-ablation",
+      "A"
+    ]
+  },
+  "limits": "процедурное ослепление, структура/стиль раскрывают конфигурацию; shared model неизвестна; human calibration нет"
+}

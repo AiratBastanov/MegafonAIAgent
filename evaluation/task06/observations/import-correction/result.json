@@ -1,0 +1,24 @@
+{
+  "command": [
+    "_task06/runtime/Scripts/python.exe",
+    "-X",
+    "utf8",
+    "scripts/import_materials.py",
+    "--project",
+    "projects/task06-rehearsal",
+    "--source-id",
+    "S002",
+    "--input",
+    "inputs/offer-v2.xlsx",
+    "--kind",
+    "xlsx",
+    "--selection",
+    "inputs/selection-v1.json",
+    "--synthetic"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T15:30:44.609512+00:00",
+  "ended_at": "2026-11-16T15:30:44.890496+00:00",
+  "elapsed_seconds": 0.2809999999990396,
+  "returncode": 0
+}

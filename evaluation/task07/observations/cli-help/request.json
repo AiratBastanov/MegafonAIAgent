@@ -1,0 +1,11 @@
+{
+  "command": [
+    "codex",
+    "exec",
+    "--help"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:28:48.252352+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ECON-RECHECK-01",
+  "project_id": "task04-followup",
+  "kind": "evidence_change",
+  "at": "2026-11-19T10:00:00+03:00",
+  "clock": "simulated",
+  "provenance": {
+    "kind": "source_material",
+    "artifact_id": "S005v1-extract",
+    "locator": "line:1-5"
+  },
+  "change": {
+    "type": "changed_assumption",
+    "source": {
+      "id": "S002",
+      "version": 1
+    },
+    "replacement": {
+      "id": "S002",
+      "version": 2
+    },
+    "locators": [
+      "'Экономика'!E3"
+    ],
+    "reason": "Проверить достижимость экономического условия по существующей коррекции поддержки 30→90 минут",
+    "old_ground": "S002@1: поддержка 30 минут, вклад 2100, N20 остаток 12000",
+    "new_ground": "S002@2: 90 минут, вклад 1500, N20 остаток 0 до неизвестных расходов",
+    "applicability": "Повторная проверка объявленных зависимостей уже принятого сценария v2; не новый рыночный факт и не переимпорт"
+  }
+}

@@ -1,0 +1,378 @@
+СИНТЕТИЧЕСКАЯ КОРРЕКЦИЯ TASK03, не сообщение реального владельца.
+В сценарии Экономика!E3 исходные 30 минут поддержки на организацию в месяц
+не включали 60 минут повторных обращений. Заменить допущение на 90 минут.
+Это новое допущение нагрузки, не измерение; цена, прочие допущения и Воронка неизменны.
+Пересмотреть вклад, порог покрытия расходов, условия пилота и масштабирования.
+{
+  "calculated_at": "2026-11-16T10:05:17.708007+00:00",
+  "tool": "calc_offer_scenarios",
+  "tool_version": "1",
+  "synthetic": true,
+  "source": {
+    "id": "S002",
+    "version": 2
+  },
+  "input": {
+    "path": "inputs/offer-v2.xlsx",
+    "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+  },
+  "raw_metrics": {
+    "path": "evidence/calculations/economics-raw-v2.json",
+    "sha256": "25a05f105338a3febe8e26179bc06c67161f584efe65a83804c67acbc3e52d63"
+  },
+  "assumptions": {
+    "path": "inputs/economics-sensitivity-v1.json",
+    "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+  },
+  "tool_sha256": "b698be2b6da3dc3607314c2474073e39676c31ea6e82d60a950aebfec1848bdb",
+  "provenance": {
+    "source_type": "xlsx",
+    "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+    "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+    "limitations": [
+      "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+      "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+      "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+      "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+      "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+    ],
+    "extract": {
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    }
+  },
+  "formulas": {
+    "support": "minutes * RUB_per_hour / 60",
+    "margin": "price - infra - support",
+    "surplus": "paying_accounts * margin - avoidable_fixed",
+    "nonnegative": "ceil(fixed/margin) if margin>0",
+    "positive": "floor(fixed/margin)+1 if margin>0",
+    "payback": "setup/surplus if surplus>0"
+  },
+  "base": {
+    "support_minutes": "90.00",
+    "accounts": "20",
+    "support_rub_per_account_month": "900.0000",
+    "margin_rub_per_account_month": "1500.0000",
+    "surplus_before_unknown_costs_rub_month": "0.0000",
+    "min_accounts_nonnegative": 20,
+    "min_accounts_positive": 21,
+    "conditional_setup_payback_months": null
+  },
+  "scenarios": [
+    {
+      "support_minutes": "30",
+      "accounts": "10",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "-9000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "20",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "12000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "5"
+    },
+    {
+      "support_minutes": "30",
+      "accounts": "30",
+      "support_rub_per_account_month": "300.00",
+      "margin_rub_per_account_month": "2100.00",
+      "surplus_before_unknown_costs_rub_month": "33000.00",
+      "min_accounts_nonnegative": 15,
+      "min_accounts_positive": 15,
+      "conditional_setup_payback_months": "1.818181818181818181818181818"
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "10",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "-15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "20",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "0.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "90",
+      "accounts": "30",
+      "support_rub_per_account_month": "900.00",
+      "margin_rub_per_account_month": "1500.00",
+      "surplus_before_unknown_costs_rub_month": "15000.00",
+      "min_accounts_nonnegative": 20,
+      "min_accounts_positive": 21,
+      "conditional_setup_payback_months": "4"
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "10",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-24000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "20",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-18000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    },
+    {
+      "support_minutes": "180",
+      "accounts": "30",
+      "support_rub_per_account_month": "1800.00",
+      "margin_rub_per_account_month": "600.00",
+      "surplus_before_unknown_costs_rub_month": "-12000.00",
+      "min_accounts_nonnegative": 50,
+      "min_accounts_positive": 51,
+      "conditional_setup_payback_months": null
+    }
+  ],
+  "limitations": [
+    "Числа — условная чувствительность, не прогноз продаж или измеренная стоимость",
+    "Неизвестные CAC, налоги, продления и выход не принимаются за ноль",
+    "Покрытие fixed и окупаемость setup условны при сохранении указанных доходов/затрат каждый месяц"
+  ],
+  "reproduce": {
+    "raw_metrics": "evidence/calculations/economics-raw-v2.json",
+    "assumptions": "inputs/economics-sensitivity-v1.json"
+  }
+}
+branches/familiar/projects/task04-followup/inputs\selection-v1.json
+branches/familiar/projects/task04-followup/inputs\pdf-text-manifest-v1.json
+branches/familiar/projects/task04-followup/inputs\owner-instruction-v1.md
+branches/familiar/projects/task04-followup/inputs\metrics-funnel-v1.json
+branches/familiar/projects/task04-followup/inputs\metrics-economics-v1.json
+branches/familiar/projects/task04-followup/inputs\economics-sensitivity-v1.json
+branches/familiar/projects/task04-followup/inputs\DATA_DICTIONARY.md
+branches/familiar/projects/task04-followup/evidence\fidelity-v1.json
+branches/familiar/projects/task04-followup/evidence\correction-impact-v2.md
+branches/familiar/projects/task04-followup/evidence\correction-check-v2.json
+branches/familiar/projects/task04-followup/evidence\conflict-resolution-v1.md
+branches/familiar/projects/task04-followup/outputs\v2\validation-plan.md
+branches/familiar/projects/task04-followup/outputs\v2\situation.md
+branches/familiar/projects/task04-followup/outputs\v2\product-strategy.md
+branches/familiar/projects/task04-followup/outputs\v2\options.md
+branches/familiar/projects/task04-followup/outputs\v2\communication-strategy.md
+branches/familiar/projects/task04-followup/evidence\calculations\independent-v2.json
+branches/familiar/projects/task04-followup/outputs\v1\validation-plan.md
+branches/familiar/projects/task04-followup/outputs\v1\situation.md
+branches/familiar/projects/task04-followup/evidence\calculations\independent-v1.json
+branches/familiar/projects/task04-followup/outputs\v1\product-strategy.md
+branches/familiar/projects/task04-followup/evidence\calculations\funnel-v1.json
+branches/familiar/projects/task04-followup/outputs\v1\options.md
+branches/familiar/projects/task04-followup/evidence\calculations\economics-v2.json
+branches/familiar/projects/task04-followup/outputs\v1\communication-strategy.md
+branches/familiar/projects/task04-followup/evidence\calculations\economics-v1.json
+branches/familiar/projects/task04-followup/evidence\calculations\economics-raw-v2.json
+branches/familiar/projects/task04-followup/evidence\calculations\economics-raw-v1.json
+branches/familiar/projects/task04-followup/evidence\calculations\check-offer-tool-v1.py
+branches/familiar/projects/task04-followup/evidence\calculations\calc-offer-tool-v1.py
+branches/familiar/projects/task04-followup/evidence\research-questions-v1.md
+branches/familiar/projects/task04-followup/evidence\origin-project-demo002.md
+branches/familiar/projects/task04-followup/evidence\import-observation-v2.json
+branches/familiar/projects/task04-followup/evidence\import-observation-v1.json
+branches/familiar/projects/task04-followup/evidence\fidelity-v2.json
+branches/familiar/projects/task04-followup/evidence\sources\S005\v1\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S005\v1\original.txt
+branches/familiar/projects/task04-followup/evidence\sources\S005\v1\extract.json
+branches/familiar/projects/task04-followup/evidence\sources\S001\v1\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S001\v1\original.pdf
+branches/familiar/projects/task04-followup/evidence\sources\S001\v1\extract.json
+branches/familiar/projects/task04-followup/evidence\sources\S002\v2\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S002\v2\original.xlsx
+branches/familiar/projects/task04-followup/evidence\sources\S002\v2\extract.json
+branches/familiar/projects/task04-followup/evidence\sources\S002\v1\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S002\v1\original.xlsx
+branches/familiar/projects/task04-followup/evidence\sources\S002\v1\extract.json
+branches/familiar/projects/task04-followup/evidence\sources\S004\v1\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S004\v1\original.txt
+branches/familiar/projects/task04-followup/evidence\sources\S004\v1\extract.json
+branches/familiar/projects/task04-followup/evidence\sources\S003\v1\source.json
+branches/familiar/projects/task04-followup/evidence\sources\S003\v1\original.txt
+branches/familiar/projects/task04-followup/evidence\sources\S003\v1\extract.json
+def register(project, source_id, input_path, kind, *, origin=None, synthetic=False,
+             accessed_at=None, locator=None, limitations=None, retrieval_status=None,
+             delimiter=",", max_bytes=DEFAULT_MAX_BYTES, max_unpacked=DEFAULT_MAX_UNPACKED,
+             max_rows=50000, selection_path=None, max_cells=100000, max_sheets=64,
+             max_pages=200, max_page_stream=8 * 1024 * 1024, max_text_chars=2000000):
+    if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]{0,63}", source_id):
+        raise MaterialError("Недопустимый source ID")
+    if kind not in {"docx", "csv", "text", "web-excerpt", "xlsx", "pdf"}:
+        raise MaterialError("Неподдерживаемый формат")
+    if selection_path is not None and kind != "xlsx":
+        raise MaterialError("--selection поддерживается только для XLSX")
+    if max_bytes <= 0 or max_unpacked <= 0 or max_rows <= 0:
+        raise MaterialError("Технические пределы должны быть положительными")
+    incoming = scoped(project, input_path)
+    if incoming.stat().st_size > max_bytes:
+        raise MaterialError("Файл превышает технический предел размера")
+    data = incoming.read_bytes()
+    origin = origin or relative(project, incoming)
+    if kind == "web-excerpt":
+        from urllib.parse import urlparse
+        parsed = urlparse(origin)
+        if parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username or parsed.password:
+            raise MaterialError("Нужен публичный URL без credentials")
+        if not accessed_at or not locator or retrieval_status not in {"current_host_read", "supplied_snapshot"}:
+            raise MaterialError("Web: нужны время доступа, locator и retrieval_status")
+        validate_time(accessed_at)
+    elif accessed_at:
+        validate_time(accessed_at)
+    if kind == "docx":
+        extracted = extract_docx(data, max_unpacked=max_unpacked)
+        method = "stdlib.zipfile+ElementTree/simple-docx-body-v2"
+    elif kind == "csv":
+        extracted = read_csv_bytes(data, delimiter=delimiter, max_rows=max_rows)
+        method = "stdlib.csv/strict-utf8-v1"
+    elif kind in {"xlsx", "pdf"}:
+        try:
+            try:
+                from .extract_formats import extract_xlsx, extract_pdf, FormatError
+            except ImportError:
+                from extract_formats import extract_xlsx, extract_pdf, FormatError
+            if kind == "xlsx":
+                if not selection_path:
+                    raise MaterialError("XLSX требует --selection с явными sheet/range/units/period")
+                selection_file = scoped(project, selection_path)
+                if selection_file.stat().st_size > max_bytes:
+                    raise MaterialError("XLSX selection превышает технический предел размера")
+                selection_bytes = selection_file.read_bytes()
+                selection = json.loads(selection_bytes.decode("utf-8-sig"))
+                extracted = extract_xlsx(data, selection, max_unpacked=max_unpacked,
+                                         max_cells=max_cells, max_sheets=max_sheets)
+            else:
+                if selection_path is not None:
+                    raise MaterialError("--selection поддерживается только для XLSX")
+                extracted = extract_pdf(data, max_pages=max_pages, max_page_stream=max_page_stream,
+                                        max_text_chars=max_text_chars)
+            method = extracted["method"]
+        except ImportError as exc:
+            raise MaterialError("Для XLSX/PDF установите зависимости requirements.txt в локальную .venv") from exc
+        except FormatError as exc:
+            raise MaterialError(str(exc)) from exc
+    else:
+        try:
+            text = data.decode("utf-8-sig")
+        except UnicodeError as exc:
+            raise MaterialError("Текст должен быть UTF-8") from exc
+        extracted = {"lines": [{"locator": f"line:{i}", "text": line}
+                               for i, line in enumerate(text.splitlines(), 1)]}
+        method = "host-rendered-excerpt/utf8-registration-v1" if kind == "web-excerpt" else "utf8-lines-v1"
+    limitations = list(limitations or []) + extracted.get("limitations", [])
+    if kind == "web-excerpt":
+        limitations.append("Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL.")
+    identity = {"id": source_id, "kind": kind, "origin": origin,
+                "input_sha256": sha256(data), "synthetic": bool(synthetic),
+                "accessed_at": accessed_at, "locator": locator,
+                "retrieval_status": retrieval_status or "local_import",
+                "extraction_method": method, "limitations": limitations,
+                "delimiter": delimiter if kind == "csv" else None}
+    if kind == "xlsx":
+        identity.update({"selection": selection,
+                         "selection_input": {"path": relative(project, selection_file), "sha256": sha256(selection_bytes)}})
+    folder = scoped(project, f"evidence/sources/{source_id}", must_exist=False)
+    version_dirs = [p for p in folder.glob("v*") if re.fullmatch(r"v\d+", p.name)] if folder.exists() else []
+    # Check each discovered directory before probing or reading metadata. A vN
+    # symlink/junction is untrusted even though its parent directory is scoped.
+    for version_path in version_dirs:
+        scoped(project, version_path)
+    incomplete = [relative(project, p) for p in version_dirs if not (p / "source.json").is_file()]
+    versions = sorted((p / "source.json" for p in version_dirs if (p / "source.json").is_file()),
+                      key=lambda p: int(p.parent.name[1:]))
+    for meta_path in reversed(versions):
+        try:
+            meta_path = scoped(project, meta_path)
+            record = json.loads(meta_path.read_text(encoding="utf-8"))
+            if not isinstance(record, dict):
+                raise MaterialError("Некорректная предыдущая регистрация: требуется JSON object")
+            # A changed import policy/provenance is a meaningful revision even with identical bytes.
+            if all(record.get(k) == v for k, v in identity.items()):
+                for ref_name in ("original", "extract"):
+                    ref = record[ref_name]
+                    if sha256(scoped(project, ref["path"]).read_bytes()) != ref["sha256"]:
+                        raise MaterialError("Повреждён ранее зарегистрированный источник")
+                return {"reused": True, "source": record, "incomplete_versions": incomplete,
+                        "record": {"path": relative(project, meta_path), "sha256": sha256(meta_path.read_bytes())}}
+        except (OSError, json.JSONDecodeError, KeyError) as exc:
+            raise MaterialError("Некорректная предыдущая регистрация источника") from exc
+    existing_numbers = [int(p.name[1:]) for p in folder.glob("v*") if re.fullmatch(r"v\d+", p.name)] if folder.exists() else []
+    version = max(existing_numbers, default=0) + 1
+    version_dir = scoped(project, folder / f"v{version}", must_exist=False)
+    suffix = {"docx": ".docx", "csv": ".csv", "text": ".txt", "web-excerpt": ".txt", "xlsx": ".xlsx", "pdf": ".pdf"}[kind]
+    original_path, extract_path = version_dir / ("original" + suffix), version_dir / "extract.json"
+    extracted.update({"source_id": source_id, "source_version": version, "synthetic": bool(synthetic),
+                      "source_kind": kind, "input_sha256": sha256(data), "extraction_method": method})
+    extracted_bytes = json_bytes(extracted)
+    record = {**identity, "version": version, "imported_at": utc_now(), "published_at": None,
+              "input_path": relative(project, incoming), "tool_version": VERSION,
+              "original": {"path": relative(project, original_path), "sha256": sha256(data)},
+              "extract": {"path": relative(project, extract_path), "sha256": sha256(extracted_bytes)}}
+    # Metadata is published last; incomplete directories are never accepted as registered results.
+    write_new(original_path, data)
+    write_new(extract_path, extracted_bytes)
+    record_path, record_bytes = version_dir / "source.json", json_bytes(record)
+    write_new(record_path, record_bytes)
+    return {"reused": False, "source": record, "incomplete_versions": incomplete,
+            "record": {"path": relative(project, record_path), "sha256": sha256(record_bytes)}}
+
+
+def main():
+"""Малый capture subprocess: generic tools, без ответов/модели/сети."""
+from pathlib import Path
+from datetime import datetime, timezone
+import json
+import os
+import subprocess
+import sys
+import time
+
+
+def main():
+    # python capture.py LOG_DIR LABEL -- EXECUTABLE ARG...
+    folder = Path(sys.argv[1]) / sys.argv[2]
+    command = sys.argv[4:] if sys.argv[3] == '--' else sys.argv[3:]
+    folder.mkdir(parents=True, exist_ok=False)
+    start = datetime.now(timezone.utc).isoformat()
+    counter = time.monotonic()
+    result = subprocess.run(command, capture_output=True, encoding='utf-8', errors='replace',
+                            env={**os.environ, 'PYTHONIOENCODING': 'utf-8'}, timeout=180)
+    end = datetime.now(timezone.utc).isoformat()
+    (folder / 'stdout.txt').write_text(result.stdout, encoding='utf-8')
+    (folder / 'stderr.txt').write_text(result.stderr, encoding='utf-8')
+    (folder / 'result.json').write_text(json.dumps(dict(command=command, cwd=str(Path.cwd()),
+        started_at=start, ended_at=end, elapsed_seconds=time.monotonic()-counter,
+        returncode=result.returncode), ensure_ascii=False, indent=2), encoding='utf-8')
+    print(result.stdout)
+    if result.stderr:
+        print(result.stderr, file=sys.stderr)
+    return result.returncode
+
+
+if __name__ == '__main__':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

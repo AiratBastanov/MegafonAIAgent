@@ -1,0 +1,236 @@
+[
+  {
+    "project": "evaluation/architecture-review/reviewer/completion-probe",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/architecture-review/reviewer/stale-probe",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/continuation-workspace/projects/demo-001",
+    "snapshots": 1,
+    "identities": 3,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/continuation-workspace-v2/projects/demo-001",
+    "snapshots": 2,
+    "identities": 3,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task03/continuation-workspace/projects/demo-002",
+    "snapshots": 1,
+    "identities": 4,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/projects/task04-followup",
+    "snapshots": 11,
+    "identities": 8,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-01/artifact-before-save",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-01/corrupt-current",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-01/current-replace",
+    "snapshots": 4,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-01/missing-evidence",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-01/partial-history",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": [
+      {
+        "file": "r000003.json",
+        "error": "StateError: Повреждённый или неполный UTF-8 JSON: r000003.json"
+      }
+    ]
+  },
+  {
+    "project": "evaluation/task04/recovery-01/previous-replace",
+    "snapshots": 4,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-final/artifact-before-save",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-final/corrupt-current",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-final/current-replace",
+    "snapshots": 4,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-final/missing-evidence",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task04/recovery-final/partial-history",
+    "snapshots": 3,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": [
+      {
+        "file": "r000003.json",
+        "error": "StateError: Повреждённый или неполный UTF-8 JSON: r000003.json"
+      }
+    ]
+  },
+  {
+    "project": "evaluation/task04/recovery-final/previous-replace",
+    "snapshots": 4,
+    "identities": 1,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup",
+    "snapshots": 5,
+    "identities": 10,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/collected/A/branches/variant/projects/task04-followup",
+    "snapshots": 5,
+    "identities": 10,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup",
+    "snapshots": 3,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup",
+    "snapshots": 3,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/frozen-v2/A/branches/familiar/projects/task04-followup",
+    "snapshots": 2,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/frozen-v2/A/branches/variant/projects/task04-followup",
+    "snapshots": 2,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup",
+    "snapshots": 3,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task06/continuation-workspace/projects/task06-rehearsal",
+    "snapshots": 1,
+    "identities": 3,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task06/ordinary-current-v1/A/branches/familiar/projects/task04-followup",
+    "snapshots": 2,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task06/ordinary-current-v1/A/branches/variant/projects/task04-followup",
+    "snapshots": 2,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "evaluation/task07/demo-workspace/projects/task06-rehearsal",
+    "snapshots": 9,
+    "identities": 7,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "projects/demo-001",
+    "snapshots": 5,
+    "identities": 5,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "projects/demo-002",
+    "snapshots": 5,
+    "identities": 6,
+    "conflicts": [],
+    "unreadable": []
+  },
+  {
+    "project": "projects/task06-rehearsal",
+    "snapshots": 6,
+    "identities": 4,
+    "conflicts": [],
+    "unreadable": []
+  }
+]

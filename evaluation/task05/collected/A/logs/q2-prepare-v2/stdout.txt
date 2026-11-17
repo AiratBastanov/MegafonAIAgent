@@ -1,0 +1,36 @@
+{
+  "branch": "familiar",
+  "draft": "drafts/q2-followup-v1.json",
+  "validated": true,
+  "review_id": "review-Q2-FAMILIAR-WITHDRAWAL",
+  "review_status": "revised",
+  "owner_review_required": true,
+  "history_preserved": true,
+  "q1_completion_preserved": true,
+  "current_outputs": {
+    "communication-strategy": "OUTPUT-Q2-communication-strategy",
+    "options": "OUTPUT-v2-options",
+    "product-strategy": "OUTPUT-Q2-product-strategy",
+    "situation": "OUTPUT-Q2-situation",
+    "validation-plan": "OUTPUT-Q2-validation-plan"
+  },
+  "publication": "pending"
+}
+{
+  "branch": "variant",
+  "draft": "drafts/q2-followup-v1.json",
+  "validated": true,
+  "review_id": "review-Q2-VARIANT-WITHDRAWAL",
+  "review_status": "revised",
+  "owner_review_required": true,
+  "history_preserved": true,
+  "q1_completion_preserved": true,
+  "current_outputs": {
+    "communication-strategy": "OUTPUT-Q2-communication-strategy",
+    "options": "OUTPUT-v2-options",
+    "product-strategy": "OUTPUT-Q2-product-strategy",
+    "situation": "OUTPUT-Q2-situation",
+    "validation-plan": "OUTPUT-Q2-validation-plan"
+  },
+  "publication": "pending"
+}

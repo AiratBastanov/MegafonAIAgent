@@ -1,0 +1,31 @@
+{
+  "id": "S004",
+  "kind": "web-excerpt",
+  "origin": "https://help.dropbox.com/share/dropbox-transfer",
+  "input_sha256": "04d71d8cc0c96ef76fc470f5aff01631e09cb83fa0012e42fc0580c86ebc9720",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T16:29:10Z",
+  "locator": "What is Dropbox Transfer?: 55-58; Can I customize my transfers?: 67-69; What are the size limits?: 70-79; When does a transfer expire?: 80-85",
+  "retrieval_status": "supplied_snapshot",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Supplied dated note; no network reading or service test in this session.",
+    "accessed_at copies the supplied index recorded_at, not exact origin retrieval time. The known original access date is 2026-11-16.",
+    "Local version 1; claims restricted to supplied sections and named plan lists; no evidence of RelayBox demand or economics.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T16:48:22+00:00",
+  "published_at": null,
+  "input_path": "inputs/official-2026-11-16/dropbox-transfer-2026-11-16.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S004/v1/original.txt",
+    "sha256": "04d71d8cc0c96ef76fc470f5aff01631e09cb83fa0012e42fc0580c86ebc9720"
+  },
+  "extract": {
+    "path": "evidence/sources/S004/v1/extract.json",
+    "sha256": "cb30667be65b73dacef49b6256aace5c4a78d666faac5a1e3d29124c1b58f7f4"
+  }
+}

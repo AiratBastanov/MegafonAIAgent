@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "scripts/import_materials.py",
+    "--project",
+    "evaluation/task04/projects/task04-followup",
+    "--source-id",
+    "S006",
+    "--input",
+    "inputs/mock-capability-withdrawal-v1.txt",
+    "--kind",
+    "text",
+    "--synthetic"
+  ],
+  "started_at": "2026-11-16T11:56:54.568322+00:00",
+  "ended_at": "2026-11-16T11:56:54.664884+00:00",
+  "elapsed_seconds": 0.09400000000096043,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

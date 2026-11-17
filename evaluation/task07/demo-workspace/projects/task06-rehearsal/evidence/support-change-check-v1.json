@@ -1,0 +1,25 @@
+{
+  "changed_cells": [
+    [
+      "Экономика",
+      "E3",
+      30,
+      90
+    ]
+  ],
+  "original_sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668",
+  "new_sha256": "d65a1e3802d7db82c23d577e859b6fa48a9f44b7c04edba66cc7228619376248",
+  "calculation_base": {
+    "support_minutes": "90.00",
+    "accounts": "20",
+    "support_rub_per_account_month": "900.0000",
+    "margin_rub_per_account_month": "1500.0000",
+    "surplus_before_unknown_costs_rub_month": "0.0000",
+    "min_accounts_nonnegative": 20,
+    "min_accounts_positive": 21,
+    "conditional_setup_payback_months": null
+  },
+  "independent_fraction_checks": "passed",
+  "source_version": 2,
+  "synthetic": true
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-17T09:39:20.499647+00:00",
+  "path": "online+shoppers+purchasing+intention+dataset/online_shoppers_intention.csv",
+  "absolute_path": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\online+shoppers+purchasing+intention+dataset\\online_shoppers_intention.csv",
+  "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "bytes": 1072063,
+  "columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend",
+    "Revenue"
+  ],
+  "column_count": 18,
+  "rows": 12330,
+  "row_widths": {
+    "18": 12330
+  },
+  "empty_cells": 0,
+  "revenue": {
+    "FALSE": 10422,
+    "TRUE": 1908
+  },
+  "normal_import_parser": {
+    "status": "ok",
+    "rows": 12330
+  }
+}

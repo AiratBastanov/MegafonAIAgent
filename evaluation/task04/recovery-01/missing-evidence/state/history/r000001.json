@@ -1,0 +1,66 @@
+{
+  "artifacts": [
+    {
+      "id": "A",
+      "path": "source.txt",
+      "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+    },
+    {
+      "id": "I",
+      "path": "event.txt",
+      "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A",
+          "locator": "line:1",
+          "source_id": "S",
+          "source_version": 1
+        }
+      ],
+      "id": "C",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Описание"
+    }
+  ],
+  "completed": [],
+  "decision": {
+    "commitments": [],
+    "conditions": [],
+    "events": [],
+    "format_version": 2,
+    "history": [],
+    "metrics": [],
+    "owner": "unassigned",
+    "proposed_option": "Проверить",
+    "question": "Что проверить?",
+    "reviews": [],
+    "status": "awaiting_decision"
+  },
+  "decision_question": "Что проверить?",
+  "next_action": "Ждать фактическое решение",
+  "objective": "Проверка публикации",
+  "pending_actions": [],
+  "project_id": "missing-evidence",
+  "revision": 1,
+  "saved_at": "2026-11-16T11:51:46.749953+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "A"
+      ],
+      "id": "S",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "158c7a0d44101c637763c0af9240b4d87382c9920c1f8dc0ef3822d9100229cb",
+  "unresolved_questions": []
+}

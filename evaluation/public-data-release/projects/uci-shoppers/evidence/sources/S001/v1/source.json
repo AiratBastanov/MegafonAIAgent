@@ -1,0 +1,29 @@
+{
+  "id": "S001",
+  "kind": "csv",
+  "origin": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+  "input_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "synthetic": false,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "stdlib.csv/strict-utf8-v1",
+  "limitations": [
+    "Исторические наблюдательные данные; год сессий не указан в CSV. Это не пользователи RelayBox или МегаФона.",
+    "Revenue — признак покупки, не денежная выручка. Строки не являются повторными визитами одного пользователя."
+  ],
+  "delimiter": ",",
+  "version": 1,
+  "imported_at": "2026-11-17T09:41:17+00:00",
+  "published_at": null,
+  "input_path": "inputs/online_shoppers_intention.csv",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S001/v1/original.csv",
+    "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+  },
+  "extract": {
+    "path": "evidence/sources/S001/v1/extract.json",
+    "sha256": "a6802b3ab552c01a41a49a8b57ac1bb20d8c08c09fcb46fee4a3a102bb89bf6c"
+  }
+}

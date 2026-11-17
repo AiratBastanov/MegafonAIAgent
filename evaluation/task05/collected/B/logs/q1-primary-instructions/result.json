@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 materials/project.md; Get-Content -Encoding UTF8 materials/inputs/owner-instruction-v1.md; Get-Content -Encoding UTF8 materials/evidence/sources/S005/v1/original.txt; Test-Path knowledge/procedures/decision-followup.md; Test-Path knowledge/record-contracts.md; Test-Path scripts/project_state.py"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:39:31.566910+00:00",
+  "ended_at": "2026-11-16T13:39:31.785908+00:00",
+  "elapsed_seconds": 0.21900000000096043,
+  "returncode": 0
+}

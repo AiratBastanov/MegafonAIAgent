@@ -1,0 +1,127 @@
+[
+  {
+    "reused": false,
+    "source": {
+      "id": "S002",
+      "kind": "xlsx",
+      "origin": "inputs/offer-v2.xlsx",
+      "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+      "synthetic": true,
+      "accessed_at": null,
+      "locator": null,
+      "retrieval_status": "local_import",
+      "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+      "limitations": [
+        "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+        "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+        "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+        "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+        "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+      ],
+      "delimiter": null,
+      "selection": {
+        "ranges": [
+          {
+            "sheet": "Воронка",
+            "range": "A1:K4",
+            "period": "2026-09",
+            "units": {
+              "A": "month",
+              "B": "category",
+              "C": "organisations",
+              "D": "organisations",
+              "E": "organisations",
+              "F": "organisations",
+              "G": "RUB",
+              "H": "RUB",
+              "I": "RUB",
+              "J": "date",
+              "K": "ratio"
+            }
+          },
+          {
+            "sheet": "Экономика",
+            "range": "A1:J3",
+            "period": "2026-11-scenario",
+            "units": {
+              "A": "scenario_month",
+              "B": "category",
+              "C": "RUB/account/month",
+              "D": "RUB/account/month",
+              "E": "minutes/account/month",
+              "F": "RUB/hour",
+              "G": "RUB/month",
+              "H": "RUB",
+              "I": "accounts",
+              "J": "RUB/account/month"
+            }
+          },
+          {
+            "sheet": "Примечания",
+            "range": "A1:A3",
+            "period": "not_applicable",
+            "units": {
+              "A": "text"
+            }
+          }
+        ]
+      },
+      "selection_input": {
+        "path": "inputs/selection-v1.json",
+        "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+      },
+      "version": 2,
+      "imported_at": "2026-11-16T10:05:17+00:00",
+      "published_at": null,
+      "input_path": "inputs/offer-v2.xlsx",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S002/v2/original.xlsx",
+        "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+      },
+      "extract": {
+        "path": "evidence/sources/S002/v2/extract.json",
+        "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S002/v2/source.json",
+      "sha256": "f8e9450fceedd75ba33b739990d942849bd5b8995893ea379714c1846db2b526"
+    }
+  },
+  {
+    "reused": false,
+    "source": {
+      "id": "S005",
+      "kind": "text",
+      "origin": "inputs/correction-v2.txt",
+      "input_sha256": "1fad971dd0608b958917c38e1c62b3b6f693d3e9306979e67f36896081609f4e",
+      "synthetic": true,
+      "accessed_at": null,
+      "locator": null,
+      "retrieval_status": "local_import",
+      "extraction_method": "utf8-lines-v1",
+      "limitations": [],
+      "delimiter": null,
+      "version": 1,
+      "imported_at": "2026-11-16T10:05:17+00:00",
+      "published_at": null,
+      "input_path": "inputs/correction-v2.txt",
+      "tool_version": "2.0",
+      "original": {
+        "path": "evidence/sources/S005/v1/original.txt",
+        "sha256": "1fad971dd0608b958917c38e1c62b3b6f693d3e9306979e67f36896081609f4e"
+      },
+      "extract": {
+        "path": "evidence/sources/S005/v1/extract.json",
+        "sha256": "411e6428ee6bd6ae0f95b57ab781c6f1958eb08b7a3e23191869184277d853ca"
+      }
+    },
+    "incomplete_versions": [],
+    "record": {
+      "path": "evidence/sources/S005/v1/source.json",
+      "sha256": "9ef2e68bef4f9a1d39edb12cc09e89103ed5906d71671d98a1ff2bbb1e807fb1"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Официальный источник: Dropbox Help, How to create and manage Dropbox file requests."
+    },
+    {
+      "locator": "line:2",
+      "text": "URL: https://help.dropbox.com/share/create-file-request"
+    },
+    {
+      "locator": "line:3",
+      "text": "Прочитано: 2026-11-16, через web/open. Дата обновления страницы: 2025-05-15."
+    },
+    {
+      "locator": "line:4",
+      "text": "Версия локальной записи: 1. Это датированный пересказ и короткая цитата, не полный HTML и не испытание сервиса."
+    },
+    {
+      "locator": "line:5",
+      "text": ""
+    },
+    {
+      "locator": "line:6",
+      "text": "Вводный раздел, строки 55–63: запросы файлов доступны на всех планах; отправителю не нужен аккаунт Dropbox. Полученные материалы занимают место в аккаунте получателя; нехватка места приводит к ошибке загрузки."
+    },
+    {
+      "locator": "line:7",
+      "text": "Там же, строки 62–63: Basic/Plus/Family принимают файлы до 2 GB; Professional/Essentials/Business/Business Plus/Standard/Advanced/Enterprise — до 250 GB. Это размер входящего файла, а не лимит исходящей передачи Dropbox Transfer."
+    },
+    {
+      "locator": "line:8",
+      "text": "Раздел How to create a file request, строки 73–75: срок приёма и разрешение поздних загрузок описаны для Professional/Essentials/Business/Business Plus/Standard/Advanced/Enterprise. Пароль указан отдельным необязательным шагом без явного планового ограничения; не следует переносить ограничения пароля Transfer на file requests."
+    },
+    {
+      "locator": "line:9",
+      "text": "Строки 82 и 94: администратор команды может отключить запросы; папка назначения по умолчанию закрыта от других."
+    },
+    {
+      "locator": "line:10",
+      "text": "Раздел How to close a file request, строка 111: закрытие прекращает новые загрузки до повторного открытия."
+    },
+    {
+      "locator": "line:11",
+      "text": "Короткая цитата, строка 74: “Add a password (optional).”"
+    },
+    {
+      "locator": "line:12",
+      "text": "Ограничение: не доказаны бухгалтерские интеграции, соответствие требованиям конкретного клиента, спрос или экономика RelayBox."
+    }
+  ],
+  "source_id": "S005",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "ac296e52061cb35b98f3b5ce8ff7242652fd765471905c9e8444922834032cd9",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

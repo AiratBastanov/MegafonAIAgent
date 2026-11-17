@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "evaluation/task04/exercise_numeric.py"
+  ],
+  "started_at": "2026-11-16T12:05:06.040284+00:00",
+  "ended_at": "2026-11-16T12:05:06.899367+00:00",
+  "elapsed_seconds": 0.8600000000005821,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

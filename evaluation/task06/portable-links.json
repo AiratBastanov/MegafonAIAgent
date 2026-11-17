@@ -1,0 +1,1002 @@
+{
+  "copies": [
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK04.md",
+      "source_sha256": "44b361c320920450d5d26c192a13919f11351d0aeeb455af07b173a60b1f65e0",
+      "view": "submission/portable-evidence/01-DEVELOPMENT_STATE-before-TASK04.md",
+      "mappings": [
+        {
+          "original": "TASK03_REPORT.md",
+          "packaged": "docs/TASK03_REPORT.md"
+        },
+        {
+          "original": "TASK03_REVIEW_PACKET.md",
+          "packaged": "docs/TASK03_REVIEW_PACKET.md"
+        },
+        {
+          "original": "../evaluation/task03/checks-final/result.json",
+          "packaged": "evaluation/task03/checks-final/result.json"
+        },
+        {
+          "original": "../evaluation/task03/resource-accounting.json",
+          "packaged": "evaluation/task03/resource-accounting.json"
+        },
+        {
+          "original": "../projects/demo-002/README.md",
+          "packaged": "projects/demo-002/README.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-audit.md",
+          "packaged": "evaluation/task03/fresh-session-audit.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-01/outcome.json",
+          "packaged": "evaluation/task03/fresh-session-01/outcome.json"
+        }
+      ]
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK05.md",
+      "source_sha256": "dc523bf4bf836e7e5d84421c4c569011e7fd7bb52c6ce02ae4f55a7cf2ff2fd7",
+      "view": "submission/portable-evidence/02-DEVELOPMENT_STATE-before-TASK05.md",
+      "mappings": [
+        {
+          "original": "TASK04_REPORT.md",
+          "packaged": "docs/TASK04_REPORT.md"
+        },
+        {
+          "original": "TASK04_REVIEW_PACKET.md",
+          "packaged": "docs/TASK04_REVIEW_PACKET.md"
+        },
+        {
+          "original": "history/DEVELOPMENT_STATE-before-TASK04.md",
+          "packaged": "docs/history/DEVELOPMENT_STATE-before-TASK04.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-audit.md",
+          "packaged": "evaluation/task03/fresh-session-audit.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-01/outcome.json",
+          "packaged": "evaluation/task03/fresh-session-01/outcome.json"
+        }
+      ]
+    },
+    {
+      "source": "docs/history/DEVELOPMENT_STATE-before-TASK06.md",
+      "source_sha256": "6de02fe3b0d135badd2dcd345463a240ef7a8f85293bda715d6057fc8257e9e5",
+      "view": "submission/portable-evidence/03-DEVELOPMENT_STATE-before-TASK06.md",
+      "mappings": [
+        {
+          "original": "TASK05_REPORT.md",
+          "packaged": "docs/TASK05_REPORT.md"
+        },
+        {
+          "original": "TASK05_REVIEW_PACKET.md",
+          "packaged": "docs/TASK05_REVIEW_PACKET.md"
+        },
+        {
+          "original": "SUBMISSION_READINESS.md",
+          "packaged": "docs/SUBMISSION_READINESS.md"
+        },
+        {
+          "original": "history/DEVELOPMENT_STATE-before-TASK05.md",
+          "packaged": "docs/history/DEVELOPMENT_STATE-before-TASK05.md"
+        },
+        {
+          "original": "../evaluation/task05/observations/regression-final-03/result.json",
+          "packaged": "evaluation/task05/observations/regression-final-03/result.json"
+        },
+        {
+          "original": "../evaluation/task05/implementation-final-02.json",
+          "packaged": "evaluation/task05/implementation-final-02.json"
+        },
+        {
+          "original": "../evaluation/task05/controls-final.json",
+          "packaged": "evaluation/task05/controls-final.json"
+        },
+        {
+          "original": "../evaluation/task05/code-review-final.md",
+          "packaged": "evaluation/task05/code-review-final.md"
+        },
+        {
+          "original": "../evaluation/task05/code-review-impact.md",
+          "packaged": "evaluation/task05/code-review-impact.md"
+        },
+        {
+          "original": "../evaluation/task05/acceptance.json",
+          "packaged": "evaluation/task05/acceptance.json"
+        },
+        {
+          "original": "../evaluation/task05/resource-accounting.json",
+          "packaged": "evaluation/task05/resource-accounting.json"
+        },
+        {
+          "original": "../evaluation/task05/README.md",
+          "packaged": "evaluation/task05/README.md"
+        },
+        {
+          "original": "SUBMISSION_READINESS.md",
+          "packaged": "docs/SUBMISSION_READINESS.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-audit.md",
+          "packaged": "evaluation/task03/fresh-session-audit.md"
+        },
+        {
+          "original": "../evaluation/task03/fresh-session-01/outcome.json",
+          "packaged": "evaluation/task03/fresh-session-01/outcome.json"
+        }
+      ]
+    },
+    {
+      "source": "docs/history/README-before-TASK06.md",
+      "source_sha256": "fdd22f73521c36083915ca5fd9b3a8fa0f75a202117579573ebf02da110d5d2c",
+      "view": "submission/portable-evidence/04-README-before-TASK06.md",
+      "mappings": [
+        {
+          "original": "AGENTS.md",
+          "packaged": "AGENTS.md"
+        },
+        {
+          "original": "knowledge/procedures/strategy-cycle.md",
+          "packaged": "knowledge/procedures/strategy-cycle.md"
+        },
+        {
+          "original": "knowledge/procedures/evidence-review.md",
+          "packaged": "knowledge/procedures/evidence-review.md"
+        },
+        {
+          "original": "knowledge/procedures/decision-followup.md",
+          "packaged": "knowledge/procedures/decision-followup.md"
+        },
+        {
+          "original": "knowledge/tool-contracts.md",
+          "packaged": "knowledge/tool-contracts.md"
+        },
+        {
+          "original": "knowledge/record-contracts.md",
+          "packaged": "knowledge/record-contracts.md"
+        },
+        {
+          "original": "docs/TASK04_REPORT.md",
+          "packaged": "docs/TASK04_REPORT.md"
+        },
+        {
+          "original": "docs/TASK04_REVIEW_PACKET.md",
+          "packaged": "docs/TASK04_REVIEW_PACKET.md"
+        },
+        {
+          "original": "evaluation/task04/projects/task04-followup/project.md",
+          "packaged": "evaluation/task04/projects/task04-followup/project.md"
+        },
+        {
+          "original": "docs/TASK03_REPORT.md",
+          "packaged": "docs/TASK03_REPORT.md"
+        },
+        {
+          "original": "docs/TASK03_REVIEW_PACKET.md",
+          "packaged": "docs/TASK03_REVIEW_PACKET.md"
+        },
+        {
+          "original": "docs/DEVELOPMENT_STATE.md",
+          "packaged": "docs/DEVELOPMENT_STATE.md"
+        },
+        {
+          "original": "evaluation/task03/fresh-session-audit.md",
+          "packaged": "evaluation/task03/fresh-session-audit.md"
+        },
+        {
+          "original": "docs/TASK02_REPORT.md",
+          "packaged": "docs/TASK02_REPORT.md"
+        },
+        {
+          "original": "projects/demo-001/README.md",
+          "packaged": "projects/demo-001/README.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/history/SUBMISSION_READINESS-before-TASK06.md",
+      "source_sha256": "4d76da9636d03dfb1c4d58350362ef8a964d610661a1d3f8a49e3ac020e66080",
+      "view": "submission/portable-evidence/05-SUBMISSION_READINESS-before-TASK06.md",
+      "mappings": [
+        {
+          "original": "../evaluation/task05/README.md",
+          "packaged": "evaluation/task05/README.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/continuation-workspace-v2/README.md",
+      "source_sha256": "6262899141d16c6159207c62e547b26f2a018b0752f01526e6462aa0ea2f038d",
+      "view": "submission/portable-evidence/06-README.md",
+      "mappings": [
+        {
+          "original": "AGENTS.md",
+          "packaged": "evaluation/continuation-workspace-v2/AGENTS.md"
+        },
+        {
+          "original": "knowledge/procedures/strategy-cycle.md",
+          "packaged": "evaluation/continuation-workspace-v2/knowledge/procedures/strategy-cycle.md"
+        },
+        {
+          "original": "knowledge/procedures/evidence-review.md",
+          "packaged": "evaluation/continuation-workspace-v2/knowledge/procedures/evidence-review.md"
+        },
+        {
+          "original": "knowledge/tool-contracts.md",
+          "packaged": "evaluation/continuation-workspace-v2/knowledge/tool-contracts.md"
+        },
+        {
+          "original": "knowledge/record-contracts.md",
+          "packaged": "evaluation/continuation-workspace-v2/knowledge/record-contracts.md"
+        },
+        {
+          "original": "docs/TASK02_REPORT.md",
+          "packaged": "docs/TASK02_REPORT.md"
+        },
+        {
+          "original": "docs/DEVELOPMENT_STATE.md",
+          "packaged": "docs/DEVELOPMENT_STATE.md"
+        },
+        {
+          "original": "projects/demo-001/project.md",
+          "packaged": "evaluation/continuation-workspace-v2/projects/demo-001/project.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/continuation-workspace/README.md",
+      "source_sha256": "c5c4ca4da83e528005ae9d108c7b56ec8ed4e5772c54de3afadfb309fbbdebbb",
+      "view": "submission/portable-evidence/07-README.md",
+      "mappings": [
+        {
+          "original": "AGENTS.md",
+          "packaged": "evaluation/continuation-workspace/AGENTS.md"
+        },
+        {
+          "original": "knowledge/procedures/strategy-cycle.md",
+          "packaged": "evaluation/continuation-workspace/knowledge/procedures/strategy-cycle.md"
+        },
+        {
+          "original": "knowledge/procedures/evidence-review.md",
+          "packaged": "evaluation/continuation-workspace/knowledge/procedures/evidence-review.md"
+        },
+        {
+          "original": "knowledge/tool-contracts.md",
+          "packaged": "evaluation/continuation-workspace/knowledge/tool-contracts.md"
+        },
+        {
+          "original": "knowledge/record-contracts.md",
+          "packaged": "evaluation/continuation-workspace/knowledge/record-contracts.md"
+        },
+        {
+          "original": "docs/TASK02_REPORT.md",
+          "packaged": "docs/TASK02_REPORT.md"
+        },
+        {
+          "original": "docs/DEVELOPMENT_STATE.md",
+          "packaged": "docs/DEVELOPMENT_STATE.md"
+        },
+        {
+          "original": "projects/demo-001/project.md",
+          "packaged": "evaluation/continuation-workspace/projects/demo-001/project.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task04/projects/task04-followup/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/08-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task04/projects/task04-followup/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task04/projects/task04-followup/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task04/projects/task04-followup/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task04/projects/task04-followup/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task04/projects/task04-followup/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task04/projects/task04-followup/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task04/projects/task04-followup/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/09-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/familiar/projects/task04-followup/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/10-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task05/frozen-v1/A/branches/variant/projects/task04-followup/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/B/materials/evidence/demo002-review-v1.md",
+      "source_sha256": "2e6bf52d3a016f5ee8c50da01169030d2a690369760a6a51795e7218ab549d18",
+      "view": "submission/portable-evidence/11-demo002-review-v1.md",
+      "mappings": [
+        {
+          "original": "../state/history/r000002.json",
+          "packaged": "projects/demo-002/state/history/r000002.json"
+        },
+        {
+          "original": "../outputs/v1/validation-plan.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v1/validation-plan.md"
+        },
+        {
+          "original": "../outputs/v1/communication-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v1/communication-strategy.md"
+        },
+        {
+          "original": "../inputs/DATA_DICTIONARY.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/inputs/DATA_DICTIONARY.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/frozen-v1/B/materials/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/12-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task05/frozen-v1/B/materials/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/13-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task05/preparation-failed-01/A/branches/familiar/projects/task04-followup/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/B/materials/evidence/demo002-review-v1.md",
+      "source_sha256": "2e6bf52d3a016f5ee8c50da01169030d2a690369760a6a51795e7218ab549d18",
+      "view": "submission/portable-evidence/14-demo002-review-v1.md",
+      "mappings": [
+        {
+          "original": "../state/history/r000002.json",
+          "packaged": "projects/demo-002/state/history/r000002.json"
+        },
+        {
+          "original": "../outputs/v1/validation-plan.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v1/validation-plan.md"
+        },
+        {
+          "original": "../outputs/v1/communication-strategy.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v1/communication-strategy.md"
+        },
+        {
+          "original": "../inputs/DATA_DICTIONARY.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/inputs/DATA_DICTIONARY.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/preparation-failed-01/B/materials/evidence/demo002-review-v2.md",
+      "source_sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0",
+      "view": "submission/portable-evidence/15-demo002-review-v2.md",
+      "mappings": [
+        {
+          "original": "demo002-review-v1.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/evidence/demo002-review-v1.md"
+        },
+        {
+          "original": "../outputs/v2/situation.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v2/situation.md"
+        },
+        {
+          "original": "../outputs/v2/options.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v2/options.md"
+        },
+        {
+          "original": "../outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../evidence/correction-impact-v2.md",
+          "packaged": "evaluation/task05/preparation-failed-01/B/materials/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "../../../evaluation/task03/demo001-baseline-manifest.json",
+          "packaged": "evaluation/task03/demo001-baseline-manifest.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/review-input/responses.md",
+      "source_sha256": "b0f8533a167cb5d608b3b1f2a6062766907acab724a10bfb493bffb3a358b616",
+      "view": "submission/portable-evidence/16-responses.md",
+      "mappings": [
+        {
+          "original": "../context.md",
+          "packaged": "evaluation/task05/collected/B/context.md"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../outputs/q1-verification.json",
+          "packaged": "evaluation/task05/collected/B/outputs/q1-verification.json"
+        },
+        {
+          "original": "../context.md",
+          "packaged": "evaluation/task05/collected/B/context.md"
+        },
+        {
+          "original": "../inbox/q1/repeated-correction-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q1/repeated-correction-v1.txt"
+        },
+        {
+          "original": "../materials/evidence/calculations/economics-v2.json",
+          "packaged": "evaluation/task05/collected/B/materials/evidence/calculations/economics-v2.json"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../materials/outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../notes/familiar/q1-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q1-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q1-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q1-handoff.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/state/history/r000003.json",
+          "packaged": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/state/history/r000003.json"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/state/history/r000003.json",
+          "packaged": "evaluation/task05/collected/A/branches/variant/projects/task04-followup/state/history/r000003.json"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q1/chronology-v1.json",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q1/chronology-v1.json"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q1/local-protocol-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q1/local-protocol-v1.md"
+        },
+        {
+          "original": "R17/inbox/q1/repeated-correction-v1.txt",
+          "packaged": "evaluation/task05/collected/A/inbox/q1/repeated-correction-v1.txt"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/evidence/sources/S005/v1/original.txt",
+          "packaged": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/evidence/sources/S005/v1/original.txt"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/evidence/sources/S002/v2/extract.json",
+          "packaged": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/evidence/sources/S002/v2/extract.json"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/A/branches/familiar/projects/task04-followup/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q1/review-and-reuse-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q1/review-and-reuse-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q1/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q1/handoff-v1.md"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/notes/q1/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/notes/q1/handoff-v1.md"
+        },
+        {
+          "original": "R17/responses/q1.md",
+          "packaged": "evaluation/task05/collected/A/responses/q1.md"
+        },
+        {
+          "original": "R17/responses/q1-meta.json",
+          "packaged": "evaluation/task05/collected/A/responses/q1-meta.json"
+        },
+        {
+          "original": "R17/inbox/q2/familiar-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/A/inbox/q2/familiar-withdrawal-v1.txt"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md"
+        },
+        {
+          "original": "R17/inbox/q2/variant-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/A/inbox/q2/variant-withdrawal-v1.txt"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/outputs/q2/product-strategy-amendment-v1.md"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/outputs/q2/communication-strategy-amendment-v1.md"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/outputs/q2/validation-plan-amendment-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q2/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q2/handoff-v1.md"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/notes/q2/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/notes/q2/handoff-v1.md"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q2/review-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q2/review-v1.md"
+        },
+        {
+          "original": "R17/responses/q2.md",
+          "packaged": "evaluation/task05/collected/A/responses/q2.md"
+        },
+        {
+          "original": "R17/responses/q2-meta.json",
+          "packaged": "evaluation/task05/collected/A/responses/q2-meta.json"
+        },
+        {
+          "original": "../inbox/q2/familiar-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q2/familiar-withdrawal-v1.txt"
+        },
+        {
+          "original": "../inbox/q2/variant-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q2/variant-withdrawal-v1.txt"
+        },
+        {
+          "original": "../materials/outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../materials/outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../materials/outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../outputs/familiar/q2-amendment-v1.md",
+          "packaged": "evaluation/task05/collected/B/outputs/familiar/q2-amendment-v1.md"
+        },
+        {
+          "original": "../outputs/variant/q2-amendment-v1.md",
+          "packaged": "evaluation/task05/collected/B/outputs/variant/q2-amendment-v1.md"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../notes/familiar/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q2-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q2-handoff.md"
+        },
+        {
+          "original": "../outputs/q2-verification.json",
+          "packaged": "evaluation/task05/collected/B/outputs/q2-verification.json"
+        },
+        {
+          "original": "../inbox/q3/repeated-correction-v2.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q3/repeated-correction-v2.txt"
+        },
+        {
+          "original": "../inbox/q3/irrelevant-note-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q3/irrelevant-note-v1.txt"
+        },
+        {
+          "original": "../notes/familiar/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q2-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q2-handoff.md"
+        },
+        {
+          "original": "../notes/familiar/q3-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q3-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q3-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q3-handoff.md"
+        },
+        {
+          "original": "R17/inbox/q3/repeated-correction-v2.txt",
+          "packaged": "evaluation/task05/collected/A/inbox/q3/repeated-correction-v2.txt"
+        },
+        {
+          "original": "R17/inbox/q3/irrelevant-note-v1.txt",
+          "packaged": "evaluation/task05/collected/A/inbox/q3/irrelevant-note-v1.txt"
+        },
+        {
+          "original": "R17/branches/familiar/projects/task04-followup/notes/q3/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/familiar/projects/task04-followup/notes/q3/handoff-v1.md"
+        },
+        {
+          "original": "R17/branches/variant/projects/task04-followup/notes/q3/handoff-v1.md",
+          "packaged": "evaluation/task05/review-input/R17/branches/variant/projects/task04-followup/notes/q3/handoff-v1.md"
+        },
+        {
+          "original": "R17/responses/q3.md",
+          "packaged": "evaluation/task05/collected/A/responses/q3.md"
+        },
+        {
+          "original": "R17/responses/q3-meta.json",
+          "packaged": "evaluation/task05/collected/A/responses/q3-meta.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q1/q1.md",
+      "source_sha256": "d0c13cd22bb4c465ffde1d592a56299339073b3e5aec35558a3b60a7ddad582a",
+      "view": "submission/portable-evidence/17-q1.md",
+      "mappings": [
+        {
+          "original": "../context.md",
+          "packaged": "evaluation/task05/collected/B/context.md"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../outputs/q1-verification.json",
+          "packaged": "evaluation/task05/collected/B/outputs/q1-verification.json"
+        },
+        {
+          "original": "../context.md",
+          "packaged": "evaluation/task05/collected/B/context.md"
+        },
+        {
+          "original": "../inbox/q1/repeated-correction-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q1/repeated-correction-v1.txt"
+        },
+        {
+          "original": "../materials/evidence/calculations/economics-v2.json",
+          "packaged": "evaluation/task05/collected/B/materials/evidence/calculations/economics-v2.json"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../materials/outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../notes/familiar/q1-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q1-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q1-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q1-handoff.md"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q2/q2.md",
+      "source_sha256": "0cc5674deddd2482377bfe02c2359b71a8fbbe05547c1156bcccb276fec8c3d4",
+      "view": "submission/portable-evidence/18-q2.md",
+      "mappings": [
+        {
+          "original": "../inbox/q2/familiar-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q2/familiar-withdrawal-v1.txt"
+        },
+        {
+          "original": "../inbox/q2/variant-withdrawal-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q2/variant-withdrawal-v1.txt"
+        },
+        {
+          "original": "../materials/outputs/v2/product-strategy.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "../materials/outputs/v2/communication-strategy.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "../materials/outputs/v2/validation-plan.md",
+          "packaged": "evaluation/task05/collected/B/materials/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../outputs/familiar/q2-amendment-v1.md",
+          "packaged": "evaluation/task05/collected/B/outputs/familiar/q2-amendment-v1.md"
+        },
+        {
+          "original": "../outputs/variant/q2-amendment-v1.md",
+          "packaged": "evaluation/task05/collected/B/outputs/variant/q2-amendment-v1.md"
+        },
+        {
+          "original": "../materials/inputs/owner-instruction-v1.md",
+          "packaged": "evaluation/task05/collected/B/materials/inputs/owner-instruction-v1.md"
+        },
+        {
+          "original": "../notes/familiar/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q2-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q2-handoff.md"
+        },
+        {
+          "original": "../outputs/q2-verification.json",
+          "packaged": "evaluation/task05/collected/B/outputs/q2-verification.json"
+        }
+      ]
+    },
+    {
+      "source": "evaluation/task05/runs/B-ablation/q3/q3.md",
+      "source_sha256": "137d283f2f81e887144102cd477c6f4ce270a040216f722a96af64c5e5e77849",
+      "view": "submission/portable-evidence/19-q3.md",
+      "mappings": [
+        {
+          "original": "../inbox/q3/repeated-correction-v2.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q3/repeated-correction-v2.txt"
+        },
+        {
+          "original": "../inbox/q3/irrelevant-note-v1.txt",
+          "packaged": "evaluation/task05/collected/B/inbox/q3/irrelevant-note-v1.txt"
+        },
+        {
+          "original": "../notes/familiar/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q2-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q2-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q2-handoff.md"
+        },
+        {
+          "original": "../notes/familiar/q3-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/familiar/q3-handoff.md"
+        },
+        {
+          "original": "../notes/variant/q3-handoff.md",
+          "packaged": "evaluation/task05/collected/B/notes/variant/q3-handoff.md"
+        }
+      ]
+    },
+    {
+      "source": "projects/demo-002/evidence/readme-before-task04.md",
+      "source_sha256": "606451779d672193a335768a1d9e06137d102526757b977217be88d3681d5898",
+      "view": "submission/portable-evidence/20-readme-before-task04.md",
+      "mappings": [
+        {
+          "original": "project.md",
+          "packaged": "projects/demo-002/project.md"
+        },
+        {
+          "original": "outputs/v2/situation.md",
+          "packaged": "projects/demo-002/outputs/v2/situation.md"
+        },
+        {
+          "original": "outputs/v2/options.md",
+          "packaged": "projects/demo-002/outputs/v2/options.md"
+        },
+        {
+          "original": "outputs/v2/product-strategy.md",
+          "packaged": "projects/demo-002/outputs/v2/product-strategy.md"
+        },
+        {
+          "original": "outputs/v2/communication-strategy.md",
+          "packaged": "projects/demo-002/outputs/v2/communication-strategy.md"
+        },
+        {
+          "original": "outputs/v2/validation-plan.md",
+          "packaged": "projects/demo-002/outputs/v2/validation-plan.md"
+        },
+        {
+          "original": "../../docs/TASK03_REVIEW_PACKET.md",
+          "packaged": "docs/TASK03_REVIEW_PACKET.md"
+        },
+        {
+          "original": "evidence/correction-impact-v2.md",
+          "packaged": "projects/demo-002/evidence/correction-impact-v2.md"
+        },
+        {
+          "original": "evidence/calculations/independent-v2.json",
+          "packaged": "projects/demo-002/evidence/calculations/independent-v2.json"
+        },
+        {
+          "original": "evidence/demo002-review-v2.md",
+          "packaged": "projects/demo-002/evidence/demo002-review-v2.md"
+        },
+        {
+          "original": "state/current.json",
+          "packaged": "projects/demo-002/state/current.json"
+        },
+        {
+          "original": "../../docs/TASK03_REPORT.md",
+          "packaged": "docs/TASK03_REPORT.md"
+        },
+        {
+          "original": "../../evaluation/task03/fresh-session-audit.md",
+          "packaged": "evaluation/task03/fresh-session-audit.md"
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "raw_files_modified": false
+}

@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-16T13:34:10.159946+00:00",
+  "ended_at": "2026-11-16T13:34:11.110372+00:00",
+  "elapsed_seconds": 0.9530000000013388,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+  "neutral_packet": "полное детерминированное представление state r3; копирование и обе проверки load включены",
+  "participant_execution_started": false
+}

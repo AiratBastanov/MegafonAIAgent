@@ -1,0 +1,5 @@
+period,segment,eligible,activated,retained_d28,paid,revenue_rub,variable_cost_rub
+2026-08,recurring,400,320,240,80,24000,
+2026-08,occasional,100,50,20,5,1500,
+2026-09,recurring,100,80,40,20,6000,
+2026-09,occasional,400,200,80,20,6000,

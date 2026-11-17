@@ -1,0 +1,887 @@
+{
+  "artifact_dependencies": [
+    {
+      "from": "ECON_RAW1",
+      "reason": "Literal raw metrics -> сценарные формулы; исправлено направление метаданных зависимости",
+      "to": "ECON1"
+    },
+    {
+      "from": "ECON_RAW2",
+      "reason": "Literal raw metrics v2 -> сценарные формулы v2",
+      "to": "ECON2"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "c4f393526d6de849fb9d22799f5a1e12918a1068b5d95c6fbde0e87c4af95a42"
+    },
+    {
+      "id": "REQUEST",
+      "path": "inputs/manager-request-v1.txt",
+      "sha256": "1da5eba107816507c823dc6760b3f2fd529cff31d675ceaeadcfd0d46175f814"
+    },
+    {
+      "id": "ORIGIN",
+      "path": "inputs/PROVENANCE.json",
+      "sha256": "a59124d6debf88a6e6d876566cfad4df446f5d51c3c5321f10127d8aa1a5b464"
+    },
+    {
+      "id": "DICTIONARY",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "FUNNEL_SPEC",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "ECON_SPEC",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SCENARIOS",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "PDF_MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "S001v1_meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+    },
+    {
+      "id": "S001v1_original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1_extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1_meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "9aa677834113aae266d89607d87ea93d34bad78cd56877274256333f6e27e9eb"
+    },
+    {
+      "id": "S002v1_original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1_extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "id": "S003v1_meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "75dbf5358554216f860d71cf86caa2098eb658b0ba7e980f6fab8939960956b9"
+    },
+    {
+      "id": "S003v1_original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f"
+    },
+    {
+      "id": "S003v1_extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "d75e27653d0e43d80a87229dc91a21dc321062886c56672888a32b9db91d7e6e"
+    },
+    {
+      "id": "ANALYSIS1",
+      "path": "evidence/analysis-v1.md",
+      "sha256": "3bd0a4e479caf8b596336fe82038841039d69a7d73a4f47916ba4e49f90fb263"
+    },
+    {
+      "id": "FUNNEL1",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "c4922c8e3fcd4bee4377a43d9741b26355aa5f7d0522b91ef9da8365bdd91af4"
+    },
+    {
+      "id": "ECON_RAW1",
+      "path": "evidence/calculations/economics-raw-v1.json",
+      "sha256": "54fe3ecdfebc89b8690f21b635442fc39f434bade403106dc27fe537c44d8e88"
+    },
+    {
+      "id": "ECON1",
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "3b7a6834d0cca2e3f5451454ac53abaeaa1f5c9b63c2b5a0bf478af6b9921c13"
+    },
+    {
+      "id": "INDEPENDENT1",
+      "path": "evidence/calculations/independent-v1.json",
+      "sha256": "5e54ac44584b961f63d62bcfd6a92ef25728aac5c45c324bef2e6ffd8c6d4f98"
+    },
+    {
+      "id": "FIDELITY1",
+      "path": "evidence/fidelity-v1.json",
+      "sha256": "e098096b48676bc92cd875f70ec24c897bd0198a5dfc6eed8220072d4dc94059"
+    },
+    {
+      "id": "OUT1_SITUATION",
+      "path": "outputs/v1/situation.md",
+      "sha256": "63e0d4ee9ae3a8c7d37fc36d4d2477d9cfb247525a3cd1c45a7d52c958a107c1"
+    },
+    {
+      "id": "OUT1_OPTIONS",
+      "path": "outputs/v1/options.md",
+      "sha256": "d9cc6e6f90248d31f73807f81928dc6ed4fe1f372efe4ad27bbe9099299d4ad6"
+    },
+    {
+      "id": "OUT1_PRODUCT",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "92fdcff111adf3c940560c2a549305fba0659a5663066dcd66cf2048c56fedb3"
+    },
+    {
+      "id": "OUT1_COMM",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "de738c9e329a4ca75c0eb2d05ce95bc1d9118e3c9ba667fd70e27bb56d889fba"
+    },
+    {
+      "id": "OUT1_VALIDATION",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "2e7ea8700503deac069af3d56d7543fc0315c0e35e517294ee973a4a0a1f5567"
+    },
+    {
+      "id": "REVIEW1",
+      "path": "evidence/review-v1.md",
+      "sha256": "6433966f6a9b17908eaa5e2861fca0fa15aa4f48e94876df20f666e60228234d"
+    },
+    {
+      "id": "CORRECTION_REQUEST",
+      "path": "inputs/correction-request-v2.txt",
+      "sha256": "b08cfe6c98786975fafa59b819b80b2ebbd6777cd6b482a8129b728d4f3b1b91"
+    },
+    {
+      "id": "ECON_RAW2",
+      "path": "evidence/calculations/economics-raw-v2.json",
+      "sha256": "e3a4ec07bf1acd75fd5118871138adcfa46d2397e208d9e247143eafc9ba3ce8"
+    },
+    {
+      "id": "ECON2",
+      "path": "evidence/calculations/economics-v2.json",
+      "sha256": "5845e2a502b91305819b8c2e4d174c10fadd9da4f3309beaca722294afecffaf"
+    },
+    {
+      "id": "INDEPENDENT2",
+      "path": "evidence/calculations/independent-v2.json",
+      "sha256": "a64f0d50498319a5c33acd88ed69448c4b374fdeef41d1c8331e96c553dcc54d"
+    },
+    {
+      "id": "FIDELITY2",
+      "path": "evidence/fidelity-v2.json",
+      "sha256": "ced8c44a1df6a0d30bd9492a50d21c1635b7da4929de3dd8170a8b7a7f28c8f9"
+    },
+    {
+      "id": "S002v2_meta",
+      "path": "evidence/sources/S002/v2/source.json",
+      "sha256": "0fd0a03cc3fa862ef35cf3d52747224369074229068bdf11f4388543d4f4cf4a"
+    },
+    {
+      "id": "S002v2_original",
+      "path": "evidence/sources/S002/v2/original.xlsx",
+      "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+    },
+    {
+      "id": "S002v2_extract",
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    },
+    {
+      "id": "EVENT_SUPPORT90",
+      "path": "evidence/events/support90-v1.json",
+      "sha256": "836a42e2c0ee27c22a089a05edb623a1b57110dfdb40db6fab74f928876ee0e7"
+    },
+    {
+      "id": "IMPACT1",
+      "path": "evidence/correction-impact-v1.json",
+      "sha256": "88e109d6ede54ca2f9650e515f5077333c886d76a23dd5ebaa6b6716470967ea"
+    },
+    {
+      "id": "OUT2_SITUATION",
+      "path": "outputs/v2/situation.md",
+      "sha256": "61eb989906a0886750aa2bf30ef56b7c0e4600cd7d96ab776559fc27cf110d74"
+    },
+    {
+      "id": "OUT2_OPTIONS",
+      "path": "outputs/v2/options.md",
+      "sha256": "a36cfacf2d2c8af1276942e5f5bdb6611672a6ac47530566615688bcce6d4485"
+    },
+    {
+      "id": "OUT2_PRODUCT",
+      "path": "outputs/v2/product-strategy.md",
+      "sha256": "b9f34e6763ab04f922ac50b2215efd8440aaf9e2be27c10b8f14dad8e236fd63"
+    },
+    {
+      "id": "OUT2_COMM",
+      "path": "outputs/v2/communication-strategy.md",
+      "sha256": "4c64d6d6337a4f55bd53005aba4c42c32e4f393316c2d3404c2c1d363dad3ae1"
+    },
+    {
+      "id": "OUT2_VALIDATION",
+      "path": "outputs/v2/validation-plan.md",
+      "sha256": "a01db19ae63ab92d95194737ab2d1df00ed0d176045993bd2be03b1084ee9f23"
+    },
+    {
+      "id": "REVIEW2",
+      "path": "evidence/correction-review-v2.md",
+      "sha256": "99d05c2552bb0ff7986f84333a30ebbd9ab29921c8a2f71d0636c1c7226e70b7"
+    },
+    {
+      "id": "EVENT_REVIEW90",
+      "path": "evidence/events/support90-review-v1.json",
+      "sha256": "1a9f97f6bae1d2af2ffcb3692631c1b6f7a7eacc97fadc220339934ec56680d6"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical_page=1; text lines 4–8",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебная спецификация перечисляет исходящую передачу и ручной отзыв ссылки; входящая загрузка получателем отсутствует. Это описание fixture, не производственная приёмка."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003v1_original",
+          "locator": "T1–T2",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Публичная справка Dropbox описывает отправку transfer и входящий сбор file requests. Реальная применимость к выбранным клиентам не проверена."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical_page=2; text lines 2–4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Воронка'!D4:F4",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Восемь платных пилотов в memo означает интерес; XLSX сообщает одну первую оплату у бухбюро."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "FUNNEL1",
+          "locator": "groups[].metrics.paid_per_trial_pct",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Доля первой оплаты среди проб в fixture: агентства 2/8=25%, бухбюро 1/10=10%; не причинный эффект."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "ECON1",
+          "locator": "base; formulas"
+        },
+        {
+          "artifact_id": "SCENARIOS",
+          "locator": "limitations"
+        },
+        {
+          "artifact_id": "S002v1_extract",
+          "locator": "'Экономика'!C3:I3",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "computed",
+      "status": "superseded",
+      "support_reason": "Историческое основание v1 сохранено; текущие C008/C009 и REVIEW2",
+      "synthetic": true,
+      "text": "Сценарий v1: вклад 2100 RUB/account/month; при 20 остаток 12000 до неизвестных расходов; положительный с 15."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C002",
+        "C003"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS1",
+          "locator": "C006"
+        }
+      ],
+      "id": "C006",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Исходящий сценарий агентств требует меньше нового функционала, чем сбор для бухбюро; спрос этим не доказан."
+    },
+    {
+      "derived_from": [
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ANALYSIS1",
+          "locator": "C007"
+        }
+      ],
+      "id": "C007",
+      "kind": "recommendation",
+      "status": "superseded",
+      "support_reason": "Историческое основание v1 сохранено; текущие C008/C009 и REVIEW2",
+      "synthetic": true,
+      "text": "Предложить ограниченное обучение на исходящей задаче агентств после решения владельца; keep/close остаются реальными альтернативами."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "ECON2",
+          "locator": "base; formulas"
+        },
+        {
+          "artifact_id": "S002v2_extract",
+          "locator": "'Экономика'!C3:I3",
+          "source_id": "S002",
+          "source_version": 2
+        },
+        {
+          "artifact_id": "INDEPENDENT2",
+          "locator": "checks"
+        }
+      ],
+      "id": "C008",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Синтетическая база v2: вклад 1500 RUB/account/month, остаток при 20 равен нулю до неизвестных расходов; строго положительный с 21."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C006",
+        "C008"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "REVIEW2",
+          "locator": "Последствия коррекции"
+        }
+      ],
+      "id": "C009",
+      "kind": "recommendation",
+      "synthetic": true,
+      "text": "Сузить предложение до согласованного исследования задачи/поддержки; не обосновывать коммерческий пилот прежним остатком 12000. Keep/close остаются вариантами решения владельца."
+    }
+  ],
+  "completed": [
+    "Исходники, пауза r1 и продолжение координатора сохранены",
+    "Пять документов v1 выпущены",
+    "Коррекция S002@2 зарегистрирована; изменена одна selected cell",
+    "Расчёты v2 независимо проверены",
+    "Пять документов v2 согласованы, незатронутая воронка переиспользована"
+  ],
+  "decision": {
+    "commitments": [],
+    "conditions": [
+      {
+        "claim_ids": [
+          "C008",
+          "C009"
+        ],
+        "description": "Реальная полная экономика и приёмка нужны до инвестиций",
+        "id": "COND_ECON",
+        "metric_ids": [],
+        "next_action": "Пересчитать экономику при изменении затрат; согласовать допуск/бюджет",
+        "output_ids": [
+          "OUT2_SITUATION",
+          "OUT2_OPTIONS",
+          "OUT2_PRODUCT",
+          "OUT2_COMM",
+          "OUT2_VALIDATION"
+        ]
+      }
+    ],
+    "current_outputs": {
+      "communication-strategy": "OUT2_COMM",
+      "options": "OUT2_OPTIONS",
+      "product-strategy": "OUT2_PRODUCT",
+      "situation": "OUT2_SITUATION",
+      "validation-plan": "OUT2_VALIDATION"
+    },
+    "events": [
+      {
+        "at": "2026-11-16T15:32:13.337610+00:00",
+        "change": {
+          "applicability": "Экономика исходящего сценария агентств; воронка/функции не менялись",
+          "locators": [
+            "'Экономика'!E3"
+          ],
+          "new_ground": "90 минут, не новое рыночное измерение",
+          "old_ground": "30 минут поддержки на организацию в месяц",
+          "reason": "Новое синтетическое допущение поддержки: 30 -> 90 минут",
+          "replacement": {
+            "id": "S002",
+            "version": 2
+          },
+          "source": {
+            "id": "S002",
+            "version": 1
+          },
+          "type": "corrected_value"
+        },
+        "fingerprint": "f18d61497c22e017e5c5a2dc3ebbf8b0333ad8db86a607b471d73b6f83c65f29",
+        "id": "EV_SUPPORT90",
+        "kind": "evidence_change",
+        "project_id": "task06-rehearsal",
+        "provenance": {
+          "artifact_id": "CORRECTION_REQUEST",
+          "kind": "source_material",
+          "locator": "учебный шаг коррекции"
+        }
+      },
+      {
+        "at": "2026-11-16T15:34:29.896199+00:00",
+        "fingerprint": "4c89fc37e672710cdb20db156911977e3215f50dd32ee4be87b406de729525c0",
+        "id": "EV_SUPPORT90_REVIEW",
+        "kind": "review",
+        "project_id": "task06-rehearsal",
+        "provenance": {
+          "artifact_id": "REVIEW2",
+          "kind": "agent_review",
+          "locator": "Последствия коррекции"
+        },
+        "resolution": {
+          "next_action": "Владелец определяет допустимое исследование/бюджет либо keep/close; пилот не запущен",
+          "owner_review_required": true,
+          "proposed_option": "Ограниченное исследование задачи и поддержки после решения владельца; коммерческий пилот не разрешён",
+          "reason": "Новая база существенно снижает остаток до нуля при 20; старые расчёты не текущая поддержка",
+          "resolution_evidence": [
+            {
+              "artifact_id": "REVIEW2",
+              "locator": "Затронутое/незатронутое"
+            },
+            {
+              "artifact_id": "ECON2",
+              "locator": "base"
+            }
+          ],
+          "status": "revised"
+        },
+        "review_id": "review-EV_SUPPORT90"
+      }
+    ],
+    "format_version": 2,
+    "history": [],
+    "metrics": [],
+    "owner": "unassigned",
+    "proposed_option": "Ограниченное исследование задачи и поддержки после решения владельца; коммерческий пилот не разрешён",
+    "question": "Какой следующий шаг для самостоятельного RelayBox?",
+    "reviews": [
+      {
+        "claim_status_before": {
+          "C005": {},
+          "C007": {}
+        },
+        "event_id": "EV_SUPPORT90",
+        "id": "review-EV_SUPPORT90",
+        "impact": {
+          "affected": [
+            {
+              "node": "artifact:ECON1",
+              "path": [
+                "source:S002@1",
+                "artifact:ECON1"
+              ],
+              "reason": "Нет точного selection: проверить расчёт",
+              "recomputation": true
+            },
+            {
+              "node": "artifact:ECON_RAW1",
+              "path": [
+                "source:S002@1",
+                "artifact:ECON_RAW1"
+              ],
+              "reason": "Расчёт использует изменённый selection",
+              "recomputation": true
+            },
+            {
+              "node": "claim:C005",
+              "path": [
+                "source:S002@1",
+                "claim:C005"
+              ],
+              "reason": "evidence 'Экономика'!C3:I3",
+              "recomputation": false
+            },
+            {
+              "node": "claim:C007",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "claim:C007"
+              ],
+              "reason": "derived_from",
+              "recomputation": false
+            },
+            {
+              "node": "condition:COND_ECON",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON"
+              ],
+              "reason": "Условие пересмотра решения",
+              "recomputation": false
+            },
+            {
+              "node": "output:OUT1_COMM",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON",
+                "output:OUT1_COMM"
+              ],
+              "reason": "Текст использует условие решения",
+              "recomputation": false
+            },
+            {
+              "node": "output:OUT1_OPTIONS",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON",
+                "output:OUT1_OPTIONS"
+              ],
+              "reason": "Текст использует условие решения",
+              "recomputation": false
+            },
+            {
+              "node": "output:OUT1_PRODUCT",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON",
+                "output:OUT1_PRODUCT"
+              ],
+              "reason": "Текст использует условие решения",
+              "recomputation": false
+            },
+            {
+              "node": "output:OUT1_SITUATION",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON",
+                "output:OUT1_SITUATION"
+              ],
+              "reason": "Текст использует условие решения",
+              "recomputation": false
+            },
+            {
+              "node": "output:OUT1_VALIDATION",
+              "path": [
+                "source:S002@1",
+                "claim:C005",
+                "condition:COND_ECON",
+                "output:OUT1_VALIDATION"
+              ],
+              "reason": "Текст использует условие решения",
+              "recomputation": false
+            }
+          ],
+          "change_type": "corrected_value",
+          "comparison": {
+            "changes": [
+              {
+                "locator": "'Экономика'!E3",
+                "new": {
+                  "address": "E3",
+                  "cache_freshness": "not_applicable",
+                  "cache_status": "not_applicable",
+                  "cached_type": null,
+                  "cached_value": null,
+                  "comment": null,
+                  "formula": null,
+                  "hidden_column": false,
+                  "hidden_row": false,
+                  "hyperlink": null,
+                  "locator": "'Экономика'!E3",
+                  "merged_anchor": null,
+                  "number_format": "General",
+                  "python_type": "int",
+                  "type": "n",
+                  "value": 90
+                },
+                "old": {
+                  "address": "E3",
+                  "cache_freshness": "not_applicable",
+                  "cache_status": "not_applicable",
+                  "cached_type": null,
+                  "cached_value": null,
+                  "comment": null,
+                  "formula": null,
+                  "hidden_column": false,
+                  "hidden_row": false,
+                  "hyperlink": null,
+                  "locator": "'Экономика'!E3",
+                  "merged_anchor": null,
+                  "number_format": "General",
+                  "python_type": "int",
+                  "type": "n",
+                  "value": 30
+                }
+              }
+            ],
+            "limit": "Только зарегистрированные selections; остальные области не проверены",
+            "method": "compare_all_extracted_cell_records",
+            "scope_changed": false,
+            "unchanged_cells": [
+              "'Воронка'!A1",
+              "'Воронка'!A2",
+              "'Воронка'!A3",
+              "'Воронка'!A4",
+              "'Воронка'!B1",
+              "'Воронка'!B2",
+              "'Воронка'!B3",
+              "'Воронка'!B4",
+              "'Воронка'!C1",
+              "'Воронка'!C2",
+              "'Воронка'!C3",
+              "'Воронка'!C4",
+              "'Воронка'!D1",
+              "'Воронка'!D2",
+              "'Воронка'!D3",
+              "'Воронка'!D4",
+              "'Воронка'!E1",
+              "'Воронка'!E2",
+              "'Воронка'!E3",
+              "'Воронка'!E4",
+              "'Воронка'!F1",
+              "'Воронка'!F2",
+              "'Воронка'!F3",
+              "'Воронка'!F4",
+              "'Воронка'!G1",
+              "'Воронка'!G2",
+              "'Воронка'!G3",
+              "'Воронка'!G4",
+              "'Воронка'!H1",
+              "'Воронка'!H2",
+              "'Воронка'!H3",
+              "'Воронка'!H4",
+              "'Воронка'!I1",
+              "'Воронка'!I2",
+              "'Воронка'!I3",
+              "'Воронка'!I4",
+              "'Воронка'!J1",
+              "'Воронка'!J2",
+              "'Воронка'!J3",
+              "'Воронка'!J4",
+              "'Воронка'!K1",
+              "'Воронка'!K2",
+              "'Воронка'!K3",
+              "'Воронка'!K4",
+              "'Примечания'!A1",
+              "'Примечания'!A2",
+              "'Примечания'!A3",
+              "'Экономика'!A1",
+              "'Экономика'!A2",
+              "'Экономика'!A3",
+              "'Экономика'!B1",
+              "'Экономика'!B2",
+              "'Экономика'!B3",
+              "'Экономика'!C1",
+              "'Экономика'!C2",
+              "'Экономика'!C3",
+              "'Экономика'!D1",
+              "'Экономика'!D2",
+              "'Экономика'!D3",
+              "'Экономика'!E1",
+              "'Экономика'!E2",
+              "'Экономика'!F1",
+              "'Экономика'!F2",
+              "'Экономика'!F3",
+              "'Экономика'!G1",
+              "'Экономика'!G2",
+              "'Экономика'!G3",
+              "'Экономика'!H1",
+              "'Экономика'!H2",
+              "'Экономика'!H3",
+              "'Экономика'!I1",
+              "'Экономика'!I2",
+              "'Экономика'!I3",
+              "'Экономика'!J1",
+              "'Экономика'!J2",
+              "'Экономика'!J3"
+            ]
+          },
+          "event_id": "EV_SUPPORT90",
+          "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности.",
+          "locators": [
+            "'Экономика'!E3"
+          ],
+          "new_ground": "90 минут, не новое рыночное измерение",
+          "old_ground": "30 минут поддержки на организацию в месяц",
+          "precision": "declared_links",
+          "record_type": "decision_impact",
+          "reusable": [
+            {
+              "artifact_id": "FUNNEL1",
+              "locators": [
+                "'Воронка'!A3",
+                "'Воронка'!B3",
+                "'Воронка'!C3",
+                "'Воронка'!D3",
+                "'Воронка'!E3",
+                "'Воронка'!F3",
+                "'Воронка'!G3",
+                "'Воронка'!H3",
+                "'Воронка'!I3",
+                "'Воронка'!A4",
+                "'Воронка'!B4",
+                "'Воронка'!C4",
+                "'Воронка'!D4",
+                "'Воронка'!E4",
+                "'Воронка'!F4",
+                "'Воронка'!G4",
+                "'Воронка'!H4",
+                "'Воронка'!I4"
+              ],
+              "reason": "Все выбранные расчётом ячейки вне изменения"
+            }
+          ],
+          "source": {
+            "id": "S002",
+            "version": 1
+          },
+          "uncertain_locators": []
+        },
+        "next_action": "Владелец определяет допустимое исследование/бюджет либо keep/close; пилот не запущен",
+        "owner_review_required": true,
+        "reason": "Новая база существенно снижает остаток до нуля при 20; старые расчёты не текущая поддержка",
+        "resolution_event": "EV_SUPPORT90_REVIEW",
+        "resolution_evidence": [
+          {
+            "artifact_id": "REVIEW2",
+            "locator": "Затронутое/незатронутое"
+          },
+          {
+            "artifact_id": "ECON2",
+            "locator": "base"
+          }
+        ],
+        "status": "revised"
+      }
+    ],
+    "status": "proposed"
+  },
+  "decision_question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+  "evaluation": {
+    "origin": "TASK06 isolated teaching rehearsal; no simulated approval or real experiment",
+    "synthetic": true
+  },
+  "next_action": "Представить четыре варианта с нулевым сценарием при 20 организациях; согласовать владельца/бюджет/приёмку либо keep/close",
+  "objective": "Выбрать аудиторию и предложение RelayBox либо оставить/закрыть направление; учебная репетиция TASK06",
+  "pending_actions": [
+    "Решение владельца о разрешённом исследовании задачи и затрат; коммерческий пилот не запускать"
+  ],
+  "project_id": "task06-rehearsal",
+  "revision": 6,
+  "saved_at": "2026-11-16T15:35:50.276503+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001v1_meta",
+        "S001v1_original",
+        "S001v1_extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v1_meta",
+        "S002v1_original",
+        "S002v1_extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003v1_meta",
+        "S003v1_original",
+        "S003v1_extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v2_meta",
+        "S002v2_original",
+        "S002v2_extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 2
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "ab2a105db33ee4d93516028728f9ff776c378d67ac93eeacfa0f5532e4339f81",
+  "unresolved_questions": [
+    "Решение владельца, бюджет и ответственный не определены",
+    "Спрос, CAC, налоги, продления и стоимость выхода неизвестны",
+    "Приёмка реальных функций не выполнена"
+  ]
+}

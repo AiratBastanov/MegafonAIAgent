@@ -1,0 +1,2277 @@
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.MainWindowTitle : The term '.MainWindowTitle' is not recognized as the name of a cmdlet, function, script file, or ope
+rable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again
+.
+At line:1 char:30
++ Get-Process | Where-Object { .MainWindowTitle -like '*MegafonAIAgent* ...
++                              ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.MainWindowTitle:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

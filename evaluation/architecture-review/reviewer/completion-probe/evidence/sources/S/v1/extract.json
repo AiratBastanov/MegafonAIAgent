@@ -1,0 +1,14 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Учебное наблюдение: 5 из 20."
+    }
+  ],
+  "source_id": "S",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "text",
+  "input_sha256": "4dd3cfc5e46ce98ef6dbbb722e0f7f319476bae38472ab9520e7802b40ae514e",
+  "extraction_method": "utf8-lines-v1"
+}

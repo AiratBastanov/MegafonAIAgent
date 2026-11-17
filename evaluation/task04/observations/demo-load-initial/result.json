@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "scripts/project_state.py",
+    "load",
+    "--project",
+    "evaluation/task04/projects/task04-followup"
+  ],
+  "started_at": "2026-11-16T11:55:01.354029+00:00",
+  "ended_at": "2026-11-16T11:55:01.555332+00:00",
+  "elapsed_seconds": 0.2029999999977008,
+  "returncode": 0,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe"
+}

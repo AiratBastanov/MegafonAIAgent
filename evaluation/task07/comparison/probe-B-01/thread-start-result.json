@@ -1,0 +1,68 @@
+{
+  "thread": {
+    "id": "01a1e538-8f25-7983-b48c-9f101f02ebce",
+    "environments": [
+      {
+        "environmentId": "local",
+        "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01",
+        "runtimeWorkspaceRoots": [
+          "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01"
+        ]
+      }
+    ],
+    "extra": null,
+    "sessionId": "01a1e538-8f25-7983-b48c-9f101f02ebce",
+    "forkedFromId": null,
+    "attachedToThreadId": null,
+    "parentThreadId": null,
+    "preview": "",
+    "ephemeral": true,
+    "section": null,
+    "sectionEnteredAt": null,
+    "projectId": null,
+    "historyMode": "paginated",
+    "modelProvider": "openai",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "max",
+    "createdAt": 1794847051,
+    "updatedAt": 1794847051,
+    "recencyAt": 1794847051,
+    "status": {
+      "type": "idle"
+    },
+    "path": null,
+    "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01",
+    "cliVersion": "0.169.0-alpha.11.1",
+    "originator": "codex_vscode",
+    "source": "vscode",
+    "canAcceptDirectInput": true,
+    "threadSource": null,
+    "agentNickname": null,
+    "agentRole": null,
+    "gitInfo": null,
+    "name": null,
+    "daybreakEnabled": null,
+    "turns": []
+  },
+  "model": "gpt-6-astra",
+  "modelProvider": "openai",
+  "serviceTier": "default",
+  "disabledPluginIds": [],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01",
+  "runtimeWorkspaceRoots": [
+    "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01"
+  ],
+  "instructionSources": [],
+  "approvalPolicy": "on-request",
+  "approvalsReviewer": "user",
+  "sandbox": {
+    "type": "readOnly",
+    "networkAccess": false
+  },
+  "activePermissionProfile": {
+    "id": ":read-only",
+    "extends": null
+  },
+  "reasoningEffort": "max",
+  "multiAgentMode": "explicitRequestOnly"
+}

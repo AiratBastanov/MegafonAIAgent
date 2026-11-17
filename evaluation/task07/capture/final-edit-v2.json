@@ -1,0 +1,303 @@
+{
+  "note": "Only real gdigrab recordings. Initial PDF/table overview was filmed later and is explicitly labelled. Then return to preserved original pause; no checkpoint rewind or deletion. CLI continuation is genuinely new, synthesis resumes that thread, coordinator takes over after service limit. Original times and hashes preserved in timeline.",
+  "segments": [
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 0,
+      "end": 8.6,
+      "speed": 0.4,
+      "label": "Запрос руководителя. Учебные клиентские данные; не официальный бриф"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 406,
+      "end": 419,
+      "speed": 0.55,
+      "label": "Обзор исходного PDF. Этот просмотр снят после продолжения"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 425,
+      "end": 449,
+      "label": "Исходная таблица: интерес и оплата различаются. Просмотр после продолжения",
+      "cut_before": true
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 27.7,
+      "end": 35,
+      "crop": [
+        0,
+        0,
+        1440,
+        285
+      ],
+      "label": "Возвращаемся к ранней записи: подлинная пауза сохранена в 18:25 МСК",
+      "cut_before": true
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 35,
+      "end": 41.7,
+      "crop": [
+        40,
+        585,
+        1300,
+        100
+      ],
+      "label": "На этой границе расчётов и стратегий ещё нет"
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 77.8,
+      "end": 81.3,
+      "speed": 0.3,
+      "crop": [
+        28,
+        568,
+        1384,
+        190
+      ],
+      "label": "Новая независимая сессия прочитала память и сама определила следующий шаг",
+      "cut_before": true
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 139.2,
+      "end": 146,
+      "speed": 0.4,
+      "crop": [
+        28,
+        575,
+        1384,
+        200
+      ],
+      "label": "Агент обнаружил: восемь интересов — не восемь оплат",
+      "cut_before": true
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 446.1,
+      "end": 459,
+      "crop": [
+        28,
+        565,
+        1384,
+        190
+      ],
+      "label": "Собственные расчёты и заметка; числовая проверка прошла",
+      "cut_before": true
+    },
+    {
+      "source": "raw/continuation-01.mp4",
+      "start": 788.4,
+      "end": 807.3,
+      "crop": [
+        28,
+        238,
+        1384,
+        330
+      ],
+      "label": "Отдельный процесс нашёл новую сохранённую работу. Сессия заняла 10 мин 19 с",
+      "cut_before": true
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 480,
+      "end": 495,
+      "crop": [
+        28,
+        460,
+        1384,
+        288
+      ],
+      "label": "Новые официальные сведения изменили основание проверки; арифметика сохранена",
+      "cut_before": true
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 840,
+      "end": 854,
+      "crop": [
+        28,
+        566,
+        1384,
+        190
+      ],
+      "label": "Агент подготовил варианты и обе стратегии",
+      "cut_before": true
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 1320,
+      "end": 1335,
+      "crop": [
+        28,
+        566,
+        1384,
+        190
+      ],
+      "label": "Самопроверка: исправлены окно неплательщиков и смысл сэкономленного времени",
+      "cut_before": true
+    },
+    {
+      "source": "raw/synthesis-01.mp4",
+      "start": 1440,
+      "end": 1448,
+      "crop": [
+        28,
+        568,
+        1384,
+        220
+      ],
+      "label": "Лимит сервиса остановил сессию до сохранения стратегий",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 4,
+      "end": 23,
+      "crop": [
+        28,
+        183,
+        1384,
+        535
+      ],
+      "label": "Далее тот же пример завершает координатор текущей беседы",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 355,
+      "end": 368,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Координатор применил замечание рецензента и сохранил стратегии",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 455,
+      "end": 481,
+      "label": "Справка Яндекса: тариф, пароль и запрет скачивания имеют разный смысл",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 490,
+      "end": 511,
+      "label": "Четыре варианта: выбор, отказы и условие закрытия",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 515,
+      "end": 532,
+      "speed": 0.8,
+      "label": "Продуктовая стратегия: узкая исходящая задача и проверяемая ценность",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 535.5,
+      "end": 539,
+      "speed": 0.15,
+      "crop": [
+        28,
+        275,
+        1384,
+        520
+      ],
+      "label": "Коммуникация: только описанные функции, после приёмки; без обещания экономии"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 541,
+      "end": 546,
+      "speed": 0.4,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Симулированный выбор записан отдельно: роли, сроки и условия допуска"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 548,
+      "end": 563,
+      "crop": [
+        28,
+        310,
+        1384,
+        380
+      ],
+      "label": "Инженер — приёмка; аналитик — бюджет; руководитель — отдельный допуск"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 574,
+      "end": 581,
+      "speed": 0.3,
+      "crop": [
+        28,
+        238,
+        1384,
+        555
+      ],
+      "label": "После выбора изменена одна ячейка: поддержка 30 → 90 минут",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 584,
+      "end": 599,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Проверено влияние на основания, условия и обязательства"
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 794,
+      "end": 804,
+      "crop": [
+        28,
+        238,
+        1384,
+        380
+      ],
+      "label": "Пять документов согласованы с пересмотром. Незатронутое использовано повторно",
+      "cut_before": true
+    },
+    {
+      "source": "raw/coordinator-completion-01.mp4",
+      "start": 840,
+      "end": 849.5,
+      "speed": 0.35,
+      "crop": [
+        28,
+        242,
+        1384,
+        552
+      ],
+      "label": "Итог: прежний выбор виден, новый допуск заблокирован. Пилот не начат",
+      "cut_before": true
+    },
+    {
+      "source": "raw/final-review-01.mp4",
+      "start": 2,
+      "end": 32,
+      "label": "Сильнейшее возражение и совместные пороги проверки. Ни одного реального результата не заявлено",
+      "cut_before": true
+    }
+  ]
+}

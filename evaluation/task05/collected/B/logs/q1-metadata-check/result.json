@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Raw -Encoding UTF8 responses/q1-meta.json | ConvertFrom-Json | Select-Object task,started_utc,ended_utc,project_rules_present; Get-FileHash -Algorithm SHA256 -LiteralPath responses/q1-meta.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:49:53.062735+00:00",
+  "ended_at": "2026-11-16T13:49:53.417806+00:00",
+  "elapsed_seconds": 0.35900000000037835,
+  "returncode": 0
+}

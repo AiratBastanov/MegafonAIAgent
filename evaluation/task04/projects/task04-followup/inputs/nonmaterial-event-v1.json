@@ -1,0 +1,26 @@
+{
+  "id": "NONMATERIAL-01",
+  "project_id": "task04-followup",
+  "kind": "evidence_change",
+  "clock": "simulated",
+  "at": "2026-11-19T12:00:00+03:00",
+  "provenance": {
+    "kind": "source_material",
+    "artifact_id": "S007v1-extract",
+    "locator": "line:1-2"
+  },
+  "change": {
+    "type": "nonmaterial",
+    "source": {
+      "id": "S007",
+      "version": 1
+    },
+    "locators": [
+      "line:1-2"
+    ],
+    "reason": "Внутренняя служебная подпись не меняет оснований решения",
+    "old_ground": "Служебная подпись",
+    "new_ground": "Уточнённая подпись журнала",
+    "applicability": "Не относится к бизнес-вопросу и не используется в объявленных связях"
+  }
+}

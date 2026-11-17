@@ -1,0 +1,16 @@
+{
+  "command": [
+    "ffmpeg",
+    "-version"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:52:00.552228+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected",
+  "outcome": "process_exited",
+  "ended_at": "2026-11-16T16:52:00.625077+00:00",
+  "elapsed_seconds": 0.06199999999807915,
+  "returncode": 0,
+  "stdout_sha256": "31f06c84af11b04f5dd0f8be33d954fff1ea8b85323980744d54bd88d2b198e5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

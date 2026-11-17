@@ -1,0 +1,8 @@
+{
+  "operation": "follow",
+  "title": "Продолжение в новом контексте",
+  "caption": "Реальный вывод нового процесса Codex. Сохранённая задача и материалы доступны ему только в отдельной копии.",
+  "path": "evaluation/task07/observations/continuation-cli/stdout.txt",
+  "format": "jsonl",
+  "prompt": "Продолжи анализ проекта task06-rehearsal по сохранённому состоянию."
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.tmp
+_task06/
+dist/
+
+# Local preparation and distribution only
+_publication/
+_public-data-release/
+_provenance-release/
+_architecture-review/
+_task07/
+/*.zip

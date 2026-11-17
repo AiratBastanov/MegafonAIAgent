@@ -1,0 +1,318 @@
+{
+  "artifact": {
+    "path": "evidence/calculations/economics-raw-v2.json",
+    "sha256": "e3a4ec07bf1acd75fd5118871138adcfa46d2397e208d9e247143eafc9ba3ce8"
+  },
+  "result": {
+    "groups": [
+      {
+        "group": {
+          "period": "2026-11-scenario",
+          "segment": "агентства"
+        },
+        "locators": [
+          "'Экономика'!A3; 'Экономика'!B3; 'Экономика'!C3; 'Экономика'!D3; 'Экономика'!E3; 'Экономика'!F3; 'Экономика'!G3; 'Экономика'!H3; 'Экономика'!I3"
+        ],
+        "metrics": {
+          "price": {
+            "value": "3000.00",
+            "unit": "RUB/account/month",
+            "status": "ok",
+            "numerator": "3000",
+            "missing": [],
+            "definition": {
+              "id": "price",
+              "operation": "sum",
+              "numerator": [
+                "price"
+              ],
+              "unit": "RUB/account/month",
+              "rounding": 2
+            }
+          },
+          "infra": {
+            "value": "600.00",
+            "unit": "RUB/account/month",
+            "status": "ok",
+            "numerator": "600",
+            "missing": [],
+            "definition": {
+              "id": "infra",
+              "operation": "sum",
+              "numerator": [
+                "infra"
+              ],
+              "unit": "RUB/account/month",
+              "rounding": 2
+            }
+          },
+          "support_minutes": {
+            "value": "90.00",
+            "unit": "minutes/account/month",
+            "status": "ok",
+            "numerator": "90",
+            "missing": [],
+            "definition": {
+              "id": "support_minutes",
+              "operation": "sum",
+              "numerator": [
+                "support_minutes"
+              ],
+              "unit": "minutes/account/month",
+              "rounding": 2
+            }
+          },
+          "hourly_cost": {
+            "value": "600.00",
+            "unit": "RUB/hour",
+            "status": "ok",
+            "numerator": "600",
+            "missing": [],
+            "definition": {
+              "id": "hourly_cost",
+              "operation": "sum",
+              "numerator": [
+                "hourly_cost"
+              ],
+              "unit": "RUB/hour",
+              "rounding": 2
+            }
+          },
+          "fixed": {
+            "value": "30000.00",
+            "unit": "RUB/month",
+            "status": "ok",
+            "numerator": "30000",
+            "missing": [],
+            "definition": {
+              "id": "fixed",
+              "operation": "sum",
+              "numerator": [
+                "fixed"
+              ],
+              "unit": "RUB/month",
+              "rounding": 2
+            }
+          },
+          "setup": {
+            "value": "60000.00",
+            "unit": "RUB",
+            "status": "ok",
+            "numerator": "60000",
+            "missing": [],
+            "definition": {
+              "id": "setup",
+              "operation": "sum",
+              "numerator": [
+                "setup"
+              ],
+              "unit": "RUB",
+              "rounding": 2
+            }
+          },
+          "accounts": {
+            "value": "20",
+            "unit": "accounts",
+            "status": "ok",
+            "numerator": "20",
+            "missing": [],
+            "definition": {
+              "id": "accounts",
+              "operation": "sum",
+              "numerator": [
+                "accounts"
+              ],
+              "unit": "accounts",
+              "rounding": 0
+            }
+          }
+        }
+      }
+    ],
+    "synthetic": true,
+    "period_column": "period",
+    "columns": {
+      "period": {
+        "type": "text",
+        "unit": "scenario_month"
+      },
+      "segment": {
+        "type": "text",
+        "unit": "category"
+      },
+      "price": {
+        "type": "decimal",
+        "unit": "RUB/account/month",
+        "min": "0"
+      },
+      "infra": {
+        "type": "decimal",
+        "unit": "RUB/account/month",
+        "min": "0"
+      },
+      "support_minutes": {
+        "type": "decimal",
+        "unit": "minutes/account/month",
+        "min": "0"
+      },
+      "hourly_cost": {
+        "type": "decimal",
+        "unit": "RUB/hour",
+        "min": "0"
+      },
+      "fixed": {
+        "type": "decimal",
+        "unit": "RUB/month",
+        "min": "0"
+      },
+      "setup": {
+        "type": "decimal",
+        "unit": "RUB",
+        "min": "0"
+      },
+      "accounts": {
+        "type": "integer",
+        "unit": "accounts",
+        "min": "0"
+      }
+    },
+    "missing_policy": "Любой пропуск компонента делает соответствующий агрегат null; строки не отбрасываются",
+    "zero_denominator_policy": "null, status=zero_denominator",
+    "rounding_method": "Точные десятичные суммы и рациональное ROUND_HALF_UP; округление только результата",
+    "numeric_guard": {
+      "max_coefficient_digits": 18,
+      "max_abs_exponent": 12
+    },
+    "normalization": {
+      "method": "literal-xlsx-cells-to-in-memory-csv-v1",
+      "formula_policy": "reject_even_with_cache",
+      "include_hidden": false,
+      "rows": [
+        {
+          "sheet": "Экономика",
+          "row": 3,
+          "cells": {
+            "period": {
+              "locator": "'Экономика'!A3",
+              "address": "A3",
+              "value": "2026-11-scenario",
+              "type": "s",
+              "unit": "scenario_month",
+              "period": "2026-11-scenario",
+              "number_format": "General"
+            },
+            "segment": {
+              "locator": "'Экономика'!B3",
+              "address": "B3",
+              "value": "агентства",
+              "type": "s",
+              "unit": "category",
+              "period": "2026-11-scenario",
+              "number_format": "General"
+            },
+            "price": {
+              "locator": "'Экономика'!C3",
+              "address": "C3",
+              "value": 3000,
+              "type": "n",
+              "unit": "RUB/account/month",
+              "period": "2026-11-scenario",
+              "number_format": "#,##0.00 \"RUB\""
+            },
+            "infra": {
+              "locator": "'Экономика'!D3",
+              "address": "D3",
+              "value": 600,
+              "type": "n",
+              "unit": "RUB/account/month",
+              "period": "2026-11-scenario",
+              "number_format": "#,##0.00 \"RUB\""
+            },
+            "support_minutes": {
+              "locator": "'Экономика'!E3",
+              "address": "E3",
+              "value": 90,
+              "type": "n",
+              "unit": "minutes/account/month",
+              "period": "2026-11-scenario",
+              "number_format": "General"
+            },
+            "hourly_cost": {
+              "locator": "'Экономика'!F3",
+              "address": "F3",
+              "value": 600,
+              "type": "n",
+              "unit": "RUB/hour",
+              "period": "2026-11-scenario",
+              "number_format": "#,##0.00 \"RUB\""
+            },
+            "fixed": {
+              "locator": "'Экономика'!G3",
+              "address": "G3",
+              "value": 30000,
+              "type": "n",
+              "unit": "RUB/month",
+              "period": "2026-11-scenario",
+              "number_format": "#,##0.00 \"RUB\""
+            },
+            "setup": {
+              "locator": "'Экономика'!H3",
+              "address": "H3",
+              "value": 60000,
+              "type": "n",
+              "unit": "RUB",
+              "period": "2026-11-scenario",
+              "number_format": "#,##0.00 \"RUB\""
+            },
+            "accounts": {
+              "locator": "'Экономика'!I3",
+              "address": "I3",
+              "value": 20,
+              "type": "n",
+              "unit": "accounts",
+              "period": "2026-11-scenario",
+              "number_format": "General"
+            }
+          },
+          "normalized_locator": "rows:2-2",
+          "locator": "'Экономика'!A3; 'Экономика'!B3; 'Экономика'!C3; 'Экономика'!D3; 'Экономика'!E3; 'Экономика'!F3; 'Экономика'!G3; 'Экономика'!H3; 'Экономика'!I3"
+        }
+      ]
+    },
+    "provenance": {
+      "source_type": "xlsx",
+      "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+      "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+      "limitations": [
+        "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+        "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+        "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+        "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+        "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+      ],
+      "extract": {
+        "path": "evidence/sources/S002/v2/extract.json",
+        "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+      }
+    },
+    "calculated_at": "2026-11-16T15:30:45+00:00",
+    "tool": "analyze_table",
+    "tool_version": "1.2",
+    "input": {
+      "path": "evidence/sources/S002/v2/original.xlsx",
+      "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+    },
+    "spec": {
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    "source": {
+      "id": "S002",
+      "version": 2
+    },
+    "reproduce": {
+      "input": "evidence/sources/S002/v2/original.xlsx",
+      "spec": "inputs/metrics-economics-v1.json"
+    }
+  }
+}

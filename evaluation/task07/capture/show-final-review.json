@@ -1,0 +1,1 @@
+{"operation":"run","id":"show-final-review","title":"Что опровергнет предложение","caption":"Читаем итоговую стратегию и проверяем сохранность истории. Пороги — проектные, не результаты.","argv":["python","-X","utf8","evaluation/task07/capture/show_final_review.py"],"cwd":"."}

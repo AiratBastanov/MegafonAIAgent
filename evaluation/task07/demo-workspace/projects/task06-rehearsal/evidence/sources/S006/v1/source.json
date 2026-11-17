@@ -1,0 +1,31 @@
+{
+  "id": "S006",
+  "kind": "web-excerpt",
+  "origin": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+  "input_sha256": "7f0875268f518be12b57c9b2be95841387d83215524f3dea55502ac5e468fe6e",
+  "synthetic": false,
+  "accessed_at": "2026-11-16T16:29:10Z",
+  "locator": "Introduction: 48-54; Как поделиться: 86-114; Как долго работает ссылка: 127-130; Не скачивается файл: 181-182",
+  "retrieval_status": "supplied_snapshot",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Supplied dated note; no network reading or service test in this session.",
+    "accessed_at copies the supplied index recorded_at, not exact origin retrieval time. The known original access date is 2026-11-16.",
+    "Local version 1; claims restricted to supplied sections and named plan lists; no evidence of RelayBox demand or economics.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-16T16:48:22+00:00",
+  "published_at": null,
+  "input_path": "inputs/official-2026-11-16/yandex-sharing-2026-11-16.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S006/v1/original.txt",
+    "sha256": "7f0875268f518be12b57c9b2be95841387d83215524f3dea55502ac5e468fe6e"
+  },
+  "extract": {
+    "path": "evidence/sources/S006/v1/extract.json",
+    "sha256": "abb6ca9745778883ba5b1ef605383f4ff524f24d024758dcec8b31ccc828137d"
+  }
+}

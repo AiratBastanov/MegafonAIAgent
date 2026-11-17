@@ -1,0 +1,1383 @@
+{
+  "artifact_dependencies": [
+    {
+      "from": "ECON-RAW-v1",
+      "reason": "Сценарии используют значения raw metrics",
+      "to": "ECON-v1"
+    },
+    {
+      "from": "ECON-RAW-v2",
+      "reason": "Сценарии используют значения raw metrics",
+      "to": "ECON-v2"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "PROJECT",
+      "path": "evidence/origin-project-demo002.md",
+      "sha256": "7b434dc1af7ab422e9a6e0e55ac1d5ee02bad49f900d6d2b8b4e738df707fe46"
+    },
+    {
+      "id": "DEFINITIONS",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION-v1",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "PDF-MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "FIDELITY-v1",
+      "path": "evidence/fidelity-v1.json",
+      "sha256": "aaa6bf51ec98915388ce7f92f7c2115617244433bb19082cfbb25076250cb63b"
+    },
+    {
+      "id": "QUESTIONS-v1",
+      "path": "evidence/research-questions-v1.md",
+      "sha256": "866b23a93fe50e57647b2f7869a364640f552dd71392362f5eb407f5e2b5c09b"
+    },
+    {
+      "id": "IMPORT-v1",
+      "path": "evidence/import-observation-v1.json",
+      "sha256": "382bcd51c231778fa66b39e65ea25f5fe26fab21191288ffa8a99cf9d8208f5a"
+    },
+    {
+      "id": "S001v1-meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "3c2493e7b8f3c56a3f4f8d9fe2a75522869b969d6a526e0616b7b61733820ef2"
+    },
+    {
+      "id": "S001v1-original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1-extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1-meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "1e111f5037984afeeb34735fac51b1f43672f1f69622335ef0d6a94c63b66d52"
+    },
+    {
+      "id": "S002v1-original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1-extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "8f936010faaa9e158e597505ace65de3bb3754b5bcbfa201af006964e5666862"
+    },
+    {
+      "id": "S003v1-meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "1d428c505005ab6c4b13a2051c62b1e1125d8595fd5d505490ee01f1d153045b"
+    },
+    {
+      "id": "S003v1-original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "186502e9796113285fc5f023a0562d8d70ce3e3ef8b744124189ee4c3a50ffdd"
+    },
+    {
+      "id": "S003v1-extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "94c6cf80d1135ff701d5c3416fedea68288e7715509a4efe359739e166f4a461"
+    },
+    {
+      "id": "S004v1-meta",
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "78d0957c6f7f47ce3b1d57d4c7c047cad39403dda80df3633e50a4218a1f686f"
+    },
+    {
+      "id": "S004v1-original",
+      "path": "evidence/sources/S004/v1/original.txt",
+      "sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f"
+    },
+    {
+      "id": "S004v1-extract",
+      "path": "evidence/sources/S004/v1/extract.json",
+      "sha256": "e40f1800fb1496146954225e03f2b9a2ad6cd19a71f16fbc4e107fe889aa2818"
+    },
+    {
+      "id": "SPEC-FUNNEL-v1",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "SPEC-ECON-v1",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SENSITIVITY-v1",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "CALC-FUNNEL-v1",
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "9091b55537c789878454be91a5f404fc52bc64560f932e68fc76603424627a1a"
+    },
+    {
+      "id": "ECON-RAW-v1",
+      "path": "evidence/calculations/economics-raw-v1.json",
+      "sha256": "e6bcd59eb3523e3591ec025f2a5f4c495326a29979bc56d7540ddc1dabe73218"
+    },
+    {
+      "id": "ECON-v1",
+      "path": "evidence/calculations/economics-v1.json",
+      "sha256": "b17b739784bb24459926df06c8bb141966294bad2107a6b3f9651ee5bbcc6c3e"
+    },
+    {
+      "id": "ECON-CHECK-v1",
+      "path": "evidence/calculations/independent-v1.json",
+      "sha256": "e6059f6b15e415a260c43aa0e4c06fc2afd84b68a1076801e14c2dfe7cc017b7"
+    },
+    {
+      "id": "ECON-TOOL-v1",
+      "path": "evidence/calculations/calc-offer-tool-v1.py",
+      "sha256": "b698be2b6da3dc3607314c2474073e39676c31ea6e82d60a950aebfec1848bdb"
+    },
+    {
+      "id": "CHECK-TOOL-v1",
+      "path": "evidence/calculations/check-offer-tool-v1.py",
+      "sha256": "09a236b7a9f6088c2e3ee29603b79affb579f4553958d2f05e4185a2eeb6f8ec"
+    },
+    {
+      "id": "CONFLICT-v1",
+      "path": "evidence/conflict-resolution-v1.md",
+      "sha256": "1791d04af05578f7eeba7a44df3a21bbf1ab83173ccab92a14c772b7dab61986"
+    },
+    {
+      "id": "OUTPUT-v1-situation",
+      "path": "outputs/v1/situation.md",
+      "sha256": "77254394b1d1d947cf37c3bbbd75c7135ec4408373d69cee5527c8fba6e7270c"
+    },
+    {
+      "id": "OUTPUT-v1-options",
+      "path": "outputs/v1/options.md",
+      "sha256": "1aa979aee11522c0c218e1094f7c9471c9764bcbc4b048e8d9360c79c31fc71c"
+    },
+    {
+      "id": "OUTPUT-v1-product-strategy",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "ab1cf19c0bbed7905988ac604febf59e3b9fd5dac31914e0e90f882125650eb3"
+    },
+    {
+      "id": "OUTPUT-v1-communication-strategy",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "aefc9a083f8b55a578837ca943905046ea90191a3cc7c869b659927d61ee8b20"
+    },
+    {
+      "id": "OUTPUT-v1-validation-plan",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "40d69a22fd9d23d11b887dce946b40c975dd2482babe8e679c39c5e373936e7d"
+    },
+    {
+      "id": "ECON-RAW-v2",
+      "path": "evidence/calculations/economics-raw-v2.json",
+      "sha256": "25a05f105338a3febe8e26179bc06c67161f584efe65a83804c67acbc3e52d63"
+    },
+    {
+      "id": "ECON-v2",
+      "path": "evidence/calculations/economics-v2.json",
+      "sha256": "33c08c353973ed5393d9ac6d9b9c0d90ba7ec19cc78eaff23bd310c71c2dc0a3"
+    },
+    {
+      "id": "ECON-CHECK-v2",
+      "path": "evidence/calculations/independent-v2.json",
+      "sha256": "330e00153d485966c122cba0c15118c69965741be96453fcde7f3b19a5cb89ff"
+    },
+    {
+      "id": "FIDELITY-v2",
+      "path": "evidence/fidelity-v2.json",
+      "sha256": "eb5682aca3ccd11cae43c36ff09cc6cfcf34df7dd2bd21f9665fadf0bd6496fd"
+    },
+    {
+      "id": "CORRECTION-v2",
+      "path": "evidence/correction-impact-v2.md",
+      "sha256": "564563073d76b5e08aab00f9d5abc8830e5791eae3f2b639f53e076842113a6c"
+    },
+    {
+      "id": "CORRECTION-CHECK-v2",
+      "path": "evidence/correction-check-v2.json",
+      "sha256": "68ddf8774a9a2bc203e4cd8b8a40f96dad4837084116060757fe9ce949e8e005"
+    },
+    {
+      "id": "IMPORT-v2",
+      "path": "evidence/import-observation-v2.json",
+      "sha256": "25db7c4026293f20f88ea34976c7863e371d80730219f6bcd46d02f5c6459392"
+    },
+    {
+      "id": "OUTPUT-v2-situation",
+      "path": "outputs/v2/situation.md",
+      "sha256": "f9453f7b95148e51dd0448fadb5307f7a7cab860f188e7eb94b81a4ebcf4e797"
+    },
+    {
+      "id": "OUTPUT-v2-options",
+      "path": "outputs/v2/options.md",
+      "sha256": "0e514d4cb99b61c77a8e6ba13d0b824756d9f887fabfeb854a64ab419483effe"
+    },
+    {
+      "id": "OUTPUT-v2-product-strategy",
+      "path": "outputs/v2/product-strategy.md",
+      "sha256": "ee835050a62a01dae8ce04f9364374c57f21f7f6be3bc13194122bd99dac1338"
+    },
+    {
+      "id": "OUTPUT-v2-communication-strategy",
+      "path": "outputs/v2/communication-strategy.md",
+      "sha256": "8acd9dcd704645c6ea574626f64e00777b39b9dd8def1ee4dafe26b72194386f"
+    },
+    {
+      "id": "OUTPUT-v2-validation-plan",
+      "path": "outputs/v2/validation-plan.md",
+      "sha256": "eb156b87667f8292f4c0d27cf69bd9b2a7408e89a512899cd968be6ed24956f4"
+    },
+    {
+      "id": "S002v2-meta",
+      "path": "evidence/sources/S002/v2/source.json",
+      "sha256": "f8e9450fceedd75ba33b739990d942849bd5b8995893ea379714c1846db2b526"
+    },
+    {
+      "id": "S002v2-original",
+      "path": "evidence/sources/S002/v2/original.xlsx",
+      "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+    },
+    {
+      "id": "S002v2-extract",
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    },
+    {
+      "id": "S005v1-meta",
+      "path": "evidence/sources/S005/v1/source.json",
+      "sha256": "9ef2e68bef4f9a1d39edb12cc09e89103ed5906d71671d98a1ff2bbb1e807fb1"
+    },
+    {
+      "id": "S005v1-original",
+      "path": "evidence/sources/S005/v1/original.txt",
+      "sha256": "1fad971dd0608b958917c38e1c62b3b6f693d3e9306979e67f36896081609f4e"
+    },
+    {
+      "id": "S005v1-extract",
+      "path": "evidence/sources/S005/v1/extract.json",
+      "sha256": "411e6428ee6bd6ae0f95b57ab781c6f1958eb08b7a3e23191869184277d853ca"
+    },
+    {
+      "id": "REVIEW-v1",
+      "path": "evidence/demo002-review-v1.md",
+      "sha256": "2e6bf52d3a016f5ee8c50da01169030d2a690369760a6a51795e7218ab549d18"
+    },
+    {
+      "id": "REVIEW-v2",
+      "path": "evidence/demo002-review-v2.md",
+      "sha256": "4a496347fe4f4bf5c848a13dfa9f6e23195fc2fe55e559b3a6dcf8af036316c0"
+    },
+    {
+      "id": "RUN-OBSERVATION-v2",
+      "path": "evidence/run-observation-v2.md",
+      "sha256": "b3011574e30bee2a99e3c75271b0c032ae0b2cb78947176460c7615445a3df19"
+    },
+    {
+      "id": "ACTIONS-v1",
+      "path": "evidence/actions-snapshot-v1.jsonl",
+      "sha256": "c598877466e9f46cfaffc19d61494b53e70902474e23928c1fb4c762d067bd9c"
+    },
+    {
+      "id": "EVAL-PROJECT",
+      "path": "project.md",
+      "sha256": "742cb61a472037494b30bdd85dcad186c8e3bdba037cbb143c7601e6ccca3fd8"
+    },
+    {
+      "id": "ORIGIN-STATE",
+      "path": "evidence/origin-state-demo002-r4.json",
+      "sha256": "14d4907e4eb62a272296645569a553d0d7c24d708411de618bb92d100527c818"
+    },
+    {
+      "id": "OWNER-INSTRUCTION",
+      "path": "inputs/owner-instruction-v1.md",
+      "sha256": "3b419510f375b0b14065a583196a50663ec7b4c4cd34145f6d3c9089f42c6a9d"
+    },
+    {
+      "id": "FOLLOWUP-PROTOCOL",
+      "path": "evidence/followup-protocol-v1.md",
+      "sha256": "152498c54b91d57638cfbf3e1a46045766ec094028d429bbda9e745dad6c6dc1"
+    },
+    {
+      "id": "S006v1-meta",
+      "path": "evidence/sources/S006/v1/source.json",
+      "sha256": "9f958c018243297fad575bbaa7d9137f082f7343384b82698f57869a04128917"
+    },
+    {
+      "id": "S006v1-original",
+      "path": "evidence/sources/S006/v1/original.txt",
+      "sha256": "60865010fb83d42a8bed278eed1e0bd1a17d92ce8b374012f069d97555f3522e"
+    },
+    {
+      "id": "S006v1-extract",
+      "path": "evidence/sources/S006/v1/extract.json",
+      "sha256": "ef157d95b76b6309f9aecfaf68bf72270b9cb233980659338644b86e56acbeb7"
+    },
+    {
+      "id": "TRUST-OBSERVATION",
+      "path": "evidence/trust-observation-v1.md",
+      "sha256": "7947090ec30f0557ce98fe30f7f6008b39389cce4d9ccebd5f5cabd0735cf1fa"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:1/block:4-8",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:2/block:2-4",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "status": "superseded",
+      "superseded_reason": "Определения разрешены в C006, исходный заголовок сохранён",
+      "synthetic": true,
+      "text": "Коммерческий заголовок учебного PDF называет восемь платных пилотов бухбюро; смысл и согласованность с таблицей требуют проверки"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S002v1-extract",
+          "locator": "'Воронка'!A2:K4; 'Экономика'!A2:J3",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "DEFINITIONS",
+          "locator": "Воронка и Экономика"
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "В учебной книге раздельно заданы contacted, trials, interest и paid30, имеются неизвестные расходы и формулы без проверенного кэша; это описание исходных полей, не подтверждение спроса или свежести кэша"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003v1-extract",
+          "locator": "line:6-10; host sections What is Dropbox Transfer / size limits / expiry",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S004v1-extract",
+          "locator": "line:6-10; host introduction55-63 and82",
+          "source_id": "S004",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию"
+    },
+    {
+      "context_from": [
+        "C003"
+      ],
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:2/block:2-4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v1-extract",
+          "locator": "'Воронка'!E4:F4",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "CONFLICT-v1",
+          "locator": "Различие определений"
+        }
+      ],
+      "id": "C006",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Восемь платных пилотов PDF означают восемь выражений интереса; XLSX сообщает одну полученную оплату бухбюро. Разные определения не дают восемь платящих"
+    },
+    {
+      "context_from": [
+        "C003"
+      ],
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CALC-FUNNEL-v1",
+          "locator": "groups[0,1].metrics.paid_per_trial_pct,interest_per_trial_pct,paid_per_contact_pct; normalization.rows cells C:F",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "checks kind=funnel"
+        }
+      ],
+      "id": "C007",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Оплата/проба: агентства 2/8=25%, бухбюро1/10=10%; интерес/проба5/8=62,5% и8/10=80%; оплата/обращение2/20=10% и1/20=5%. Малый синтетический неслучайный набор не доказывает превосходство сегмента"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S002v1-extract",
+          "locator": "'Экономика'!A1:J3; 'Воронка'!I3:I4",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:2/block:10",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C008",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Цена/инфраструктура/поддержка/fixed/setup/N на листе Экономика — сценарные допущения; реальный CAC, продления и стоимость выхода неизвестны, пропуски не равны нулю"
+    },
+    {
+      "derived_from": [
+        "C008"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ECON-v1",
+          "locator": "base; scenarios support_minutes=30,90,180 and accounts=20"
+        },
+        {
+          "artifact_id": "ECON-RAW-v1",
+          "locator": "groups[0].metrics; normalization.rows[0].cells C:I",
+          "source_id": "S002",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "ECON-CHECK-v1",
+          "locator": "checks kind=scenario"
+        }
+      ],
+      "id": "C009",
+      "kind": "computed",
+      "status": "superseded",
+      "superseded_reason": "Базовое допущение изменено S005@1; текущий расчёт C013, исходный сценарий сохранён",
+      "synthetic": true,
+      "text": "При исходном допущении30мин поддержки вклад2100 RUB/организацию/месяц; покрытие fixed30000 с15 платящих. N20 даёт12000 до неизвестных расходов и условные5мес возврата setup60000. При90мин остаток0, при180мин -18000. Это сценарии, не прибыль/прогноз"
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S001v1-extract",
+          "locator": "physical-page:2/block:5-6",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C010",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Ручная помощь в исходящей передаче может уменьшить координацию агентств сверх привычного инструмента; меньший разрыв текущих функций обосновывает возможность первой проверки, но дополнительная ценность и готовность платить неизвестны"
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C004",
+        "C005",
+        "C006",
+        "C008",
+        "C010"
+      ],
+      "evidence": [],
+      "id": "C011",
+      "kind": "recommendation",
+      "review_dependencies": [
+        "C013",
+        "C014"
+      ],
+      "synthetic": true,
+      "text": "До решения сохранить внутренний прототип; после согласования цены информации предложить ограниченную проверку исходящей передачи с ручной помощью агентствам. Не строить входящий сбор и не масштабировать без доказанной дополнительной ценности и фактической экономики; keep/close остаются альтернативами"
+    },
+    {
+      "derived_from": [
+        "C010",
+        "C011"
+      ],
+      "evidence": [],
+      "id": "C012",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Размер и пороги предлагаемого пилота, критерии включения и остановки — правила обучения для согласования, не измеренный эффект, мощность, гарантия безопасности или бизнес-одобрение"
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S005v1-extract",
+          "locator": "line:1-5",
+          "source_id": "S005",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "S002v2-extract",
+          "locator": "'Экономика'!E3",
+          "source_id": "S002",
+          "source_version": 2
+        },
+        {
+          "artifact_id": "CORRECTION-CHECK-v2",
+          "locator": "changes[0]; changed_selected_cells=1"
+        }
+      ],
+      "id": "C014",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Маркированная синтетическая коррекция заменяет сценарное допущение поддержки Экономика!E3 с30 на90 минут/платящую организацию/месяц; это не реальное измерение, остальные выбранные ячейки не изменены"
+    },
+    {
+      "derived_from": [
+        "C008",
+        "C014"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "ECON-v2",
+          "locator": "base; scenarios"
+        },
+        {
+          "artifact_id": "ECON-RAW-v2",
+          "locator": "groups[0].metrics; normalization.rows[0].cells C:I",
+          "source_id": "S002",
+          "source_version": 2
+        },
+        {
+          "artifact_id": "ECON-CHECK-v2",
+          "locator": "checks kind=scenario"
+        }
+      ],
+      "id": "C013",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "После коррекции поддержки90мин вклад1500 RUB/платящую организацию/месяц; fixed30000 покрываются с20, строго положительный остаток с21. При N20 остаток0 и нет конечного возврата setup60000. До неизвестных CAC/налогов/затрат неоплативших проб; не прогноз и не прибыль"
+    }
+  ],
+  "completed": [
+    "Прочитаны постановка и определения учебных материалов",
+    "Импортированы PDF/XLSX и две реально прочитанные публичные страницы",
+    "Полнота текста собственного PDF и решающие исходные XLSX значения проверены; кэши формул не использованы",
+    "Разрешён конфликт paid pilots/interest по определениям",
+    "Рассчитаны конверсии из literal cells с двумя явными знаменателями",
+    "Построена и независимо проверена сценарная экономика",
+    "Координатор написал пять outputs/v1; отдельный fresh process их не создавал",
+    "Синтетическая коррекция E3 30→90 минут зарегистрирована как S002@2/S005@1",
+    "Пересчитана затронутая экономика, неизменная Воронка переиспользована из S002@1",
+    "Независимо проверены арифметика, единственное изменение ячейки, старые revisions и изоляция demo-001",
+    "В outputs/v2 уточнены экономические ограничения, календарь эксперимента и учёт неоплативших проб",
+    "Независимое автоматическое ревью outputs/v2 завершено: существенные замечания закрыты",
+    "C003 уточнён после R3, завершённые шаги убраны из очереди, обзоры и журнал закреплены"
+  ],
+  "continuation_phase": {
+    "bounded": true,
+    "completed_by": "root coordinator; fresh CLI verification NOT_VERIFIED",
+    "completed_phase": "Конфликт, расчёты, пять стратегий, коррекция и независимое автоматическое ревью",
+    "next_phase": "Ожидание фактических данных и решения владельца; при их поступлении анализ изменения",
+    "stop_after": "Публикация финального proposed пакета и отдельный load; бизнес-решение не выдумывать"
+  },
+  "decision": {
+    "commitments": [
+      {
+        "blocked_by": [],
+        "completion_check": "Координатор проверил: документ отделяет learning/scaling, перечисляет неизвестные, запрещает фактический запуск; это определение K-PROTOCOL, не K-CAPABILITY",
+        "completion_event": "COMPLETE-PROTOCOL-01",
+        "completion_evidence": [
+          {
+            "artifact_id": "FOLLOWUP-PROTOCOL",
+            "locator": "абзацы 1–5"
+          }
+        ],
+        "condition_ids": [
+          "G-VALUE",
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Зафиксировать локальный протокол gates и границ симуляции",
+        "due_at": "2026-11-17T12:00:00+03:00",
+        "due_condition": "До обсуждения любого внешнего исследования",
+        "id": "K-PROTOCOL",
+        "owner": "координатор симуляции",
+        "required_evidence": "Сохранённый протокол с learning/scaling, неизвестными и запретом реального запуска",
+        "status": "completed"
+      },
+      {
+        "blocked_by": [],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-CAPABILITY"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Предоставить протокол приёмки возможностей",
+        "due_at": "2026-11-17T12:00:00+03:00",
+        "due_condition": "До любого внешнего обещания",
+        "id": "K-CAPABILITY",
+        "owner": "техническая роль, синтетическая",
+        "required_evidence": "Проверка конкретной версии на разрешённом файле с результатом доступа/скачивания/истечения/отзыва",
+        "status": "pending"
+      },
+      {
+        "blocked_by": [
+          "K-CAPABILITY"
+        ],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Назначить владельца и согласовать цену информации",
+        "due_at": null,
+        "due_condition": "После определения проверяемого пакета, до внешних действий",
+        "id": "K-BUDGET",
+        "owner": "unassigned",
+        "required_evidence": "Явное решение владельца о пределах затрат; сейчас сумма неизвестна",
+        "status": "blocked"
+      },
+      {
+        "blocked_by": [
+          "K-BUDGET"
+        ],
+        "completion_evidence": [],
+        "condition_ids": [
+          "G-VALUE",
+          "G-ECONOMICS"
+        ],
+        "decision_id": "OWNER-01-decision",
+        "description": "Собрать частоту, ценность, повторную оплату и полные затраты",
+        "due_at": null,
+        "due_condition": "Только после отдельного реального разрешения и полного периода наблюдения",
+        "id": "K-VALUE",
+        "owner": "unassigned",
+        "required_evidence": "Наблюдения по M-FREQUENCY/M-VALUE/M-RENEWAL/M-COST, не синтетические конверсии",
+        "status": "blocked"
+      }
+    ],
+    "conditions": [
+      {
+        "claim_ids": [
+          "C001",
+          "C010",
+          "C011"
+        ],
+        "description": "Допустимость обещаний исходящей передачи по фактически принятой версии прототипа",
+        "id": "G-CAPABILITY",
+        "metric_ids": [],
+        "next_action": "Получить проверяемый протокол возможности; до него не использовать внешнее обещание",
+        "output_ids": [
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-options",
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-situation",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Есть описание fixture, но нет протокола приёмки настоящей возможности"
+      },
+      {
+        "claim_ids": [
+          "C008",
+          "C013",
+          "C014",
+          "C011"
+        ],
+        "description": "Согласовать цену информации и проверить экономическое основание решения C011",
+        "id": "G-ECONOMICS",
+        "metric_ids": [
+          "M-COST",
+          "M-RENEWAL"
+        ],
+        "next_action": "Назначить владельца расчёта полной экономики и принять отдельное решение о бюджете",
+        "output_ids": [
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-options",
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-situation",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Реальные расходы и продления неизвестны; при N20 уже нулевой сценарный остаток"
+      },
+      {
+        "claim_ids": [
+          "C010",
+          "C012"
+        ],
+        "description": "Обучение не равно доказательству цены или условию масштабирования",
+        "id": "G-VALUE",
+        "metric_ids": [
+          "M-TIME",
+          "M-FIRST-PAY",
+          "M-FREQUENCY",
+          "M-VALUE",
+          "M-RENEWAL"
+        ],
+        "next_action": "Определить необходимые наблюдения перед следующим решением; не выводить 3000 RUB из пяти минут",
+        "output_ids": [
+          "OUTPUT-v2-product-strategy",
+          "OUTPUT-v2-communication-strategy",
+          "OUTPUT-v2-validation-plan"
+        ],
+        "unresolved_reason": "Частота, ценность и повторная оплата не наблюдались"
+      },
+      {
+        "claim_ids": [
+          "C004",
+          "C005"
+        ],
+        "description": "При следующем использовании проверить актуальность публичной альтернативы",
+        "id": "G-FRESHNESS",
+        "metric_ids": [],
+        "next_action": "Перед будущим сравнением проверить официальный источник; дата сама по себе не опровергает снимок",
+        "output_ids": [
+          "OUTPUT-v2-options"
+        ],
+        "review_after": "2026-12-01T12:00:00+03:00"
+      }
+    ],
+    "current_outputs": {
+      "communication-strategy": "OUTPUT-v2-communication-strategy",
+      "options": "OUTPUT-v2-options",
+      "product-strategy": "OUTPUT-v2-product-strategy",
+      "situation": "OUTPUT-v2-situation",
+      "validation-plan": "OUTPUT-v2-validation-plan"
+    },
+    "events": [
+      {
+        "at": "2026-11-16T15:00:00+03:00",
+        "choice": {
+          "ground_ids": [
+            "C001",
+            "C004",
+            "C005",
+            "C007",
+            "C008",
+            "C010",
+            "C011",
+            "C012",
+            "C013",
+            "C014"
+          ],
+          "option": "Подготовить ограниченную проверку исходящего предложения; до приёмки/бюджета сохранять внутренний режим",
+          "owner": "учебная роль владельца направления",
+          "question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+          "reason": "Синтетический владелец выбрал подготовку знания при меньшем разрыве функций; ценность и полная экономика остаются неизвестными",
+          "rejected_alternatives": [
+            {
+              "option": "Разработка входящего сбора",
+              "reason": "Нет функции и подтверждённой дополнительной ценности"
+            },
+            {
+              "option": "Немедленное закрытие",
+              "reason": "Неизвестны внутренняя польза, обязательства и цена выхода"
+            },
+            {
+              "option": "Неопределённое ожидание без проверки",
+              "reason": "Нужны явные основания возврата к выбору; внутренний режим сохраняется временно"
+            }
+          ]
+        },
+        "commitments": [
+          {
+            "blocked_by": [],
+            "completion_evidence": [],
+            "condition_ids": [
+              "G-VALUE",
+              "G-ECONOMICS"
+            ],
+            "description": "Зафиксировать локальный протокол gates и границ симуляции",
+            "due_at": "2026-11-17T12:00:00+03:00",
+            "due_condition": "До обсуждения любого внешнего исследования",
+            "id": "K-PROTOCOL",
+            "owner": "координатор симуляции",
+            "required_evidence": "Сохранённый протокол с learning/scaling, неизвестными и запретом реального запуска",
+            "status": "pending"
+          },
+          {
+            "blocked_by": [],
+            "completion_evidence": [],
+            "condition_ids": [
+              "G-CAPABILITY"
+            ],
+            "description": "Предоставить протокол приёмки возможностей",
+            "due_at": "2026-11-17T12:00:00+03:00",
+            "due_condition": "До любого внешнего обещания",
+            "id": "K-CAPABILITY",
+            "owner": "техническая роль, синтетическая",
+            "required_evidence": "Проверка конкретной версии на разрешённом файле с результатом доступа/скачивания/истечения/отзыва",
+            "status": "pending"
+          },
+          {
+            "blocked_by": [
+              "K-CAPABILITY"
+            ],
+            "completion_evidence": [],
+            "condition_ids": [
+              "G-ECONOMICS"
+            ],
+            "description": "Назначить владельца и согласовать цену информации",
+            "due_at": null,
+            "due_condition": "После определения проверяемого пакета, до внешних действий",
+            "id": "K-BUDGET",
+            "owner": "unassigned",
+            "required_evidence": "Явное решение владельца о пределах затрат; сейчас сумма неизвестна",
+            "status": "blocked"
+          },
+          {
+            "blocked_by": [
+              "K-BUDGET"
+            ],
+            "completion_evidence": [],
+            "condition_ids": [
+              "G-VALUE",
+              "G-ECONOMICS"
+            ],
+            "description": "Собрать частоту, ценность, повторную оплату и полные затраты",
+            "due_at": null,
+            "due_condition": "Только после отдельного реального разрешения и полного периода наблюдения",
+            "id": "K-VALUE",
+            "owner": "unassigned",
+            "required_evidence": "Наблюдения по M-FREQUENCY/M-VALUE/M-RENEWAL/M-COST, не синтетические конверсии",
+            "status": "blocked"
+          }
+        ],
+        "fingerprint": "c45d814f079295655afd374b22fd9b1f23d19e3498d3b375c9a917b68c9bb033",
+        "id": "OWNER-01",
+        "kind": "choice",
+        "project_id": "task04-followup",
+        "provenance": {
+          "artifact_id": "OWNER-INSTRUCTION",
+          "kind": "synthetic_instruction",
+          "locator": "абзацы 1–6"
+        }
+      },
+      {
+        "at": "2026-11-16T15:05:00+03:00",
+        "commitment_id": "K-PROTOCOL",
+        "completion_check": "Координатор проверил: документ отделяет learning/scaling, перечисляет неизвестные, запрещает фактический запуск; это определение K-PROTOCOL, не K-CAPABILITY",
+        "completion_evidence": [
+          {
+            "artifact_id": "FOLLOWUP-PROTOCOL",
+            "locator": "абзацы 1–5"
+          }
+        ],
+        "fingerprint": "5b6ef9470a8c9f5be4250fa445f72738fafe0afff5cb5b2c5489f6e65d921bf1",
+        "id": "COMPLETE-PROTOCOL-01",
+        "kind": "completion",
+        "project_id": "task04-followup",
+        "provenance": {
+          "artifact_id": "FOLLOWUP-PROTOCOL",
+          "kind": "agent_review",
+          "locator": "весь документ"
+        }
+      }
+    ],
+    "format_version": 2,
+    "history": [
+      {
+        "basis": {
+          "revision": 2,
+          "state_sha256": "52a352aecd11831cda4a8d2cf210210b602371f6552b964dcae82604a3e27b30"
+        },
+        "grounds": [
+          {
+            "claim_id": "C001",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:1/block:4-8",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C001",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Учебное описание сообщает нынешнюю исходящую передачу по ссылке и ограничения, а входящую загрузку/пароль/именной доступ перечисляет как отсутствующие возможности; производственная приёмка не проводилась"
+            }
+          },
+          {
+            "claim_id": "C004",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S003v1-extract",
+                  "locator": "line:6-10; host sections What is Dropbox Transfer / size limits / expiry",
+                  "source_id": "S003",
+                  "source_version": 1
+                }
+              ],
+              "id": "C004",
+              "kind": "source_fact",
+              "synthetic": false,
+              "text": "Официальная справка Dropbox описывает передачу по ссылке без аккаунта получателя; Basic имеет 2 GB на transfer и срок 7 дней, а не обязательно те же границы на файл, что fixture"
+            }
+          },
+          {
+            "claim_id": "C005",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S004v1-extract",
+                  "locator": "line:6-10; host introduction55-63 and82",
+                  "source_id": "S004",
+                  "source_version": 1
+                }
+              ],
+              "id": "C005",
+              "kind": "source_fact",
+              "synthetic": false,
+              "text": "Официальная справка Dropbox описывает входящий сбор файлов от людей без аккаунта; администратор команды может отключить функцию"
+            }
+          },
+          {
+            "claim_id": "C007",
+            "snapshot": {
+              "context_from": [
+                "C003"
+              ],
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "CALC-FUNNEL-v1",
+                  "locator": "groups[0,1].metrics.paid_per_trial_pct,interest_per_trial_pct,paid_per_contact_pct; normalization.rows cells C:F",
+                  "source_id": "S002",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "ECON-CHECK-v1",
+                  "locator": "checks kind=funnel"
+                }
+              ],
+              "id": "C007",
+              "kind": "computed",
+              "synthetic": true,
+              "text": "Оплата/проба: агентства 2/8=25%, бухбюро1/10=10%; интерес/проба5/8=62,5% и8/10=80%; оплата/обращение2/20=10% и1/20=5%. Малый синтетический неслучайный набор не доказывает превосходство сегмента"
+            }
+          },
+          {
+            "claim_id": "C008",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S002v1-extract",
+                  "locator": "'Экономика'!A1:J3; 'Воронка'!I3:I4",
+                  "source_id": "S002",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:2/block:10",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C008",
+              "kind": "assumption",
+              "synthetic": true,
+              "text": "Цена/инфраструктура/поддержка/fixed/setup/N на листе Экономика — сценарные допущения; реальный CAC, продления и стоимость выхода неизвестны, пропуски не равны нулю"
+            }
+          },
+          {
+            "claim_id": "C010",
+            "snapshot": {
+              "derived_from": [
+                "C001",
+                "C004",
+                "C005",
+                "C006",
+                "C007"
+              ],
+              "evidence": [
+                {
+                  "artifact_id": "S001v1-extract",
+                  "locator": "physical-page:2/block:5-6",
+                  "source_id": "S001",
+                  "source_version": 1
+                }
+              ],
+              "id": "C010",
+              "kind": "hypothesis",
+              "synthetic": true,
+              "text": "Ручная помощь в исходящей передаче может уменьшить координацию агентств сверх привычного инструмента; меньший разрыв текущих функций обосновывает возможность первой проверки, но дополнительная ценность и готовность платить неизвестны"
+            }
+          },
+          {
+            "claim_id": "C011",
+            "snapshot": {
+              "derived_from": [
+                "C001",
+                "C004",
+                "C005",
+                "C006",
+                "C008",
+                "C010"
+              ],
+              "evidence": [],
+              "id": "C011",
+              "kind": "recommendation",
+              "review_dependencies": [
+                "C013",
+                "C014"
+              ],
+              "synthetic": true,
+              "text": "До решения сохранить внутренний прототип; после согласования цены информации предложить ограниченную проверку исходящей передачи с ручной помощью агентствам. Не строить входящий сбор и не масштабировать без доказанной дополнительной ценности и фактической экономики; keep/close остаются альтернативами"
+            }
+          },
+          {
+            "claim_id": "C012",
+            "snapshot": {
+              "derived_from": [
+                "C010",
+                "C011"
+              ],
+              "evidence": [],
+              "id": "C012",
+              "kind": "assumption",
+              "synthetic": true,
+              "text": "Размер и пороги предлагаемого пилота, критерии включения и остановки — правила обучения для согласования, не измеренный эффект, мощность, гарантия безопасности или бизнес-одобрение"
+            }
+          },
+          {
+            "claim_id": "C013",
+            "snapshot": {
+              "derived_from": [
+                "C008",
+                "C014"
+              ],
+              "evidence": [
+                {
+                  "artifact_id": "ECON-v2",
+                  "locator": "base; scenarios"
+                },
+                {
+                  "artifact_id": "ECON-RAW-v2",
+                  "locator": "groups[0].metrics; normalization.rows[0].cells C:I",
+                  "source_id": "S002",
+                  "source_version": 2
+                },
+                {
+                  "artifact_id": "ECON-CHECK-v2",
+                  "locator": "checks kind=scenario"
+                }
+              ],
+              "id": "C013",
+              "kind": "computed",
+              "synthetic": true,
+              "text": "После коррекции поддержки90мин вклад1500 RUB/платящую организацию/месяц; fixed30000 покрываются с20, строго положительный остаток с21. При N20 остаток0 и нет конечного возврата setup60000. До неизвестных CAC/налогов/затрат неоплативших проб; не прогноз и не прибыль"
+            }
+          },
+          {
+            "claim_id": "C014",
+            "snapshot": {
+              "derived_from": [],
+              "evidence": [
+                {
+                  "artifact_id": "S005v1-extract",
+                  "locator": "line:1-5",
+                  "source_id": "S005",
+                  "source_version": 1
+                },
+                {
+                  "artifact_id": "S002v2-extract",
+                  "locator": "'Экономика'!E3",
+                  "source_id": "S002",
+                  "source_version": 2
+                },
+                {
+                  "artifact_id": "CORRECTION-CHECK-v2",
+                  "locator": "changes[0]; changed_selected_cells=1"
+                }
+              ],
+              "id": "C014",
+              "kind": "source_fact",
+              "synthetic": true,
+              "text": "Маркированная синтетическая коррекция заменяет сценарное допущение поддержки Экономика!E3 с30 на90 минут/платящую организацию/месяц; это не реальное измерение, остальные выбранные ячейки не изменены"
+            }
+          }
+        ],
+        "id": "OWNER-01-decision",
+        "instruction_event": "OWNER-01",
+        "option": "Подготовить ограниченную проверку исходящего предложения; до приёмки/бюджета сохранять внутренний режим",
+        "owner": "учебная роль владельца направления",
+        "question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+        "reason": "Синтетический владелец выбрал подготовку знания при меньшем разрыве функций; ценность и полная экономика остаются неизвестными",
+        "rejected_alternatives": [
+          {
+            "option": "Разработка входящего сбора",
+            "reason": "Нет функции и подтверждённой дополнительной ценности"
+          },
+          {
+            "option": "Немедленное закрытие",
+            "reason": "Неизвестны внутренняя польза, обязательства и цена выхода"
+          },
+          {
+            "option": "Неопределённое ожидание без проверки",
+            "reason": "Нужны явные основания возврата к выбору; внутренний режим сохраняется временно"
+          }
+        ],
+        "status": "simulated_accepted"
+      }
+    ],
+    "metrics": [
+      {
+        "comparator": "обычный способ той же организации",
+        "definition": "Разность медиан активного времени обычных и тестовых передач внутри организации",
+        "denominator": "все 10 включённых организаций; по две сопоставимые передачи каждым способом",
+        "gate": "learning",
+        "id": "M-TIME",
+        "needed_evidence": "Протоколы всех назначенных передач, порядок способов, пропуски и время команды отдельно",
+        "observation_period": "30 суток с включения, сценарный план",
+        "threshold": "≥5 минут у ≥7/10, разведочное правило",
+        "unit": "минуты/передачу",
+        "window": {
+          "clock": "simulated",
+          "end": "2026-12-18T12:00:00+03:00",
+          "start": "2026-11-18T12:00:00+03:00"
+        }
+      },
+      {
+        "comparator": "предложенный gate обучения",
+        "definition": "Первое поступление 3000 RUB за организацию за 30 суток",
+        "denominator": "все 10 включённых с полным окном, а не только заинтересованные",
+        "gate": "learning",
+        "id": "M-FIRST-PAY",
+        "needed_evidence": "Подтверждённые поступления и даты, а не интерес/выставленный счёт",
+        "observation_period": "30 суток с одинакового предложения дня 0",
+        "threshold": "≥3/10; не разрешение масштабирования",
+        "unit": "% организаций",
+        "window": null
+      },
+      {
+        "comparator": "частота обычного процесса; ≥4 для включения — только предложенное ограничение",
+        "definition": "Фактическое число сопоставимых исходящих передач",
+        "denominator": "все наблюдаемые организации, не только оплатившие",
+        "gate": "scaling",
+        "id": "M-FREQUENCY",
+        "needed_evidence": "Журнал реально возникающих передач и сезонность; частота ещё неизвестна",
+        "observation_period": "полный календарный месяц с датами, пока не начат",
+        "threshold": null,
+        "unit": "передачи/организацию/месяц",
+        "window": null
+      },
+      {
+        "comparator": "обычный процесс и доступные альтернативы",
+        "definition": "Польза координации для клиента и готовность обменять её на цену",
+        "denominator": "все организации с полной парой процессов, отказы включены",
+        "gate": "scaling",
+        "id": "M-VALUE",
+        "needed_evidence": "Обоснование клиента, последствия сбоев, платежное подтверждение; ставку часа и денежную ценность пяти минут не выдумывать",
+        "observation_period": "полный цикл задачи и отдельное решение об оплате",
+        "threshold": null,
+        "unit": "описанная польза и RUB/организацию/месяц при подтверждённой оценке",
+        "window": null
+      },
+      {
+        "comparator": "первый платёж не считается продлением",
+        "definition": "Реально полученные повторные платежи",
+        "denominator": "все организации с наступившей следующей оплатой и полным сроком ожидания",
+        "gate": "scaling",
+        "id": "M-RENEWAL",
+        "needed_evidence": "Реестр сроков/поступлений/отказов и полный знаменатель",
+        "observation_period": "после полного оплаченного месяца и согласованного срока ожидания; даты пока неизвестны",
+        "threshold": null,
+        "unit": "% организаций",
+        "window": null
+      },
+      {
+        "comparator": "ECON-v2: при 90 мин и N20 остаток 0 до неизвестных затрат",
+        "definition": "Полная экономика услуги и привлечения без двойного учёта",
+        "denominator": "полные оплаченные месяцы; при нуле оплат величина на плательщика неопределённа",
+        "gate": "scaling",
+        "id": "M-COST",
+        "needed_evidence": "Все минуты всем пробам, инфраструктура, CAC/onboarding, налоги, fixed, setup и обязательства; неизвестное не ноль",
+        "observation_period": "30 суток оплаченного обслуживания плюс отдельный период всех проб/привлечения",
+        "threshold": "Масштабирование только после фактической устойчивой положительной экономики и решения владельца",
+        "unit": "RUB/оплаченный организацией месяц; сальдо всех проб отдельно",
+        "window": null
+      }
+    ],
+    "owner": "учебная роль владельца направления",
+    "proposed_option": "Ограниченная проверка исходящего предложения агентствам при согласованном бюджете; до решения сохраняется внутренний прототип",
+    "question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+    "reviews": [],
+    "status": "simulated_accepted"
+  },
+  "decision_question": "Предлагать нынешнюю отправку агентствам, строить сбор для бухбюро, оставить прототип как есть или закрыть самостоятельное направление?",
+  "evaluation": {
+    "origin_project_id": "demo-002",
+    "origin_revision": 4,
+    "origin_state_sha256": "6086a824f25a3a1e13198d1964b968f5c283cfb40b536a51ae98608b8b2f9d2d",
+    "scope": "Только локальная симуляция TASK04",
+    "synthetic": true
+  },
+  "limitations": [
+    "Входы PDF/XLSX синтетические, рыночный спрос не проверен",
+    "Официальный дополнительный бриф недоступен через текущий маршрут",
+    "Нет человеческого бизнес-одобрения",
+    "Сильная проверка нового host phase/save/reload NOT_VERIFIED: транспорт прервался до нового артефакта/state"
+  ],
+  "next_action": "Владелец симуляции должен выбрать: требовать приёмку и назначить ответственного за бюджет либо продолжить внутренний режим; реальных доказательств нет",
+  "objective": "Выбрать аудиторию и предложение B2B-передачи файлов с проверяемыми основаниями",
+  "pending_actions": [
+    "Уполномоченный владелец должен рассмотреть outputs/v2, назначить ответственного и решить вопрос бюджета проверки",
+    "До пилота получить фактические затраты, проверить возможности прототипа и пригодность/согласие будущих участников",
+    "Сопоставить с официальным дополнительным брифом, когда его удастся прочитать разрешённым маршрутом"
+  ],
+  "project_id": "task04-followup",
+  "resources": {
+    "charges": null,
+    "clock_note": "Реальные timestamps действий в evaluation/task04/actions.jsonl; условия view используют явно simulated clock",
+    "demonstration_started_at": "2026-11-16T11:53:16.190100+00:00",
+    "exact_model_id": null,
+    "human_minutes": null,
+    "origin_accounting": "ORIGIN-STATE/resources (TASK03, не интервал TASK04)",
+    "tokens": null
+  },
+  "revision": 4,
+  "saved_at": "2026-11-16T11:56:12.189623+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "S001v1-meta",
+        "S001v1-original",
+        "S001v1-extract"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v1-meta",
+        "S002v1-original",
+        "S002v1-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003v1-meta",
+        "S003v1-original",
+        "S003v1-extract"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S004v1-meta",
+        "S004v1-original",
+        "S004v1-extract"
+      ],
+      "id": "S004",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002v2-meta",
+        "S002v2-original",
+        "S002v2-extract"
+      ],
+      "id": "S002",
+      "synthetic": true,
+      "version": 2
+    },
+    {
+      "artifact_ids": [
+        "S005v1-meta",
+        "S005v1-original",
+        "S005v1-extract"
+      ],
+      "id": "S005",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "id": "S006",
+      "version": 1,
+      "synthetic": true,
+      "artifact_ids": [
+        "S006v1-meta",
+        "S006v1-original",
+        "S006v1-extract"
+      ]
+    }
+  ],
+  "stage": "decision_followup",
+  "state_sha256": "b405c8a9316df519f239d639b95d913dc6c298626a074ba05317d683a24cf604",
+  "unresolved_questions": [
+    "Реальный спрос и дополнительная ценность относительно существующих инструментов не измерены",
+    "CAC, продления, реальная нагрузка поддержки, стоимость выхода и бюджет проверки неизвестны",
+    "Официальный дополнительный бриф недоступен текущему web route"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Q2-VARIANT-WITHDRAWAL",
+  "project_id": "task04-followup",
+  "kind": "evidence_change",
+  "at": "2026-12-19T13:00:00+03:00",
+  "clock": "simulated",
+  "provenance": {
+    "kind": "source_material",
+    "artifact_id": "Q2-WITHDRAWAL-v1-extract",
+    "locator": "line:1-4"
+  },
+  "change": {
+    "type": "withdrawn_support",
+    "source": {
+      "id": "S001",
+      "version": 1
+    },
+    "locators": [
+      "physical-page:1/block:5"
+    ],
+    "withdrawn_text": "links expire after 7 days",
+    "reason": "Автор отозвал поддержку только фразы links expire after 7 days; протокол и новые результаты не представлены.",
+    "old_ground": "S001@1, physical-page:1/block:5, сообщал: links expire after 7 days. Производственной приёмки не было.",
+    "new_ground": "Текущая поддержка этой фразы отозвана. Фактический срок жизни ссылки неизвестен. Историческое содержание PDF сохраняется.",
+    "applicability": "Меняет допустимое обещание и условия проверки исходящего предложения; остальные фразы того же блока, таблица и экономика не изменены."
+  }
+}

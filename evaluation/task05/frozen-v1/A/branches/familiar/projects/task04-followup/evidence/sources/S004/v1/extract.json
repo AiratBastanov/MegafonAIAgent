@@ -1,0 +1,50 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "Источник: Dropbox Help, How to create and manage Dropbox file requests."
+    },
+    {
+      "locator": "line:2",
+      "text": "Запрошенный и конечный URL: https://help.dropbox.com/share/create-file-request"
+    },
+    {
+      "locator": "line:3",
+      "text": "Дата доступа: 2026-11-16, чтение около 09:31 UTC / 12:31 Europe/Moscow."
+    },
+    {
+      "locator": "line:4",
+      "text": "Маршрут: текущий host web.run open; текстовое представление страницы, Crawled: today. Это сохранённая выдержка представления хоста, не свежезагруженный raw HTML; origin/cache отдельно не проверен."
+    },
+    {
+      "locator": "line:5",
+      "text": "Видимая дата обновления: May 15, 2025."
+    },
+    {
+      "locator": "line:6",
+      "text": "Координаты: вводная часть How to create and manage Dropbox file requests, строки 55–63; ограничение администратора, строка 82."
+    },
+    {
+      "locator": "line:7",
+      "text": "Короткая цитата (17 слов): “You can use file requests to collect files from other people, even if they don’t have a Dropbox account.”"
+    },
+    {
+      "locator": "line:8",
+      "text": "Пересказ: описан сбор файлов от внешних отправителей в выбранную папку; функция доступна на всех планах, но администратор команды может её отключить. Размер/свободное место ограничивают использование."
+    },
+    {
+      "locator": "line:9",
+      "text": "Применимость: существует публично описанная функциональная альтернатива входящему сбору файлов; необходимость строить такой модуль с нуля должна иметь отдельное основание."
+    },
+    {
+      "locator": "line:10",
+      "text": "Ограничения: это не рекомендация обрабатывать бухгалтерские/персональные данные в Dropbox, не проверка правовых требований или региональной доступности, не свидетельство спроса или фактического качества."
+    }
+  ],
+  "source_id": "S004",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "a566bf0007668f8492c07f78877ac8ce6cdbdc8d2ddeccbcd01b15f04995907f",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

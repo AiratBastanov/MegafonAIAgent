@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "project_id": "task06-rehearsal",
+  "objective": "Выбрать аудиторию и предложение RelayBox либо оставить/закрыть направление; учебная репетиция TASK06",
+  "decision_question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+  "stage": "evidence_imported_pause",
+  "completed": [
+    "Постановка записана",
+    "Начальные PDF/XLSX импортированы с хешами и координатами",
+    "Реально прочитана публичная справка альтернатив; сохранена выдержка"
+  ],
+  "unresolved_questions": [
+    "Что означает восемь платных пилотов в PDF относительно paid30 XLSX?",
+    "Какой сегмент соответствует текущим функциям?",
+    "Каковы вклад, порог и неизвестные затраты?",
+    "Реальный владелец и бюджет неизвестны"
+  ],
+  "pending_actions": [
+    "Разрешить противоречие определений",
+    "Выполнить расчёты по явным specs и независимую проверку",
+    "Сохранить аналитический артефакт и новую revision",
+    "Затем сравнить варианты и написать пять согласованных документов"
+  ],
+  "next_action": "Загрузить state; без повторного импорта сопоставить PDF physical_page=2 с Воронка!D3:F4, проверить арифметику и возможности, записать evidence/analysis-v1.md и новую revision; остановиться перед синтезом",
+  "decision": {
+    "status": "proposed"
+  },
+  "artifacts": [
+    {
+      "id": "PROJECT",
+      "path": "project.md",
+      "sha256": "c4f393526d6de849fb9d22799f5a1e12918a1068b5d95c6fbde0e87c4af95a42"
+    },
+    {
+      "id": "REQUEST",
+      "path": "inputs/manager-request-v1.txt",
+      "sha256": "1da5eba107816507c823dc6760b3f2fd529cff31d675ceaeadcfd0d46175f814"
+    },
+    {
+      "id": "ORIGIN",
+      "path": "inputs/PROVENANCE.json",
+      "sha256": "a59124d6debf88a6e6d876566cfad4df446f5d51c3c5321f10127d8aa1a5b464"
+    },
+    {
+      "id": "DICTIONARY",
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "id": "SELECTION",
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "id": "FUNNEL_SPEC",
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "id": "ECON_SPEC",
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "id": "SCENARIOS",
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "id": "PDF_MANIFEST",
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "id": "S001v1_meta",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+    },
+    {
+      "id": "S001v1_original",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "id": "S001v1_extract",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "id": "S002v1_meta",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "9aa677834113aae266d89607d87ea93d34bad78cd56877274256333f6e27e9eb"
+    },
+    {
+      "id": "S002v1_original",
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "id": "S002v1_extract",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "id": "S003v1_meta",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "75dbf5358554216f860d71cf86caa2098eb658b0ba7e980f6fab8939960956b9"
+    },
+    {
+      "id": "S003v1_original",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f"
+    },
+    {
+      "id": "S003v1_extract",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "d75e27653d0e43d80a87229dc91a21dc321062886c56672888a32b9db91d7e6e"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "version": 1,
+      "artifact_ids": [
+        "S001v1_meta",
+        "S001v1_original",
+        "S001v1_extract"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "S002",
+      "version": 1,
+      "artifact_ids": [
+        "S002v1_meta",
+        "S002v1_original",
+        "S002v1_extract"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "S003",
+      "version": 1,
+      "artifact_ids": [
+        "S003v1_meta",
+        "S003v1_original",
+        "S003v1_extract"
+      ],
+      "synthetic": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "kind": "source_fact",
+      "text": "Учебная спецификация перечисляет исходящую передачу и ручной отзыв ссылки; входящая загрузка получателем отсутствует. Это описание fixture, не производственная приёмка.",
+      "evidence": [
+        {
+          "artifact_id": "S001v1_extract",
+          "locator": "physical_page=1; text lines 4–8",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "derived_from": [],
+      "synthetic": true
+    },
+    {
+      "id": "C002",
+      "kind": "source_fact",
+      "text": "Публичная справка Dropbox описывает отправку transfer и входящий сбор file requests. Реальная применимость к выбранным клиентам не проверена.",
+      "evidence": [
+        {
+          "artifact_id": "S003v1_original",
+          "locator": "T1–T2",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "derived_from": [],
+      "synthetic": false
+    }
+  ]
+}

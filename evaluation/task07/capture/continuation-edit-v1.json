@@ -1,0 +1,16 @@
+{
+  "status": "preliminary chapter; not the complete demonstration",
+  "segments": [
+    {"source":"raw/continuation-01.mp4","start":0,"end":8.6,"speed":0.4,"label":"Просмотр исходного учебного запроса руководителя"},
+    {"source":"raw/continuation-01.mp4","start":27.7,"end":41.7,"label":"Ранее сохранённая пауза: расчётов и стратегий ещё нет","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":41.9,"end":49.7,"label":"Новый контекст получает только сохранённую задачу"},
+    {"source":"raw/continuation-01.mp4","start":77.8,"end":81.3,"speed":0.35,"label":"Агент восстановил работу без повторного импорта","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":139.2,"end":146,"speed":0.55,"label":"Интерес к предложению не равен фактической оплате","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":280.5,"end":307.5,"speed":3,"label":"Исправлена проверка пустого значения в XML","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":446.1,"end":459,"label":"Арифметика проверена; агент создал свою заметку","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":603.4,"end":640.2,"speed":4,"label":"Проверка, сохранение новой версии и загрузка истории","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":658.3,"end":672,"label":"Итог независимого продолжения","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":788.4,"end":807.3,"label":"Отдельный процесс подтвердил новый результат","cut_before":true},
+    {"source":"raw/continuation-01.mp4","start":807.4,"end":829.9,"label":"Просмотр новой заметки: экономика остаётся условной"}
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "sha256": "d8736e57ee619361c16433afb94a40ad683525c4adda4ba122bc2c59cfeec24c",
+  "pages": 5,
+  "local_links": [
+    {
+      "page": 1,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 1,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 2,
+      "target": "EXAMPLE.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 3,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 4,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "video/Демонстрация.mp4",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    },
+    {
+      "page": 5,
+      "target": "TECHNICAL_APPENDIX.md",
+      "exists": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "venv",
+    "evaluation/task07/demo-workspace/.venv"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T16:28:02.069809+00:00",
+  "stdin": null,
+  "environment": "inherited; PYTHONIOENCODING=utf-8; credentials not inspected"
+}

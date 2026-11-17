@@ -1,0 +1,136 @@
+{
+  "artifacts": [
+    {
+      "id": "A",
+      "path": "source.txt",
+      "sha256": "dc8505d570e592c44102eed695730547f27551f6d2f3d69ea3873261bb517c53"
+    },
+    {
+      "id": "I",
+      "path": "event.txt",
+      "sha256": "e2a28cd7ea6ac424912f90864e7f11d9caaead5baba7e723a0a6d9b598673fba"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "A",
+          "locator": "line:1",
+          "source_id": "S",
+          "source_version": 1
+        }
+      ],
+      "id": "C",
+      "kind": "source_fact",
+      "status": "needs_review",
+      "support_reason": "W: Отзыв поддержки",
+      "synthetic": true,
+      "text": "Описание"
+    }
+  ],
+  "completed": [
+    "Исходный пакет проверен"
+  ],
+  "decision": {
+    "commitments": [],
+    "conditions": [],
+    "events": [
+      {
+        "at": "2026-11-16T15:00:00+03:00",
+        "change": {
+          "applicability": "Учебный пакет",
+          "locators": [
+            "line:1"
+          ],
+          "new_ground": "Не подтверждено",
+          "old_ground": "Описание",
+          "reason": "Отзыв поддержки",
+          "source": {
+            "id": "S",
+            "version": 1
+          },
+          "type": "withdrawn_support"
+        },
+        "fingerprint": "ab5b2404e3e86faf6089fbc34a619d4b9c3618da7ec72fb56dd0354cfb5e3750",
+        "id": "W",
+        "kind": "evidence_change",
+        "project_id": "previous-replace",
+        "provenance": {
+          "artifact_id": "I",
+          "kind": "source_material",
+          "locator": "line:1"
+        }
+      }
+    ],
+    "format_version": 2,
+    "history": [],
+    "metrics": [],
+    "owner": "unassigned",
+    "proposed_option": "Проверить",
+    "question": "Что проверить?",
+    "reviews": [
+      {
+        "event_id": "W",
+        "id": "review-W",
+        "impact": {
+          "affected": [
+            {
+              "node": "claim:C",
+              "path": [
+                "source:S@1",
+                "claim:C"
+              ],
+              "reason": "evidence line:1",
+              "recomputation": false
+            }
+          ],
+          "change_type": "withdrawn_support",
+          "comparison": null,
+          "event_id": "W",
+          "limitations": "Покрыты объявленные связи; координатор проверяет применимость и полноту. Отзыв поддержки не доказывает обратное; свежесть не равна ложности.",
+          "locators": [
+            "line:1"
+          ],
+          "new_ground": "Не подтверждено",
+          "old_ground": "Описание",
+          "precision": "declared_links",
+          "reusable": [],
+          "source": {
+            "id": "S",
+            "version": 1
+          },
+          "uncertain_locators": []
+        },
+        "next_action": "Проверить затронутые основания и подготовить отдельное предложение владельцу",
+        "owner_review_required": true,
+        "reason": "Отзыв поддержки",
+        "resolution_evidence": [],
+        "status": "needs_review"
+      }
+    ],
+    "status": "awaiting_decision"
+  },
+  "decision_question": "Что проверить?",
+  "next_action": "Ждать фактическое решение",
+  "objective": "Проверка публикации",
+  "pending_actions": [],
+  "project_id": "previous-replace",
+  "revision": 4,
+  "saved_at": "2026-11-16T11:51:46.230566+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "A"
+      ],
+      "id": "S",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "awaiting_decision",
+  "state_sha256": "6381ecb47e032dba7ba1a59afb19a130df22b8ee04bc2dcbf148503130e2a850",
+  "unresolved_questions": []
+}

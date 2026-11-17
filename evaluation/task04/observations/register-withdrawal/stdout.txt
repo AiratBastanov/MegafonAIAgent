@@ -1,0 +1,23 @@
+{
+  "revision": 5,
+  "affected": [
+    "claim:C001",
+    "claim:C010",
+    "claim:C011",
+    "claim:C012",
+    "commitment:K-BUDGET",
+    "commitment:K-CAPABILITY",
+    "commitment:K-PROTOCOL",
+    "commitment:K-VALUE",
+    "condition:G-CAPABILITY",
+    "condition:G-ECONOMICS",
+    "condition:G-VALUE",
+    "output:OUTPUT-v2-communication-strategy",
+    "output:OUTPUT-v2-options",
+    "output:OUTPUT-v2-product-strategy",
+    "output:OUTPUT-v2-situation",
+    "output:OUTPUT-v2-validation-plan"
+  ],
+  "precision": "declared_links",
+  "forged_approval": "rejected"
+}

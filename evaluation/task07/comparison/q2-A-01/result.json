@@ -1,0 +1,18 @@
+{
+  "outcome": "context-preflight-rejected",
+  "condition": "A",
+  "phase": "q2",
+  "thread_id": "01a1e53d-d1f7-7152-a244-2f3c30f24c66",
+  "turn_id": null,
+  "started_at": "2026-11-16T16:57:24.696Z",
+  "turn_started_at": null,
+  "ended_at": "2026-11-16T16:57:25.377Z",
+  "elapsed_seconds": 0.6804116,
+  "child_exit_observed": null,
+  "agent_message_count": 0,
+  "final_answer_count": 0,
+  "completed_items": 0,
+  "token_usage": null,
+  "pending_client_requests": 0,
+  "error": null
+}

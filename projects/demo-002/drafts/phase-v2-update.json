@@ -1,0 +1,15 @@
+{
+  "stage":"awaiting_decision",
+  "completed":["Синтетическая коррекция E3 30→90 минут зарегистрирована как S002@2/S005@1", "Пересчитана затронутая экономика, неизменная Воронка переиспользована из S002@1", "Независимо проверены арифметика, единственное изменение ячейки, старые revisions и изоляция demo-001", "В outputs/v2 уточнены экономические ограничения, календарь эксперимента и учёт неоплативших проб"],
+  "pending_actions":["Завершить независимое автоматическое ревью v2 и сохранить его результат", "Решение уполномоченного владельца о бюджете проверки; реальные данные и приёмка прототипа до контактов"],
+  "next_action":"Завершить автоматическое ревью исправленного пакета v2. Для продуктового продолжения: получить фактические расходы/требования/приёмку прототипа и решение владельца о цене информации; не запускать пилот или разработку автоматически.",
+  "new_claims":[
+    {"id":"C014","kind":"source_fact","text":"Маркированная синтетическая коррекция заменяет сценарное допущение поддержки Экономика!E3 с30 на90 минут/платящую организацию/месяц; это не реальное измерение, остальные выбранные ячейки не изменены","evidence":[{"artifact_id":"S005v1-extract","source_id":"S005","source_version":1,"locator":"line:1-5"},{"artifact_id":"S002v2-extract","source_id":"S002","source_version":2,"locator":"'Экономика'!E3"},{"artifact_id":"CORRECTION-CHECK-v2","locator":"changes[0]; changed_selected_cells=1"}],"derived_from":[],"synthetic":true},
+    {"id":"C013","kind":"computed","text":"После коррекции поддержки90мин вклад1500 RUB/платящую организацию/месяц; fixed30000 покрываются с20, строго положительный остаток с21. При N20 остаток0 и нет конечного возврата setup60000. До неизвестных CAC/налогов/затрат неоплативших проб; не прогноз и не прибыль","evidence":[{"artifact_id":"ECON-v2","locator":"base; scenarios"},{"artifact_id":"ECON-RAW-v2","source_id":"S002","source_version":2,"locator":"groups[0].metrics; normalization.rows[0].cells C:I"},{"artifact_id":"ECON-CHECK-v2","locator":"checks kind=scenario"}],"derived_from":["C008","C014"],"synthetic":true}
+  ],
+  "artifact_paths":{
+    "ECON-RAW-v2":"evidence/calculations/economics-raw-v2.json","ECON-v2":"evidence/calculations/economics-v2.json","ECON-CHECK-v2":"evidence/calculations/independent-v2.json",
+    "FIDELITY-v2":"evidence/fidelity-v2.json","CORRECTION-v2":"evidence/correction-impact-v2.md","CORRECTION-CHECK-v2":"evidence/correction-check-v2.json","IMPORT-v2":"evidence/import-observation-v2.json",
+    "OUTPUT-v2-situation":"outputs/v2/situation.md","OUTPUT-v2-options":"outputs/v2/options.md","OUTPUT-v2-product-strategy":"outputs/v2/product-strategy.md","OUTPUT-v2-communication-strategy":"outputs/v2/communication-strategy.md","OUTPUT-v2-validation-plan":"outputs/v2/validation-plan.md"
+  }
+}

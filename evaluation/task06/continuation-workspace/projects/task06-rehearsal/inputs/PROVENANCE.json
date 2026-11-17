@@ -1,0 +1,47 @@
+{
+  "copied_at": "2026-11-16T15:23:45.675244+00:00",
+  "synthetic": true,
+  "reason": "Новая отдельная репетиция TASK06; исходные байты demo-002, без его state/outputs/коррекции.",
+  "files": [
+    {
+      "original": "projects/demo-002/inputs/product-brief-v1.pdf",
+      "copy": "inputs/product-brief-v1.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "original": "projects/demo-002/inputs/offer-v1.xlsx",
+      "copy": "inputs/offer-v1.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "original": "projects/demo-002/inputs/DATA_DICTIONARY.md",
+      "copy": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "original": "projects/demo-002/inputs/selection-v1.json",
+      "copy": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    {
+      "original": "projects/demo-002/inputs/metrics-funnel-v1.json",
+      "copy": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "original": "projects/demo-002/inputs/metrics-economics-v1.json",
+      "copy": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "original": "projects/demo-002/inputs/economics-sensitivity-v1.json",
+      "copy": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "original": "projects/demo-002/inputs/pdf-text-manifest-v1.json",
+      "copy": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    }
+  ]
+}

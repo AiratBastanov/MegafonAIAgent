@@ -1,0 +1,91 @@
+{
+  "reused": false,
+  "source": {
+    "id": "S002",
+    "kind": "xlsx",
+    "origin": "inputs/offer-v2.xlsx",
+    "input_sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3",
+    "synthetic": true,
+    "accessed_at": null,
+    "locator": null,
+    "retrieval_status": "local_import",
+    "extraction_method": "openpyxl/3.1.5/selected-cells-v1",
+    "limitations": [
+      "Извлечены только явно выбранные ячейки; остальные листы/диапазоны не являются прочитанными основаниями.",
+      "data_only читает сохранённый cache и не пересчитывает формулы; свежесть cache неизвестна, формулы не пригодны как проверенные метрики.",
+      "Единицы и период заданы selection; number_format сохранён, но не доказывает экономический смысл. Даты — интерпретация openpyxl с учётом epoch книги.",
+      "Объединённые ячейки имеют единственный anchor; значения не размножаются. Скрытые строки/колонки/листы отмечены и требуют явного решения об использовании.",
+      "Макросы/внешние связи/вложенные объекты не поддерживаются; формулы, hyperlinks и текст не исполняются. Вёрстка и условное форматирование не проверены."
+    ],
+    "delimiter": null,
+    "selection": {
+      "ranges": [
+        {
+          "sheet": "Воронка",
+          "range": "A1:K4",
+          "period": "2026-09",
+          "units": {
+            "A": "month",
+            "B": "category",
+            "C": "organisations",
+            "D": "organisations",
+            "E": "organisations",
+            "F": "organisations",
+            "G": "RUB",
+            "H": "RUB",
+            "I": "RUB",
+            "J": "date",
+            "K": "ratio"
+          }
+        },
+        {
+          "sheet": "Экономика",
+          "range": "A1:J3",
+          "period": "2026-11-scenario",
+          "units": {
+            "A": "scenario_month",
+            "B": "category",
+            "C": "RUB/account/month",
+            "D": "RUB/account/month",
+            "E": "minutes/account/month",
+            "F": "RUB/hour",
+            "G": "RUB/month",
+            "H": "RUB",
+            "I": "accounts",
+            "J": "RUB/account/month"
+          }
+        },
+        {
+          "sheet": "Примечания",
+          "range": "A1:A3",
+          "period": "not_applicable",
+          "units": {
+            "A": "text"
+          }
+        }
+      ]
+    },
+    "selection_input": {
+      "path": "inputs/selection-v1.json",
+      "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+    },
+    "version": 2,
+    "imported_at": "2026-11-16T15:30:44+00:00",
+    "published_at": null,
+    "input_path": "inputs/offer-v2.xlsx",
+    "tool_version": "2.0",
+    "original": {
+      "path": "evidence/sources/S002/v2/original.xlsx",
+      "sha256": "a3720b6a2335256db3cedeb4f8ff14e7d359f109d5062d0721a3b809bce4f0b3"
+    },
+    "extract": {
+      "path": "evidence/sources/S002/v2/extract.json",
+      "sha256": "9b4ac9d0881ca47ac5917b32e9b5883852d03d1ebe7e2da2e11ac02f5ead944f"
+    }
+  },
+  "incomplete_versions": [],
+  "record": {
+    "path": "evidence/sources/S002/v2/source.json",
+    "sha256": "0fd0a03cc3fa862ef35cf3d52747224369074229068bdf11f4388543d4f4cf4a"
+  }
+}

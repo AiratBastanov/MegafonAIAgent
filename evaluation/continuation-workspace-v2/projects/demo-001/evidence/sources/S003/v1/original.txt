@@ -1,0 +1,11 @@
+URL запрошенный: https://www.todoist.com/help/articles/introduction-to-recurring-dates-YUYVJJAV
+URL после перенаправления: https://www.todoist.com/help/todoist/features/introduction-to-recurring-dates-YUYVJJAV
+Источник: Todoist Help, Introduction to recurring dates.
+Доступ: 2026-11-16T09:43:51+03:00 (время зафиксировано непосредственно после чтения).
+Маршрут: web.run open, реальное чтение страницы в текущем host; ответ обозначен инструментом rewritten summary, crawled today.
+Представление: выдержка из отрендеренного/переработанного представления host, не исходный HTML. Свежесть origin server независимо не проверена.
+Координата: Introduction to recurring dates, абзац перед Add a recurring date in the task name; строки 52–65 представления host.
+Видимая дата обновления: November 11, 2026.
+Короткая выдержка из представления: “When you complete a task with a recurring date, it automatically shifts to the next date”.
+Применимость: справка описывает автоматический перенос повторяющейся задачи после завершения. Это существующая публично описанная альтернатива ручному копированию в учебном продукте.
+Ограничения: страница не доказывает спрос, использование, рост удержания, качество русской локализации или экономику нашего продукта. Цены и весь функционал не исследовались.

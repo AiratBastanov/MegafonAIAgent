@@ -1,0 +1,612 @@
+{
+  "observed_at": "2026-11-16T16:41:27.377111+00:00",
+  "source": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\task07\\editorial\\Описание-проекта-черновик-2.md",
+  "source_sha256": "60e3b32af95e162f07e2284897f6d8eda06c2ae84929b2112eaf438a6a4990cb",
+  "output": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\evaluation\\task07\\editorial\\Описание-проекта-проба-1.pdf",
+  "output_sha256": "edde07036655f41d1739e332013f86fa42d8531039979d9374a7cfbd009ad571",
+  "draft": true,
+  "pages": 5,
+  "page_limit": 5,
+  "page_limit_pass": true,
+  "body_font_pt": 11.25,
+  "sections": [
+    {
+      "section": 1,
+      "first_page": 1,
+      "page_count": 1
+    },
+    {
+      "section": 2,
+      "first_page": 2,
+      "page_count": 1
+    },
+    {
+      "section": 3,
+      "first_page": 3,
+      "page_count": 1
+    },
+    {
+      "section": 4,
+      "first_page": 4,
+      "page_count": 1
+    },
+    {
+      "section": 5,
+      "first_page": 5,
+      "page_count": 1
+    }
+  ],
+  "links": [
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/manager-request-v1.txt",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/analysis-v1.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/inputs/product-brief-v1.pdf",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/dropbox-transfer",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://help.dropbox.com/share/create-file-request",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 2,
+      "uri": "https://yandex.ru/support/yandex-360/customers/disk/web/ru/share/sharing",
+      "file": null,
+      "target_page": null
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../research/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 2,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 3,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../projects/task06-rehearsal/evidence/correction-review-v2.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../AGENTS.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../knowledge/procedures/strategy-cycle.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../docs/TASK06_REPORT.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../docs/TASK06_REPORT.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../docs/TASK06_REPORT.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/review-input/review.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/review-input/review.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/review-input/review.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/review-input/review.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/review-input/review.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/resource-accounting.json",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/resource-accounting.json",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../task05/resource-accounting.json",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../README.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../README.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "../../../README.md",
+      "target_page": 0
+    }
+  ],
+  "broken_local_links": [],
+  "images": [
+    {
+      "page": 1,
+      "path": "evaluation\\task07\\editorial\\preview-1\\page-01.png",
+      "sha256": "9daabe399c6b6f68a9830d913f45a3290325694689486cb761629ce660bfeabb"
+    },
+    {
+      "page": 2,
+      "path": "evaluation\\task07\\editorial\\preview-1\\page-02.png",
+      "sha256": "f7c7f676519be9e0761a7da5dfc5f14da3849654a7f47e60f4f3b52c4fddf87f"
+    },
+    {
+      "page": 3,
+      "path": "evaluation\\task07\\editorial\\preview-1\\page-03.png",
+      "sha256": "894d1b986f015c2cdbebecd2288f3b1a157643c4f1ece3539f029651c9d6221e"
+    },
+    {
+      "page": 4,
+      "path": "evaluation\\task07\\editorial\\preview-1\\page-04.png",
+      "sha256": "4df76bd10d4a4d7aca3ae0f7566d054ca7100ee9d25b7ebc77ff40b484f617e8"
+    },
+    {
+      "page": 5,
+      "path": "evaluation\\task07\\editorial\\preview-1\\page-05.png",
+      "sha256": "045f8605fdeece89d014a1bb431dbe4df87ca8f4fa7e14398baaf206e914f25a"
+    }
+  ],
+  "versions": {
+    "Markdown": "3.9",
+    "PyMuPDF": "1.26.3"
+  }
+}

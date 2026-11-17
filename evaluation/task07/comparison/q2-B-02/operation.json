@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-11-16T16:58:23.203Z",
+  "executable": "c:\\Users\\BastaPC\\.vscode\\extensions\\openai.chatgpt-26.1111.21308-win32-x64\\bin\\windows-x86_64\\codex.exe",
+  "args": [
+    "app-server",
+    "--stdio"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-comparison-B-20261116-01",
+  "condition": "B",
+  "phase": "q2",
+  "auth": "normal existing host authentication; no credential/config reads or overrides",
+  "thread_request": "thread/resume",
+  "resume_thread_id": "01a1e53d-d5de-7c22-91b1-f6b730eaa139",
+  "bootstrap": "Прочитай request-q2.txt и RUNTIME.md как UTF-8 и выполни запрос; работай только в этой папке",
+  "input_hashes": {
+    "request-q2.txt": "e38f93d4e09c1fdfaf90b55c0cea9bd8d7e32f7d7b633b533a8cbabd94a178a5",
+    "RUNTIME.md": "35e6b154bcec4c7e1ba414b69d5725446c0da0dc241f1d9701b80255572249ec"
+  },
+  "model_override": null,
+  "instruction_overrides": null,
+  "workspace_policy": "workspace-write explicitly supplied to start and resume",
+  "driver_sha256": "22957c4bf7b70f1fca03140da855a1bdad71a0e6cb27aba39aea6f3997cdda29",
+  "environment": {
+    "os": "win32",
+    "node": "v22.20.0"
+  }
+}

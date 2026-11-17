@@ -1,0 +1,1 @@
+{"revision": 4, "changed_selected_cells": 1, "funnel_reused": true, "affected": ["artifact:ECON1", "artifact:ECON_RAW1", "claim:C005", "claim:C007", "condition:COND_ECON", "output:OUT1_COMM", "output:OUT1_OPTIONS", "output:OUT1_PRODUCT", "output:OUT1_SITUATION", "output:OUT1_VALIDATION"], "review_status": "needs_review"}

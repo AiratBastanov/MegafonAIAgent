@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-Content -Encoding UTF8 materials/evidence/correction-impact-v2.md; Get-Content -Encoding UTF8 materials/evidence/calculations/economics-v2.json; Get-Content -Encoding UTF8 materials/evidence/correction-check-v2.json; Get-Content -Encoding UTF8 materials/evidence/sources/S002/v2/source.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:40:09.482810+00:00",
+  "ended_at": "2026-11-16T13:40:09.703675+00:00",
+  "elapsed_seconds": 0.21799999999711872,
+  "returncode": 0
+}

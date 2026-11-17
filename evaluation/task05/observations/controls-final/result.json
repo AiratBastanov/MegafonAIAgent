@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "evaluation/task05/probe_controls.py",
+    "--code-root",
+    ".",
+    "--output",
+    "evaluation/task05/controls-final.json"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent",
+  "started_at": "2026-11-16T14:06:43.959617+00:00",
+  "ended_at": "2026-11-16T14:06:44.737735+00:00",
+  "elapsed_seconds": 0.7659999999996217,
+  "returncode": 0
+}

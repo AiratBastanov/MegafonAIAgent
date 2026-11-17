@@ -1,0 +1,63 @@
+{
+  "artifacts": [
+    {
+      "id": "META",
+      "path": "evidence/sources/S/v1/source.json",
+      "sha256": "7917ada466c8757bab4c13a5fb7e39fcbfb1576eb4c85e8979a0e95a7cb288ba"
+    },
+    {
+      "id": "ORIGINAL",
+      "path": "evidence/sources/S/v1/original.txt",
+      "sha256": "4dd3cfc5e46ce98ef6dbbb722e0f7f319476bae38472ab9520e7802b40ae514e"
+    },
+    {
+      "id": "EXTRACT",
+      "path": "evidence/sources/S/v1/extract.json",
+      "sha256": "0b82355ec70a71fc08238defb5cc7f6dc6a8d72b0e65758370bd80c362de3ba6"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "EXTRACT",
+          "locator": "line:1",
+          "source_id": "S",
+          "source_version": 1
+        }
+      ],
+      "id": "C",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Источник сообщает 5 из 20"
+    }
+  ],
+  "completed": [],
+  "decision": {
+    "status": "proposed"
+  },
+  "decision_question": "Продолжать?",
+  "next_action": "Проверить",
+  "objective": "Изолированная проверка",
+  "pending_actions": [],
+  "project_id": "stale-probe",
+  "revision": 1,
+  "saved_at": "2026-11-17T07:43:03.322638+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "META",
+        "ORIGINAL",
+        "EXTRACT"
+      ],
+      "id": "S",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "research_complete",
+  "state_sha256": "9a72f4626512c39b3af9b9ce1a08427c6abcc29b0abfd15fe5ed2f1176052b36",
+  "unresolved_questions": []
+}

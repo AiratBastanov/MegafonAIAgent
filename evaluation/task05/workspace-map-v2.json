@@ -1,0 +1,36 @@
+{
+  "A": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\A",
+  "B_ablation": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "ordinary_B": "NOT_RUN",
+  "ancestry": [
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\Local\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AppData\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\BastaPC\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\AGENTS.md",
+      "exists": false
+    }
+  ],
+  "isolation": "procedural; общий sandbox"
+}

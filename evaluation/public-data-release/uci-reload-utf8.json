@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "loaded_from": "state/current.json",
+  "warnings": [],
+  "summary": {
+    "project_id": "uci-shoppers",
+    "revision": 1,
+    "state_sha256": "9fce254247fc9f7227979fd752787d1a63ac61cdbc95c8f77c4cea63f5054f7c",
+    "saved_at": "2026-11-17T09:47:54.173691+00:00",
+    "objective": "Одна изолированная проверка существующего агента на независимом публичном CSV.",
+    "decision_question": "Есть ли основание менять путь покупки по типу посетителя?",
+    "stage": "awaiting_decision",
+    "next_action": "Прочитать пять результатов и решить, получать ли современные данные для диагностики; повторно не импортировать UCI.",
+    "unresolved_questions": [
+      "Современные данные магазина",
+      "Причина непокупки",
+      "Маржа, расходы и допустимый риск",
+      "Владелец и разрешение диагностики"
+    ],
+    "pending_actions": [
+      "Получить решение владельца о диагностике или отказе от гипотезы"
+    ],
+    "counts": {
+      "completed": 4,
+      "artifacts": 25,
+      "sources": 3,
+      "claims": 10
+    },
+    "sources": [
+      {
+        "id": "S001",
+        "version": 1,
+        "synthetic": false
+      },
+      {
+        "id": "S002",
+        "version": 1,
+        "synthetic": false
+      },
+      {
+        "id": "S003",
+        "version": 1,
+        "synthetic": false
+      }
+    ],
+    "current_outputs": {
+      "communication-strategy": {
+        "id": "A020",
+        "path": "outputs/v1/communication-strategy.md",
+        "sha256": "44a7a00065ab462c9bca5d8be7f7145bf04b6e99c72a3cfadefa221ec6c4c08e"
+      },
+      "options": {
+        "id": "A021",
+        "path": "outputs/v1/options.md",
+        "sha256": "aa89aa0aab9428e8eab642105b4791cc1ee87802333ec0b0afed4a3ed67f531b"
+      },
+      "product-strategy": {
+        "id": "A022",
+        "path": "outputs/v1/product-strategy.md",
+        "sha256": "39b2b3d4f0183241b6bf3f65e0f3fd4cdd7afcdb024488cb7f8fbd848a9159c3"
+      },
+      "situation": {
+        "id": "A023",
+        "path": "outputs/v1/situation.md",
+        "sha256": "cfd9a9cf21893e1784bbc5c3424985c598a51b67317d66acf90d3c1d89c9c21e"
+      },
+      "validation-plan": {
+        "id": "A024",
+        "path": "outputs/v1/validation-plan.md",
+        "sha256": "bbdcd9a9215324cfea309f96faa487663372c5be4080956610587d46d11ea09d"
+      }
+    },
+    "claims_requiring_attention": [],
+    "decision": {
+      "status": "awaiting_decision",
+      "owner": null,
+      "proposed_option": null,
+      "history_count": 0,
+      "reviews_requiring_attention": [],
+      "commitments": []
+    },
+    "synthetic_evaluation": false
+  },
+  "next_step": "Прочитайте относящиеся к next_action материалы и claims по ID из loaded_from. Для редактирования загрузите полный state; summary нельзя сохранять как draft. Проверка сроков — decision_followup view с явными as-of/timezone/clock."
+}

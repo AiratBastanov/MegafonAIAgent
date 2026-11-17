@@ -1,0 +1,1 @@
+{"operation":"run","id":"final-followup-readable","title":"После решения: что требует внимания","caption":"Исходный выбор сохранён. Допуск к проверке заблокирован; новое предложение ожидает решения.","argv":["python","-X","utf8","evaluation/task07/demo_admin.py","view"],"cwd":"."}

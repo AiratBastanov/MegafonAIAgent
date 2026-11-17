@@ -1,0 +1,77 @@
+{
+  "status": "TASK04_FOLLOWUP_LOCAL_PASS",
+  "observed_at": "2026-11-16T12:16:16.284853+00:00",
+  "project_id": "task04-followup",
+  "revision": 11,
+  "state_sha256": "45fe4d5ef197852323af3b34294e6bf490294e3eaf3ad0a9ca44c049414269c3",
+  "independent_python_load": true,
+  "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "win32",
+  "synthetic_evaluation": true,
+  "preservation": {
+    "projects/demo-001": {
+      "baseline_files": 64,
+      "changed_paths": [],
+      "prior_bytes_preserved": true,
+      "current_files": 64
+    },
+    "projects/demo-002": {
+      "baseline_files": 77,
+      "changed_paths": [
+        "projects/demo-002/README.md",
+        "projects/demo-002/state/current.json",
+        "projects/demo-002/state/previous.json"
+      ],
+      "prior_bytes_preserved": true,
+      "current_files": 81
+    },
+    "evaluation/task03/continuation-workspace": {
+      "baseline_files": 39,
+      "changed_paths": [],
+      "prior_bytes_preserved": true,
+      "current_files": 39
+    },
+    "evaluation/task03/fresh-session-01": {
+      "baseline_files": 13,
+      "changed_paths": [],
+      "prior_bytes_preserved": true,
+      "current_files": 13
+    }
+  },
+  "validated_histories": {
+    "task04-followup": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "demo-001": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "demo-002": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "active_owner_review": true,
+  "decision_count": 1,
+  "commitments": 4,
+  "real_business_approval": false,
+  "FRESH_HOST_SAVE_RELOAD": "NOT_VERIFIED",
+  "official_brief_conformity": "NOT_VERIFIED"
+}

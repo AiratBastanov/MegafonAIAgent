@@ -1,0 +1,29 @@
+{
+  "id": "EV_SUPPORT90_REVIEW",
+  "project_id": "task06-rehearsal",
+  "kind": "review",
+  "at": "2026-11-16T15:34:29.896199+00:00",
+  "provenance": {
+    "kind": "agent_review",
+    "artifact_id": "REVIEW2",
+    "locator": "Последствия коррекции"
+  },
+  "review_id": "review-EV_SUPPORT90",
+  "resolution": {
+    "status": "revised",
+    "reason": "Новая база существенно снижает остаток до нуля при 20; старые расчёты не текущая поддержка",
+    "next_action": "Владелец определяет допустимое исследование/бюджет либо keep/close; пилот не запущен",
+    "resolution_evidence": [
+      {
+        "artifact_id": "REVIEW2",
+        "locator": "Затронутое/незатронутое"
+      },
+      {
+        "artifact_id": "ECON2",
+        "locator": "base"
+      }
+    ],
+    "owner_review_required": true,
+    "proposed_option": "Ограниченное исследование задачи и поддержки после решения владельца; коммерческий пилот не разрешён"
+  }
+}

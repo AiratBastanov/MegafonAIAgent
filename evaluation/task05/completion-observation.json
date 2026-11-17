@@ -1,0 +1,105 @@
+{
+  "status": "TASK05_EVAL_READY_WITH_EXECUTION_GAP",
+  "recorded_at_utc": "2026-11-16T14:41:50Z",
+  "observed_task_start_utc": "2026-11-16T13:23:55Z",
+  "elapsed_observed_to_cutoff_seconds": 4675,
+  "boundary": "От первого записанного clock до этого cutoff после сборки документов и проверки canonical/state. Первые чтения до clock, финальная проверка доставки после cutoff и выдача сообщения не включены. Это общий wall interval с параллельной работой и паузами, не активное время человека.",
+  "comparison": {
+    "mode": "A/B-prime configuration ablation",
+    "execution": "COMPLETED_AND_ASSESSED",
+    "first_responses": 6,
+    "branches": 2,
+    "independent_business_cases": 1,
+    "ordinary_baseline": "NOT_RUN",
+    "ordinary_gap": "У no-history subagents унаследованы Megafon AGENTS; нейтральная папка не удаляет host instructions.",
+    "scores": {
+      "A": 28,
+      "B_prime": 28,
+      "maximum": 28
+    },
+    "detected_critical_errors": {
+      "A": 0,
+      "B_prime": 0
+    },
+    "source": "review-input/review.json"
+  },
+  "final_code": {
+    "manifest": "implementation-final-02.json",
+    "regression": "observations/regression-final-03/result.json",
+    "tests_passed": 85,
+    "comparative_rerun": false,
+    "verification_kind": "correction checks"
+  },
+  "independent_acceptance": "acceptance-final.json",
+  "fresh_host_save_reload": "NOT_VERIFIED",
+  "official_brief_conformity": "NOT_VERIFIED",
+  "resources": "resource-accounting.json",
+  "grading": {
+    "start_utc": "2026-11-16T14:13:33.9054738Z",
+    "end_utc": "2026-11-16T14:25:16.668859+00:00",
+    "elapsed_seconds": 702.763386,
+    "source": "review-input/review-meta.json"
+  },
+  "accounting_rule": "Подготовка, execution, fixes, grading и оформление выделены; пересекающиеся интервалы не суммировать. Ранее созданный state не бесплатен, но отдельная его цена неизвестна и не распределялась на запрос.",
+  "unknowns": {
+    "tokens": null,
+    "charges": null,
+    "exact_model": null,
+    "exact_settings": null,
+    "human_active_time": null,
+    "prior_state_preparation_cost": null
+  },
+  "significant_actions": [
+    {
+      "time_source": "freeze-manifest-v2.json",
+      "action": "До ответов закреплены protocol v2, одинаковые предметные inputs, новые события, prompts, rubric и expectations. Неисполненный v1 и ошибка подготовки сохранены."
+    },
+    {
+      "time_source": "dispatch-q1.json; dispatch-q2.json; dispatch-q3.json",
+      "action": "Независимые A/B-prime выполнили три шага с собственной сохраняемой историей; ответы и tool capture собраны без взаимного доступа по инструкции."
+    },
+    {
+      "time_source": "interventions.json",
+      "action": "Одинаковая техническая помощь обоим Q1; содержательных подсказок и post-grading переписывания ответов нет."
+    },
+    {
+      "time_source": "collected/A/logs/q2-prepare/result.json",
+      "action": "A сохранил первый AssertionError, сам проверил прежний state и продолжил; failure и retry включены в измерение."
+    },
+    {
+      "time_source": "code-review-v1.md; code-review-final.md; code-review-impact.md",
+      "action": "Исправлены три материальные проблемы; ранние недостатки fixes сохранены и исправлены, финальная целевая/полная проверка успешна."
+    },
+    {
+      "time_source": "review-input/review-meta.json",
+      "action": "Отдельное автоматическое review первичных данных и обезличенных полных ответов; evidence citations проверены, human calibration отсутствует."
+    },
+    {
+      "time_source": "observations/acceptance-final/result.json",
+      "action": "Финальный loader и hashes подтвердили canonical awaiting_decision, старую историю, frozen inputs и scoped preservation."
+    },
+    {
+      "time_source": "observations/review-packet/result.json",
+      "action": "Собран пакет с шестью полными первыми ответами; завершены report, readiness и DEVELOPMENT_STATE с прежней версией в history."
+    }
+  ],
+  "documentation_issues": [
+    {
+      "issue": "Первая составная apply_patch отклонена: Delete и Add одного DEVELOPMENT_STATE в одной patch недопустимы.",
+      "resolution": "Патч не применён; затем Add генератора и Update существующего документа выполнены отдельно. Ошибка прав не обходилась."
+    },
+    {
+      "issue": "Проверка worksheet через PowerShell stdin потеряла кириллицу и завершилась KeyError.",
+      "resolution": "Повторное read-only чтение использовало имена листов из workbook. Найден и исправлен локатор проб D3:D4 в новом review packet; source/ответы не изменены."
+    }
+  ],
+  "outputs": [
+    "docs/TASK05_REPORT.md",
+    "docs/TASK05_REVIEW_PACKET.md",
+    "docs/DEVELOPMENT_STATE.md",
+    "docs/SUBMISSION_READINESS.md",
+    "evaluation/task05/README.md"
+  ],
+  "next_bounded_action": "В новом разрешённом ordinary контексте проверить отсутствие project guidance у B, затем выполнить новую пару из frozen-v2 по README с одинаковыми наблюдаемыми model/settings. Fresh-host carry и официальный бриф вести отдельно.",
+  "external_publication_or_business_action": false
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A329B857648CD3310DDB1E7DED9F3134707CC37122C186125F1C7AFBAB472168",
+        "Path":  "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B\\inbox\\q2\\familiar-withdrawal-v1.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "71284B4E378307A7414EA918B4EB7DD7DADC18B0B5F0C4FED50F971D8E6CCD43",
+        "Path":  "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B\\inbox\\q2\\variant-withdrawal-v1.txt"
+    }
+]

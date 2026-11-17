@@ -1,0 +1,83 @@
+{
+  "calculated_at": "2026-11-16T07:09:23.957137+00:00",
+  "synthetic": true,
+  "kind": "scenario_computation",
+  "input_sha256": "fae250cfa4d864e39d20a9fb97475981b6b4218c088b498da3eba4fda2a7cd0b",
+  "definition": "cohort: revenue - paid*v - F; pilot: N*delta_paid_rate*(price-v)-K; RUB per first-month cohort",
+  "assumptions": {
+    "synthetic": true,
+    "basis": "S002@1 first-month September cohort: paid=40, revenue=12000 RUB; not MRR of installed base",
+    "paid": "40",
+    "revenue_rub": "12000",
+    "variable_per_payer_rub_scenarios": [
+      "60",
+      "180"
+    ],
+    "allocated_fixed_rub_scenarios": [
+      "6000",
+      "15000"
+    ],
+    "assumptions": [
+      "Сценарные затраты, не данные продукта",
+      "F — распределённые на первый месяц данной когорты фиксированные и привлекающие расходы; фактическое правило распределения неизвестно",
+      "Не учтены последующие продления, другие когорты и стоимость выхода; результат не является прибылью всего направления"
+    ],
+    "pilot_scenarios": {
+      "eligible": "100",
+      "additional_paid_rate": [
+        "0.02",
+        "0.05",
+        "0.10"
+      ],
+      "price_rub": "300",
+      "variable_per_payer_rub": "60",
+      "allocated_incremental_cost_rub": "2000",
+      "assumptions": [
+        "100 новых recurring за месяц — условный повтор наблюдаемого сентябрьского потока",
+        "2, 5 и 10 п.п. дополнительной оплаты — гипотезы, не измеренный эффект",
+        "2000 RUB — иллюстративный дополнительный расход теста на эту когорту, не утверждённый бюджет",
+        "Оплата не выводится из удержания: связь не измерена"
+      ]
+    }
+  },
+  "cohort_scenarios": [
+    {
+      "variable_per_payer_rub": "60",
+      "allocated_fixed_rub": "6000",
+      "contribution_rub": "3600"
+    },
+    {
+      "variable_per_payer_rub": "60",
+      "allocated_fixed_rub": "15000",
+      "contribution_rub": "-5400"
+    },
+    {
+      "variable_per_payer_rub": "180",
+      "allocated_fixed_rub": "6000",
+      "contribution_rub": "-1200"
+    },
+    {
+      "variable_per_payer_rub": "180",
+      "allocated_fixed_rub": "15000",
+      "contribution_rub": "-10200"
+    }
+  ],
+  "pilot_scenarios": [
+    {
+      "additional_paid_rate": "0.02",
+      "additional_payers": "2.00",
+      "incremental_contribution_rub": "-1520.00"
+    },
+    {
+      "additional_paid_rate": "0.05",
+      "additional_payers": "5.00",
+      "incremental_contribution_rub": "-800.00"
+    },
+    {
+      "additional_paid_rate": "0.10",
+      "additional_payers": "10.00",
+      "incremental_contribution_rub": "400.00"
+    }
+  ],
+  "pilot_break_even_additional_paid_rate": "0.08333333333333333333333333333"
+}

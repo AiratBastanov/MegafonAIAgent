@@ -1,0 +1,23 @@
+{
+  "columns": {
+    "period":{"type":"text","unit":"scenario_month"}, "segment":{"type":"text","unit":"category"},
+    "price":{"type":"decimal","unit":"RUB/account/month","min":"0"},
+    "infra":{"type":"decimal","unit":"RUB/account/month","min":"0"},
+    "support_minutes":{"type":"decimal","unit":"minutes/account/month","min":"0"},
+    "hourly_cost":{"type":"decimal","unit":"RUB/hour","min":"0"},
+    "fixed":{"type":"decimal","unit":"RUB/month","min":"0"},
+    "setup":{"type":"decimal","unit":"RUB","min":"0"},
+    "accounts":{"type":"integer","unit":"accounts","min":"0"}
+  },
+  "group_by":["period","segment"],"period_column":"period","missing_values":[""],"synthetic":true,
+  "xlsx":{"sheet":"Экономика","rows":[3],"columns":{"period":"A","segment":"B","price":"C","infra":"D","support_minutes":"E","hourly_cost":"F","fixed":"G","setup":"H","accounts":"I"},"include_hidden":false},
+  "metrics":[
+    {"id":"price","operation":"sum","numerator":["price"],"unit":"RUB/account/month","rounding":2},
+    {"id":"infra","operation":"sum","numerator":["infra"],"unit":"RUB/account/month","rounding":2},
+    {"id":"support_minutes","operation":"sum","numerator":["support_minutes"],"unit":"minutes/account/month","rounding":2},
+    {"id":"hourly_cost","operation":"sum","numerator":["hourly_cost"],"unit":"RUB/hour","rounding":2},
+    {"id":"fixed","operation":"sum","numerator":["fixed"],"unit":"RUB/month","rounding":2},
+    {"id":"setup","operation":"sum","numerator":["setup"],"unit":"RUB","rounding":2},
+    {"id":"accounts","operation":"sum","numerator":["accounts"],"unit":"accounts","rounding":0}
+  ]
+}

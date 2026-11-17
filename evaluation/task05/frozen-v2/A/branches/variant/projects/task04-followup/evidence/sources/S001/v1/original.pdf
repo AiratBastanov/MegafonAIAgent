@@ -1,0 +1,117 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Synthetic RelayBox development brief)
+/Author (TASK03 fixture generator)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 5 0 R 7 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/PageLabels <<
+/Nums [ 0 <<
+/P (A)
+>> 1 <<
+/S /D
+/St 1
+>> ]
+>>
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 892
+>>
+stream
+BT /F1 10 Tf 40 740 Td (SYNTHETIC DEVELOPMENT BRIEF - not an official competition brief) Tj ET
+BT /F1 10 Tf 40 712 Td (RelayBox: a hypothetical B2B file-transfer prototype.) Tj ET
+BT /F1 10 Tf 40 684 Td (Decision: choose an audience and an offer, or stop the standalone initiative.) Tj ET
+BT /F1 10 Tf 40 656 Td (Current: team upload, read-only external download link, manual link revoke.) Tj ET
+BT /F1 10 Tf 40 628 Td (Limits: 2 GB per file; links expire after 7 days; recipient needs no account.) Tj ET
+BT /F1 10 Tf 40 600 Td (Not implemented: recipient upload, password, named access, SSO, audit export.) Tj ET
+BT /F1 10 Tf 40 572 Td (Proposed price: RUB 3000 per organisation per month; price is unvalidated.) Tj ET
+BT /F1 10 Tf 40 544 Td (Capabilities are fixture statements, not production acceptance evidence.) Tj ET
+BT /F1 10 Tf 40 516 Td (Printed label: A \(physical page 1\).) Tj ET
+endstream
+endobj
+7 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 4 0 R
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 1079
+>>
+stream
+BT /F1 10 Tf 40 740 Td (SYNTHETIC SALES MEMO - no real customers or interviews) Tj ET
+BT /F1 10 Tf 40 712 Td (Sales headline: accounting offices lead with eight paid pilots.) Tj ET
+BT /F1 10 Tf 40 684 Td (Definition used by sales: paid pilot means interest in a paid offer.) Tj ET
+BT /F1 10 Tf 40 656 Td (Sales did not reconcile receipts; finance paid30 requires a received payment.) Tj ET
+BT /F1 10 Tf 40 628 Td (Agency task: send draft media assets to an external client for download.) Tj ET
+BT /F1 10 Tf 40 600 Td (Accounting task: collect client files; recipient uploads are required.) Tj ET
+BT /F1 10 Tf 40 572 Td (Workbook: September cohort, observation through 31 October 2026.) Tj ET
+BT /F1 10 Tf 40 544 Td (Each organisation has one segment and at most one first payment in 30 days.) Tj ET
+BT /F1 10 Tf 40 516 Td (No random sampling. Neither interest nor these fixtures prove market demand.) Tj ET
+BT /F1 10 Tf 40 488 Td (Acquisition cost, repeated monthly payment and exit cost remain unknown.) Tj ET
+BT /F1 10 Tf 40 460 Td (Printed label: 1 \(physical page 2\).) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000135 00000 n 
+0000000200 00000 n 
+0000000312 00000 n 
+0000000382 00000 n 
+0000000514 00000 n 
+0000001457 00000 n 
+0000001589 00000 n 
+trailer
+<<
+/Size 9
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+2720
+%%EOF

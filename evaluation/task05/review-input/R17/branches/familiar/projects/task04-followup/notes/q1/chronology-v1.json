@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-12-19T12:00:00+03:00",
+  "clock": "simulated",
+  "basis_revision": 2,
+  "basis_state_sha256": "2b07edb14107f9e4ae682934d6e8cc01c746739d40407e2994656d557470d46f",
+  "deadline_elapsed_days": {
+    "K-PROTOCOL": 32.0,
+    "K-CAPABILITY": 32.0
+  },
+  "M-TIME": {
+    "window": {
+      "clock": "simulated",
+      "end": "2026-12-18T12:00:00+03:00",
+      "start": "2026-11-18T12:00:00+03:00"
+    },
+    "days_since_planned_end": 1.0,
+    "interpretation": "Плановое окно закончилось; фактический старт и результаты неизвестны."
+  },
+  "commitments_before": [
+    {
+      "blocked_by": [],
+      "completion_evidence": [],
+      "condition_ids": [
+        "G-VALUE",
+        "G-ECONOMICS"
+      ],
+      "decision_id": "OWNER-01-decision",
+      "description": "Зафиксировать локальный протокол gates и границ симуляции",
+      "due_at": "2026-11-17T12:00:00+03:00",
+      "due_condition": "До обсуждения любого внешнего исследования",
+      "id": "K-PROTOCOL",
+      "owner": "координатор симуляции",
+      "required_evidence": "Сохранённый протокол с learning/scaling, неизвестными и запретом реального запуска",
+      "status": "pending",
+      "attention": [
+        "overdue"
+      ]
+    },
+    {
+      "blocked_by": [],
+      "completion_evidence": [],
+      "condition_ids": [
+        "G-CAPABILITY"
+      ],
+      "decision_id": "OWNER-01-decision",
+      "description": "Предоставить протокол приёмки возможностей",
+      "due_at": "2026-11-17T12:00:00+03:00",
+      "due_condition": "До любого внешнего обещания",
+      "id": "K-CAPABILITY",
+      "owner": "техническая роль, синтетическая",
+      "required_evidence": "Проверка конкретной версии на разрешённом файле с результатом доступа/скачивания/истечения/отзыва",
+      "status": "pending",
+      "attention": [
+        "overdue"
+      ]
+    },
+    {
+      "blocked_by": [
+        "K-CAPABILITY"
+      ],
+      "completion_evidence": [],
+      "condition_ids": [
+        "G-ECONOMICS"
+      ],
+      "decision_id": "OWNER-01-decision",
+      "description": "Назначить владельца и согласовать цену информации",
+      "due_at": null,
+      "due_condition": "После определения проверяемого пакета, до внешних действий",
+      "id": "K-BUDGET",
+      "owner": "unassigned",
+      "required_evidence": "Явное решение владельца о пределах затрат; сейчас сумма неизвестна",
+      "status": "blocked",
+      "attention": [
+        "unassigned",
+        "blocked"
+      ]
+    },
+    {
+      "blocked_by": [
+        "K-BUDGET"
+      ],
+      "completion_evidence": [],
+      "condition_ids": [
+        "G-VALUE",
+        "G-ECONOMICS"
+      ],
+      "decision_id": "OWNER-01-decision",
+      "description": "Собрать частоту, ценность, повторную оплату и полные затраты",
+      "due_at": null,
+      "due_condition": "Только после отдельного реального разрешения и полного периода наблюдения",
+      "id": "K-VALUE",
+      "owner": "unassigned",
+      "required_evidence": "Наблюдения по M-FREQUENCY/M-VALUE/M-RENEWAL/M-COST, не синтетические конверсии",
+      "status": "blocked",
+      "attention": [
+        "unassigned",
+        "blocked"
+      ]
+    }
+  ],
+  "G-FRESHNESS": {
+    "claim_ids": [
+      "C004",
+      "C005"
+    ],
+    "description": "При следующем использовании проверить актуальность публичной альтернативы",
+    "id": "G-FRESHNESS",
+    "metric_ids": [],
+    "next_action": "Перед будущим сравнением проверить официальный источник; дата сама по себе не опровергает снимок",
+    "output_ids": [
+      "OUTPUT-v2-options"
+    ],
+    "review_after": "2026-12-01T12:00:00+03:00",
+    "review_reasons": [
+      "Наступило время проверки свежести; это не опровержение"
+    ]
+  }
+}

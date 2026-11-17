@@ -1,0 +1,680 @@
+{
+  "ok": true,
+  "loaded_from": "state/current.json",
+  "state": {
+    "artifact_dependencies": [
+      {
+        "from": "S002v1_original",
+        "reason": "Оригинал, сохранённые ячейки, единицы и явное определение воронки",
+        "to": "FUNNEL_CALC"
+      },
+      {
+        "from": "S002v1_extract",
+        "reason": "Оригинал, сохранённые ячейки, единицы и явное определение воронки",
+        "to": "FUNNEL_CALC"
+      },
+      {
+        "from": "SELECTION",
+        "reason": "Оригинал, сохранённые ячейки, единицы и явное определение воронки",
+        "to": "FUNNEL_CALC"
+      },
+      {
+        "from": "FUNNEL_SPEC",
+        "reason": "Оригинал, сохранённые ячейки, единицы и явное определение воронки",
+        "to": "FUNNEL_CALC"
+      },
+      {
+        "from": "S002v1_original",
+        "reason": "Оригинал, сохранённые ячейки и явное определение сценарных параметров",
+        "to": "ECON_INPUT_CALC"
+      },
+      {
+        "from": "S002v1_extract",
+        "reason": "Оригинал, сохранённые ячейки и явное определение сценарных параметров",
+        "to": "ECON_INPUT_CALC"
+      },
+      {
+        "from": "SELECTION",
+        "reason": "Оригинал, сохранённые ячейки и явное определение сценарных параметров",
+        "to": "ECON_INPUT_CALC"
+      },
+      {
+        "from": "ECON_SPEC",
+        "reason": "Оригинал, сохранённые ячейки и явное определение сценарных параметров",
+        "to": "ECON_INPUT_CALC"
+      },
+      {
+        "from": "FUNNEL_CALC",
+        "reason": "Входные суммы и параметры, допущения и воспроизводимые выражения",
+        "to": "DERIVED_CALC"
+      },
+      {
+        "from": "ECON_INPUT_CALC",
+        "reason": "Входные суммы и параметры, допущения и воспроизводимые выражения",
+        "to": "DERIVED_CALC"
+      },
+      {
+        "from": "SCENARIOS",
+        "reason": "Входные суммы и параметры, допущения и воспроизводимые выражения",
+        "to": "DERIVED_CALC"
+      },
+      {
+        "from": "CHECK_SCRIPT",
+        "reason": "Входные суммы и параметры, допущения и воспроизводимые выражения",
+        "to": "DERIVED_CALC"
+      },
+      {
+        "from": "DICTIONARY",
+        "reason": "Входные суммы и параметры, допущения и воспроизводимые выражения",
+        "to": "DERIVED_CALC"
+      },
+      {
+        "from": "S001v1_original",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "S001v1_extract",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "S002v1_original",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "S002v1_extract",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "PDF_MANIFEST",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "FUNNEL_CALC",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "ECON_INPUT_CALC",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "SCENARIOS",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "CHECK_SCRIPT",
+        "reason": "Сверка оригиналов, хешей, полноты текстового слоя и арифметики",
+        "to": "VERIFICATION"
+      },
+      {
+        "from": "CONTINUATION_REQUEST",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "S001v1_extract",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "S002v1_extract",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "S003v1_original",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "DICTIONARY",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "FUNNEL_CALC",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "ECON_INPUT_CALC",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "SCENARIOS",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "DERIVED_CALC",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "VERIFICATION",
+        "reason": "Граница поручения, прямые основания, расчёты и ограничения аналитической заметки",
+        "to": "ANALYSIS"
+      },
+      {
+        "from": "ANALYSIS",
+        "reason": "Предмет содержательного ревью и результаты проверки",
+        "to": "ANALYSIS_REVIEW"
+      },
+      {
+        "from": "VERIFICATION",
+        "reason": "Предмет содержательного ревью и результаты проверки",
+        "to": "ANALYSIS_REVIEW"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "PROJECT",
+        "path": "project.md",
+        "sha256": "c4f393526d6de849fb9d22799f5a1e12918a1068b5d95c6fbde0e87c4af95a42"
+      },
+      {
+        "id": "REQUEST",
+        "path": "inputs/manager-request-v1.txt",
+        "sha256": "1da5eba107816507c823dc6760b3f2fd529cff31d675ceaeadcfd0d46175f814"
+      },
+      {
+        "id": "ORIGIN",
+        "path": "inputs/PROVENANCE.json",
+        "sha256": "a59124d6debf88a6e6d876566cfad4df446f5d51c3c5321f10127d8aa1a5b464"
+      },
+      {
+        "id": "DICTIONARY",
+        "path": "inputs/DATA_DICTIONARY.md",
+        "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+      },
+      {
+        "id": "SELECTION",
+        "path": "inputs/selection-v1.json",
+        "sha256": "86a011f6fd2788469e4e0602fbb5857b7b7caa7a4b7d7b815aaa50b03d2e25d0"
+      },
+      {
+        "id": "FUNNEL_SPEC",
+        "path": "inputs/metrics-funnel-v1.json",
+        "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+      },
+      {
+        "id": "ECON_SPEC",
+        "path": "inputs/metrics-economics-v1.json",
+        "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+      },
+      {
+        "id": "SCENARIOS",
+        "path": "inputs/economics-sensitivity-v1.json",
+        "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+      },
+      {
+        "id": "PDF_MANIFEST",
+        "path": "inputs/pdf-text-manifest-v1.json",
+        "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+      },
+      {
+        "id": "S001v1_meta",
+        "path": "evidence/sources/S001/v1/source.json",
+        "sha256": "9ac452df58d64146a90f720ac89e6e439368942da75fb4e7989770cf2c361dde"
+      },
+      {
+        "id": "S001v1_original",
+        "path": "evidence/sources/S001/v1/original.pdf",
+        "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+      },
+      {
+        "id": "S001v1_extract",
+        "path": "evidence/sources/S001/v1/extract.json",
+        "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+      },
+      {
+        "id": "S002v1_meta",
+        "path": "evidence/sources/S002/v1/source.json",
+        "sha256": "9aa677834113aae266d89607d87ea93d34bad78cd56877274256333f6e27e9eb"
+      },
+      {
+        "id": "S002v1_original",
+        "path": "evidence/sources/S002/v1/original.xlsx",
+        "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+      },
+      {
+        "id": "S002v1_extract",
+        "path": "evidence/sources/S002/v1/extract.json",
+        "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+      },
+      {
+        "id": "S003v1_meta",
+        "path": "evidence/sources/S003/v1/source.json",
+        "sha256": "75dbf5358554216f860d71cf86caa2098eb658b0ba7e980f6fab8939960956b9"
+      },
+      {
+        "id": "S003v1_original",
+        "path": "evidence/sources/S003/v1/original.txt",
+        "sha256": "39f0df9ecaf6ffbd94cbbf43a98016bf2b6a3dd3851c81fea5d2ba7227348f6f"
+      },
+      {
+        "id": "S003v1_extract",
+        "path": "evidence/sources/S003/v1/extract.json",
+        "sha256": "d75e27653d0e43d80a87229dc91a21dc321062886c56672888a32b9db91d7e6e"
+      },
+      {
+        "id": "CONTINUATION_REQUEST",
+        "path": "inputs/continuation-instruction-v2.txt",
+        "sha256": "4a5ca8752d5801ce9d2dc6fd2625a7c980dccda1b7a08690ea4a3f3af35c1063"
+      },
+      {
+        "id": "FUNNEL_CALC",
+        "path": "evidence/calculations/funnel-v1.json",
+        "sha256": "009ece49d36c1e34b32de94ab08d8738cb8fbd5ea5d8aa2d56ea9dd7ab6b786e"
+      },
+      {
+        "id": "ECON_INPUT_CALC",
+        "path": "evidence/calculations/economics-inputs-v1.json",
+        "sha256": "eae13af6dd3412004c4a68a55ef7f3e1919ba9bad64a44b376f99c99172ed19c"
+      },
+      {
+        "id": "CHECK_SCRIPT",
+        "path": "evidence/calculations/check-analysis-v1.py",
+        "sha256": "d3aae0629ad6fb361ab675cd9e9a2d5c824d1a674724479bdaf7826dc9ff6b37"
+      },
+      {
+        "id": "DERIVED_CALC",
+        "path": "evidence/calculations/derived-analysis-v1.json",
+        "sha256": "d9e25ba1cbd1613e76d8b190b9286ab91a92b32328dde1014c7146121adacc7e"
+      },
+      {
+        "id": "VERIFICATION",
+        "path": "evidence/calculations/verification-v1.json",
+        "sha256": "5b8d39a1bd006bca29ab6c1cb4760df02b5d898a1a9ffc48cf3599cf239d8108"
+      },
+      {
+        "id": "ANALYSIS",
+        "path": "evidence/analysis-v1.md",
+        "sha256": "68b3cf61b238d9cf3dbbab551bfdcec3c284b6af61bb7cfc785b42208d13ebcd"
+      },
+      {
+        "id": "ANALYSIS_REVIEW",
+        "path": "evidence/review/analysis-review-v1.md",
+        "sha256": "2e994abefc06bc6d07ebc6b30e8c96977041b758679fcffe674a164f7fd2f962"
+      },
+      {
+        "id": "ACTIONS_CHECKPOINT",
+        "path": "evidence/activity-v2.jsonl",
+        "sha256": "7afc2c73b251f212b85443db47605a19c293caa4011a7b4a652f2837549c4019"
+      }
+    ],
+    "claims": [
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical_page=1; text lines 4–8",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C001",
+        "kind": "source_fact",
+        "synthetic": true,
+        "text": "Учебная спецификация перечисляет исходящую передачу и ручной отзыв ссылки; входящая загрузка получателем отсутствует. Это описание fixture, не производственная приёмка."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S003v1_original",
+            "locator": "T1–T2",
+            "source_id": "S003",
+            "source_version": 1
+          }
+        ],
+        "id": "C002",
+        "kind": "source_fact",
+        "synthetic": false,
+        "text": "Публичная справка Dropbox описывает отправку transfer и входящий сбор file requests. Реальная применимость к выбранным клиентам не проверена."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:2/block:2; physical-page:2/block:3; physical-page:2/block:4",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C003",
+        "kind": "source_fact",
+        "synthetic": true,
+        "text": "S001/v1 называет восемь платных пилотов бухбюро, но определяет paid pilot как интерес к платному предложению; поступления не сверялись, finance paid30 требует полученного платежа. Восемь не является числом подтверждённых оплат."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Воронка'!A3:F4; 'Воронка'!J3:J4",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "DICTIONARY",
+            "locator": "абзац Воронка!A3:K4"
+          },
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:2/block:7; physical-page:2/block:8",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C004",
+        "kind": "source_fact",
+        "synthetic": true,
+        "text": "Синтетическая сентябрьская когорта наблюдалась по 31.10.2026; 30-дневные окна завершены по словарю. Агентства: contacted=20, trials=8, interest=5, paid30=2; бухбюро: contacted=20, trials=10, interest=8, paid30=1. Сегменты не пересекаются; paid30 означает первую полученную оплату за 30 суток после начала пробы."
+      },
+      {
+        "derived_from": [
+          "C004"
+        ],
+        "evidence": [
+          {
+            "artifact_id": "FUNNEL_CALC",
+            "locator": "groups[segment=агентства|бухбюро].metrics.{paid_per_trial_pct,interest_per_trial_pct,paid_per_contact_pct}",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Воронка'!C3:F4",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "FUNNEL_SPEC",
+            "locator": "metrics[id=paid_per_trial_pct|interest_per_trial_pct|paid_per_contact_pct]"
+          },
+          {
+            "artifact_id": "VERIFICATION",
+            "locator": "checks[id=funnel-3-*|funnel-4-*]"
+          }
+        ],
+        "id": "C005",
+        "kind": "computed",
+        "synthetic": true,
+        "text": "По явному spec у агентств paid30/trials=2/8=25,00%, interest/trials=5/8=62,50%, paid30/contacted=2/20=10,00%; у бухбюро соответственно 1/10=10,00%, 8/10=80,00%, 1/20=5,00%. Это описательное сравнение синтетических групп."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:1/block:4–8; physical-page:2/block:5–6",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C006",
+        "kind": "source_fact",
+        "synthetic": true,
+        "text": "Учебная спецификация описывает задачу агентств как отправку медиафайлов клиенту, а бухбюро — как сбор файлов с необходимой загрузкой получателем. Текущая внешняя ссылка разрешает только скачивание, с ручным отзывом, лимитом 2 ГБ/файл и 7 днями действия без аккаунта получателя. Загрузка получателем, пароль, именной доступ, SSO и экспорт аудита не реализованы; производственной приёмки нет."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Экономика'!A3:I3",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "ECON_INPUT_CALC",
+            "locator": "groups[0].metrics",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "DICTIONARY",
+            "locator": "абзац Экономика!A3:J3"
+          },
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:1/block:7",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C007",
+        "kind": "assumption",
+        "synthetic": true,
+        "text": "Месячный сценарий агентств 2026-11-scenario предполагает цену 3000 ₽/организацию, инфраструктуру 600 ₽/организацию, поддержку 30 минут/организацию при 600 ₽/час, избегаемые fixed 30000 ₽/месяц, setup 60000 ₽ разово и 20 платящих организаций. Цена не валидирована, число организаций не является прогнозом."
+      },
+      {
+        "derived_from": [
+          "C004"
+        ],
+        "evidence": [
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Воронка'!G3:I4",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "FUNNEL_CALC",
+            "locator": "groups[segment=агентства|бухбюро].metrics.{revenue30,variable30,acquisition}",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "DERIVED_CALC",
+            "locator": "historical_contribution[segment=агентства|бухбюро]"
+          },
+          {
+            "artifact_id": "DICTIONARY",
+            "locator": "абзац Воронка!A3:K4"
+          }
+        ],
+        "id": "C008",
+        "kind": "computed",
+        "synthetic": true,
+        "text": "За 30-дневное окно учебной воронки вклад после перечисленных переменных расходов составляет 6000−1800=4200 ₽ у агентств и 3000−3600=−600 ₽ у бухбюро. Пустые acquisition в I3:I4 оставлены null; прибыль не рассчитана."
+      },
+      {
+        "derived_from": [
+          "C007"
+        ],
+        "evidence": [
+          {
+            "artifact_id": "DERIVED_CALC",
+            "locator": "formulas; parameters; base_case"
+          },
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Экономика'!C3:I3",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "VERIFICATION",
+            "locator": "checks[id=margin-30|threshold-30|surplus-30-20]"
+          }
+        ],
+        "id": "C009",
+        "kind": "computed",
+        "synthetic": true,
+        "text": "При базовых месячных допущениях поддержка стоит 300 ₽/организацию, вклад равен 2100 ₽/организацию/месяц. Порог покрытия только заданных fixed — 15 организаций; при 20 остаток до неизвестных затрат равен 12000 ₽/месяц. Возврат setup за 5 месяцев условен при неизменном повторении базы и расходов и не доказывает окупаемость с учётом CAC, налогов и продлений."
+      },
+      {
+        "derived_from": [
+          "C007",
+          "C011"
+        ],
+        "evidence": [
+          {
+            "artifact_id": "DERIVED_CALC",
+            "locator": "sensitivity; formulas"
+          },
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Экономика'!C3:I3",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "SCENARIOS",
+            "locator": "support_minutes_scenarios; accounts_scenarios"
+          },
+          {
+            "artifact_id": "VERIFICATION",
+            "locator": "checks[id=margin-*|threshold-*|surplus-*]"
+          }
+        ],
+        "id": "C010",
+        "kind": "computed",
+        "synthetic": true,
+        "text": "В чувствительности при поддержке 30/90/180 минут вклад равен 2100/1500/600 ₽ на организацию в месяц, а целый порог покрытия заданных fixed — 15/20/50 организаций. При 20 организациях месячный остаток до неизвестных затрат составляет 12000/0/−18000 ₽ соответственно; при неположительном остатке возврат setup не вычисляется."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "SCENARIOS",
+            "locator": "support_minutes_scenarios; accounts_scenarios; limitations"
+          },
+          {
+            "artifact_id": "DICTIONARY",
+            "locator": "абзац Экономика!A3:J3"
+          }
+        ],
+        "id": "C011",
+        "kind": "assumption",
+        "synthetic": true,
+        "text": "Сохранённая условная чувствительность использует поддержку 30, 90 и 180 минут на организацию в месяц и 10, 20 и 30 платящих организаций. Это сетка допущений, не прогноз продаж и не измеренная стоимость; CAC, налоги, продления и выход не считаются нулевыми."
+      },
+      {
+        "derived_from": [
+          "C001",
+          "C006"
+        ],
+        "evidence": [
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:1/block:4–8; physical-page:2/block:5–6",
+            "source_id": "S001",
+            "source_version": 1
+          }
+        ],
+        "id": "C012",
+        "kind": "hypothesis",
+        "synthetic": true,
+        "text": "В рамках описанных задач исходящая отправка агентств ближе к текущим функциям RelayBox; заявленный входящий сбор бухбюро требует отсутствующей загрузки получателем. Это функциональная гипотеза, а не выбор стратегии: пригодность для конкретных требований, ценность и готовность платить ещё не подтверждены."
+      },
+      {
+        "derived_from": [],
+        "evidence": [
+          {
+            "artifact_id": "S001v1_extract",
+            "locator": "physical-page:1/block:7–8; physical-page:2/block:6; physical-page:2/block:9–10",
+            "source_id": "S001",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "S002v1_extract",
+            "locator": "'Воронка'!F4; 'Воронка'!I3:I4",
+            "source_id": "S002",
+            "source_version": 1
+          },
+          {
+            "artifact_id": "DICTIONARY",
+            "locator": "абзацы Воронка!A3:K4 и Экономика!A3:J3"
+          },
+          {
+            "artifact_id": "PROJECT",
+            "locator": "абзацы 2–3"
+          }
+        ],
+        "id": "C013",
+        "kind": "source_fact",
+        "synthetic": true,
+        "text": "Прочитанные учебные основания не устанавливают CAC, налоги, повторные месячные платежи, стоимость выхода, реалистичность ценовых/затратных допущений и рыночный спрос. Назначение единственного paid30 бухбюро и фактический сценарий использования при отсутствии входящей загрузки не раскрыты. project.md оставляет реального владельца, бюджет и бизнес-разрешение неизвестными."
+      }
+    ],
+    "completed": [
+      "Постановка записана",
+      "Начальные PDF/XLSX импортированы с хешами и координатами",
+      "Реально прочитана публичная справка альтернатив; сохранена выдержка",
+      "Без повторного импорта сопоставлены определения paid pilot/interest/paid30 и точные координаты S001/v1 и S002/v1",
+      "Выполнены расчёты по сохранённым specs, чувствительность и проверка оригиналов/арифметики другим методом",
+      "Созданы evidence/analysis-v1.md и содержательное ревью; завершён один шаг до синтеза по текущему поручению"
+    ],
+    "decision": {
+      "status": "proposed"
+    },
+    "decision_question": "Какой следующий обратимый продуктовый шаг оправдан имеющимися основаниями?",
+    "next_action": "Текущий запрос выполнен: остановиться. При новом поручении загрузить эту ревизию и evidence/analysis-v1.md (C003–C013), затем сравнить отправку для агентств, развитие входящего сбора для бухбюро, сохранение положения и закрытие. Повторный импорт и пересчёт неизменённых входов не требуются.",
+    "objective": "Выбрать аудиторию и предложение RelayBox либо оставить/закрыть направление; учебная репетиция TASK06",
+    "pending_actions": [
+      "Текущая ограниченная фаза завершена; остановиться после сохранения и проверки новой ревизии",
+      "После нового поручения сравнить четыре варианта с условиями выбора, сильными возражениями и неизвестными затратами",
+      "После сравнения подготовить пять согласованных документов и опровержимую проверку, выполнить evidence-review; решение оставить за человеком"
+    ],
+    "project_id": "task06-rehearsal",
+    "revision": 2,
+    "saved_at": "2026-11-17T09:01:16.748419+00:00",
+    "schema_version": 1,
+    "sources": [
+      {
+        "artifact_ids": [
+          "S001v1_meta",
+          "S001v1_original",
+          "S001v1_extract"
+        ],
+        "id": "S001",
+        "synthetic": true,
+        "version": 1
+      },
+      {
+        "artifact_ids": [
+          "S002v1_meta",
+          "S002v1_original",
+          "S002v1_extract"
+        ],
+        "id": "S002",
+        "synthetic": true,
+        "version": 1
+      },
+      {
+        "artifact_ids": [
+          "S003v1_meta",
+          "S003v1_original",
+          "S003v1_extract"
+        ],
+        "id": "S003",
+        "synthetic": false,
+        "version": 1
+      }
+    ],
+    "stage": "evidence_analyzed_pause",
+    "state_sha256": "43b1d2767e6af12c6de775afb600e8c33d4c7d3eb6a4555dd7c5ca55a2de821d",
+    "unresolved_questions": [
+      "Насколько реальные требования агентств к размеру файлов, сроку и доступу соответствуют описанным функциям?",
+      "Что означал бы платёж бухбюро при отсутствии входящей загрузки; расшифровки назначения и использования в наборе нет",
+      "Реальные частота задачи, готовность платить 3000 ₽/месяц и повторные оплаты не подтверждены",
+      "CAC, налоги, полная стоимость обслуживания, реалистичность сценарных fixed/setup и стоимость выхода/обязательства неизвестны",
+      "Реальный владелец, бюджет и разрешение на эксперимент неизвестны",
+      "Выбор между отправкой для агентств, развитием входящего сбора, сохранением положения и закрытием ещё не выполнен"
+    ]
+  },
+  "warnings": []
+}

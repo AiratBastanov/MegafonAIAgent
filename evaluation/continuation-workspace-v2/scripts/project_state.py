@@ -1,0 +1,530 @@
+"""Небольшое файловое состояние проекта: один писатель, явные версии и проверки.
+
+Это не транзакционная БД: os.replace публикует один файл. История и артефакты
+сохраняются отдельно, незавершённые кандидаты не становятся текущим состоянием.
+"""
+
+from __future__ import annotations
+
+import argparse
+import copy
+import hashlib
+import json
+import os
+from pathlib import Path, PureWindowsPath
+import re
+import sys
+from datetime import datetime, timezone
+from typing import Any
+import uuid
+
+
+DEFAULT_MAX_BYTES = 20 * 1024 * 1024
+CLAIM_KINDS = {
+    "source_fact", "computed", "assumption", "hypothesis", "forecast",
+    "recommendation", "synthetic_response",
+}
+SYNTHETIC_MARKER = re.compile(rb"SYNTHETIC_SECRET_[A-Za-z0-9_-]+")
+SHA256 = re.compile(r"[a-f0-9]{64}\Z")
+ID = re.compile(r"[A-Za-z0-9][A-Za-z0-9_.@-]{0,127}\Z")
+PROJECT_ID = re.compile(r"[a-z0-9][a-z0-9_-]{0,63}\Z")
+
+
+class StateError(ValueError):
+    """Ожидаемая ошибка целостности; сообщение не содержит исходные байты."""
+
+
+def _root(project: str | Path) -> Path:
+    root = Path(project).resolve()
+    if not root.is_dir():
+        raise StateError("Каталог проекта не существует")
+    return root
+
+
+def scoped_path(project: str | Path, relative_path: str) -> Path:
+    """Разрешить только относительный путь внутри выбранного проекта."""
+    root = _root(project)
+    if not isinstance(relative_path, str) or not relative_path.strip():
+        raise StateError("Путь должен быть непустой строкой")
+    win = PureWindowsPath(relative_path)
+    relative = Path(relative_path)
+    if relative.is_absolute() or win.drive or win.root or ".." in win.parts:
+        raise StateError("Абсолютный путь или выход за проект запрещён")
+    resolved = (root / relative).resolve()
+    if not resolved.is_relative_to(root) or resolved == root:
+        raise StateError("Путь выходит за проект, в том числе через ссылку")
+    return resolved
+
+
+def _bytes(path: Path, max_bytes: int) -> bytes:
+    if type(max_bytes) is not int or max_bytes <= 0:
+        raise StateError("max_bytes должен быть положительным целым числом")
+    if not path.is_file():
+        raise StateError(f"Отсутствует файл: {path.name}")
+    if path.stat().st_size > max_bytes:
+        raise StateError(f"Файл превышает технический max_bytes: {path.name}")
+    data = path.read_bytes()
+    if len(data) > max_bytes:
+        raise StateError(f"Файл изменился и превышает max_bytes: {path.name}")
+    return data
+
+
+def _check_marker(data: bytes) -> None:
+    # Только известный искусственный маркер в заявленных файлах. Это не
+    # универсальное обнаружение секретов и не поиск по окружению пользователя.
+    if SYNTHETIC_MARKER.search(data):
+        raise StateError("Искусственный секрет-маркер исключён из сохраняемого пакета")
+
+
+def reference(
+    project: str | Path, relative_path: str, artifact_id: str,
+    *, max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, str]:
+    """Создать прямую ссылку на существующую версию артефакта."""
+    root = _root(project)
+    path = scoped_path(root, relative_path)
+    if path.is_relative_to(scoped_path(root, "state")):
+        raise StateError("Состояние не может ссылаться на собственный служебный каталог")
+    if not isinstance(artifact_id, str) or not ID.fullmatch(artifact_id):
+        raise StateError("Некорректный ID артефакта")
+    data = _bytes(path, max_bytes)
+    _check_marker(data)
+    return {
+        "id": artifact_id,
+        "path": path.relative_to(root).as_posix(),
+        "sha256": hashlib.sha256(data).hexdigest(),
+    }
+
+
+def _json_bytes(data: Any, *, pretty: bool = False) -> bytes:
+    try:
+        text = json.dumps(
+            data, ensure_ascii=False, sort_keys=True, allow_nan=False,
+            indent=2 if pretty else None,
+            separators=None if pretty else (",", ":"),
+        )
+        return (text + ("\n" if pretty else "")).encode("utf-8")
+    except (TypeError, ValueError) as exc:
+        raise StateError("Запись должна содержать только корректные JSON-значения") from exc
+
+
+def _unique_pairs(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in result:
+            raise StateError("Повторяющееся имя поля в JSON")
+        result[key] = value
+    return result
+
+
+def _invalid_constant(_value: str) -> None:
+    raise StateError("NaN и Infinity в JSON запрещены")
+
+
+def _read_json(path: Path, max_bytes: int) -> dict[str, Any]:
+    try:
+        data = json.loads(
+            _bytes(path, max_bytes).decode("utf-8-sig"),
+            object_pairs_hook=_unique_pairs, parse_constant=_invalid_constant,
+        )
+    except (UnicodeError, json.JSONDecodeError) as exc:
+        raise StateError(f"Повреждённый или неполный UTF-8 JSON: {path.name}") from exc
+    if not isinstance(data, dict):
+        raise StateError("Состояние должно быть JSON-объектом")
+    return data
+
+
+def _text(value: Any, label: str) -> None:
+    if not isinstance(value, str) or not value.strip():
+        raise StateError(f"Не заполнено строковое поле: {label}")
+
+
+def _items(data: dict[str, Any], name: str) -> list[Any]:
+    value = data.get(name)
+    if not isinstance(value, list):
+        raise StateError(f"Поле должно быть списком: {name}")
+    return value
+
+
+def _record_id(value: Any, label: str) -> None:
+    if not isinstance(value, str) or not ID.fullmatch(value):
+        raise StateError(f"Некорректный ID: {label}")
+
+
+def _aware_time(value: Any, label: str) -> None:
+    _text(value, label)
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.utcoffset() is None:
+            raise ValueError("timezone missing")
+    except ValueError as exc:
+        raise StateError(f"Нужно время ISO 8601 с часовым поясом: {label}") from exc
+
+
+def _checksum(data: dict[str, Any]) -> str:
+    payload = {key: value for key, value in data.items() if key != "state_sha256"}
+    return hashlib.sha256(_json_bytes(payload)).hexdigest()
+
+
+def validate_state(
+    project: str | Path, data: dict[str, Any], *, require_saved: bool = False,
+    max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, Any]:
+    """Проверить структуру, прямые версии, связи и происхождение синтетики.
+
+    Проверка связей не устанавливает правдивость текста или качество стратегии.
+    """
+    root = _root(project)
+    if type(max_bytes) is not int or max_bytes <= 0:
+        raise StateError("max_bytes должен быть положительным целым числом")
+    if not isinstance(data, dict):
+        raise StateError("Состояние должно быть JSON-объектом")
+    encoded = _json_bytes(data)
+    if len(encoded) > max_bytes:
+        raise StateError("Состояние превышает технический max_bytes")
+    _check_marker(encoded)
+    if type(data.get("schema_version")) is not int or data["schema_version"] != 1:
+        raise StateError("Поддерживается только schema_version=1")
+    pid = data.get("project_id")
+    if not isinstance(pid, str) or not PROJECT_ID.fullmatch(pid) or pid != root.name:
+        raise StateError("project_id должен совпадать с именем выбранного каталога проекта")
+    for field in ("objective", "decision_question", "stage", "next_action"):
+        _text(data.get(field), field)
+    for field in ("completed", "unresolved_questions", "pending_actions"):
+        for value in _items(data, field):
+            _text(value, field)
+
+    artifacts: dict[str, dict[str, Any]] = {}
+    for item in _items(data, "artifacts"):
+        if not isinstance(item, dict):
+            raise StateError("Артефакт должен быть объектом")
+        aid = item.get("id")
+        _record_id(aid, "artifact")
+        if aid in artifacts:
+            raise StateError("Повторяющийся ID артефакта")
+        digest = item.get("sha256")
+        if not isinstance(digest, str) or not SHA256.fullmatch(digest):
+            raise StateError("Артефакт требует SHA-256 фактически использованной версии")
+        current = reference(root, item.get("path"), aid, max_bytes=max_bytes)
+        if digest != current["sha256"]:
+            raise StateError(f"Изменена или повреждена версия артефакта: {aid}")
+        artifacts[aid] = item
+
+    sources: dict[tuple[str, int], dict[str, Any]] = {}
+    synthetic_artifacts: set[str] = set()
+    for source in _items(data, "sources"):
+        if not isinstance(source, dict):
+            raise StateError("Источник должен быть объектом")
+        sid, version = source.get("id"), source.get("version")
+        _record_id(sid, "source")
+        if type(version) is not int or version < 1:
+            raise StateError("Версия источника должна быть положительным целым")
+        key = (sid, version)
+        if key in sources:
+            raise StateError("Повторяющаяся версия источника")
+        if type(source.get("synthetic")) is not bool:
+            raise StateError("Источник требует явного synthetic=true/false")
+        refs = source.get("artifact_ids")
+        if not isinstance(refs, list) or not refs:
+            raise StateError("Источник требует artifact_ids с закреплённой provenance")
+        for aid in refs:
+            if not isinstance(aid, str) or aid not in artifacts:
+                raise StateError("Источник ссылается на неизвестный артефакт")
+        if source["synthetic"]:
+            synthetic_artifacts.update(refs)
+        sources[key] = source
+
+    # Одна непосредственная связь calculation -> original, без транзитивного
+    # checkpoint-manifest. Позволяет цитировать расчёт вместе с source version,
+    # не приписывая произвольный сторонний артефакт этому источнику.
+    json_artifacts: dict[str, dict[str, Any] | None] = {}
+
+    def artifact_json(aid: str) -> dict[str, Any] | None:
+        if aid not in json_artifacts:
+            path = scoped_path(root, artifacts[aid]["path"])
+            try:
+                value = _read_json(path, max_bytes) if path.suffix.lower() == ".json" else None
+            except StateError:
+                value = None
+            json_artifacts[aid] = value
+        return json_artifacts[aid]
+
+    def belongs_to_source(aid: str, source: dict[str, Any]) -> bool:
+        if aid in source["artifact_ids"]:
+            return True
+        calculation = artifact_json(aid)
+        if not calculation or calculation.get("tool") != "analyze_table":
+            return False
+        origin = calculation.get("source")
+        calc_input = calculation.get("input")
+        if (not isinstance(origin, dict) or origin.get("id") != source["id"]
+                or type(origin.get("version")) is not int or origin["version"] != source["version"]
+                or not isinstance(calc_input, dict)):
+            return False
+        for owned_id in source["artifact_ids"]:
+            metadata = artifact_json(owned_id)
+            if (not metadata or metadata.get("id") != source["id"]
+                    or metadata.get("version") != source["version"]):
+                continue
+            original = metadata.get("original")
+            if not isinstance(original, dict):
+                continue
+            digest = original.get("sha256")
+            if (not isinstance(digest, str) or digest != metadata.get("input_sha256")
+                    or digest != calc_input.get("sha256")):
+                continue
+            if any(
+                artifacts[original_id]["path"] == original.get("path")
+                and artifacts[original_id]["sha256"] == digest
+                for original_id in source["artifact_ids"]
+            ):
+                return True
+        return False
+
+    claims: dict[str, dict[str, Any]] = {}
+    direct_synthetic: set[str] = set()
+    for claim in _items(data, "claims"):
+        if not isinstance(claim, dict):
+            raise StateError("Утверждение должно быть объектом")
+        cid = claim.get("id")
+        _record_id(cid, "claim")
+        if cid in claims:
+            raise StateError("Повторяющийся ID утверждения")
+        if not isinstance(claim.get("kind"), str) or claim["kind"] not in CLAIM_KINDS:
+            raise StateError("Неизвестный kind утверждения")
+        _text(claim.get("text"), "claim.text")
+        if type(claim.get("synthetic")) is not bool:
+            raise StateError("Утверждение требует явного synthetic=true/false")
+        evidence = _items(claim, "evidence")
+        if claim["kind"] in {"source_fact", "computed"} and not evidence:
+            raise StateError("Факт или расчёт требует прямого свидетельства")
+        if claim["kind"] == "synthetic_response":
+            direct_synthetic.add(cid)
+        for ref in evidence:
+            if (not isinstance(ref, dict) or not isinstance(ref.get("artifact_id"), str)
+                    or ref["artifact_id"] not in artifacts):
+                raise StateError("Утверждение ссылается на неизвестный артефакт")
+            _text(ref.get("locator"), "evidence.locator")
+            if ref["artifact_id"] in synthetic_artifacts:
+                direct_synthetic.add(cid)
+            if "source_id" in ref or "source_version" in ref:
+                source_key = (ref.get("source_id"), ref.get("source_version"))
+                if (not isinstance(source_key[0], str)
+                        or type(source_key[1]) is not int or source_key not in sources):
+                    raise StateError("Ссылка требует существующую пару source_id/source_version")
+                if not belongs_to_source(ref["artifact_id"], sources[source_key]):
+                    raise StateError("Артефакт не принадлежит указанной версии источника и не связан с её оригиналом расчётом")
+                if sources[source_key]["synthetic"]:
+                    direct_synthetic.add(cid)
+        for parent in _items(claim, "derived_from"):
+            _record_id(parent, "derived_from")
+        claims[cid] = claim
+
+    visiting: set[str] = set()
+    provenance: dict[str, bool] = {}
+
+    def visit(cid: str) -> bool:
+        if cid not in claims:
+            raise StateError("derived_from ссылается на неизвестное утверждение")
+        if cid in visiting:
+            raise StateError("Циклическое обоснование утверждений запрещено")
+        if cid in provenance:
+            return provenance[cid]
+        visiting.add(cid)
+        inherited = False
+        for parent in claims[cid]["derived_from"]:
+            inherited = visit(parent) or inherited
+        synthetic = cid in direct_synthetic or inherited or claims[cid]["synthetic"]
+        if synthetic and not claims[cid]["synthetic"]:
+            raise StateError(f"Потеря синтетического происхождения: {cid}")
+        visiting.remove(cid)
+        provenance[cid] = synthetic
+        return synthetic
+
+    for cid in claims:
+        visit(cid)
+
+    decision = data.get("decision")
+    if (not isinstance(decision, dict) or not isinstance(decision.get("status"), str)
+            or decision["status"] not in {
+        "proposed", "awaiting_decision", "accepted", "rejected",
+    }):
+        raise StateError("Нужен явный статус предложения/решения")
+    if decision["status"] in {"accepted", "rejected"}:
+        confirmation = decision.get("human_confirmation")
+        if not isinstance(confirmation, dict) or confirmation.get("authorized") is not True:
+            raise StateError("Решение требует явного подтверждения уполномоченного человека")
+        _text(confirmation.get("actor"), "human_confirmation.actor")
+        _aware_time(confirmation.get("at"), "human_confirmation.at")
+        if (not isinstance(confirmation.get("evidence_artifact_id"), str)
+                or confirmation["evidence_artifact_id"] not in artifacts):
+            raise StateError("Подтверждение человека требует закреплённого артефакта")
+        if confirmation.get("test_fixture") is True:
+            raise StateError("Тестовое подтверждение не является бизнес-решением")
+    if require_saved:
+        if type(data.get("revision")) is not int or data["revision"] < 1:
+            raise StateError("Сохранённое состояние требует revision")
+        _aware_time(data.get("saved_at"), "saved_at")
+        if data.get("state_sha256") != _checksum(data):
+            raise StateError("Контрольная сумма состояния не совпадает")
+    return data
+
+
+def load_state(
+    project: str | Path, *, previous: bool = False, max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, Any]:
+    root = _root(project)
+    name = "state/previous.json" if previous else "state/current.json"
+    data = _read_json(scoped_path(root, name), max_bytes)
+    return validate_state(root, data, require_saved=True, max_bytes=max_bytes)
+
+
+def _warnings(root: Path, state: dict[str, Any]) -> list[str]:
+    warnings: list[str] = []
+    state_dir = scoped_path(root, "state")
+    pending = sorted(path.name for path in state_dir.glob("*.tmp"))
+    if pending:
+        warnings.append("Незавершённые временные файлы: " + ", ".join(pending))
+    history = scoped_path(root, "state/history")
+    if history.exists():
+        uncommitted = [
+            path.name for path in history.glob("r*.json")
+            if re.fullmatch(r"r\d+\.json", path.name)
+            and int(path.stem[1:]) > state["revision"]
+        ]
+        if uncommitted:
+            warnings.append("Есть более новые неопубликованные кандидаты истории: " + ", ".join(sorted(uncommitted)))
+    return warnings
+
+
+def inspect_state(
+    project: str | Path, *, previous: bool = False, max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, Any]:
+    root = _root(project)
+    state = load_state(root, previous=previous, max_bytes=max_bytes)
+    return {
+        "ok": True, "loaded_from": "state/previous.json" if previous else "state/current.json",
+        "state": state, "warnings": _warnings(root, state),
+    }
+
+
+def _write_new(path: Path, content: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("xb") as stream:
+        stream.write(content)
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def _replace_bytes(root: Path, destination: str, content: bytes) -> None:
+    target = scoped_path(root, destination)
+    temporary = scoped_path(root, f"state/.{target.stem}.{uuid.uuid4().hex}.tmp")
+    _write_new(temporary, content)
+    os.replace(temporary, target)
+
+
+def save_state(
+    project: str | Path, data: dict[str, Any], *, max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, Any]:
+    """Проверить новый снимок и опубликовать его, сохранив предыдущую версию.
+
+    Артефакты должны быть заранее записаны по новым путям. Никакие артефакты
+    эта функция не удаляет. Конкурентные писатели не поддерживаются.
+    """
+    root = _root(project)
+    candidate = copy.deepcopy(data)
+    for key in ("revision", "saved_at", "state_sha256"):
+        candidate.pop(key, None)
+    validate_state(root, candidate, max_bytes=max_bytes)
+    current_path = scoped_path(root, "state/current.json")
+    current: dict[str, Any] | None = None
+    if current_path.exists():
+        # Никогда не превращать повреждённый current в previous.
+        current = load_state(root, max_bytes=max_bytes)
+    history = scoped_path(root, "state/history")
+    history.mkdir(parents=True, exist_ok=True)
+    revisions = [current["revision"] if current else 0]
+    revisions.extend(
+        int(path.stem[1:]) for path in history.glob("r*.json")
+        if re.fullmatch(r"r\d+\.json", path.name)
+    )
+    candidate["revision"] = max(revisions) + 1
+    candidate["saved_at"] = datetime.now(timezone.utc).isoformat()
+    candidate["state_sha256"] = _checksum(candidate)
+    content = _json_bytes(candidate, pretty=True)
+    validate_state(root, candidate, require_saved=True, max_bytes=max_bytes)
+    _write_new(scoped_path(root, f"state/history/r{candidate['revision']:06d}.json"), content)
+    temporary = scoped_path(root, f"state/.current.{uuid.uuid4().hex}.tmp")
+    _write_new(temporary, content)
+    validate_state(root, _read_json(temporary, max_bytes), require_saved=True, max_bytes=max_bytes)
+    if current is not None:
+        _replace_bytes(root, "state/previous.json", _json_bytes(current, pretty=True))
+    os.replace(temporary, current_path)
+    return candidate
+
+
+def recover_previous(
+    project: str | Path, *, max_bytes: int = DEFAULT_MAX_BYTES,
+) -> dict[str, Any]:
+    """Явно вернуть previous; записать только hash/размер/причину замены current."""
+    root = _root(project)
+    previous = load_state(root, previous=True, max_bytes=max_bytes)
+    current_path = scoped_path(root, "state/current.json")
+    if current_path.exists():
+        # Повреждённый файл может содержать внедрённые секреты. Его байты не
+        # распространяются в новую диагностическую копию или сообщение.
+        diagnostic = scoped_path(root, f"state/replaced-current-{uuid.uuid4().hex}.json")
+        raw = _bytes(current_path, max_bytes)
+        _write_new(diagnostic, _json_bytes({
+            "replaced_file": "state/current.json", "sha256": hashlib.sha256(raw).hexdigest(),
+            "size_bytes": len(raw), "reason": "explicit_recovery_previous",
+            "recorded_at": datetime.now(timezone.utc).isoformat(), "raw_preserved": False,
+        }, pretty=True))
+    _replace_bytes(root, "state/current.json", _json_bytes(previous, pretty=True))
+    return previous
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Проверка и сохранение состояния одного проекта")
+    parser.add_argument("command", choices=("save", "load", "validate", "recover"))
+    parser.add_argument("--project", required=True, help="Каталог выбранного проекта")
+    parser.add_argument("--draft", help="JSON-кандидат относительно каталога проекта")
+    parser.add_argument("--previous", action="store_true", help="Явно использовать previous")
+    parser.add_argument("--max-bytes", type=int, default=DEFAULT_MAX_BYTES, help="Технический предел одного файла в байтах")
+    args = parser.parse_args(argv)
+    try:
+        root = _root(args.project)
+        if args.command == "load":
+            result = inspect_state(root, previous=args.previous, max_bytes=args.max_bytes)
+        elif args.command == "recover":
+            if not args.previous:
+                raise StateError("Восстановление требует явного --previous")
+            recover_previous(root, max_bytes=args.max_bytes)
+            result = inspect_state(root, max_bytes=args.max_bytes)
+            result["recovered_from"] = "state/previous.json"
+        elif args.command == "save":
+            if not args.draft:
+                raise StateError("save требует --draft")
+            draft = _read_json(scoped_path(root, args.draft), args.max_bytes)
+            saved = save_state(root, draft, max_bytes=args.max_bytes)
+            result = {"ok": True, "state": saved, "warnings": _warnings(root, saved)}
+        elif args.draft:
+            draft = _read_json(scoped_path(root, args.draft), args.max_bytes)
+            validate_state(root, draft, max_bytes=args.max_bytes)
+            result = {"ok": True, "validated": args.draft, "saved": False}
+        else:
+            result = inspect_state(root, previous=args.previous, max_bytes=args.max_bytes)
+        print(json.dumps(result, ensure_ascii=False, allow_nan=False, indent=2))
+        return 0
+    except (StateError, OSError) as exc:
+        result = {"ok": False, "error": str(exc)}
+        if args.command in {"load", "save", "validate"} and not args.previous:
+            result["next_step"] = "Проверить load --previous; восстановление только явным recover --previous"
+        print(json.dumps(result, ensure_ascii=False, indent=2), file=sys.stderr)
+        return 2
+
+
+if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+    raise SystemExit(main())

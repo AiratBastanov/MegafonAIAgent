@@ -1,0 +1,153 @@
+{
+  "at": "2026-11-16T14:12:46.672290+00:00",
+  "freeze": {
+    "files": 210,
+    "mismatches": []
+  },
+  "protected": {
+    "projects/demo-001": {
+      "files": 64,
+      "mismatches": [],
+      "added": []
+    },
+    "projects/demo-002": {
+      "files": 81,
+      "mismatches": [],
+      "added": []
+    },
+    "evaluation/task04": {
+      "files": 346,
+      "mismatches": [],
+      "added": []
+    },
+    "evaluation/task03/continuation-workspace": {
+      "files": 39,
+      "mismatches": [],
+      "added": []
+    },
+    "evaluation/task03/fresh-session-01": {
+      "files": 13,
+      "mismatches": [],
+      "added": []
+    }
+  },
+  "historical_reports": {
+    "docs/TASK02_REPORT.md": true,
+    "docs/TASK03_REPORT.md": true,
+    "docs/TASK03_REVIEW_PACKET.md": true,
+    "docs/TASK03_WORKLOG.md": true,
+    "docs/TASK04_REPORT.md": true,
+    "docs/TASK04_REVIEW_PACKET.md": true,
+    "docs/TASK04_WORKLOG.md": true
+  },
+  "canonical": {
+    "demo-001": {
+      "revision": 5,
+      "decision_status": "awaiting_decision"
+    },
+    "demo-002": {
+      "revision": 5,
+      "decision_status": "awaiting_decision"
+    }
+  },
+  "input_parity": {
+    "same_readable_context": true,
+    "same_primary_artifacts": true,
+    "artifact_count": 54
+  },
+  "source_calculation": {
+    "source": "S002@2 original.xlsx; Экономика!C3:I3; Воронка!D3:F4",
+    "values": {
+      "C3": "3000",
+      "D3": "600",
+      "E3": "90",
+      "F3": "600",
+      "G3": "30000",
+      "H3": "60000",
+      "I3": "20"
+    },
+    "contribution": "1500",
+    "remainder_N20": "0",
+    "paid_trial_pct": [
+      "25.00",
+      "10.0"
+    ],
+    "synthetic_scenario": true
+  },
+  "dates": {
+    "deadline_days": 32.0,
+    "planned_window_days": 1.0,
+    "freshness_days": 18.0
+  },
+  "participant_A": {
+    "familiar": {
+      "revision": 5,
+      "history_unchanged": true,
+      "commitment_ids_unchanged": true,
+      "source_artifacts_unchanged": true,
+      "q2_reviews_retained_in_q3": true,
+      "q2_outputs_retained_in_q3": true,
+      "open_owner_reviews": [
+        "review-Q2-FAMILIAR-WITHDRAWAL"
+      ],
+      "status": "simulated_accepted"
+    },
+    "variant": {
+      "revision": 5,
+      "history_unchanged": true,
+      "commitment_ids_unchanged": true,
+      "source_artifacts_unchanged": true,
+      "q2_reviews_retained_in_q3": true,
+      "q2_outputs_retained_in_q3": true,
+      "open_owner_reviews": [
+        "review-Q2-VARIANT-WITHDRAWAL"
+      ],
+      "status": "simulated_accepted"
+    }
+  },
+  "responses": {
+    "A/q1": {
+      "sha256": "1c304850525bd58afce0b09a5026321cb2ba6bf3a6b435f4621f86d802000fe0",
+      "same_as_final": true
+    },
+    "A/q2": {
+      "sha256": "fd0aec4b1b1c3979be813734c264f4a7d3e084fdb6947005ebca077c611ae81e",
+      "same_as_final": true
+    },
+    "A/q3": {
+      "sha256": "61a0f9d7202893893aad4d74025c12f1010470b4292e2a33cb21aa8eff872458",
+      "same_as_final": true
+    },
+    "B-ablation/q1": {
+      "sha256": "d0c13cd22bb4c465ffde1d592a56299339073b3e5aec35558a3b60a7ddad582a",
+      "same_as_final": true
+    },
+    "B-ablation/q2": {
+      "sha256": "0cc5674deddd2482377bfe02c2359b71a8fbbe05547c1156bcccb276fec8c3d4",
+      "same_as_final": true
+    },
+    "B-ablation/q3": {
+      "sha256": "137d283f2f81e887144102cd477c6f4ce270a040216f722a96af64c5e5e77849",
+      "same_as_final": true
+    }
+  },
+  "participant_B": {
+    "initial_materials_unchanged": true,
+    "notes_exist": {
+      "familiar": [
+        "notes/familiar/q1-handoff.md",
+        "notes/familiar/q1-protocol.md",
+        "notes/familiar/q2-handoff.md",
+        "notes/familiar/q3-handoff.md"
+      ],
+      "variant": [
+        "notes/variant/q1-handoff.md",
+        "notes/variant/q1-protocol.md",
+        "notes/variant/q2-handoff.md",
+        "notes/variant/q3-handoff.md"
+      ]
+    },
+    "private_schema_required": false,
+    "semantic_persistence": "оценивается по полным notes/ответам отдельно, не по filenames A"
+  }
+}

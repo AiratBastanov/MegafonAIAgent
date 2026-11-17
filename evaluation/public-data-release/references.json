@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Codex Prompting Guide.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\Codex Prompting Guide.txt",
+    "sha256": "b1ea665bb0ba6d11f1447e191385760e7d041c5c9d61cee16572971f470c4722",
+    "applied": "Доводить поручение до проверенного результата; применять точные инструменты и адресные проверки."
+  },
+  {
+    "name": "Model guidance _ OpenAI API.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\Model guidance _ OpenAI API.txt",
+    "sha256": "d0514c9b721b9e608130ee6822b98d3b449aea7426406faa5b5db7db5f3c1220",
+    "applied": "Сохранять исходную задачу при уточнениях; явного разрешения пользователя достаточно; не расширять проверки без причины."
+  },
+  {
+    "name": "Rethinking skills and prompts for GPT-6 Astra _ OpenAI Developers.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\Rethinking skills and prompts for GPT-6 Astra _ OpenAI Developers.txt",
+    "sha256": "af5993a2110b4248dbfd4cb9bd85dd5824ec5909952c311d1d6e388572fc3831",
+    "applied": "Не наращивать инструкции и каркас без пользы; читать документацию по задаче."
+  },
+  {
+    "name": "PromptGuide.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\PromptGuide.txt",
+    "sha256": "3efbcb760c95cd165cbb675ee190c473b501fdcfed10e4b9708c3d53a14dea16",
+    "applied": "Ясные цель, контекст, результат и границы; материал должен быть пригоден для адресата."
+  },
+  {
+    "name": "AgentsMD.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\AgentsMD.txt",
+    "sha256": "b48e3cd27709f997fa3efc98f02835e8f5f060a6a25389dfee649af829f2af2d",
+    "applied": "Обязательные правила находятся в AGENTS.md; вложенные инструкции имеют свою область."
+  },
+  {
+    "name": "PersonalizeChatGpt.txt",
+    "local_path": "C:\\Users\\BastaPC\\Desktop\\PersonalizeChatGpt.txt",
+    "sha256": "2ccaf145af5ac44d17460ef249d63bbd0d61eb49d469f8edab52823c592a4055",
+    "applied": "Предпочтения стиля отделены от обязательных инструкций и памяти задачи."
+  }
+]

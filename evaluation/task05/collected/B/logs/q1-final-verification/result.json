@@ -1,0 +1,13 @@
+{
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "Get-FileHash -Algorithm SHA256 -LiteralPath responses/q1.md,notes/familiar/q1-handoff.md,notes/variant/q1-handoff.md,notes/familiar/q1-protocol.md,notes/variant/q1-protocol.md,outputs/q1-verification.json,tools/q1_audit.py | ConvertTo-Json; Get-Content -Encoding UTF8 responses/q1.md"
+  ],
+  "cwd": "C:\\Users\\BastaPC\\AppData\\Local\\Temp\\megafon-task05-clean-20zjuuxd\\B",
+  "started_at": "2026-11-16T13:48:42.528927+00:00",
+  "ended_at": "2026-11-16T13:48:42.879469+00:00",
+  "elapsed_seconds": 0.35900000000037835,
+  "returncode": 0
+}

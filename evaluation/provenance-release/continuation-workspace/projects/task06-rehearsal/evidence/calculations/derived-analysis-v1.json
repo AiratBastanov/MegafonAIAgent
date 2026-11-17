@@ -1,0 +1,207 @@
+{
+  "record_type": "analytical_calculation",
+  "tool": "task06_analysis_v1",
+  "synthetic": true,
+  "calculated_at": "2026-11-17T08:52:55.194799+00:00",
+  "source_versions": [
+    {
+      "id": "S001",
+      "version": 1
+    },
+    {
+      "id": "S002",
+      "version": 1
+    }
+  ],
+  "inputs": [
+    {
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "642e8ff2c1711ef8a12c431568a053e17e842d0f4904999f0f97bf6b2f9e753d"
+    },
+    {
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "583ee348d3cb5c4dcb308b6a10d0be5c8a072f61edb16871e355928847a43fd3"
+    },
+    {
+      "path": "evidence/sources/S002/v1/original.xlsx",
+      "sha256": "42967a26ff2717696d9478fcd03b70599ff1b787a08f2aafe61fdee998f2a668"
+    },
+    {
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "c6e1d8c3b9521dda940c379e54abff29243aa27f203456342cb006214062c412"
+    },
+    {
+      "path": "inputs/pdf-text-manifest-v1.json",
+      "sha256": "eb0483da759e3c846a1dd56186a578b2c2a40b5525e78c1e18600765d2ef0312"
+    },
+    {
+      "path": "inputs/DATA_DICTIONARY.md",
+      "sha256": "f96cfa19a44312c548eb142ae55a5827c47a00d4c24c208fe5d5a13626e146c7"
+    },
+    {
+      "path": "inputs/metrics-funnel-v1.json",
+      "sha256": "6bfcd3dacc31967c47961221a64678785ea096705cbfbfcd4af1ee0868467c47"
+    },
+    {
+      "path": "inputs/metrics-economics-v1.json",
+      "sha256": "97c549203c351184183d159ba46d852e75f2b585da9d4a8fb850eb53611dd7ef"
+    },
+    {
+      "path": "inputs/economics-sensitivity-v1.json",
+      "sha256": "45ff90ef5326937aeed952aab2bcaf24ef40829dbfbdd58a7fc3fc01979f8a29"
+    },
+    {
+      "path": "evidence/calculations/funnel-v1.json",
+      "sha256": "009ece49d36c1e34b32de94ab08d8738cb8fbd5ea5d8aa2d56ea9dd7ab6b786e"
+    },
+    {
+      "path": "evidence/calculations/economics-inputs-v1.json",
+      "sha256": "eae13af6dd3412004c4a68a55ef7f3e1919ba9bad64a44b376f99c99172ed19c"
+    }
+  ],
+  "historical_contribution": [
+    {
+      "segment": "агентства",
+      "period": "2026-09",
+      "locator": "'Воронка'!G3:H3",
+      "contribution_after_listed_variable_rub": "4200.00",
+      "acquisition_rub": null,
+      "profit_rub": null
+    },
+    {
+      "segment": "бухбюро",
+      "period": "2026-09",
+      "locator": "'Воронка'!G4:H4",
+      "contribution_after_listed_variable_rub": "-600.00",
+      "acquisition_rub": null,
+      "profit_rub": null
+    }
+  ],
+  "formulas": {
+    "support": "support_minutes * hourly_cost / 60",
+    "contribution": "price - infra - support",
+    "listed_fixed_threshold": "ceil(fixed / contribution), contribution > 0",
+    "monthly_residual": "accounts * contribution - fixed",
+    "setup_payback": "setup / monthly_residual only if monthly_residual > 0 and repeated unchanged"
+  },
+  "parameters": {
+    "price": "3000.00",
+    "infra": "600.00",
+    "support_minutes": "30.00",
+    "hourly_cost": "600.00",
+    "fixed": "30000.00",
+    "setup": "60000.00",
+    "accounts": "20"
+  },
+  "scenario_period": "2026-11-scenario",
+  "base_case": {
+    "support_minutes_per_account_month": "30",
+    "support_cost_rub": "300.00",
+    "contribution_rub_per_account_month": "2100.00",
+    "accounts_to_cover_listed_fixed": "15",
+    "outcomes": [
+      {
+        "accounts": "20",
+        "monthly_residual_before_unknown_costs_rub": "12000.00",
+        "setup_payback_months_if_stationary": "5.00",
+        "setup_payback_status": "conditional"
+      }
+    ]
+  },
+  "sensitivity": [
+    {
+      "support_minutes_per_account_month": "30",
+      "support_cost_rub": "300.00",
+      "contribution_rub_per_account_month": "2100.00",
+      "accounts_to_cover_listed_fixed": "15",
+      "outcomes": [
+        {
+          "accounts": "10",
+          "monthly_residual_before_unknown_costs_rub": "-9000.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        },
+        {
+          "accounts": "20",
+          "monthly_residual_before_unknown_costs_rub": "12000.00",
+          "setup_payback_months_if_stationary": "5.00",
+          "setup_payback_status": "conditional"
+        },
+        {
+          "accounts": "30",
+          "monthly_residual_before_unknown_costs_rub": "33000.00",
+          "setup_payback_months_if_stationary": "1.82",
+          "setup_payback_status": "conditional"
+        }
+      ]
+    },
+    {
+      "support_minutes_per_account_month": "90",
+      "support_cost_rub": "900.00",
+      "contribution_rub_per_account_month": "1500.00",
+      "accounts_to_cover_listed_fixed": "20",
+      "outcomes": [
+        {
+          "accounts": "10",
+          "monthly_residual_before_unknown_costs_rub": "-15000.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        },
+        {
+          "accounts": "20",
+          "monthly_residual_before_unknown_costs_rub": "0.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        },
+        {
+          "accounts": "30",
+          "monthly_residual_before_unknown_costs_rub": "15000.00",
+          "setup_payback_months_if_stationary": "4.00",
+          "setup_payback_status": "conditional"
+        }
+      ]
+    },
+    {
+      "support_minutes_per_account_month": "180",
+      "support_cost_rub": "1800.00",
+      "contribution_rub_per_account_month": "600.00",
+      "accounts_to_cover_listed_fixed": "50",
+      "outcomes": [
+        {
+          "accounts": "10",
+          "monthly_residual_before_unknown_costs_rub": "-24000.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        },
+        {
+          "accounts": "20",
+          "monthly_residual_before_unknown_costs_rub": "-18000.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        },
+        {
+          "accounts": "30",
+          "monthly_residual_before_unknown_costs_rub": "-12000.00",
+          "setup_payback_months_if_stationary": null,
+          "setup_payback_status": "no_positive_residual"
+        }
+      ]
+    }
+  ],
+  "unknown_costs": {
+    "acquisition": null,
+    "taxes": null,
+    "renewals": null,
+    "exit": null
+  },
+  "limitations": [
+    "Числа — условная чувствительность, не прогноз продаж или измеренная стоимость",
+    "Неизвестные CAC, налоги, продления и выход не принимаются за ноль",
+    "Покрытие fixed и окупаемость setup условны при сохранении указанных доходов/затрат каждый месяц"
+  ],
+  "reproduce": {
+    "path": "evidence/calculations/check-analysis-v1.py",
+    "sha256": "d3aae0629ad6fb361ab675cd9e9a2d5c824d1a674724479bdaf7826dc9ff6b37",
+    "command": "python projects/task06-rehearsal/evidence/calculations/check-analysis-v1.py --output evidence/calculations/derived-recheck-v1.json --verification-output evidence/calculations/verification-recheck-v1.json"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "artifacts": [
+    {
+      "id": "A1",
+      "path": "A1.txt",
+      "sha256": "1d909e944988f4ba60f1e1f071197736b391b71b8dab12d16a66b71a9baef0af"
+    },
+    {
+      "id": "A2",
+      "path": "A2.txt",
+      "sha256": "976140ef3de7c7b905b4ef9914e611b18718a9fca5a386468a453aa1e63b1df2"
+    }
+  ],
+  "claims": [],
+  "completed": [],
+  "decision": {
+    "commitments": [],
+    "conditions": [],
+    "events": [],
+    "format_version": 2,
+    "history": [],
+    "metrics": [],
+    "owner": "unassigned",
+    "proposed_option": "Проверить",
+    "question": "Что проверить?",
+    "reviews": [],
+    "status": "proposed"
+  },
+  "decision_question": "Как сохранить identity?",
+  "next_action": "Проверить источник",
+  "objective": "Проверка сохранения происхождения",
+  "pending_actions": [],
+  "project_id": "nonadjacent",
+  "revision": 2,
+  "saved_at": "2026-11-17T08:38:30.674067+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "A2"
+      ],
+      "id": "S",
+      "synthetic": true,
+      "version": 2
+    }
+  ],
+  "stage": "research",
+  "state_sha256": "0100c25623088ce449721f637dda9b8f1913b1466e38094f3b368335f3a18082",
+  "unresolved_questions": []
+}

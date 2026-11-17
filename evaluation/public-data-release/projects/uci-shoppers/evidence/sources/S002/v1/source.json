@@ -1,0 +1,28 @@
+{
+  "id": "S002",
+  "kind": "csv",
+  "origin": "Derived from S001/v1; inputs/derivation-v1.json",
+  "input_sha256": "c885fcbb6654cfac2b8bb9818f682d3d27eb3059d157c7306b4effdafdccc757",
+  "synthetic": false,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "stdlib.csv/strict-utf8-v1",
+  "limitations": [
+    "Производный источник; не независимое подтверждение S001. Все исходные ячейки и строки сохранены."
+  ],
+  "delimiter": ",",
+  "version": 1,
+  "imported_at": "2026-11-17T09:41:17+00:00",
+  "published_at": null,
+  "input_path": "inputs/session-counts-v1.csv",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S002/v1/original.csv",
+    "sha256": "c885fcbb6654cfac2b8bb9818f682d3d27eb3059d157c7306b4effdafdccc757"
+  },
+  "extract": {
+    "path": "evidence/sources/S002/v1/extract.json",
+    "sha256": "f62c2c73eeb13c6eb04ceba9848fbc1a6aab3f1ca6767ef1663f67e8a07ae22a"
+  }
+}

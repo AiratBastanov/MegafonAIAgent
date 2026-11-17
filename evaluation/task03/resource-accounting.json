@@ -1,0 +1,139 @@
+{
+  "kind": "observed_TASK03_resource_accounting",
+  "recorded_at": "2026-11-16T10:29:25.152983+00:00",
+  "development": {
+    "started_at": "2026-11-16T08:44:32+00:00",
+    "ended_at": "2026-11-16T10:29:25.152983+00:00",
+    "gross_elapsed_seconds": 6293.152983,
+    "meaning": "Наблюдаемый общий интервал до финальной проверки пакета; включает ожидания, параллельную работу и прерывание, не активное время"
+  },
+  "demonstration": {
+    "started_at": "2026-11-16T09:30:57+00:00",
+    "ended_at": "2026-11-16T10:20:08.391526+00:00",
+    "gross_elapsed_seconds": 2951.391526,
+    "end_boundary": "Публикация финальной canonical revision4; subsequent load и review packet проверены в общем development interval",
+    "overlaps_development": true,
+    "later_implementation_and_review_overlap": true
+  },
+  "demo_preparation_until_fresh_launch": {
+    "started_at": "2026-11-16T09:30:57+00:00",
+    "ended_at": "2026-11-16T09:38:29.251865+00:00",
+    "gross_elapsed_seconds": 452.251865,
+    "includes": "Fixtures, вопросы, публичное чтение, import/fidelity, checkpoint и launch setup"
+  },
+  "fresh_host_attempt": {
+    "count": 1,
+    "started_at": "2026-11-16T09:38:29.251865+00:00",
+    "ended_at": "2026-11-16T09:47:33.790236+00:00",
+    "elapsed_seconds": 544.547,
+    "outcome": "transport_retries_without_completed_action",
+    "completed_commands": 19,
+    "failed_commands": 1,
+    "json_error_events": 7,
+    "stderr_retry_messages": 11,
+    "retry_note": "Ошибки в разных потоках частично дублируются; нельзя складывать как независимые попытки",
+    "new_state_publication": false,
+    "criterion": "NOT_VERIFIED",
+    "model_id": null,
+    "tokens": null,
+    "charges": null
+  },
+  "unit_checks": {
+    "original_M1": {
+      "tests": 41,
+      "elapsed_seconds": 0.876,
+      "source": "наблюдение команды до расширения"
+    },
+    "first_M2": {
+      "started_at": "2026-11-16T09:30:13.521572+00:00",
+      "ended_at": "2026-11-16T09:30:15.227680+00:00",
+      "elapsed_seconds": 1.7029999999995198,
+      "tests_run": 55,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+      "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "packages": {
+        "openpyxl": "3.1.5",
+        "pypdf": "7.1.0",
+        "et-xmlfile": "2.0.0"
+      },
+      "kind": "deterministic_tests_not_agent_execution"
+    },
+    "final": {
+      "started_at": "2026-11-16T10:10:52.826424+00:00",
+      "ended_at": "2026-11-16T10:10:54.480194+00:00",
+      "elapsed_seconds": 1.6569999999992433,
+      "tests_run": 62,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true,
+      "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+      "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "packages": {
+        "openpyxl": "3.1.5",
+        "pypdf": "7.1.0",
+        "et-xmlfile": "2.0.0"
+      },
+      "kind": "deterministic_tests_not_agent_execution"
+    },
+    "focused_reruns": "Выполнялись по конкретным дефектам; полный отдельный интервал не измерен, не прибавляется к общему"
+  },
+  "final_state_review": {
+    "started_at": "2026-11-16T10:20:47+00:00",
+    "ended_at": "2026-11-16T10:22:11+00:00",
+    "elapsed_seconds": 84,
+    "kind": "independent automated review, not human approval"
+  },
+  "preparation_failures": {
+    "sandbox_pip_index_calls": 2,
+    "internal_retries_per_index_call": 5,
+    "error": "WinError10013; затем разрешённые index/install",
+    "installation_elapsed_seconds_approx": 3.16,
+    "installation_retries_configured": 0,
+    "launcher_subagent_interrupted_turns": 1,
+    "launcher_subagent_followup": "Реализация завершена после отдельного followup; не дополнительный fresh-host запуск",
+    "other": "UTF-8 console/read-only command corrections и три отклонённых patch attempts описаны в TASK03_WORKLOG.md"
+  },
+  "human_observation": {
+    "resumption_messages": 1,
+    "observed_resume_at": "2026-11-16T09:52:24+00:00",
+    "interruption_started_at": null,
+    "active_minutes": null,
+    "assistance_minutes": null,
+    "new_business_data_provided": false,
+    "business_approval_received": false
+  },
+  "environment": {
+    "interpreter": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\.venv\\Scripts\\python.exe",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "packages": {
+      "openpyxl": "3.1.5",
+      "pypdf": "7.1.0",
+      "et-xmlfile": "2.0.0"
+    },
+    "cli_version": "codex-cli 0.169.0-alpha.11.1",
+    "virtual_environment_copied": false
+  },
+  "observed_project_storage": {
+    "project_id": "demo-002",
+    "file_count": 77,
+    "bytes": 659482,
+    "includes": "Оригиналы, extracts, расчёты, outputs, state history, drafts, reviews; это не потребление RAM/CPU"
+  },
+  "unknowns": {
+    "aggregate_tokens": null,
+    "charges": null,
+    "exact_model_identity": null,
+    "human_active_minutes": null,
+    "cpu_time": null,
+    "peak_memory_bytes": null
+  },
+  "new_paid_providers_added": false,
+  "deepseek_used": false,
+  "artificial_token_quota": false,
+  "non_additivity": "Интервалы вложены/пересекаются. Не складывать development/demo/fresh/review/tests; неизвестное не равно нулю."
+}
