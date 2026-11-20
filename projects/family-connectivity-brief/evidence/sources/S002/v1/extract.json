@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "МТС, «Что такое семейная группа и как она работает», Москва и Московская область. Обновлено 19.11.2026. Веб-чтение 20.11.2026 10:00 МСК. Исходный и конечный URL совпали."
+    },
+    {
+      "locator": "line:2",
+      "text": "https://support.mts.ru/semeinaya_gruppa/obschaya-informatsiya/chto-takoe-semeinaya-gruppa-i-kak-ona-rabotaet"
+    },
+    {
+      "locator": "line:3",
+      "text": "«Кто оплачивает связь…» и «Как работает семейная группа», абзацы 1, строки представления 97–104. «Каждый участник продолжает пользоваться своим тарифом. Общих пакетов интернета, минут и СМС нет.»"
+    },
+    {
+      "locator": "line:4",
+      "text": "В описанной услуге каждый номер имеет отдельный баланс. Условия семейной скидки зависят от тарифа."
+    }
+  ],
+  "source_id": "S002",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "04de219849d79aca3ba066c0a96122514dead945398fbac1d7da9c56ee59c3c7",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

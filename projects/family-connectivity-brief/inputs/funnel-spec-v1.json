@@ -1,0 +1,103 @@
+{
+  "columns": {
+    "quarter": {
+      "type": "text",
+      "unit": "quarter"
+    },
+    "channel": {
+      "type": "text",
+      "unit": "category"
+    },
+    "households": {
+      "type": "integer",
+      "unit": "households",
+      "min": "0"
+    },
+    "created": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    },
+    "connected": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    },
+    "first14": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    }
+  },
+  "group_by": [
+    "quarter"
+  ],
+  "period_column": "quarter",
+  "missing_values": [
+    ""
+  ],
+  "synthetic": true,
+  "constraints": [
+    {
+      "operation": "lte",
+      "left": "connected",
+      "right": "created"
+    },
+    {
+      "operation": "lte",
+      "left": "first14",
+      "right": "connected"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "households",
+      "operation": "sum",
+      "numerator": [
+        "households"
+      ],
+      "unit": "households",
+      "rounding": 0
+    },
+    {
+      "id": "created",
+      "operation": "sum",
+      "numerator": [
+        "created"
+      ],
+      "unit": "groups",
+      "rounding": 0
+    },
+    {
+      "id": "connected",
+      "operation": "sum",
+      "numerator": [
+        "connected"
+      ],
+      "unit": "groups",
+      "rounding": 0
+    },
+    {
+      "id": "first14",
+      "operation": "sum",
+      "numerator": [
+        "first14"
+      ],
+      "unit": "groups",
+      "rounding": 0
+    },
+    {
+      "id": "activation14_pct",
+      "operation": "ratio",
+      "numerator": [
+        "first14"
+      ],
+      "denominator": [
+        "created"
+      ],
+      "unit": "%",
+      "multiplier": "100",
+      "rounding": 2
+    }
+  ]
+}

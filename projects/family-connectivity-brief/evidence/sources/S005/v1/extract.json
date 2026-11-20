@@ -1,0 +1,133 @@
+{
+  "columns": [
+    "quarter",
+    "channel",
+    "households",
+    "created",
+    "connected",
+    "first14"
+  ],
+  "rows": [
+    {
+      "locator": "rows:2-2",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2,
+      "values": {
+        "quarter": "Q1",
+        "channel": "app",
+        "households": "2500",
+        "created": "500",
+        "connected": "375",
+        "first14": "225"
+      }
+    },
+    {
+      "locator": "rows:3-3",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3,
+      "values": {
+        "quarter": "Q1",
+        "channel": "support",
+        "households": "1250",
+        "created": "400",
+        "connected": "250",
+        "first14": "180"
+      }
+    },
+    {
+      "locator": "rows:4-4",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4,
+      "values": {
+        "quarter": "Q2",
+        "channel": "app",
+        "households": "2500",
+        "created": "500",
+        "connected": "375",
+        "first14": "225"
+      }
+    },
+    {
+      "locator": "rows:5-5",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5,
+      "values": {
+        "quarter": "Q2",
+        "channel": "support",
+        "households": "1250",
+        "created": "400",
+        "connected": "250",
+        "first14": "180"
+      }
+    },
+    {
+      "locator": "rows:6-6",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6,
+      "values": {
+        "quarter": "Q3",
+        "channel": "app",
+        "households": "2500",
+        "created": "500",
+        "connected": "375",
+        "first14": "225"
+      }
+    },
+    {
+      "locator": "rows:7-7",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7,
+      "values": {
+        "quarter": "Q3",
+        "channel": "support",
+        "households": "1250",
+        "created": "400",
+        "connected": "250",
+        "first14": "180"
+      }
+    },
+    {
+      "locator": "rows:8-8",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8,
+      "values": {
+        "quarter": "Q4",
+        "channel": "app",
+        "households": "2500",
+        "created": "500",
+        "connected": "375",
+        "first14": "225"
+      }
+    },
+    {
+      "locator": "rows:9-9",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9,
+      "values": {
+        "quarter": "Q4",
+        "channel": "support",
+        "households": "1250",
+        "created": "400",
+        "connected": "250",
+        "first14": "180"
+      }
+    }
+  ],
+  "delimiter": ",",
+  "encoding": "utf-8-sig",
+  "row_locator": "physical lines, inclusive",
+  "source_id": "S005",
+  "source_version": 1,
+  "synthetic": true,
+  "source_kind": "csv",
+  "input_sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb",
+  "extraction_method": "stdlib.csv/strict-utf8-v1"
+}

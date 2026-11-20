@@ -1,0 +1,26 @@
+{
+  "id": "S005",
+  "kind": "csv",
+  "origin": "Сценарная декомпозиция координатора по единицам и итогу из S001 v1, с. 3, 6. Не журналы оператора.",
+  "input_sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb",
+  "synthetic": true,
+  "accessed_at": null,
+  "locator": null,
+  "retrieval_status": "local_import",
+  "extraction_method": "stdlib.csv/strict-utf8-v1",
+  "limitations": [],
+  "delimiter": ",",
+  "version": 1,
+  "imported_at": "2026-11-20T07:10:54+00:00",
+  "published_at": null,
+  "input_path": "inputs/funnel-v1.csv",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S005/v1/original.csv",
+    "sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb"
+  },
+  "extract": {
+    "path": "evidence/sources/S005/v1/extract.json",
+    "sha256": "e61b384b475c7a3058daf5600544bc614e2449cb697f50b381ab43c521ee2794"
+  }
+}

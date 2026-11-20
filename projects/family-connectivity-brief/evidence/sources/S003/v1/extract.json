@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "locator": "line:1",
+      "text": "МТС, «Группа Все вместе и Все вместе+», Москва и Московская область. Обновлено 02.11.2026. Веб-чтение 20.11.2026 10:01 МСК. Исходный и конечный URL совпали."
+    },
+    {
+      "locator": "line:2",
+      "text": "https://support.mts.ru/mts_mobilnaya_svyaz/gruppi-dlya-blizkih/gruppa-vse-vmeste-i-vse-vmeste"
+    },
+    {
+      "locator": "line:3",
+      "text": "Вводные абзацы о тарифах «МЫ МТС» и «МЫ МТС+», строки 238–245. «до пяти участников с номерами МТС одного региона». Раздел о принятии приглашения, строки 266–274."
+    },
+    {
+      "locator": "line:4",
+      "text": "Организатор может делиться пакетами. В описанном пути требуется принятие приглашения и предусмотрен специальный тариф участника."
+    }
+  ],
+  "source_id": "S003",
+  "source_version": 1,
+  "synthetic": false,
+  "source_kind": "web-excerpt",
+  "input_sha256": "0fffe2f736a05e912018b668c4c8321d32e7e6d9c6b7cd1374e7afbbbd3837dd",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1"
+}

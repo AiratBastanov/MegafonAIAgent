@@ -1,0 +1,773 @@
+{
+  "artifact_dependencies": [
+    {
+      "from": "BRIEF",
+      "reason": "расшифровка ячеек",
+      "to": "BASE"
+    },
+    {
+      "from": "BASE",
+      "reason": "контрфактическая база и ставка",
+      "to": "FORE"
+    },
+    {
+      "from": "S005O",
+      "reason": "агрегирование по кварталам",
+      "to": "FUNNEL"
+    },
+    {
+      "from": "SPEC",
+      "reason": "определения метрик",
+      "to": "FUNNEL"
+    },
+    {
+      "from": "FUNNEL",
+      "reason": "подключения и активация",
+      "to": "FORE"
+    },
+    {
+      "from": "PARAM",
+      "reason": "сценарные величины",
+      "to": "FORE"
+    },
+    {
+      "from": "MODEL",
+      "reason": "когортный расчёт",
+      "to": "FORE"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "TASK",
+      "path": "project.md",
+      "sha256": "c3595990bdccf54f1760f801d20e55b4bfe93825b215d5fb9b265a6aac01721a"
+    },
+    {
+      "id": "START",
+      "path": "evidence/run/start.md",
+      "sha256": "97aef84dc929224d2793864dc6584bfeca2493cf421f10463462f50619cc69b1"
+    },
+    {
+      "id": "READ",
+      "path": "evidence/brief-reading.md",
+      "sha256": "1b824fd40b71df41e15a8cbbb789f7e38eaa3154fa9805b7b6d28f4eafaea2c8"
+    },
+    {
+      "id": "BRIEF",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5"
+    },
+    {
+      "id": "META",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "0ac0666eb4c097f121ac67b7c270bdb2b7605510fd0d20081cc01ac2f5fa0301"
+    },
+    {
+      "id": "TEXT",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "fe48989c530a421002babdd6e173018ba2716904ea1f64c96b10a56bc554858f"
+    },
+    {
+      "id": "INPUT",
+      "path": "inputs/brief.pdf",
+      "sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5"
+    },
+    {
+      "id": "P01",
+      "path": "evidence/visual/p01.png",
+      "sha256": "182c1d697b30562ea815f8ceeb090ca3f7aaf34a7e11b77f49962bbdf3636ea0"
+    },
+    {
+      "id": "P02",
+      "path": "evidence/visual/p02.png",
+      "sha256": "8e8f62a8a79f2aeac2bb00650c44f732be2870c1abd63b0441547056c36bc592"
+    },
+    {
+      "id": "P03",
+      "path": "evidence/visual/p03.png",
+      "sha256": "e75c4dd2ec7fb7f5e58fb335f087688e3f0030bb6e006cc44b2ecd9be74b6d1d"
+    },
+    {
+      "id": "P04",
+      "path": "evidence/visual/p04.png",
+      "sha256": "eac3d6800b962a44d4ee6f346034086542dc18d0fbc3555467fe9b2ab86ddd64"
+    },
+    {
+      "id": "P05",
+      "path": "evidence/visual/p05.png",
+      "sha256": "544504cbac52f551ce8257eb85381b66193120fda954bf16ce1c6e64b1ad9a2c"
+    },
+    {
+      "id": "P06",
+      "path": "evidence/visual/p06.png",
+      "sha256": "2a44e6a5c37447caa472bc0dde18696c614c0561aaa1787f0843cdb2be6a6eee"
+    },
+    {
+      "id": "P07",
+      "path": "evidence/visual/p07.png",
+      "sha256": "2ab7d93e4a16d39390dfe97f3b331245f89ba5e5a46152854a06297295977f1e"
+    },
+    {
+      "id": "P08",
+      "path": "evidence/visual/p08.png",
+      "sha256": "194a6801021810d5fe175968c36902167956ea17a6fd9ef778d45ecea79f2eb3"
+    },
+    {
+      "id": "P09",
+      "path": "evidence/visual/p09.png",
+      "sha256": "5d076d24963aa263b257f71e1a20572444751dd2d3b7d780dd635fde88ca9f00"
+    },
+    {
+      "id": "P10",
+      "path": "evidence/visual/p10.png",
+      "sha256": "95adbc15c287ad562496bd6daddc34492a20b7bcb29e8955045793df334a60a7"
+    },
+    {
+      "id": "P11",
+      "path": "evidence/visual/p11.png",
+      "sha256": "67563ba461425097c1a4fdb633df9c57f60469fcf4fc83b44d27bd8fdf91a092"
+    },
+    {
+      "id": "Q1CAUSE",
+      "path": "evidence/q1-cause-and-priority-v1.md",
+      "sha256": "9df031e8a6ee481c70351eca3bd655e7bb3186513d67043a2dd170cf3d209f79"
+    },
+    {
+      "id": "CONT",
+      "path": "evidence/continuation.md",
+      "sha256": "1de353b6f193e3772f070975c0a142bccb29724086886c970050f103df5bae89"
+    },
+    {
+      "id": "ANA",
+      "path": "evidence/analogues.md",
+      "sha256": "ba1b01b34ed6586445723016c05e00c9ff85f8c95d124eaf87402e8f507c833f"
+    },
+    {
+      "id": "S002M",
+      "path": "evidence/sources/S002/v1/source.json",
+      "sha256": "84d8cb8f755af6092e5c6bef7dbc76839092bccef3ee1efe33fef371d17db4f2"
+    },
+    {
+      "id": "S002O",
+      "path": "evidence/sources/S002/v1/original.txt",
+      "sha256": "04de219849d79aca3ba066c0a96122514dead945398fbac1d7da9c56ee59c3c7"
+    },
+    {
+      "id": "S002T",
+      "path": "evidence/sources/S002/v1/extract.json",
+      "sha256": "7cd4b037fee877e24d0fa829354c729b4507585f4ac1014dd4934f835d5bb2fb"
+    },
+    {
+      "id": "S002I",
+      "path": "inputs/mts-group-v1.txt",
+      "sha256": "04de219849d79aca3ba066c0a96122514dead945398fbac1d7da9c56ee59c3c7"
+    },
+    {
+      "id": "S003M",
+      "path": "evidence/sources/S003/v1/source.json",
+      "sha256": "faa05b81281b13bc07fb0eeae2b250e42cffc38c64be835746ea9d6d4df2a483"
+    },
+    {
+      "id": "S003O",
+      "path": "evidence/sources/S003/v1/original.txt",
+      "sha256": "0fffe2f736a05e912018b668c4c8321d32e7e6d9c6b7cd1374e7afbbbd3837dd"
+    },
+    {
+      "id": "S003T",
+      "path": "evidence/sources/S003/v1/extract.json",
+      "sha256": "a0bc98bea834a651cdf5f6b49dde4538488512c7fa6af3193bd1d2817c3fc026"
+    },
+    {
+      "id": "S003I",
+      "path": "inputs/mts-shared-v1.txt",
+      "sha256": "0fffe2f736a05e912018b668c4c8321d32e7e6d9c6b7cd1374e7afbbbd3837dd"
+    },
+    {
+      "id": "S004M",
+      "path": "evidence/sources/S004/v1/source.json",
+      "sha256": "9fc738727cd8db2223a320e3291139d0ac37a2e5a96f19b43b77305557769197"
+    },
+    {
+      "id": "S004O",
+      "path": "evidence/sources/S004/v1/original.txt",
+      "sha256": "cdd529dabefe525e3935ba6983757751ac7e7f237e0a3f1197f785e69e85c7d9"
+    },
+    {
+      "id": "S004T",
+      "path": "evidence/sources/S004/v1/extract.json",
+      "sha256": "cd2b7c55558004388d0e5a02a4a6fe744b6e3041dcdf7254baf20580c26f472d"
+    },
+    {
+      "id": "S004I",
+      "path": "inputs/t2-transfer-v1.txt",
+      "sha256": "cdd529dabefe525e3935ba6983757751ac7e7f237e0a3f1197f785e69e85c7d9"
+    },
+    {
+      "id": "S005M",
+      "path": "evidence/sources/S005/v1/source.json",
+      "sha256": "1f995cc092583cf5ca9c2b97d4c77cb58c496ec5061cd9769b3e7e03c09f0dc5"
+    },
+    {
+      "id": "S005O",
+      "path": "evidence/sources/S005/v1/original.csv",
+      "sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb"
+    },
+    {
+      "id": "S005T",
+      "path": "evidence/sources/S005/v1/extract.json",
+      "sha256": "e61b384b475c7a3058daf5600544bc614e2449cb697f50b381ab43c521ee2794"
+    },
+    {
+      "id": "S005I",
+      "path": "inputs/funnel-v1.csv",
+      "sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb"
+    },
+    {
+      "id": "BASE",
+      "path": "inputs/baseline-v1.json",
+      "sha256": "80dbbac3cd2c4e26676aeaa2d8e297d0db2d18709e5b288bbc68434535fda7bf"
+    },
+    {
+      "id": "PARAM",
+      "path": "inputs/scenarios-v1.json",
+      "sha256": "88ec52a2a331202b1415024bb4670474c21c149e3722a1dc758627b5272708bb"
+    },
+    {
+      "id": "SPEC",
+      "path": "inputs/funnel-spec-v1.json",
+      "sha256": "414f4a119e81ee6367906da6493adb27c9607fb92afadcb1cffc9edd82b4bc6e"
+    },
+    {
+      "id": "FUNNEL",
+      "path": "calculations/funnel-v1.json",
+      "sha256": "b676a6948bfffacd714bb7bd38bc4f2f9b4d57360b56ad297d9f1749dbc35df8"
+    },
+    {
+      "id": "FORE",
+      "path": "calculations/forecast-v1.json",
+      "sha256": "b8299e3e56eed9d6d886b43f79dd8b6b26b5dfca3114e3e7cd749a01a0f8b7d1"
+    },
+    {
+      "id": "MODEL",
+      "path": "calculations/model.py",
+      "sha256": "bab41c9bc3ade6c242ad3b7545fe9edd7b35a14256903f30672ed51e8b00e022"
+    },
+    {
+      "id": "CROSS",
+      "path": "calculations/crosscheck.py",
+      "sha256": "e09ba61b5ee224c0692c0dc7bfb45d043ff39ebd853c215b5eea02c77a5c8bd3"
+    },
+    {
+      "id": "ASSEMBLE",
+      "path": "calculations/assemble.py",
+      "sha256": "012ab97219ad3b5ecbba9d7507eca4fa64a35be9bc63a34a76a1a3704bd9e36a"
+    },
+    {
+      "id": "CALCNOTE1",
+      "path": "calculations/notes-v1.md",
+      "sha256": "9578aaefae6c3a781aa68a437d9bf7749b84fa80433e220d2bd597d8fff6b11f"
+    },
+    {
+      "id": "SIT1",
+      "path": "outputs/v1/situation.md",
+      "sha256": "1b57d786699cb1ccb6c4367534fee6a5f40d637abdfe641178e7d6f7a4b7a8e0"
+    },
+    {
+      "id": "OPT1",
+      "path": "outputs/v1/options.md",
+      "sha256": "45d11aac53493350d6cf686a13886c7338afe1f712402a7d8ba49cd48e6459c6"
+    },
+    {
+      "id": "PROD1",
+      "path": "outputs/v1/product-strategy.md",
+      "sha256": "cb0e4e1001cdf3b6a13ea19b4005b96495422220c8f5f52a78d0ac91ce42f6cb"
+    },
+    {
+      "id": "COMM1",
+      "path": "outputs/v1/communication-strategy.md",
+      "sha256": "32e60cae78643f0aeebff2fc583f64ff1f449187ccf6e23d4a03e1909f73102a"
+    },
+    {
+      "id": "TEST1",
+      "path": "outputs/v1/validation-plan.md",
+      "sha256": "a63dc8461882406b1b45c13f24aee55ba5e50eba5943714fb1893598ad157485"
+    },
+    {
+      "id": "ALL1",
+      "path": "outputs/v1/strategy.md",
+      "sha256": "3a204af6fea6010c872b7963bacbe705145f43745cda4c1f9fa0b8463f7784a7"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:1, абзацы «Семейная группа» и «Собственные номера»",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P01",
+          "locator": "physical-page:1, абзацы «Семейная группа» и «Собственные номера»"
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Оператор уже позволяет выделять свободный интернет на совместимых семейных тарифах и переключаться между собственными номерами."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:3, таблица, строки 1–5, заголовки в два яруса",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P03",
+          "locator": "physical-page:3, таблица, строки 1–5, заголовки в два яруса"
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебная таблица содержит пять показателей в четырёх колонках. База валовой прибыли планового года 279 млн руб., минимум 285 млн."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:11, таблица, строки 2–4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P11",
+          "locator": "physical-page:11, таблица, строки 2–4"
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Три человеко-месяца разработки предварительны. 0,5 ставки каждого из двух специалистов и 1 человеко-месяц испытаний ещё предстоит подтвердить."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:4/block:17–26 и 47–58",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P04",
+          "locator": "physical-page:4, «Восстановите один случай» и «Обоснуйте первый приоритет»"
+        }
+      ],
+      "id": "C004",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Бриф требует проверять остаток и код ограничения при исчерпании объёма, состояние счёта и исход платежа при неоплате. Частоты причин и индивидуальные истории не приведены."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C004"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "Q1CAUSE",
+          "locator": "«Рабочая гипотеза» и «Как установить причину», строка об исчерпании доли"
+        },
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:5/block:8–19",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:7/block:12–23 и 31–36",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C005",
+      "kind": "hypothesis",
+      "synthetic": true,
+      "text": "Предупреждение организатора о низком остатке и переход к имеющейся передаче интернета могут сократить ограничения из-за исчерпания доли участника при наличии разрешения и безопасного свободного объёма."
+    },
+    {
+      "derived_from": [
+        "C004"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "Q1CAUSE",
+          "locator": "«Что посчитать до пилота», вступление и пункты о сигнале и окне помощи"
+        },
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:7/block:12–23, семь суток даны только как пример",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C006",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Для предварительного сопоставления предлагаются восемь полных недель, семь суток наблюдения после сигнала, порог 10 % положительного остатка или сутки до непокрытого списания и час на реакцию сверх технической задержки. Фактические частоты, задержки и достижимый поток неизвестны."
+    },
+    {
+      "derived_from": [
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "Q1CAUSE",
+          "locator": "«Какое наблюдение изменит выбор», абзацы 1–2, и «Что посчитать до пилота», последний пункт"
+        },
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:4/block:41–58",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:8/block:31–40",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C007",
+      "kind": "recommendation",
+      "synthetic": true,
+      "text": "Начать проверку семейного случая. При сопоставимых последствиях и ресурсах изменить приоритет, если за одно окно подтверждённых владельцев с доступной вовремя помощью при неоплате окажется больше, чем семей даже с учётом всех неопределённых семейных случаев. При пересечении диапазонов уточнить решающие пропуски."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S002O",
+          "locator": "строки 1–4, разделы об оплате и работе группы",
+          "source_id": "S002",
+          "source_version": 1
+        }
+      ],
+      "id": "C008",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Москва и область, семейная группа МТС обслуживает номера раздельно без общего пакета."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S003O",
+          "locator": "строки 1–4, вводный раздел и принятие приглашения",
+          "source_id": "S003",
+          "source_version": 1
+        }
+      ],
+      "id": "C009",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Москва и область, линейка МЫ МТС допускает общий ресурс организатора при принятии приглашения."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "S004O",
+          "locator": "строки 1–4, условия и исполнение",
+          "source_id": "S004",
+          "source_version": 1
+        }
+      ],
+      "id": "C010",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Т2 описывает уменьшение доступного отправителю объёма при передаче на совместимых тарифах."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:3, первый абзац; physical-page:9, абзац об удержании",
+          "source_id": "S001",
+          "source_version": 1
+        }
+      ],
+      "id": "C011",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "У учебного оператора рынки 300 000 домохозяйств и 180 000 владельцев, доступные базы 100 000 и 40 000 с устранённым пересечением. Ряд ставки — 500 ₽ за дополнительный оплаченный месяц номера."
+    },
+    {
+      "derived_from": [
+        "C002",
+        "C011"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "S005O",
+          "locator": "заголовок и строки 2–9, четыре квартала",
+          "source_id": "S005",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "PARAM",
+          "locator": "family_departures; owner_funnel"
+        }
+      ],
+      "id": "C012",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Декомпозиция обычных потоков по кварталам/каналам, уходы 1 000 групп и 150 владельцев, 350 владельцев связали два номера — условия сценария."
+    },
+    {
+      "derived_from": [
+        "C012"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "FUNNEL",
+          "locator": "groups[3].metrics; суммы connected всех кварталов",
+          "source_id": "S005",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "FORE",
+          "locator": "scenarios.main.indicators"
+        }
+      ],
+      "id": "C013",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "Штатный агрегат IV квартала даёт 405 первых действий на 900 созданных, 45%. За год 2 500 подключений; баланс даёт 8 000 групп и 1 000 владельцев."
+    },
+    {
+      "derived_from": [
+        "C011"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "PARAM",
+          "locator": "scenarios, ordinary_survival_next_two, index_numbers_per_assigned_family"
+        }
+      ],
+      "id": "C014",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Один впервые подходящий номер семьи. Вероятность оплаты следующих двух месяцев выше на 2 п.п. либо одинакова. Новые прямые расходы всех ветвей 10 000 или 16 000 ₽. Снижение перебоев не измерено."
+    },
+    {
+      "derived_from": [
+        "C011",
+        "C014"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "FORE",
+          "locator": "scenarios.main/weak: monthly, quarters, required_paid_months"
+        },
+        {
+          "artifact_id": "CROSS",
+          "locator": "поштучный расчёт окон и проверка соседа порога"
+        }
+      ],
+      "id": "C015",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "У сценариев 29,4 и 0 дополнительных номеро-месяцев, годовой вклад +4 700 и −16 000 ₽, порог годовой цели 12 020 и 12 032 таких месяцев."
+    },
+    {
+      "derived_from": [
+        "C002",
+        "C013",
+        "C015"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "FORE",
+          "locator": "scenarios.{main,weak}.indicators, gaps"
+        },
+        {
+          "artifact_id": "BASE",
+          "locator": "indicators, четыре колонки исходного PDF"
+        }
+      ],
+      "id": "C016",
+      "kind": "forecast",
+      "synthetic": true,
+      "text": "Основной ход: 279,0047 млн ₽, 5 020 активных, 8 000 подключённых семей, 1 000 владельцев, активация 45%. Слабый: 278,984 млн ₽, 5 000, 8 000, 1 000, 45%."
+    },
+    {
+      "derived_from": [
+        "C006"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "PARAM",
+          "locator": "primary"
+        }
+      ],
+      "id": "C017",
+      "kind": "assumption",
+      "synthetic": true,
+      "text": "Для планирования взяты 20% риска, минимум 5 п.п., два сравнения, 80% мощности для одного контраста, 95% наблюдаемости и 45 впервые пригодных семей в неделю."
+    },
+    {
+      "derived_from": [
+        "C017"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "FORE",
+          "locator": "sample_assumptions_only"
+        },
+        {
+          "artifact_id": "MODEL",
+          "locator": "sample()"
+        }
+      ],
+      "id": "C018",
+      "kind": "computed",
+      "synthetic": true,
+      "text": "По нормальному приближению 1 097 наблюдаемых и 1 155 назначенных на ветвь, 3 465 всего. Условные 270 за шесть недель недостаточны."
+    },
+    {
+      "derived_from": [
+        "C001",
+        "C003",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C015",
+        "C018"
+      ],
+      "evidence": [
+        {
+          "artifact_id": "OPT1",
+          "locator": "таблица вариантов"
+        },
+        {
+          "artifact_id": "TEST1",
+          "locator": "условия проверки"
+        }
+      ],
+      "id": "C019",
+      "kind": "recommendation",
+      "synthetic": true,
+      "text": "Проверять один тариф: сигнал семье с переходом к существующей передаче, обычный сервис и дешёвая подсказка. Реальное финансирование и расширение требуют решения руководителя."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "CONT",
+          "locator": "таблица ревизий и самостоятельный шаг"
+        }
+      ],
+      "id": "C020",
+      "kind": "source_fact",
+      "synthetic": false,
+      "text": "Из проверенной r1 в отдельной сессии сохранена r2 с новой запиской и четырьмя утверждениями. Это наблюдение о работе агента."
+    }
+  ],
+  "completed": [
+    "Импортирован переданный PDF, 11 страниц прочитаны и просмотрены, сверены таблицы и единицы.",
+    "Из проверенного брифа составлена схема причин и окна своевременной помощи, заданы единицы наблюдения, учёт пропусков и условие смены первого сегмента (Q1CAUSE, C004–C007).",
+    "Прочитаны три первичные страницы, зарегистрированы выдержки, условная воронка и помесячные прогнозы. Написаны пять документов и сводная стратегия v1."
+  ],
+  "decision": {
+    "current_outputs": {
+      "communication-strategy": "COMM1",
+      "options": "OPT1",
+      "product-strategy": "PROD1",
+      "situation": "SIT1",
+      "strategy": "ALL1",
+      "validation-plan": "TEST1"
+    },
+    "status": "proposed"
+  },
+  "decision_question": "Кому и какую помощь проверять первой, при каких условиях выделить ресурс?",
+  "next_action": "Учесть рецензии по составу независимой выборки, доставке и повторной проверке расчётов, собрать конечную стратегию и запросить решение руководителя.",
+  "objective": "Подготовить стратегию для руководителя по брифу вымышленного оператора, проверить экономику и границы пилота.",
+  "pending_actions": [
+    "Закрепить замечания рецензентов и итоговую версию."
+  ],
+  "project_id": "family-connectivity-brief",
+  "revision": 3,
+  "saved_at": "2026-11-20T07:21:39.640532+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "META",
+        "BRIEF",
+        "TEXT"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S002M",
+        "S002O",
+        "S002T"
+      ],
+      "id": "S002",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S003M",
+        "S003O",
+        "S003T"
+      ],
+      "id": "S003",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S004M",
+        "S004O",
+        "S004T"
+      ],
+      "id": "S004",
+      "synthetic": false,
+      "version": 1
+    },
+    {
+      "artifact_ids": [
+        "S005M",
+        "S005O",
+        "S005T"
+      ],
+      "id": "S005",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "strategy_in_review",
+  "state_sha256": "3696ab4ea745e736f0d9fba37694031379a4a78efa8ff0d14159d47a43a9135e",
+  "unresolved_questions": [
+    "Нет журналов оператора, сметы, фактического потока и оплат.",
+    "Выполнить редакционные и методические исправления независимого ревью."
+  ]
+}

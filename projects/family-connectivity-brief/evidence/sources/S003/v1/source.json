@@ -1,0 +1,29 @@
+{
+  "id": "S003",
+  "kind": "web-excerpt",
+  "origin": "https://support.mts.ru/mts_mobilnaya_svyaz/gruppi-dlya-blizkih/gruppa-vse-vmeste-i-vse-vmeste",
+  "input_sha256": "0fffe2f736a05e912018b668c4c8321d32e7e6d9c6b7cd1374e7afbbbd3837dd",
+  "synthetic": false,
+  "accessed_at": "2026-11-20T10:01:00+03:00",
+  "locator": "Вводная часть и принятие приглашения, строки 238–245 и 266–274. Время чтения округлено до минуты.",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Условия другого оператора и указанного региона. Частоты, эффект, цены и спрос учебной компании не установлены.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-20T07:10:54+00:00",
+  "published_at": null,
+  "input_path": "inputs/mts-shared-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S003/v1/original.txt",
+    "sha256": "0fffe2f736a05e912018b668c4c8321d32e7e6d9c6b7cd1374e7afbbbd3837dd"
+  },
+  "extract": {
+    "path": "evidence/sources/S003/v1/extract.json",
+    "sha256": "a0bc98bea834a651cdf5f6b49dde4538488512c7fa6af3193bd1d2817c3fc026"
+  }
+}

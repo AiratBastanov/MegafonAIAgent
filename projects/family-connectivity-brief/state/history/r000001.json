@@ -1,0 +1,188 @@
+{
+  "artifacts": [
+    {
+      "id": "TASK",
+      "path": "project.md",
+      "sha256": "c3595990bdccf54f1760f801d20e55b4bfe93825b215d5fb9b265a6aac01721a"
+    },
+    {
+      "id": "START",
+      "path": "evidence/run/start.md",
+      "sha256": "97aef84dc929224d2793864dc6584bfeca2493cf421f10463462f50619cc69b1"
+    },
+    {
+      "id": "READ",
+      "path": "evidence/brief-reading.md",
+      "sha256": "1b824fd40b71df41e15a8cbbb789f7e38eaa3154fa9805b7b6d28f4eafaea2c8"
+    },
+    {
+      "id": "BRIEF",
+      "path": "evidence/sources/S001/v1/original.pdf",
+      "sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5"
+    },
+    {
+      "id": "META",
+      "path": "evidence/sources/S001/v1/source.json",
+      "sha256": "0ac0666eb4c097f121ac67b7c270bdb2b7605510fd0d20081cc01ac2f5fa0301"
+    },
+    {
+      "id": "TEXT",
+      "path": "evidence/sources/S001/v1/extract.json",
+      "sha256": "fe48989c530a421002babdd6e173018ba2716904ea1f64c96b10a56bc554858f"
+    },
+    {
+      "id": "INPUT",
+      "path": "inputs/brief.pdf",
+      "sha256": "558d2c665caa4f4954135c8bbfb69d791e398dcdc5b625d5ded7bdb2d0eb0fa5"
+    },
+    {
+      "id": "P01",
+      "path": "evidence/visual/p01.png",
+      "sha256": "182c1d697b30562ea815f8ceeb090ca3f7aaf34a7e11b77f49962bbdf3636ea0"
+    },
+    {
+      "id": "P02",
+      "path": "evidence/visual/p02.png",
+      "sha256": "8e8f62a8a79f2aeac2bb00650c44f732be2870c1abd63b0441547056c36bc592"
+    },
+    {
+      "id": "P03",
+      "path": "evidence/visual/p03.png",
+      "sha256": "e75c4dd2ec7fb7f5e58fb335f087688e3f0030bb6e006cc44b2ecd9be74b6d1d"
+    },
+    {
+      "id": "P04",
+      "path": "evidence/visual/p04.png",
+      "sha256": "eac3d6800b962a44d4ee6f346034086542dc18d0fbc3555467fe9b2ab86ddd64"
+    },
+    {
+      "id": "P05",
+      "path": "evidence/visual/p05.png",
+      "sha256": "544504cbac52f551ce8257eb85381b66193120fda954bf16ce1c6e64b1ad9a2c"
+    },
+    {
+      "id": "P06",
+      "path": "evidence/visual/p06.png",
+      "sha256": "2a44e6a5c37447caa472bc0dde18696c614c0561aaa1787f0843cdb2be6a6eee"
+    },
+    {
+      "id": "P07",
+      "path": "evidence/visual/p07.png",
+      "sha256": "2ab7d93e4a16d39390dfe97f3b331245f89ba5e5a46152854a06297295977f1e"
+    },
+    {
+      "id": "P08",
+      "path": "evidence/visual/p08.png",
+      "sha256": "194a6801021810d5fe175968c36902167956ea17a6fd9ef778d45ecea79f2eb3"
+    },
+    {
+      "id": "P09",
+      "path": "evidence/visual/p09.png",
+      "sha256": "5d076d24963aa263b257f71e1a20572444751dd2d3b7d780dd635fde88ca9f00"
+    },
+    {
+      "id": "P10",
+      "path": "evidence/visual/p10.png",
+      "sha256": "95adbc15c287ad562496bd6daddc34492a20b7bcb29e8955045793df334a60a7"
+    },
+    {
+      "id": "P11",
+      "path": "evidence/visual/p11.png",
+      "sha256": "67563ba461425097c1a4fdb633df9c57f60469fcf4fc83b44d27bd8fdf91a092"
+    }
+  ],
+  "claims": [
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:1, абзацы «Семейная группа» и «Собственные номера»",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P01",
+          "locator": "physical-page:1, абзацы «Семейная группа» и «Собственные номера»"
+        }
+      ],
+      "id": "C001",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Оператор уже позволяет выделять свободный интернет на совместимых семейных тарифах и переключаться между собственными номерами."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:3, таблица, строки 1–5, заголовки в два яруса",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P03",
+          "locator": "physical-page:3, таблица, строки 1–5, заголовки в два яруса"
+        }
+      ],
+      "id": "C002",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Учебная таблица содержит пять показателей в четырёх колонках. База валовой прибыли планового года 279 млн руб., минимум 285 млн."
+    },
+    {
+      "derived_from": [],
+      "evidence": [
+        {
+          "artifact_id": "BRIEF",
+          "locator": "physical-page:11, таблица, строки 2–4",
+          "source_id": "S001",
+          "source_version": 1
+        },
+        {
+          "artifact_id": "P11",
+          "locator": "physical-page:11, таблица, строки 2–4"
+        }
+      ],
+      "id": "C003",
+      "kind": "source_fact",
+      "synthetic": true,
+      "text": "Три человеко-месяца разработки предварительны. 0,5 ставки каждого из двух специалистов и 1 человеко-месяц испытаний ещё предстоит подтвердить."
+    }
+  ],
+  "completed": [
+    "Импортирован переданный PDF, 11 страниц прочитаны и просмотрены, сверены таблицы и единицы."
+  ],
+  "decision": {
+    "status": "proposed"
+  },
+  "decision_question": "Кому и какую помощь проверять первой, при каких условиях выделить ресурс?",
+  "next_action": "Ограниченная фаза продолжения: подготовить один аналитический артефакт для решения конца I квартала — как различить причины перебоя у семей и владельцев собственных номеров по доступным данным и какое наблюдение изменит первый приоритет. Использовать проверенный бриф, отделить предлагаемые пороги от фактов. Закрепить собственный результат и следующий шаг полным сохранением, затем остановиться на этой границе.",
+  "objective": "Подготовить стратегию для руководителя по брифу вымышленного оператора, проверить экономику и границы пилота.",
+  "pending_actions": [
+    "Проверить измеримость причины и определить условие выбора первого сегмента.",
+    "Сопоставить варианты и аналоги, посчитать сценарии и завершить пять документов."
+  ],
+  "project_id": "family-connectivity-brief",
+  "revision": 1,
+  "saved_at": "2026-11-20T07:03:20.631513+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "artifact_ids": [
+        "META",
+        "BRIEF",
+        "TEXT"
+      ],
+      "id": "S001",
+      "synthetic": true,
+      "version": 1
+    }
+  ],
+  "stage": "brief_verified",
+  "state_sha256": "71b05cb49d176254a2d16b0d7e2915cebdb3104b0b310ba9f598bf85c6babffd",
+  "unresolved_questions": [
+    "Для какой причины и сегмента можно восстановить событие и окно своевременной помощи до пилота?",
+    "Сколько уникальных семей достижимы, меняется ли оплата и каковы прямые затраты?"
+  ]
+}

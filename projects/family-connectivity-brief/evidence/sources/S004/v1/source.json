@@ -1,0 +1,29 @@
+{
+  "id": "S004",
+  "kind": "web-excerpt",
+  "origin": "https://selfcare.t2.ru/option/share-gb",
+  "input_sha256": "cdd529dabefe525e3935ba6983757751ac7e7f237e0a3f1197f785e69e85c7d9",
+  "synthetic": false,
+  "accessed_at": "2026-11-20T10:02:51+03:00",
+  "locator": "Условия услуги и Как воспользоваться, строки 29–39 и 42–55.",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Условия другого оператора и указанного региона. Частоты, эффект, цены и спрос учебной компании не установлены.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-20T07:10:54+00:00",
+  "published_at": null,
+  "input_path": "inputs/t2-transfer-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S004/v1/original.txt",
+    "sha256": "cdd529dabefe525e3935ba6983757751ac7e7f237e0a3f1197f785e69e85c7d9"
+  },
+  "extract": {
+    "path": "evidence/sources/S004/v1/extract.json",
+    "sha256": "cd2b7c55558004388d0e5a02a4a6fe744b6e3041dcdf7254baf20580c26f472d"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "groups": [
+    {
+      "group": {
+        "quarter": "Q1"
+      },
+      "locators": [
+        "rows:2-2",
+        "rows:3-3"
+      ],
+      "metrics": {
+        "households": {
+          "value": "3750",
+          "unit": "households",
+          "status": "ok",
+          "numerator": "3750",
+          "missing": [],
+          "definition": {
+            "id": "households",
+            "operation": "sum",
+            "numerator": [
+              "households"
+            ],
+            "unit": "households",
+            "rounding": 0
+          }
+        },
+        "created": {
+          "value": "900",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "900",
+          "missing": [],
+          "definition": {
+            "id": "created",
+            "operation": "sum",
+            "numerator": [
+              "created"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "connected": {
+          "value": "625",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "625",
+          "missing": [],
+          "definition": {
+            "id": "connected",
+            "operation": "sum",
+            "numerator": [
+              "connected"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "first14": {
+          "value": "405",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "405",
+          "missing": [],
+          "definition": {
+            "id": "first14",
+            "operation": "sum",
+            "numerator": [
+              "first14"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "activation14_pct": {
+          "value": "45.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "405",
+          "denominator": "900",
+          "missing": [],
+          "definition": {
+            "id": "activation14_pct",
+            "operation": "ratio",
+            "numerator": [
+              "first14"
+            ],
+            "denominator": [
+              "created"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "quarter": "Q2"
+      },
+      "locators": [
+        "rows:4-4",
+        "rows:5-5"
+      ],
+      "metrics": {
+        "households": {
+          "value": "3750",
+          "unit": "households",
+          "status": "ok",
+          "numerator": "3750",
+          "missing": [],
+          "definition": {
+            "id": "households",
+            "operation": "sum",
+            "numerator": [
+              "households"
+            ],
+            "unit": "households",
+            "rounding": 0
+          }
+        },
+        "created": {
+          "value": "900",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "900",
+          "missing": [],
+          "definition": {
+            "id": "created",
+            "operation": "sum",
+            "numerator": [
+              "created"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "connected": {
+          "value": "625",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "625",
+          "missing": [],
+          "definition": {
+            "id": "connected",
+            "operation": "sum",
+            "numerator": [
+              "connected"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "first14": {
+          "value": "405",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "405",
+          "missing": [],
+          "definition": {
+            "id": "first14",
+            "operation": "sum",
+            "numerator": [
+              "first14"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "activation14_pct": {
+          "value": "45.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "405",
+          "denominator": "900",
+          "missing": [],
+          "definition": {
+            "id": "activation14_pct",
+            "operation": "ratio",
+            "numerator": [
+              "first14"
+            ],
+            "denominator": [
+              "created"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "quarter": "Q3"
+      },
+      "locators": [
+        "rows:6-6",
+        "rows:7-7"
+      ],
+      "metrics": {
+        "households": {
+          "value": "3750",
+          "unit": "households",
+          "status": "ok",
+          "numerator": "3750",
+          "missing": [],
+          "definition": {
+            "id": "households",
+            "operation": "sum",
+            "numerator": [
+              "households"
+            ],
+            "unit": "households",
+            "rounding": 0
+          }
+        },
+        "created": {
+          "value": "900",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "900",
+          "missing": [],
+          "definition": {
+            "id": "created",
+            "operation": "sum",
+            "numerator": [
+              "created"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "connected": {
+          "value": "625",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "625",
+          "missing": [],
+          "definition": {
+            "id": "connected",
+            "operation": "sum",
+            "numerator": [
+              "connected"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "first14": {
+          "value": "405",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "405",
+          "missing": [],
+          "definition": {
+            "id": "first14",
+            "operation": "sum",
+            "numerator": [
+              "first14"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "activation14_pct": {
+          "value": "45.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "405",
+          "denominator": "900",
+          "missing": [],
+          "definition": {
+            "id": "activation14_pct",
+            "operation": "ratio",
+            "numerator": [
+              "first14"
+            ],
+            "denominator": [
+              "created"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        }
+      }
+    },
+    {
+      "group": {
+        "quarter": "Q4"
+      },
+      "locators": [
+        "rows:8-8",
+        "rows:9-9"
+      ],
+      "metrics": {
+        "households": {
+          "value": "3750",
+          "unit": "households",
+          "status": "ok",
+          "numerator": "3750",
+          "missing": [],
+          "definition": {
+            "id": "households",
+            "operation": "sum",
+            "numerator": [
+              "households"
+            ],
+            "unit": "households",
+            "rounding": 0
+          }
+        },
+        "created": {
+          "value": "900",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "900",
+          "missing": [],
+          "definition": {
+            "id": "created",
+            "operation": "sum",
+            "numerator": [
+              "created"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "connected": {
+          "value": "625",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "625",
+          "missing": [],
+          "definition": {
+            "id": "connected",
+            "operation": "sum",
+            "numerator": [
+              "connected"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "first14": {
+          "value": "405",
+          "unit": "groups",
+          "status": "ok",
+          "numerator": "405",
+          "missing": [],
+          "definition": {
+            "id": "first14",
+            "operation": "sum",
+            "numerator": [
+              "first14"
+            ],
+            "unit": "groups",
+            "rounding": 0
+          }
+        },
+        "activation14_pct": {
+          "value": "45.00",
+          "unit": "%",
+          "status": "ok",
+          "numerator": "405",
+          "denominator": "900",
+          "missing": [],
+          "definition": {
+            "id": "activation14_pct",
+            "operation": "ratio",
+            "numerator": [
+              "first14"
+            ],
+            "denominator": [
+              "created"
+            ],
+            "unit": "%",
+            "multiplier": "100",
+            "rounding": 2
+          }
+        }
+      }
+    }
+  ],
+  "synthetic": true,
+  "period_column": "quarter",
+  "columns": {
+    "quarter": {
+      "type": "text",
+      "unit": "quarter"
+    },
+    "channel": {
+      "type": "text",
+      "unit": "category"
+    },
+    "households": {
+      "type": "integer",
+      "unit": "households",
+      "min": "0"
+    },
+    "created": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    },
+    "connected": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    },
+    "first14": {
+      "type": "integer",
+      "unit": "groups",
+      "min": "0"
+    }
+  },
+  "missing_policy": "Любой пропуск компонента делает соответствующий агрегат null; строки не отбрасываются",
+  "zero_denominator_policy": "null, status=zero_denominator",
+  "rounding_method": "Точные десятичные суммы и рациональное ROUND_HALF_UP; округление только результата",
+  "numeric_guard": {
+    "max_coefficient_digits": 18,
+    "max_abs_exponent": 12
+  },
+  "provenance": {
+    "source_type": "csv",
+    "input_sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb",
+    "extraction_method": "stdlib.csv/strict-utf8-v1",
+    "limitations": [],
+    "extract": {
+      "path": "evidence/sources/S005/v1/extract.json",
+      "sha256": "e61b384b475c7a3058daf5600544bc614e2449cb697f50b381ab43c521ee2794"
+    }
+  },
+  "calculated_at": "2026-11-20T07:10:54+00:00",
+  "tool": "analyze_table",
+  "tool_version": "1.2",
+  "input": {
+    "path": "inputs/funnel-v1.csv",
+    "sha256": "8b5b826030b50247018e6627eeb04b35629f477e8160c9416c268404a6920aeb"
+  },
+  "spec": {
+    "path": "inputs/funnel-spec-v1.json",
+    "sha256": "414f4a119e81ee6367906da6493adb27c9607fb92afadcb1cffc9edd82b4bc6e"
+  },
+  "source": {
+    "id": "S005",
+    "version": 1
+  },
+  "reproduce": {
+    "input": "inputs/funnel-v1.csv",
+    "spec": "inputs/funnel-spec-v1.json"
+  }
+}

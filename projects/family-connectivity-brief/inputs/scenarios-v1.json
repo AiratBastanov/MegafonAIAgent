@@ -1,0 +1,88 @@
+{
+  "synthetic": true,
+  "classification": "Параметры сценариев координатора. Наблюдений оператора нет. Прямые расходы — варианты лимита для проверки чувствительности, не цены поставщиков. Удержание — гипотеза.",
+  "period": "Плановый год, месяцы 1–12",
+  "family_departures": 1000,
+  "owner_funnel": {
+    "exposed": 2000,
+    "linked_two": 350,
+    "departures": 150
+  },
+  "ordinary_survival_next_two": [
+    "0.90",
+    "0.80"
+  ],
+  "index_numbers_per_assigned_family": 1,
+  "arms": 3,
+  "eligible_group_min_age_days": 15,
+  "q4_activation_input": "Созданные в IV квартале, первые действия после вступления и не позднее 14 дней от создания. Все приглашения в знаменателе.",
+  "primary": {
+    "baseline": "0.20",
+    "minimum_difference": "0.05",
+    "alpha_familywise": "0.05",
+    "two_sided_contrasts": 2,
+    "power_per_contrast": "0.80",
+    "expected_observability": "0.95",
+    "assumed_weekly_first_eligible": 45,
+    "recruitment_weeks_q2": 6,
+    "followup_days": 7
+  },
+  "scenarios": {
+    "main": {
+      "new_index_numbers": [
+        0,
+        0,
+        0,
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210,
+        240
+      ],
+      "survival_delta": [
+        "0.02",
+        "0.02"
+      ],
+      "direct_budget_rub_by_quarter": [
+        0,
+        4000,
+        3000,
+        3000
+      ],
+      "december_exposed_still_connected": 200,
+      "incremental_active_probability": "0.10"
+    },
+    "weak": {
+      "new_index_numbers": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        30,
+        45,
+        60,
+        75,
+        90,
+        105,
+        120
+      ],
+      "survival_delta": [
+        "0",
+        "0"
+      ],
+      "direct_budget_rub_by_quarter": [
+        0,
+        6000,
+        5000,
+        5000
+      ],
+      "december_exposed_still_connected": 100,
+      "incremental_active_probability": "0"
+    }
+  }
+}

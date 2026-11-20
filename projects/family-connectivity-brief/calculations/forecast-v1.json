@@ -1,0 +1,389 @@
+{
+  "synthetic": true,
+  "basis_sha256": {
+    "baseline": "80dbbac3cd2c4e26676aeaa2d8e297d0db2d18709e5b288bbc68434535fda7bf",
+    "assumptions": "88ec52a2a331202b1415024bb4670474c21c149e3722a1dc758627b5272708bb",
+    "funnel": "b676a6948bfffacd714bb7bd38bc4f2f9b4d57360b56ad297d9f1749dbc35df8"
+  },
+  "scenarios": {
+    "main": {
+      "monthly": [
+        {
+          "month": 1,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 2,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 3,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 4,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 5,
+          "new_index_numbers": 30,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 6,
+          "new_index_numbers": 60,
+          "eligible_at_lags": [
+            30,
+            0
+          ],
+          "paid_ordinary": "27.00",
+          "paid_signal": "27.60",
+          "incremental": "0.60"
+        },
+        {
+          "month": 7,
+          "new_index_numbers": 90,
+          "eligible_at_lags": [
+            60,
+            30
+          ],
+          "paid_ordinary": "78.00",
+          "paid_signal": "79.80",
+          "incremental": "1.80"
+        },
+        {
+          "month": 8,
+          "new_index_numbers": 120,
+          "eligible_at_lags": [
+            90,
+            60
+          ],
+          "paid_ordinary": "129.00",
+          "paid_signal": "132.00",
+          "incremental": "3.00"
+        },
+        {
+          "month": 9,
+          "new_index_numbers": 150,
+          "eligible_at_lags": [
+            120,
+            90
+          ],
+          "paid_ordinary": "180.00",
+          "paid_signal": "184.20",
+          "incremental": "4.20"
+        },
+        {
+          "month": 10,
+          "new_index_numbers": 180,
+          "eligible_at_lags": [
+            150,
+            120
+          ],
+          "paid_ordinary": "231.00",
+          "paid_signal": "236.40",
+          "incremental": "5.40"
+        },
+        {
+          "month": 11,
+          "new_index_numbers": 210,
+          "eligible_at_lags": [
+            180,
+            150
+          ],
+          "paid_ordinary": "282.00",
+          "paid_signal": "288.60",
+          "incremental": "6.60"
+        },
+        {
+          "month": 12,
+          "new_index_numbers": 240,
+          "eligible_at_lags": [
+            210,
+            180
+          ],
+          "paid_ordinary": "333.00",
+          "paid_signal": "340.80",
+          "incremental": "7.80"
+        }
+      ],
+      "quarters": [
+        {
+          "quarter": 1,
+          "incremental_months": "0.00",
+          "direct_rub": 0,
+          "net_rub": "0.00",
+          "cumulative_rub": "0.00"
+        },
+        {
+          "quarter": 2,
+          "incremental_months": "0.60",
+          "direct_rub": 4000,
+          "net_rub": "-3700.00",
+          "cumulative_rub": "-3700.00"
+        },
+        {
+          "quarter": 3,
+          "incremental_months": "9.00",
+          "direct_rub": 3000,
+          "net_rub": "1500.00",
+          "cumulative_rub": "-2200.00"
+        },
+        {
+          "quarter": 4,
+          "incremental_months": "19.80",
+          "direct_rub": 3000,
+          "net_rub": "6900.00",
+          "cumulative_rub": "4700.00"
+        }
+      ],
+      "treated": 1080,
+      "incremental_months": "29.40",
+      "extra_gross_after_direct_rub": "4700.00",
+      "max_recoverable_investment_rub": "4700.00",
+      "required_paid_months": 12020,
+      "eligible_number_months": 1470,
+      "december_activity_pct": "62.750",
+      "indicators": {
+        "gross_profit_million_rub": "279.0047",
+        "active_groups_december": "5020.000",
+        "connected_groups_december": 8000,
+        "connected_owners_december": 1000,
+        "activation_q4_pct": "45"
+      },
+      "gaps": {
+        "gross_profit_million_rub": "5.9953",
+        "active_groups_december": "2980.000",
+        "connected_groups_december": "4000",
+        "connected_owners_december": "1000",
+        "activation_q4_pct": "15"
+      }
+    },
+    "weak": {
+      "monthly": [
+        {
+          "month": 1,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 2,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 3,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 4,
+          "new_index_numbers": 0,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 5,
+          "new_index_numbers": 15,
+          "eligible_at_lags": [
+            0,
+            0
+          ],
+          "paid_ordinary": "0.00",
+          "paid_signal": "0.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 6,
+          "new_index_numbers": 30,
+          "eligible_at_lags": [
+            15,
+            0
+          ],
+          "paid_ordinary": "13.50",
+          "paid_signal": "13.50",
+          "incremental": "0.00"
+        },
+        {
+          "month": 7,
+          "new_index_numbers": 45,
+          "eligible_at_lags": [
+            30,
+            15
+          ],
+          "paid_ordinary": "39.00",
+          "paid_signal": "39.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 8,
+          "new_index_numbers": 60,
+          "eligible_at_lags": [
+            45,
+            30
+          ],
+          "paid_ordinary": "64.50",
+          "paid_signal": "64.50",
+          "incremental": "0.00"
+        },
+        {
+          "month": 9,
+          "new_index_numbers": 75,
+          "eligible_at_lags": [
+            60,
+            45
+          ],
+          "paid_ordinary": "90.00",
+          "paid_signal": "90.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 10,
+          "new_index_numbers": 90,
+          "eligible_at_lags": [
+            75,
+            60
+          ],
+          "paid_ordinary": "115.50",
+          "paid_signal": "115.50",
+          "incremental": "0.00"
+        },
+        {
+          "month": 11,
+          "new_index_numbers": 105,
+          "eligible_at_lags": [
+            90,
+            75
+          ],
+          "paid_ordinary": "141.00",
+          "paid_signal": "141.00",
+          "incremental": "0.00"
+        },
+        {
+          "month": 12,
+          "new_index_numbers": 120,
+          "eligible_at_lags": [
+            105,
+            90
+          ],
+          "paid_ordinary": "166.50",
+          "paid_signal": "166.50",
+          "incremental": "0.00"
+        }
+      ],
+      "quarters": [
+        {
+          "quarter": 1,
+          "incremental_months": "0.00",
+          "direct_rub": 0,
+          "net_rub": "0.00",
+          "cumulative_rub": "0.00"
+        },
+        {
+          "quarter": 2,
+          "incremental_months": "0.00",
+          "direct_rub": 6000,
+          "net_rub": "-6000.00",
+          "cumulative_rub": "-6000.00"
+        },
+        {
+          "quarter": 3,
+          "incremental_months": "0.00",
+          "direct_rub": 5000,
+          "net_rub": "-5000.00",
+          "cumulative_rub": "-11000.00"
+        },
+        {
+          "quarter": 4,
+          "incremental_months": "0.00",
+          "direct_rub": 5000,
+          "net_rub": "-5000.00",
+          "cumulative_rub": "-16000.00"
+        }
+      ],
+      "treated": 540,
+      "incremental_months": "0.00",
+      "extra_gross_after_direct_rub": "-16000.00",
+      "max_recoverable_investment_rub": 0,
+      "required_paid_months": 12032,
+      "eligible_number_months": 735,
+      "december_activity_pct": "62.500",
+      "indicators": {
+        "gross_profit_million_rub": "278.984",
+        "active_groups_december": "5000.000",
+        "connected_groups_december": 8000,
+        "connected_owners_december": 1000,
+        "activation_q4_pct": "45"
+      },
+      "gaps": {
+        "gross_profit_million_rub": "6.016",
+        "active_groups_december": "3000.000",
+        "connected_groups_december": "4000",
+        "connected_owners_december": "1000",
+        "activation_q4_pct": "15"
+      }
+    }
+  },
+  "sample_assumptions_only": {
+    "observed_per_arm": 1097,
+    "assigned_per_arm": 1155,
+    "assigned_total": 3465
+  }
+}

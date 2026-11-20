@@ -1,9 +1,9 @@
 {
-  "observed_at": "2026-11-17T07:56:06.968678+00:00",
-  "source": "C:\\Users\\BastaPC\\Desktop\\MegafonAIAgent\\submission\\PROJECT_DESCRIPTION.md",
-  "source_sha256": "b1ec717b6b8ffb46d7b7004769a34604284f93864a0013b8fc811b98f58e12c4",
+  "observed_at": "2026-11-20T07:20:08.221626+00:00",
+  "source": "submission/PROJECT_DESCRIPTION.md",
+  "source_sha256": "d44d6ebc5f562bd92abb7e584a9b833c2b7d8a04514fa0af0dd147f59b6c6749",
   "output": "submission/Описание проекта.pdf",
-  "output_sha256": "d8736e57ee619361c16433afb94a40ad683525c4adda4ba122bc2c59cfeec24c",
+  "output_sha256": "1cf2d0b637b777e01d55559a4720bfe81e4fc63bb053bb6d7129c95936cec391",
   "draft": false,
   "pages": 5,
   "page_limit": 5,
@@ -41,6 +41,69 @@
       "page": 1,
       "kind": 5,
       "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
+      "file": "../projects/family-connectivity-brief/README.md",
+      "target_page": 0
+    },
+    {
+      "page": 1,
+      "kind": 5,
+      "uri": null,
       "file": "EXAMPLE.md",
       "target_page": 0
     },
@@ -182,20 +245,6 @@
       "kind": 5,
       "uri": null,
       "file": "TECHNICAL_APPENDIX.md",
-      "target_page": 0
-    },
-    {
-      "page": 2,
-      "kind": 5,
-      "uri": null,
-      "file": "EXAMPLE.md",
-      "target_page": 0
-    },
-    {
-      "page": 2,
-      "kind": 5,
-      "uri": null,
-      "file": "EXAMPLE.md",
       "target_page": 0
     },
     {
@@ -300,6 +349,90 @@
       "page": 4,
       "kind": 5,
       "uri": null,
+      "file": "CONTINUATION.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "CONTINUATION.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "CONTINUATION.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "CONTINUATION.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "CONTINUATION.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "../AGENTS.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "../AGENTS.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "../AGENTS.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 4,
+      "kind": 5,
+      "uri": null,
       "file": "TECHNICAL_APPENDIX.md",
       "target_page": 0
     },
@@ -342,14 +475,77 @@
       "page": 5,
       "kind": 5,
       "uri": null,
-      "file": "../README.md",
+      "file": "TECHNICAL_APPENDIX.md",
       "target_page": 0
     },
     {
       "page": 5,
       "kind": 5,
       "uri": null,
-      "file": "../README.md",
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "TECHNICAL_APPENDIX.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "INDEPENDENT_DATA.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "INDEPENDENT_DATA.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "INDEPENDENT_DATA.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "INDEPENDENT_DATA.md",
+      "target_page": 0
+    },
+    {
+      "page": 5,
+      "kind": 5,
+      "uri": null,
+      "file": "INDEPENDENT_DATA.md",
       "target_page": 0
     },
     {
@@ -370,32 +566,44 @@
       "page": 5,
       "kind": 5,
       "uri": null,
-      "file": "TECHNICAL_APPENDIX.md",
+      "file": "video/%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.mp4",
       "target_page": 0
     },
     {
       "page": 5,
       "kind": 5,
       "uri": null,
-      "file": "TECHNICAL_APPENDIX.md",
-      "target_page": 0
-    },
-    {
-      "page": 5,
-      "kind": 5,
-      "uri": null,
-      "file": "TECHNICAL_APPENDIX.md",
+      "file": "video/%D0%94%D0%B5%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.mp4",
       "target_page": 0
     }
   ],
   "broken_local_links": [],
-  "images": [],
+  "images": [
+    {
+      "page": 1,
+      "sha256": "7470057abceaa6f74589091b409018683a282814d4743295716dc837547e5da1"
+    },
+    {
+      "page": 2,
+      "sha256": "8dcaecd1c3f0bb33088ac9ec3dd3f1218f92c32f9d7da578a050e1f37f6e5856"
+    },
+    {
+      "page": 3,
+      "sha256": "d1891bea6a4c06f547ed2953da362a0ca0f8b411c0e9e7037dd3a71f03d64708"
+    },
+    {
+      "page": 4,
+      "sha256": "15cb2300c050d9a6fab499847f597fc11a92fd098dc315d993a8a4b70bb2f5a9"
+    },
+    {
+      "page": 5,
+      "sha256": "a7e16cc8f2e5229d284521e693b0d5b6032b2b23606ffcda490e12d8769d448f"
+    }
+  ],
   "versions": {
     "Markdown": "3.9",
     "PyMuPDF": "1.26.3"
   },
-  "aliases": [
-    "submission/PROJECT_DESCRIPTION.pdf"
-  ],
-  "page_equality_evidence": "evaluation/architecture-review/pdf-repair.json"
+  "visual_review": "Все 5 страниц просмотрены по отдельности. Текст, таблицы, два исторических кадра и схема читаются. Упоминание семейного примера находится на первой странице.",
+  "contact_sheet": "projects/family-connectivity-brief/evidence/run/description-pages.jpg"
 }

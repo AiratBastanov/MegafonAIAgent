@@ -1,0 +1,29 @@
+{
+  "id": "S002",
+  "kind": "web-excerpt",
+  "origin": "https://support.mts.ru/semeinaya_gruppa/obschaya-informatsiya/chto-takoe-semeinaya-gruppa-i-kak-ona-rabotaet",
+  "input_sha256": "04de219849d79aca3ba066c0a96122514dead945398fbac1d7da9c56ee59c3c7",
+  "synthetic": false,
+  "accessed_at": "2026-11-20T10:00:36+03:00",
+  "locator": "Кто оплачивает связь… и Как работает семейная группа, строки 97–104.",
+  "retrieval_status": "current_host_read",
+  "extraction_method": "host-rendered-excerpt/utf8-registration-v1",
+  "limitations": [
+    "Условия другого оператора и указанного региона. Частоты, эффект, цены и спрос учебной компании не установлены.",
+    "Сохранена ограниченная выдержка представления хоста, не оригинальный HTML; инструмент не подтверждает текущую доступность URL."
+  ],
+  "delimiter": null,
+  "version": 1,
+  "imported_at": "2026-11-20T07:10:54+00:00",
+  "published_at": null,
+  "input_path": "inputs/mts-group-v1.txt",
+  "tool_version": "2.0",
+  "original": {
+    "path": "evidence/sources/S002/v1/original.txt",
+    "sha256": "04de219849d79aca3ba066c0a96122514dead945398fbac1d7da9c56ee59c3c7"
+  },
+  "extract": {
+    "path": "evidence/sources/S002/v1/extract.json",
+    "sha256": "7cd4b037fee877e24d0fa829354c729b4507585f4ac1014dd4934f835d5bb2fb"
+  }
+}

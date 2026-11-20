@@ -1,0 +1,59 @@
+{
+  "synthetic": true,
+  "source": {
+    "id": "S001",
+    "version": 1,
+    "table": "physical-page:3, таблица, строки 1–5",
+    "rate": "physical-page:9, абзац «Если клиенты дольше остаются у оператора»"
+  },
+  "columns": [
+    "base_plan",
+    "base_estimate",
+    "planning_without_change",
+    "minimum_target"
+  ],
+  "indicators": {
+    "gross_profit_million_rub": [
+      282,
+      275,
+      279,
+      285
+    ],
+    "active_groups_december": [
+      5000,
+      4000,
+      5000,
+      8000
+    ],
+    "connected_groups_december": [
+      7500,
+      6500,
+      8000,
+      12000
+    ],
+    "connected_owners_december": [
+      1000,
+      800,
+      1000,
+      2000
+    ],
+    "activation_q4_pct": [
+      50,
+      42,
+      45,
+      60
+    ]
+  },
+  "market": {
+    "households": {
+      "total": 300000,
+      "addressable": 100000
+    },
+    "multi_number_owners": {
+      "total": 180000,
+      "addressable": 40000
+    },
+    "overlap_removed": true
+  },
+  "gross_profit_per_incremental_paid_number_month_rub": 500
+}

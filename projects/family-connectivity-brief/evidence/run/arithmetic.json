@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-11-20T07:26:12.954018+00:00",
+  "scope": "Проверки программ и условных расчётов. Итоги клиентов не наблюдались.",
+  "sql": "SELECT c.arm, SUM(c.n) AS eligible_windows, SUM(c.n*l.delta_bp) AS delta_in_10000ths_of_a_month FROM cohort c JOIN lag l ON l.arm=c.arm WHERE c.m+l.offset BETWEEN 1 AND 12 GROUP BY c.arm",
+  "lag_unit": "базисные пункты, 10 000 = 1",
+  "sql_join_results": [
+    {
+      "scenario": "main",
+      "eligible_windows": 1470,
+      "incremental_number_months": "29.4"
+    },
+    {
+      "scenario": "weak",
+      "eligible_windows": 735,
+      "incremental_number_months": "0"
+    }
+  ],
+  "commands": [
+    {
+      "command": "model.py",
+      "result": "Сценарии и численность эксперимента совпадают с сохранённым результатом.",
+      "exit_code": 0
+    },
+    {
+      "command": "crosscheck.py",
+      "result": "Сверены 24 помесячные разницы, 8 квартальных итогов, 10 прогнозов и разрывов, оба порога и расчёт набора.",
+      "exit_code": 0
+    },
+    {
+      "command": "assemble.py v2",
+      "result": "Пять разделов собраны из одной версии. Все 40 чисел основной таблицы сверены с входами и расчётами.",
+      "exit_code": 0
+    }
+  ]
+}
